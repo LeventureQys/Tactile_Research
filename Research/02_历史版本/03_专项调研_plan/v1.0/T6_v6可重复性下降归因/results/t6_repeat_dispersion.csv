@@ -1,0 +1,421 @@
+﻿layer,impl,group,n,metric,value
+L1_input,"(input, impl-independent)",右拇指,3,jump_a_step_pct,12.850502756384085
+L1_input,"(input, impl-independent)",右拇指,3,inc5_pct,8.505471989869374
+L1_input,"(input, impl-independent)",右拇指,3,creep_frac_pp,7.015220402104686
+L1_input,"(input, impl-independent)",右拇指,3,CV_shape_med,2.8850918477262852
+L1_input,"(input, impl-independent)",右拇指,3,Spread_shape_med_pp,4.808968489949528
+L1_input,"(input, impl-independent)",右拇指,3,abs_plat_raw_std,1.6261560499141545
+L1_input,"(input, impl-independent)",四指,3,jump_a_step_pct,7.253969621625807
+L1_input,"(input, impl-independent)",四指,3,inc5_pct,6.867702925531023
+L1_input,"(input, impl-independent)",四指,3,creep_frac_pp,2.2415028762713693
+L1_input,"(input, impl-independent)",四指,3,CV_shape_med,1.850283058005288
+L1_input,"(input, impl-independent)",四指,3,Spread_shape_med_pp,3.318893775706966
+L1_input,"(input, impl-independent)",四指,3,abs_plat_raw_std,0.8331697593790081
+L1_input,"(input, impl-independent)",左拇指,3,jump_a_step_pct,6.124061070692213
+L1_input,"(input, impl-independent)",左拇指,3,inc5_pct,6.9551321702608595
+L1_input,"(input, impl-independent)",左拇指,3,creep_frac_pp,1.2990993103393749
+L1_input,"(input, impl-independent)",左拇指,3,CV_shape_med,0.6253518024654711
+L1_input,"(input, impl-independent)",左拇指,3,Spread_shape_med_pp,1.1226105100169526
+L1_input,"(input, impl-independent)",左拇指,3,abs_plat_raw_std,0.8448532750095245
+L1_input,"(input, impl-independent)",右拇指,3,CV_shape@0.20,5.811234295543133
+L1_input,"(input, impl-independent)",右拇指,3,CV_shape@0.30,4.011436627164982
+L1_input,"(input, impl-independent)",右拇指,3,CV_shape@0.50,4.5687002022489045
+L1_input,"(input, impl-independent)",右拇指,3,CV_shape@0.80,3.46427084758105
+L1_input,"(input, impl-independent)",右拇指,3,CV_shape@1.00,2.8850918477262852
+L1_input,"(input, impl-independent)",右拇指,3,CV_shape@1.50,2.3173941755911134
+L1_input,"(input, impl-independent)",右拇指,3,CV_shape@2.00,1.800915316579383
+L1_input,"(input, impl-independent)",右拇指,3,CV_shape@3.00,1.8329037093720488
+L1_input,"(input, impl-independent)",右拇指,3,CV_shape@5.00,0.0
+L1_input,"(input, impl-independent)",四指,3,CV_shape@0.20,1.7736030821211997
+L1_input,"(input, impl-independent)",四指,3,CV_shape@0.30,4.19944190639151
+L1_input,"(input, impl-independent)",四指,3,CV_shape@0.50,2.7327709962470386
+L1_input,"(input, impl-independent)",四指,3,CV_shape@0.80,2.1690532320461906
+L1_input,"(input, impl-independent)",四指,3,CV_shape@1.00,2.1667767797125173
+L1_input,"(input, impl-independent)",四指,3,CV_shape@1.50,1.24025300226966
+L1_input,"(input, impl-independent)",四指,3,CV_shape@2.00,0.9945599345650358
+L1_input,"(input, impl-independent)",四指,3,CV_shape@3.00,1.850283058005288
+L1_input,"(input, impl-independent)",四指,3,CV_shape@5.00,0.0
+L1_input,"(input, impl-independent)",左拇指,3,CV_shape@0.20,1.0951090731060982
+L1_input,"(input, impl-independent)",左拇指,3,CV_shape@0.30,1.4421804582063062
+L1_input,"(input, impl-independent)",左拇指,3,CV_shape@0.50,0.81055992655954
+L1_input,"(input, impl-independent)",左拇指,3,CV_shape@0.80,0.38558089582829275
+L1_input,"(input, impl-independent)",左拇指,3,CV_shape@1.00,0.47849089091969305
+L1_input,"(input, impl-independent)",左拇指,3,CV_shape@1.50,0.6010181158550871
+L1_input,"(input, impl-independent)",左拇指,3,CV_shape@2.00,0.8718999980684715
+L1_input,"(input, impl-independent)",左拇指,3,CV_shape@3.00,0.6253518024654711
+L1_input,"(input, impl-independent)",左拇指,3,CV_shape@5.00,0.0
+L1_input,"(input, impl-independent)",右拇指,3,Spread_shape@0.20,8.581092103181165
+L1_input,"(input, impl-independent)",右拇指,3,Spread_shape@0.30,5.6673049284931
+L1_input,"(input, impl-independent)",右拇指,3,Spread_shape@0.50,7.341496740430564
+L1_input,"(input, impl-independent)",右拇指,3,Spread_shape@0.80,6.047018715718866
+L1_input,"(input, impl-independent)",右拇指,3,Spread_shape@1.00,4.808968489949528
+L1_input,"(input, impl-independent)",右拇指,3,Spread_shape@1.50,3.9004371586440434
+L1_input,"(input, impl-independent)",右拇指,3,Spread_shape@2.00,3.2056507275117663
+L1_input,"(input, impl-independent)",右拇指,3,Spread_shape@3.00,3.4693434501711584
+L1_input,"(input, impl-independent)",右拇指,3,Spread_shape@5.00,0.0
+L1_input,"(input, impl-independent)",四指,3,Spread_shape@0.20,2.7527350880611645
+L1_input,"(input, impl-independent)",四指,3,Spread_shape@0.30,6.490214364782821
+L1_input,"(input, impl-independent)",四指,3,Spread_shape@0.50,4.521333398057925
+L1_input,"(input, impl-independent)",四指,3,Spread_shape@0.80,3.318893775706966
+L1_input,"(input, impl-independent)",四指,3,Spread_shape@1.00,3.6061110535104635
+L1_input,"(input, impl-independent)",四指,3,Spread_shape@1.50,2.1438303081638965
+L1_input,"(input, impl-independent)",四指,3,Spread_shape@2.00,1.683637543478822
+L1_input,"(input, impl-independent)",四指,3,Spread_shape@3.00,3.5450842049353337
+L1_input,"(input, impl-independent)",四指,3,Spread_shape@5.00,0.0
+L1_input,"(input, impl-independent)",左拇指,3,Spread_shape@0.20,1.8161870439891814
+L1_input,"(input, impl-independent)",左拇指,3,Spread_shape@0.30,2.1684959976533635
+L1_input,"(input, impl-independent)",左拇指,3,Spread_shape@0.50,1.4107600663158748
+L1_input,"(input, impl-independent)",左拇指,3,Spread_shape@0.80,0.6294163857501256
+L1_input,"(input, impl-independent)",左拇指,3,Spread_shape@1.00,0.8750479713576897
+L1_input,"(input, impl-independent)",左拇指,3,Spread_shape@1.50,1.1226105100169526
+L1_input,"(input, impl-independent)",左拇指,3,Spread_shape@2.00,1.4957669891421554
+L1_input,"(input, impl-independent)",左拇指,3,Spread_shape@3.00,1.0737990658115648
+L1_input,"(input, impl-independent)",左拇指,3,Spread_shape@5.00,0.0
+L2_output,raw,右拇指,3,plat_err_std_R5_pp,2.471599787898019
+L2_output,raw,右拇指,3,plat_err_range_R5_pp,4.7814875007023545
+L2_output,raw,右拇指,3,plat_err_bias_R5_pp,17.226550496603807
+L2_output,raw,右拇指,3,plat_err_std_Rstep_pp,9.82566475123662
+L2_output,raw,右拇指,3,plat_err_range_Rstep_pp,19.567377784415164
+L2_output,raw,右拇指,3,plat_err_bias_Rstep_pp,46.00166388848728
+L2_output,raw,右拇指,3,abs_plat_std,0.999454530853559
+L2_output,raw,右拇指,3,abs_plat_range,1.7521040053808221
+L2_output,raw,右拇指,3,abs_plat_bias,18.668203768105506
+L2_output,raw,右拇指,3,T_stable_std_s,50.125015710720724
+L2_output,raw,右拇指,3,T_stable_range_s,89.0
+L2_output,raw,右拇指,3,T_stable_bias_s,49.53
+L2_output,raw,右拇指,3,OS_std_pp,1.7814624547050772
+L2_output,raw,右拇指,3,OS_range_pp,3.5384411223499335
+L2_output,raw,右拇指,3,OS_bias_pp,13.04609422162172
+L2_output,raw,右拇指,3,US_std_pp,18.523860734339713
+L2_output,raw,右拇指,3,US_range_pp,33.04489640639217
+L2_output,raw,右拇指,3,US_bias_pp,-85.62402844453345
+L2_output,raw,右拇指,3,err5s_std_pp,0.056506084135109706
+L2_output,raw,右拇指,3,err5s_range_pp,0.10739092913495396
+L2_output,raw,右拇指,3,err5s_bias_pp,-0.06444703105126608
+L2_output,raw,右拇指,3,flat_in_plat_std_pp,1.8734368140004258
+L2_output,raw,右拇指,3,flat_in_plat_range_pp,3.714932316693922
+L2_output,raw,右拇指,3,flat_in_plat_bias_pp,8.986910347804423
+L2_output,raw,右拇指,3,move3060_std_pp,0.27043852280468167
+L2_output,raw,右拇指,3,move3060_range_pp,0.5238453493766029
+L2_output,raw,右拇指,3,move3060_bias_pp,4.701497154072286
+L2_output,raw,右拇指,3,epoch_total_std,0.0
+L2_output,raw,右拇指,3,epoch_pre_std,0.0
+L2_output,raw,四指,3,plat_err_std_R5_pp,3.8439289017245097
+L2_output,raw,四指,3,plat_err_range_R5_pp,7.394414033525653
+L2_output,raw,四指,3,plat_err_bias_R5_pp,13.479805028626862
+L2_output,raw,四指,3,plat_err_std_Rstep_pp,5.43243241059014
+L2_output,raw,四指,3,plat_err_range_Rstep_pp,10.64315675782283
+L2_output,raw,四指,3,plat_err_bias_Rstep_pp,42.47634087824928
+L2_output,raw,四指,3,abs_plat_std,0.5865036851648724
+L2_output,raw,四指,3,abs_plat_range,1.1441668688653515
+L2_output,raw,四指,3,abs_plat_bias,16.399814408753112
+L2_output,raw,四指,3,T_stable_std_s,3.913834436968431
+L2_output,raw,四指,3,T_stable_range_s,7.8199999999999985
+L2_output,raw,四指,3,T_stable_bias_s,16.49
+L2_output,raw,四指,3,OS_std_pp,3.276797217676207
+L2_output,raw,四指,3,OS_range_pp,6.257050894237183
+L2_output,raw,四指,3,OS_bias_pp,11.177916667836868
+L2_output,raw,四指,3,US_std_pp,7.697694704366803
+L2_output,raw,四指,3,US_range_pp,13.565721141957681
+L2_output,raw,四指,3,US_bias_pp,-91.92962176793401
+L2_output,raw,四指,3,err5s_std_pp,0.03459875611965518
+L2_output,raw,四指,3,err5s_range_pp,0.06918843774822436
+L2_output,raw,四指,3,err5s_bias_pp,0.03224087845896303
+L2_output,raw,四指,3,flat_in_plat_std_pp,1.044640753470184
+L2_output,raw,四指,3,flat_in_plat_range_pp,1.9441388799130452
+L2_output,raw,四指,3,flat_in_plat_bias_pp,3.189194057309397
+L2_output,raw,四指,3,move3060_std_pp,0.8576647085850195
+L2_output,raw,四指,3,move3060_range_pp,1.6158546025929181
+L2_output,raw,四指,3,move3060_bias_pp,1.9787617539525773
+L2_output,raw,四指,3,epoch_total_std,0.0
+L2_output,raw,四指,3,epoch_pre_std,0.0
+L2_output,raw,左拇指,3,plat_err_std_R5_pp,4.025813762810689
+L2_output,raw,左拇指,3,plat_err_range_R5_pp,8.040555170887355
+L2_output,raw,左拇指,3,plat_err_bias_R5_pp,10.579573844392861
+L2_output,raw,左拇指,3,plat_err_std_Rstep_pp,3.9022955688549255
+L2_output,raw,左拇指,3,plat_err_range_Rstep_pp,7.63747391417823
+L2_output,raw,左拇指,3,plat_err_bias_Rstep_pp,30.67939792596857
+L2_output,raw,左拇指,3,abs_plat_std,0.5929140721129812
+L2_output,raw,左拇指,3,abs_plat_range,1.160477832773946
+L2_output,raw,左拇指,3,abs_plat_bias,18.006677963362325
+L2_output,raw,左拇指,3,T_stable_std_s,3.6154160664207557
+L2_output,raw,左拇指,3,T_stable_range_s,7.209999999999999
+L2_output,raw,左拇指,3,T_stable_bias_s,10.676666666666668
+L2_output,raw,左拇指,3,OS_std_pp,3.445968452865011
+L2_output,raw,左拇指,3,OS_range_pp,6.879342812130813
+L2_output,raw,左拇指,3,OS_bias_pp,9.168236083843231
+L2_output,raw,左拇指,3,US_std_pp,17.63884292202896
+L2_output,raw,左拇指,3,US_range_pp,34.75486004676898
+L2_output,raw,左拇指,3,US_bias_pp,-79.91851184404476
+L2_output,raw,左拇指,3,err5s_std_pp,0.05122563404440347
+L2_output,raw,左拇指,3,err5s_range_pp,0.1024451487153355
+L2_output,raw,左拇指,3,err5s_bias_pp,0.05154581803476314
+L2_output,raw,左拇指,3,flat_in_plat_std_pp,0.5269141825562677
+L2_output,raw,左拇指,3,flat_in_plat_range_pp,0.9614039011477296
+L2_output,raw,左拇指,3,flat_in_plat_bias_pp,2.548635003584774
+L2_output,raw,左拇指,3,move3060_std_pp,0.5581612199275402
+L2_output,raw,左拇指,3,move3060_range_pp,1.1161934632353523
+L2_output,raw,左拇指,3,move3060_bias_pp,1.6729798085427967
+L2_output,raw,左拇指,3,epoch_total_std,0.0
+L2_output,raw,左拇指,3,epoch_pre_std,0.0
+L2_output,v5.1,右拇指,3,plat_err_std_R5_pp,3.1793459892920604
+L2_output,v5.1,右拇指,3,plat_err_range_R5_pp,5.901131063285259
+L2_output,v5.1,右拇指,3,plat_err_bias_R5_pp,1.9773549943448117
+L2_output,v5.1,右拇指,3,plat_err_std_Rstep_pp,3.6147149633740376
+L2_output,v5.1,右拇指,3,plat_err_range_Rstep_pp,7.187026173459454
+L2_output,v5.1,右拇指,3,plat_err_bias_Rstep_pp,26.82841563387591
+L2_output,v5.1,右拇指,3,abs_plat_std,1.3860022665989624
+L2_output,v5.1,右拇指,3,abs_plat_range,2.695772724966144
+L2_output,v5.1,右拇指,3,abs_plat_bias,16.308011683271758
+L2_output,v5.1,右拇指,3,T_stable_std_s,1.7467398203510467
+L2_output,v5.1,右拇指,3,T_stable_range_s,3.4900000000000038
+L2_output,v5.1,右拇指,3,T_stable_bias_s,5.53
+L2_output,v5.1,右拇指,3,OS_std_pp,2.273990467130455
+L2_output,v5.1,右拇指,3,OS_range_pp,4.544813848786779
+L2_output,v5.1,右拇指,3,OS_bias_pp,4.887262287778738
+L2_output,v5.1,右拇指,3,US_std_pp,18.523860734339713
+L2_output,v5.1,右拇指,3,US_range_pp,33.04489640639217
+L2_output,v5.1,右拇指,3,US_bias_pp,-85.62402844453345
+L2_output,v5.1,右拇指,3,err5s_std_pp,0.056506084135109706
+L2_output,v5.1,右拇指,3,err5s_range_pp,0.10739092913495396
+L2_output,v5.1,右拇指,3,err5s_bias_pp,-0.06444703105126608
+L2_output,v5.1,右拇指,3,flat_in_plat_std_pp,2.143111663791157
+L2_output,v5.1,右拇指,3,flat_in_plat_range_pp,4.1666302233082035
+L2_output,v5.1,右拇指,3,flat_in_plat_bias_pp,3.138990757398165
+L2_output,v5.1,右拇指,3,move3060_std_pp,0.9897383207875896
+L2_output,v5.1,右拇指,3,move3060_range_pp,1.9030042995732963
+L2_output,v5.1,右拇指,3,move3060_bias_pp,0.84452229762285
+L2_output,v5.1,右拇指,3,epoch_total_std,0.5773502691896258
+L2_output,v5.1,右拇指,3,epoch_pre_std,0.0
+L2_output,v5.1,四指,3,plat_err_std_R5_pp,0.4874452460121707
+L2_output,v5.1,四指,3,plat_err_range_R5_pp,0.8761265277911878
+L2_output,v5.1,四指,3,plat_err_bias_R5_pp,0.7768949155843918
+L2_output,v5.1,四指,3,plat_err_std_Rstep_pp,1.6619685524587129
+L2_output,v5.1,四指,3,plat_err_range_Rstep_pp,3.284662963746783
+L2_output,v5.1,四指,3,plat_err_bias_Rstep_pp,26.51991674556621
+L2_output,v5.1,四指,3,abs_plat_std,0.9927731689352945
+L2_output,v5.1,四指,3,abs_plat_range,1.9591564369031147
+L2_output,v5.1,四指,3,abs_plat_bias,14.593282596028255
+L2_output,v5.1,四指,3,T_stable_std_s,0.6184927916583451
+L2_output,v5.1,四指,3,T_stable_range_s,1.1999999999999993
+L2_output,v5.1,四指,3,T_stable_bias_s,3.693333333333334
+L2_output,v5.1,四指,3,OS_std_pp,0.35031886749182123
+L2_output,v5.1,四指,3,OS_range_pp,0.6552609477373892
+L2_output,v5.1,四指,3,OS_bias_pp,2.5917231890966033
+L2_output,v5.1,四指,3,US_std_pp,7.697694704366803
+L2_output,v5.1,四指,3,US_range_pp,13.565721141957681
+L2_output,v5.1,四指,3,US_bias_pp,-91.92962176793401
+L2_output,v5.1,四指,3,err5s_std_pp,0.03459875611965518
+L2_output,v5.1,四指,3,err5s_range_pp,0.06918843774822436
+L2_output,v5.1,四指,3,err5s_bias_pp,0.03224087845896303
+L2_output,v5.1,四指,3,flat_in_plat_std_pp,0.15283725283540428
+L2_output,v5.1,四指,3,flat_in_plat_range_pp,0.2946667287837075
+L2_output,v5.1,四指,3,flat_in_plat_bias_pp,0.805801139732257
+L2_output,v5.1,四指,3,move3060_std_pp,0.3337887436467975
+L2_output,v5.1,四指,3,move3060_range_pp,0.5909811084691134
+L2_output,v5.1,四指,3,move3060_bias_pp,0.20790086980513867
+L2_output,v5.1,四指,3,epoch_total_std,0.0
+L2_output,v5.1,四指,3,epoch_pre_std,0.0
+L2_output,v5.1,左拇指,3,plat_err_std_R5_pp,3.0651465529649933
+L2_output,v5.1,左拇指,3,plat_err_range_R5_pp,5.706827758569921
+L2_output,v5.1,左拇指,3,plat_err_bias_R5_pp,3.2614743737485004
+L2_output,v5.1,左拇指,3,plat_err_std_Rstep_pp,3.391708516954892
+L2_output,v5.1,左拇指,3,plat_err_range_Rstep_pp,6.479128197084137
+L2_output,v5.1,左拇指,3,plat_err_bias_Rstep_pp,22.04480360610785
+L2_output,v5.1,左拇指,3,abs_plat_std,0.7735962967555026
+L2_output,v5.1,左拇指,3,abs_plat_range,1.3963214773261328
+L2_output,v5.1,左拇指,3,abs_plat_bias,16.823192235328282
+L2_output,v5.1,左拇指,3,T_stable_std_s,4.013294573456243
+L2_output,v5.1,左拇指,3,T_stable_range_s,7.299999999999997
+L2_output,v5.1,左拇指,3,T_stable_bias_s,4.496666666666665
+L2_output,v5.1,左拇指,3,OS_std_pp,3.125369536853986
+L2_output,v5.1,左拇指,3,OS_range_pp,5.659588250442266
+L2_output,v5.1,左拇指,3,OS_bias_pp,3.9815491170054043
+L2_output,v5.1,左拇指,3,US_std_pp,17.63884292202896
+L2_output,v5.1,左拇指,3,US_range_pp,34.75486004676898
+L2_output,v5.1,左拇指,3,US_bias_pp,-79.91851184404476
+L2_output,v5.1,左拇指,3,err5s_std_pp,0.05122563404440347
+L2_output,v5.1,左拇指,3,err5s_range_pp,0.1024451487153355
+L2_output,v5.1,左拇指,3,err5s_bias_pp,0.05154581803476314
+L2_output,v5.1,左拇指,3,flat_in_plat_std_pp,0.223576630787086
+L2_output,v5.1,左拇指,3,flat_in_plat_range_pp,0.4451222710655268
+L2_output,v5.1,左拇指,3,flat_in_plat_bias_pp,0.6689933805551306
+L2_output,v5.1,左拇指,3,move3060_std_pp,0.08335037652981632
+L2_output,v5.1,左拇指,3,move3060_range_pp,0.16650362639924277
+L2_output,v5.1,左拇指,3,move3060_bias_pp,0.1596405549905395
+L2_output,v5.1,左拇指,3,epoch_total_std,0.0
+L2_output,v5.1,左拇指,3,epoch_pre_std,0.0
+L2_output,v6,右拇指,3,plat_err_std_R5_pp,8.413198041812832
+L2_output,v6,右拇指,3,plat_err_range_R5_pp,15.311285830460374
+L2_output,v6,右拇指,3,plat_err_bias_R5_pp,2.2249015335837377
+L2_output,v6,右拇指,3,plat_err_std_Rstep_pp,3.5228877542756676
+L2_output,v6,右拇指,3,plat_err_range_Rstep_pp,7.0391427537292515
+L2_output,v6,右拇指,3,plat_err_bias_Rstep_pp,26.896188528502194
+L2_output,v6,右拇指,3,abs_plat_std,2.0444597242438967
+L2_output,v6,右拇指,3,abs_plat_range,4.074032024366815
+L2_output,v6,右拇指,3,abs_plat_bias,16.368603514669534
+L2_output,v6,右拇指,3,T_stable_std_s,3.6217813296774293
+L2_output,v6,右拇指,3,T_stable_range_s,7.070000000000002
+L2_output,v6,右拇指,3,T_stable_bias_s,4.53
+L2_output,v6,右拇指,3,OS_std_pp,7.179190881525856
+L2_output,v6,右拇指,3,OS_range_pp,13.742097990379865
+L2_output,v6,右拇指,3,OS_bias_pp,4.489440456483479
+L2_output,v6,右拇指,3,US_std_pp,18.523860734339713
+L2_output,v6,右拇指,3,US_range_pp,33.04489640639217
+L2_output,v6,右拇指,3,US_bias_pp,-85.62402844453345
+L2_output,v6,右拇指,3,err5s_std_pp,4.1954475528639135
+L2_output,v6,右拇指,3,err5s_range_pp,7.749762221331514
+L2_output,v6,右拇指,3,err5s_bias_pp,0.10320931102814068
+L2_output,v6,右拇指,3,flat_in_plat_std_pp,1.814975225682167
+L2_output,v6,右拇指,3,flat_in_plat_range_pp,3.3687645108981776
+L2_output,v6,右拇指,3,flat_in_plat_bias_pp,3.0205481803163123
+L2_output,v6,右拇指,3,move3060_std_pp,0.8471158106944175
+L2_output,v6,右拇指,3,move3060_range_pp,1.6005488727939836
+L2_output,v6,右拇指,3,move3060_bias_pp,0.6208894189565329
+L2_output,v6,右拇指,3,epoch_total_std,1.5275252316519465
+L2_output,v6,右拇指,3,epoch_pre_std,1.5275252316519468
+L2_output,v6,四指,3,plat_err_std_R5_pp,3.3491373154932904
+L2_output,v6,四指,3,plat_err_range_R5_pp,6.5309210163413844
+L2_output,v6,四指,3,plat_err_bias_R5_pp,0.7444964769467396
+L2_output,v6,四指,3,plat_err_std_Rstep_pp,2.3749236295673035
+L2_output,v6,四指,3,plat_err_range_Rstep_pp,4.361733843870752
+L2_output,v6,四指,3,plat_err_bias_Rstep_pp,26.441504902227773
+L2_output,v6,四指,3,abs_plat_std,1.3178191355721676
+L2_output,v6,四指,3,abs_plat_range,2.621183411748989
+L2_output,v6,四指,3,abs_plat_bias,14.599955230078406
+L2_output,v6,四指,3,T_stable_std_s,0.02516611478423624
+L2_output,v6,四指,3,T_stable_range_s,0.05000000000000071
+L2_output,v6,四指,3,T_stable_bias_s,0.5266666666666673
+L2_output,v6,四指,3,OS_std_pp,3.8126622841140816
+L2_output,v6,四指,3,OS_range_pp,7.5205345944555795
+L2_output,v6,四指,3,OS_bias_pp,1.6329261088295384
+L2_output,v6,四指,3,US_std_pp,7.697694704366803
+L2_output,v6,四指,3,US_range_pp,13.565721141957681
+L2_output,v6,四指,3,US_bias_pp,-91.92962176793401
+L2_output,v6,四指,3,err5s_std_pp,2.681371848106264
+L2_output,v6,四指,3,err5s_range_pp,5.1414930763408195
+L2_output,v6,四指,3,err5s_bias_pp,-0.22172482023546194
+L2_output,v6,四指,3,flat_in_plat_std_pp,0.10468318832906524
+L2_output,v6,四指,3,flat_in_plat_range_pp,0.20071485698141123
+L2_output,v6,四指,3,flat_in_plat_bias_pp,0.9845958126540019
+L2_output,v6,四指,3,move3060_std_pp,0.5463992327502657
+L2_output,v6,四指,3,move3060_range_pp,1.020148056990014
+L2_output,v6,四指,3,move3060_bias_pp,0.2615994166896061
+L2_output,v6,四指,3,epoch_total_std,1.1547005383792515
+L2_output,v6,四指,3,epoch_pre_std,1.1547005383792517
+L2_output,v6,左拇指,3,plat_err_std_R5_pp,5.0943534482993975
+L2_output,v6,左拇指,3,plat_err_range_R5_pp,10.011438589595766
+L2_output,v6,左拇指,3,plat_err_bias_R5_pp,6.025440027683399
+L2_output,v6,左拇指,3,plat_err_std_Rstep_pp,6.316729509837953
+L2_output,v6,左拇指,3,plat_err_range_Rstep_pp,12.628811493226113
+L2_output,v6,左拇指,3,plat_err_bias_Rstep_pp,25.32679715782381
+L2_output,v6,左拇指,3,abs_plat_std,1.0278624525429878
+L2_output,v6,左拇指,3,abs_plat_range,2.020094192512431
+L2_output,v6,左拇指,3,abs_plat_bias,17.27353625084555
+L2_output,v6,左拇指,3,T_stable_std_s,4.554086077359541
+L2_output,v6,左拇指,3,T_stable_range_s,8.740000000000002
+L2_output,v6,左拇指,3,T_stable_bias_s,4.180000000000001
+L2_output,v6,左拇指,3,OS_std_pp,4.673616764063849
+L2_output,v6,左拇指,3,OS_range_pp,8.857689215840836
+L2_output,v6,左拇指,3,OS_bias_pp,7.4567223597909456
+L2_output,v6,左拇指,3,US_std_pp,17.63884292202896
+L2_output,v6,左拇指,3,US_range_pp,34.75486004676898
+L2_output,v6,左拇指,3,US_bias_pp,-79.91851184404476
+L2_output,v6,左拇指,3,err5s_std_pp,2.4067849011597624
+L2_output,v6,左拇指,3,err5s_range_pp,4.663030559128723
+L2_output,v6,左拇指,3,err5s_bias_pp,2.459584817244098
+L2_output,v6,左拇指,3,flat_in_plat_std_pp,0.2822407455695017
+L2_output,v6,左拇指,3,flat_in_plat_range_pp,0.5327344734386632
+L2_output,v6,左拇指,3,flat_in_plat_bias_pp,0.8402030125393831
+L2_output,v6,左拇指,3,move3060_std_pp,0.10057330395749772
+L2_output,v6,左拇指,3,move3060_range_pp,0.17817332913385409
+L2_output,v6,左拇指,3,move3060_bias_pp,-0.056166051465561424
+L2_output,v6,左拇指,3,epoch_total_std,0.5773502691896258
+L2_output,v6,左拇指,3,epoch_pre_std,0.5773502691896258
+L2_output,v6.1,右拇指,3,plat_err_std_R5_pp,7.572194034921186
+L2_output,v6.1,右拇指,3,plat_err_range_R5_pp,13.810698125067411
+L2_output,v6.1,右拇指,3,plat_err_bias_R5_pp,-3.829711183043223
+L2_output,v6.1,右拇指,3,plat_err_std_Rstep_pp,2.975858738183013
+L2_output,v6.1,右拇指,3,plat_err_range_Rstep_pp,5.9088225889435435
+L2_output,v6.1,右拇指,3,plat_err_bias_Rstep_pp,19.39634914673975
+L2_output,v6.1,右拇指,3,abs_plat_std,1.8594241937128464
+L2_output,v6.1,右拇指,3,abs_plat_range,3.7091609904106875
+L2_output,v6.1,右拇指,3,abs_plat_bias,15.41506331935023
+L2_output,v6.1,右拇指,3,T_stable_std_s,3.829912966809212
+L2_output,v6.1,右拇指,3,T_stable_range_s,6.820000000000002
+L2_output,v6.1,右拇指,3,T_stable_bias_s,2.903333333333334
+L2_output,v6.1,右拇指,3,OS_std_pp,6.841398514993092
+L2_output,v6.1,右拇指,3,OS_range_pp,12.773695221715293
+L2_output,v6.1,右拇指,3,OS_bias_pp,-1.6298838473870951
+L2_output,v6.1,右拇指,3,US_std_pp,18.523860734339713
+L2_output,v6.1,右拇指,3,US_range_pp,33.04489640639217
+L2_output,v6.1,右拇指,3,US_bias_pp,-85.62402844453345
+L2_output,v6.1,右拇指,3,err5s_std_pp,3.9032771214936313
+L2_output,v6.1,右拇指,3,err5s_range_pp,7.2704231187114665
+L2_output,v6.1,右拇指,3,err5s_bias_pp,-5.436837642577356
+L2_output,v6.1,右拇指,3,flat_in_plat_std_pp,2.2431915540931864
+L2_output,v6.1,右拇指,3,flat_in_plat_range_pp,4.270254650354104
+L2_output,v6.1,右拇指,3,flat_in_plat_bias_pp,3.0798615695582754
+L2_output,v6.1,右拇指,3,move3060_std_pp,0.9935515304899611
+L2_output,v6.1,右拇指,3,move3060_range_pp,1.8509628420636104
+L2_output,v6.1,右拇指,3,move3060_bias_pp,0.8119113085263411
+L2_output,v6.1,右拇指,3,epoch_total_std,1.5275252316519465
+L2_output,v6.1,右拇指,3,epoch_pre_std,1.5275252316519468
+L2_output,v6.1,四指,3,plat_err_std_R5_pp,2.932887226951882
+L2_output,v6.1,四指,3,plat_err_range_R5_pp,5.762641793651158
+L2_output,v6.1,四指,3,plat_err_bias_R5_pp,-5.419679218154465
+L2_output,v6.1,四指,3,plat_err_std_Rstep_pp,1.9336079332508633
+L2_output,v6.1,四指,3,plat_err_range_Rstep_pp,3.541433438642567
+L2_output,v6.1,四指,3,plat_err_bias_Rstep_pp,18.707177479831056
+L2_output,v6.1,四指,3,abs_plat_std,1.2038359915215646
+L2_output,v6.1,四指,3,abs_plat_range,2.3964655144540377
+L2_output,v6.1,四指,3,abs_plat_bias,13.709319926997741
+L2_output,v6.1,四指,3,T_stable_std_s,0.009999999999999787
+L2_output,v6.1,四指,3,T_stable_range_s,0.019999999999999574
+L2_output,v6.1,四指,3,T_stable_bias_s,0.4800000000000004
+L2_output,v6.1,四指,3,OS_std_pp,2.6107974897425215
+L2_output,v6.1,四指,3,OS_range_pp,5.203726815364528
+L2_output,v6.1,四指,3,OS_bias_pp,-4.5614342398888175
+L2_output,v6.1,四指,3,US_std_pp,7.697694704366803
+L2_output,v6.1,四指,3,US_range_pp,13.565721141957681
+L2_output,v6.1,四指,3,US_bias_pp,-91.92962176793401
+L2_output,v6.1,四指,3,err5s_std_pp,2.521908856065817
+L2_output,v6.1,四指,3,err5s_range_pp,4.838685350955296
+L2_output,v6.1,四指,3,err5s_bias_pp,-5.845486346390735
+L2_output,v6.1,四指,3,flat_in_plat_std_pp,0.1655243847529957
+L2_output,v6.1,四指,3,flat_in_plat_range_pp,0.31271602168359336
+L2_output,v6.1,四指,3,flat_in_plat_bias_pp,0.9380133288991036
+L2_output,v6.1,四指,3,move3060_std_pp,0.47595339822944815
+L2_output,v6.1,四指,3,move3060_range_pp,0.8934218250202546
+L2_output,v6.1,四指,3,move3060_bias_pp,0.31734848707751584
+L2_output,v6.1,四指,3,epoch_total_std,1.1547005383792515
+L2_output,v6.1,四指,3,epoch_pre_std,1.1547005383792517
+L2_output,v6.1,左拇指,3,plat_err_std_R5_pp,3.3726287528614582
+L2_output,v6.1,左拇指,3,plat_err_range_R5_pp,6.745232791838496
+L2_output,v6.1,左拇指,3,plat_err_bias_R5_pp,1.5554422039754916
+L2_output,v6.1,左拇指,3,plat_err_std_Rstep_pp,3.2697006685120136
+L2_output,v6.1,左拇指,3,plat_err_range_Rstep_pp,6.253305474596527
+L2_output,v6.1,左拇指,3,plat_err_bias_Rstep_pp,20.018004820401355
+L2_output,v6.1,左拇指,3,abs_plat_std,0.6039369540980092
+L2_output,v6.1,左拇指,3,abs_plat_range,1.1730302076959092
+L2_output,v6.1,左拇指,3,abs_plat_bias,16.539790796525633
+L2_output,v6.1,左拇指,3,T_stable_std_s,4.959529547581435
+L2_output,v6.1,左拇指,3,T_stable_range_s,8.62
+L2_output,v6.1,左拇指,3,T_stable_bias_s,3.3833333333333324
+L2_output,v6.1,左拇指,3,OS_std_pp,3.4571982433925292
+L2_output,v6.1,左拇指,3,OS_range_pp,6.913528598417265
+L2_output,v6.1,左拇指,3,OS_bias_pp,2.167663859748636
+L2_output,v6.1,左拇指,3,US_std_pp,17.63884292202896
+L2_output,v6.1,左拇指,3,US_range_pp,34.75486004676898
+L2_output,v6.1,左拇指,3,US_bias_pp,-79.91851184404476
+L2_output,v6.1,左拇指,3,err5s_std_pp,1.2363882252816174
+L2_output,v6.1,左拇指,3,err5s_range_pp,2.472733254238446
+L2_output,v6.1,左拇指,3,err5s_bias_pp,-1.4573110236746716
+L2_output,v6.1,左拇指,3,flat_in_plat_std_pp,0.1051902470672466
+L2_output,v6.1,左拇指,3,flat_in_plat_range_pp,0.20944629542047166
+L2_output,v6.1,左拇指,3,flat_in_plat_bias_pp,0.7381533033782505
+L2_output,v6.1,左拇指,3,move3060_std_pp,0.340686664932458
+L2_output,v6.1,左拇指,3,move3060_range_pp,0.6675929079246103
+L2_output,v6.1,左拇指,3,move3060_bias_pp,0.20095465277310812
+L2_output,v6.1,左拇指,3,epoch_total_std,0.5773502691896258
+L2_output,v6.1,左拇指,3,epoch_pre_std,0.5773502691896258

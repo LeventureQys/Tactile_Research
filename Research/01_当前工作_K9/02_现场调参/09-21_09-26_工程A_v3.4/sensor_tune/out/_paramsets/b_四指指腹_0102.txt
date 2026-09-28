@@ -1,0 +1,4 @@
+c0102_0|r_fast=0.0,r_slow_max=0.2,slope_gate_frac=0.02,tau_slope_s=0.5,edge_slope_thres=150.0,hold_eps=0.0
+c0102_1|r_fast=0.0,r_slow_max=0.2,slope_gate_frac=0.02,tau_slope_s=0.5,edge_slope_thres=150.0,hold_eps=0.5
+c0102_2|r_fast=0.0,r_slow_max=0.2,slope_gate_frac=0.02,tau_slope_s=0.5,edge_slope_thres=150.0,hold_eps=2.0
+c0102_3|r_fast=0.0,r_slow_max=0.2,slope_gate_frac=0.02,tau_slope_s=0.5,edge_slope_thres=150.0,hold_eps=8.0

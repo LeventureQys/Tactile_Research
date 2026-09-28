@@ -1,0 +1,1 @@
+rec|r_fast=0.03,tau_c_fast_s=40.0,slow_confirm_s=2.0,soft_unfreeze_s=2.0,slope_cap_frac=0.011,r_slow_max=0.35,tau_r_fast_s=6.0,tau_r_slow_idle_s=0.5

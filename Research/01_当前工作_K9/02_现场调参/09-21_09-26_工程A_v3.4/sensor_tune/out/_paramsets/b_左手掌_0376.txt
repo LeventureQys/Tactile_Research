@@ -1,0 +1,5 @@
+c0376_0|r_fast=0.04,hold_eps=0.0
+c0376_1|r_fast=0.04,hold_eps=0.5
+c0376_2|r_fast=0.04,hold_eps=2.0
+c0376_3|r_fast=0.04,hold_eps=8.0
+c0376_4|r_fast=0.04,hold_eps=30.0

@@ -1,0 +1,46 @@
+{
+ "现役(录制值)": {},
+ "K1 稳显 cap.008 rf.03 τc1 1 conf0": {
+  "r_fast": 0.03,
+  "tau_c_fast_s": 1.0,
+  "slow_confirm_s": 0.0,
+  "slope_cap_frac": 0.008
+ },
+ "K2 准读 cap.012 rf.03 τc1 1 conf0": {
+  "r_fast": 0.03,
+  "tau_c_fast_s": 1.0,
+  "slow_confirm_s": 0.0,
+  "slope_cap_frac": 0.012
+ },
+ "K3 cap.010 rf.03 τc1 1 conf0": {
+  "r_fast": 0.03,
+  "tau_c_fast_s": 1.0,
+  "slow_confirm_s": 0.0,
+  "slope_cap_frac": 0.01
+ },
+ "K4 极致稳 cap.006 rf.03 τc1 1 conf0": {
+  "r_fast": 0.03,
+  "tau_c_fast_s": 1.0,
+  "slow_confirm_s": 0.0,
+  "slope_cap_frac": 0.006
+ },
+ "K5 cap.010 rf.05 τc1 4 conf0": {
+  "r_fast": 0.05,
+  "tau_c_fast_s": 4.0,
+  "slow_confirm_s": 0.0,
+  "slope_cap_frac": 0.01
+ },
+ "K6 rsm.05 封顶 cap.012 rf.03 τc1 1": {
+  "r_fast": 0.03,
+  "tau_c_fast_s": 1.0,
+  "slow_confirm_s": 0.0,
+  "slope_cap_frac": 0.012,
+  "r_slow_max": 0.05
+ },
+ "K7 大 rf 准读 cap.008 rf.12 τc1.5": {
+  "r_fast": 0.12,
+  "tau_c_fast_s": 0.5,
+  "slow_confirm_s": 0.0,
+  "slope_cap_frac": 0.008
+ }
+}

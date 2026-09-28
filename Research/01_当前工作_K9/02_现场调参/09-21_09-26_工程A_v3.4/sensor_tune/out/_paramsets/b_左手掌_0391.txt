@@ -1,0 +1,5 @@
+c0391_0|r_slow_max=0.6,slope_gate_frac=5.0,slope_cap_frac=0.002
+c0391_1|r_slow_max=0.6,slope_gate_frac=5.0,slope_cap_frac=0.005
+c0391_2|r_slow_max=0.6,slope_gate_frac=5.0,slope_cap_frac=0.01
+c0391_3|r_slow_max=0.6,slope_gate_frac=5.0,slope_cap_frac=0.02
+c0391_4|r_slow_max=0.6,slope_gate_frac=5.0,slope_cap_frac=0.04

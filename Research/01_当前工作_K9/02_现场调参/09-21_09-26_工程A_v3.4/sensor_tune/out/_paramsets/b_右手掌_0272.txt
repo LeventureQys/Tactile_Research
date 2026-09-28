@@ -1,0 +1,9 @@
+c0272_0|r_fast=0.02,slope_gate_frac=0.02
+c0272_1|r_fast=0.02,slope_gate_frac=0.05
+c0272_2|r_fast=0.02,slope_gate_frac=0.1
+c0272_3|r_fast=0.02,slope_gate_frac=0.2
+c0272_4|r_fast=0.02,slope_gate_frac=0.5
+c0272_5|r_fast=0.02,slope_gate_frac=1.0
+c0272_6|r_fast=0.02,slope_gate_frac=2.0
+c0272_7|r_fast=0.02,slope_gate_frac=5.0
+c0272_8|r_fast=0.02,slope_gate_frac=20.0

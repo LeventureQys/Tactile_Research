@@ -1,0 +1,4 @@
+c0223_0|r_fast=0.04,tau_r_slow_idle_s=0.5
+c0223_1|r_fast=0.04,tau_r_slow_idle_s=2.0
+c0223_2|r_fast=0.04,tau_r_slow_idle_s=8.0
+c0223_3|r_fast=0.04,tau_r_slow_idle_s=30.0

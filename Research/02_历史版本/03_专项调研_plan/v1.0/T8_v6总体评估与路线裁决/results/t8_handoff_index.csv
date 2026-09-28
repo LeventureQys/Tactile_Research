@@ -1,0 +1,14 @@
+﻿task_dir,seat,date,n_headline,n_verdicts,n_corrections,n_gaps,n_blockers,keys
+T1_稳定时间定义与鲁棒性口径,T1-A,2026-09-19,8,5,5,7,0,blockers|corrections|date|frozen_caliber|gaps|headline|scope|seat|task|verdicts
+T1_稳定时间定义与鲁棒性口径,T1-B,2026-09-19,7,5,11,9,0,blockers|corrections|date|gaps|headline|inputs|scope|seat|task|verdicts
+T2_三阶段时间特征实测,T2-A,2026-09-19,7,7,6,6,0,blockers|corrections|dataset|date|gaps|headline|seat|task|verdicts
+T3_快相爬升可重复性与处理必要性,T3-A,2026-09-19,7,5,12,9,1,blockers|corrections|date|gaps|h1_verdict|headline|inputs|scope|seat|task|verdicts
+T3_快相爬升可重复性与处理必要性,T3-A,2026-09-19,7,5,12,9,1,blockers|corrections|date|gaps|h1_verdict|headline|inputs|scope|seat|task|verdicts
+T3_快相爬升可重复性与处理必要性,T3-B,2026-09-19,7,6,9,10,1,blockers|corrections|date|gaps|headline|metric_spec|scope|seat|task|verdicts
+T4_两种快相形态与分支判据,T4-A,2026-09-18,7,4,11,7,1,blockers|corrections|date|gaps|headline|seat|task|verdicts
+T4_两种快相形态与分支判据,T4-B,2026-09-19,7,5,4,10,4,blockers|corrections|date|gaps|headline|seat|task|verdicts
+T5_v6失效模式_过充与基线识别,T5-A,2026-09-19,8,8,8,10,2,artifacts|blockers|corrections|date|event_set|gaps|grid|headline|scope|seat|task|verdicts
+T5_v6失效模式_过充与基线识别,T5-B,2026-09-19,7,6,14,11,0,blockers|branch|corrections|date|gaps|headline|meta|seat|task|verdicts
+T6_v6可重复性下降归因,T6-A,2026-09-19,7,7,4,6,0,blockers|corrections|date|gaps|headline|meta|seat|task|verdicts
+T7_卸载与部分卸载时漂规律,T7-A,2026-09-19,7,6,11,10,1,artifacts|blockers|c5_response|corrections|date|gaps|headline|scope|seat|task|verdicts
+T7_卸载与部分卸载时漂规律,T7-B,2026-09-19,7,4,7,7,0,blockers|corrections|date|direction_convention|gaps|headline|scope|seat|task|verdicts

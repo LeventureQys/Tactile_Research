@@ -1,0 +1,6 @@
+﻿case,note,level,t_ev,n_epoch_all,n_epoch_near,epoch_near,n_revoke_near,revoke_ts,n_handoff_near,handoff_ts,dA_at_end,sumA_end,sumA_clean_end,dev_max,dev_rel
+C1_real_transient_SW4_99p56,实录真实瞬态（未注入），峰值 1896 ADC / 电平 29335,29402.6,5.56,0,0,,0,,0,,0.0,0.0,0.0,0.0,0.0
+C2_tap_50pct_100ms,注入拍击 6051 ADC 峰值 / 100 ms,12101.3,6.05,3,1,restep_reload@t0=6.01/det=6.05/base=11427/Â=,1,6.15,0,,-5153.2,0.0,5153.2,6074.3,0.502
+C3_tap_100pct_500ms,注入慢拍击 12101 ADC / 500 ms（回落沿晚于 0.40 s 撤销窗）,12101.3,6.05,4,1,restep_reload@t0=6.01/det=6.08/base=11427/Â=,0,,1,11.01Â=368,26.7,5179.9,5153.2,12418.5,1.0262
+C4_white1000_reaIevent,注入白噪 1000 ADC RMS；观察窗内真实沿 28.63 s,12101.3,2.63,2,1,onset@t0=2.13/det=2.60/base=4801/Â=,0,,0,,11377.2,16530.4,5153.2,5681.2,0.4695
+C5_step_4000,注入真实阶跃 +4000 ADC（不回落）,12101.3,36.05,4,1,restep@t0=36.01/det=36.08/base=12160/Â=,0,,1,41.01Â=4101,14762.4,19915.6,5153.2,4527.2,0.3741

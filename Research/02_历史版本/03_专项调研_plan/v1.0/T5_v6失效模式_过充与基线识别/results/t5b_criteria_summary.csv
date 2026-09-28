@@ -1,0 +1,7 @@
+﻿criterion,feature,causality,auc,tpr@fpr<=0.01,param@fpr<=0.01,prec@fpr<=0.01,tpr@fpr<=0.05,param@fpr<=0.05,prec@fpr<=0.05,tpr@fpr<=0.1,param@fpr<=0.1,prec@fpr<=0.1,tpr@fpr<=0.2,param@fpr<=0.2,prec@fpr<=0.2
+K0_gate,ratio,causal,0.4023,,,,,,,,,,0.0,3.0,0.0
+K1_dwell,dwell_s,causal,0.8412,0.691,0.5,1.0,0.691,0.5,1.0,0.751,0.4,0.934,0.751,0.4,0.934
+K2_mono,f_mono,causal,0.6328,,,,,,,,,,0.475,0.8,0.818
+K3_hold,f_hold,非因果(+0.5s),0.9504,1.0,0.4,1.0,1.0,0.4,1.0,1.0,0.4,1.0,1.0,0.4,1.0
+K5_actfrac,active_frac,causal,0.039,,,,,,,,,,,,
+K6_coup,coup,causal,0.8594,0.087,6.0,0.958,0.555,5.0,0.955,0.555,5.0,0.955,0.555,5.0,0.955

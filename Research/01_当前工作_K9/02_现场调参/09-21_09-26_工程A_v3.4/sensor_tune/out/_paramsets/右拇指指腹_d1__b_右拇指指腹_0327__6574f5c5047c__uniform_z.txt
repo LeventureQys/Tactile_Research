@@ -1,0 +1,4 @@
+c0327_0|r_fast=0.1,slope_gate_frac=0.2,slope_cap_frac=0.04,tau_slope_s=3.0,slow_confirm_s=0.0,tau_c_fast_s=4.0,tau_r_slow_idle_s=30.0,tau_r_fast_s=2.0,hold_eps=8.0,ramp_slope_min=2.0,r_slow_max=0.6,idle_frac=0.1,soft_unfreeze_s=0.5
+c0327_1|r_fast=0.1,slope_gate_frac=0.2,slope_cap_frac=0.04,tau_slope_s=3.0,slow_confirm_s=0.0,tau_c_fast_s=4.0,tau_r_slow_idle_s=30.0,tau_r_fast_s=2.0,hold_eps=8.0,ramp_slope_min=2.0,r_slow_max=0.6,idle_frac=0.1,soft_unfreeze_s=1.0
+c0327_2|r_fast=0.1,slope_gate_frac=0.2,slope_cap_frac=0.04,tau_slope_s=3.0,slow_confirm_s=0.0,tau_c_fast_s=4.0,tau_r_slow_idle_s=30.0,tau_r_fast_s=2.0,hold_eps=8.0,ramp_slope_min=2.0,r_slow_max=0.6,idle_frac=0.1,soft_unfreeze_s=2.0
+c0327_3|r_fast=0.1,slope_gate_frac=0.2,slope_cap_frac=0.04,tau_slope_s=3.0,slow_confirm_s=0.0,tau_c_fast_s=4.0,tau_r_slow_idle_s=30.0,tau_r_fast_s=2.0,hold_eps=8.0,ramp_slope_min=2.0,r_slow_max=0.6,idle_frac=0.1,soft_unfreeze_s=4.0

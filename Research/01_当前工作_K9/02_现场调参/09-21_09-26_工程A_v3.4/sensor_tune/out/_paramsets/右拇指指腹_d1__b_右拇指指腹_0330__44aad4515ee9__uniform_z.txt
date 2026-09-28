@@ -1,0 +1,12 @@
+c0330_0|r_fast=0.1,slope_gate_frac=2.0,slope_cap_frac=0.08,tau_slope_s=3.0,slow_confirm_s=5.0,tau_c_fast_s=4.0,tau_r_slow_idle_s=30.0,tau_r_fast_s=2.0,hold_eps=0.5,ramp_slope_min=2.0,r_slow_max=0.02
+c0330_1|r_fast=0.1,slope_gate_frac=2.0,slope_cap_frac=0.08,tau_slope_s=3.0,slow_confirm_s=5.0,tau_c_fast_s=4.0,tau_r_slow_idle_s=30.0,tau_r_fast_s=2.0,hold_eps=0.5,ramp_slope_min=2.0,r_slow_max=0.04
+c0330_2|r_fast=0.1,slope_gate_frac=2.0,slope_cap_frac=0.08,tau_slope_s=3.0,slow_confirm_s=5.0,tau_c_fast_s=4.0,tau_r_slow_idle_s=30.0,tau_r_fast_s=2.0,hold_eps=0.5,ramp_slope_min=2.0,r_slow_max=0.06
+c0330_3|r_fast=0.1,slope_gate_frac=2.0,slope_cap_frac=0.08,tau_slope_s=3.0,slow_confirm_s=5.0,tau_c_fast_s=4.0,tau_r_slow_idle_s=30.0,tau_r_fast_s=2.0,hold_eps=0.5,ramp_slope_min=2.0,r_slow_max=0.1
+c0330_4|r_fast=0.1,slope_gate_frac=2.0,slope_cap_frac=0.08,tau_slope_s=3.0,slow_confirm_s=5.0,tau_c_fast_s=4.0,tau_r_slow_idle_s=30.0,tau_r_fast_s=2.0,hold_eps=0.5,ramp_slope_min=2.0,r_slow_max=0.2
+c0330_5|r_fast=0.1,slope_gate_frac=2.0,slope_cap_frac=0.08,tau_slope_s=3.0,slow_confirm_s=5.0,tau_c_fast_s=4.0,tau_r_slow_idle_s=30.0,tau_r_fast_s=2.0,hold_eps=0.5,ramp_slope_min=2.0,r_slow_max=0.35
+c0330_6|r_fast=0.1,slope_gate_frac=2.0,slope_cap_frac=0.08,tau_slope_s=3.0,slow_confirm_s=5.0,tau_c_fast_s=4.0,tau_r_slow_idle_s=30.0,tau_r_fast_s=2.0,hold_eps=0.5,ramp_slope_min=2.0,r_slow_max=0.6
+c0330_7|r_fast=0.1,slope_gate_frac=2.0,slope_cap_frac=0.08,tau_slope_s=3.0,slow_confirm_s=5.0,tau_c_fast_s=4.0,tau_r_slow_idle_s=30.0,tau_r_fast_s=2.0,hold_eps=0.5,ramp_slope_min=2.0,r_slow_max=1.0
+c0330_8|r_fast=0.1,slope_gate_frac=2.0,slope_cap_frac=0.08,tau_slope_s=3.0,slow_confirm_s=5.0,tau_c_fast_s=4.0,tau_r_slow_idle_s=30.0,tau_r_fast_s=2.0,hold_eps=0.5,ramp_slope_min=2.0,r_slow_max=2.0
+c0330_9|r_fast=0.1,slope_gate_frac=2.0,slope_cap_frac=0.08,tau_slope_s=3.0,slow_confirm_s=5.0,tau_c_fast_s=4.0,tau_r_slow_idle_s=30.0,tau_r_fast_s=2.0,hold_eps=0.5,ramp_slope_min=2.0,r_slow_max=5.0
+c0330_10|r_fast=0.1,slope_gate_frac=2.0,slope_cap_frac=0.08,tau_slope_s=3.0,slow_confirm_s=5.0,tau_c_fast_s=4.0,tau_r_slow_idle_s=30.0,tau_r_fast_s=2.0,hold_eps=0.5,ramp_slope_min=2.0,r_slow_max=10.0
+c0330_11|r_fast=0.1,slope_gate_frac=2.0,slope_cap_frac=0.08,tau_slope_s=3.0,slow_confirm_s=5.0,tau_c_fast_s=4.0,tau_r_slow_idle_s=30.0,tau_r_fast_s=2.0,hold_eps=0.5,ramp_slope_min=2.0,r_slow_max=30.0

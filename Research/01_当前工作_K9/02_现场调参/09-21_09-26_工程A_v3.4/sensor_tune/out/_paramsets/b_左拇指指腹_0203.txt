@@ -1,0 +1,5 @@
+c0203_0|r_fast=0.04,hold_eps=0.0
+c0203_1|r_fast=0.04,hold_eps=0.5
+c0203_2|r_fast=0.04,hold_eps=2.0
+c0203_3|r_fast=0.04,hold_eps=8.0
+c0203_4|r_fast=0.04,hold_eps=30.0

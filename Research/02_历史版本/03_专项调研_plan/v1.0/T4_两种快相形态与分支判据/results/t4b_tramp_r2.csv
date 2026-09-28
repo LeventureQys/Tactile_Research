@@ -1,0 +1,6 @@
+﻿model,R2,n
+z_at_02 ~ log10 T_ramp,0.5543,34
+z_at_02 ~ log10 T_ramp + P1,0.5558,34
+ΔR²(P1 | T_ramp),0.0015,34
+const/logT/P1 系数,,34
+# const=0.394023 logT=-0.195084 P1=-0.029407

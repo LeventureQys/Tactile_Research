@@ -1,0 +1,5 @@
+c0163_0|r_fast=0.06,edge_slope_thres=10.0
+c0163_1|r_fast=0.06,edge_slope_thres=20.0
+c0163_2|r_fast=0.06,edge_slope_thres=60.0
+c0163_3|r_fast=0.06,edge_slope_thres=150.0
+c0163_4|r_fast=0.06,edge_slope_thres=400.0

@@ -1,0 +1,49 @@
+﻿check,dataset,n,metric,value_a,value_b,abs_diff,verdict,note
+A_rawframes,右拇指指尖/数据1,16355,raw_frames,16355.0,16355.0,0.0,PASS,清单值−1，与复用清单一致（n_ch=31 OK）
+A_rawframes,右拇指指尖/数据2,23536,raw_frames,23536.0,23536.0,0.0,PASS,清单值−1，与复用清单一致（n_ch=31 OK）
+A_rawframes,右拇指指尖/数据3,19137,raw_frames,19137.0,19137.0,0.0,PASS,清单值−1，与复用清单一致（n_ch=31 OK）
+A_rawframes,左拇指指尖/数据1,19739,raw_frames,19739.0,19739.0,0.0,PASS,清单值−1，与复用清单一致（n_ch=31 OK）
+A_rawframes,左拇指指尖/数据2,19974,raw_frames,19974.0,19974.0,0.0,PASS,清单值−1，与复用清单一致（n_ch=31 OK）
+A_rawframes,左拇指指尖/数据3,19401,raw_frames,19401.0,19401.0,0.0,PASS,清单值−1，与复用清单一致（n_ch=31 OK）
+A_rawframes,四指指尖/数据1,19139,raw_frames,19139.0,19139.0,0.0,PASS,清单值−1，与复用清单一致（n_ch=21 OK）
+A_rawframes,四指指尖/数据2,19113,raw_frames,19113.0,19113.0,0.0,PASS,清单值−1，与复用清单一致（n_ch=21 OK）
+A_rawframes,四指指尖/数据3,20032,raw_frames,20032.0,20032.0,0.0,PASS,清单值−1，与复用清单一致（n_ch=21 OK）
+A_rawframes,切换负载-快相无责,25692,raw_frames,25692.0,25692.0,0.0,PASS,清单值−1，与复用清单一致（n_ch=21 OK）
+A_rawframes,再切换负载,7128,raw_frames,7128.0,7128.0,0.0,PASS,清单值−1，与复用清单一致（n_ch=21 OK）
+A_rawframes,中途切换-1d9493,6420,raw_frames,6420.0,6420.0,0.0,PASS,清单值−1，与复用清单一致（n_ch=21 OK）
+A_rawframes,中途切换-13ffca,12120,raw_frames,12120.0,12120.0,0.0,PASS,清单值−1，与复用清单一致（n_ch=21 OK）
+A_grid,右拇指指尖/数据1,16270,grid_len,16270.0,16270.0,0.0,PASS,100 Hz 网格 = int(span/0.01)（算法链路口径）
+A_grid,右拇指指尖/数据2,23414,grid_len,23414.0,23414.0,0.0,PASS,100 Hz 网格 = int(span/0.01)（算法链路口径）
+A_grid,右拇指指尖/数据3,19039,grid_len,19039.0,19039.0,0.0,PASS,100 Hz 网格 = int(span/0.01)（算法链路口径）
+A_grid,左拇指指尖/数据1,19621,grid_len,19621.0,19621.0,0.0,PASS,100 Hz 网格 = int(span/0.01)（算法链路口径）
+A_grid,左拇指指尖/数据2,19851,grid_len,19851.0,19851.0,0.0,PASS,100 Hz 网格 = int(span/0.01)（算法链路口径）
+A_grid,左拇指指尖/数据3,19282,grid_len,19282.0,19282.0,0.0,PASS,100 Hz 网格 = int(span/0.01)（算法链路口径）
+A_grid,四指指尖/数据1,19079,grid_len,19079.0,19079.0,0.0,PASS,100 Hz 网格 = int(span/0.01)（算法链路口径）
+A_grid,四指指尖/数据2,19055,grid_len,19055.0,19055.0,0.0,PASS,100 Hz 网格 = int(span/0.01)（算法链路口径）
+A_grid,四指指尖/数据3,19969,grid_len,19969.0,19969.0,0.0,PASS,100 Hz 网格 = int(span/0.01)（算法链路口径）
+A_grid,切换负载-快相无责,25571,grid_len,25571.0,25571.0,0.0,PASS,100 Hz 网格 = int(span/0.01)（算法链路口径）
+A_grid,再切换负载,7089,grid_len,7089.0,7089.0,0.0,PASS,100 Hz 网格 = int(span/0.01)（算法链路口径）
+A_grid,中途切换-1d9493,6386,grid_len,6386.0,6386.0,0.0,PASS,100 Hz 网格 = int(span/0.01)（算法链路口径）
+A_grid,中途切换-13ffca,12058,grid_len,12058.0,12058.0,0.0,PASS,100 Hz 网格 = int(span/0.01)（算法链路口径）
+B1_v6_vs_ArmComp,再切换负载,7089,max_abs_frame_diff,0.0,0.0,0.0,PASS,补丁不改变默认行为
+B2_v51_vs_V51Traced,再切换负载,7089,max_abs_frame_diff,0.0,0.0,0.0,PASS,epoch 记录钩子不改变行为
+B3_knob_effect_N_GATE,3 份录制取最大,44718,max_abs_frame_diff,458.50374468353493,0.0,458.50374468353493,PASS,开关确实生效
+B3_knob_effect_EMA,3 份录制取最大,44718,max_abs_frame_diff,3006.8588681793735,0.0,3006.8588681793735,PASS,开关确实生效
+C_kernel_equiv_tot,再切换负载@11.80,7089,D1/D1ev/D2 tuple,0.0,0.0,0.0,PASS,与 t1a_common 原实现逐项一致
+C_kernel_equiv_ch,再切换负载@11.80,7089,D1/D1ev/D2 tuple,0.0,0.0,0.0,PASS,与 t1a_common 原实现逐项一致
+C_kernel_equiv_tot,再切换负载@13.71,7089,D1/D1ev/D2 tuple,0.0,0.0,0.0,PASS,与 t1a_common 原实现逐项一致
+C_kernel_equiv_ch,再切换负载@13.71,7089,D1/D1ev/D2 tuple,0.0,0.0,0.0,PASS,与 t1a_common 原实现逐项一致
+C_kernel_equiv_tot,再切换负载@35.97,7089,D1/D1ev/D2 tuple,0.0,0.0,0.0,PASS,与 t1a_common 原实现逐项一致
+C_kernel_equiv_ch,再切换负载@35.97,7089,D1/D1ev/D2 tuple,0.0,0.0,0.0,PASS,与 t1a_common 原实现逐项一致
+C_kernel_equiv_tot,再切换负载@57.31,7089,D1/D1ev/D2 tuple,0.0,0.0,0.0,PASS,与 t1a_common 原实现逐项一致
+C_kernel_equiv_ch,再切换负载@57.31,7089,D1/D1ev/D2 tuple,0.0,0.0,0.0,PASS,与 t1a_common 原实现逐项一致
+C_kernel_equiv_censored,再切换负载,7089,D1 raw-never-stable,0.0,0.0,0.0,PASS,删失分支一致
+C2_kernel_equiv_finite,synth@100,6000,D1/D1ev tuple,0.0,0.0,0.0,PASS,有限 T 逐项一致
+C2_kernel_equiv_finite,synth@480,6000,D1/D1ev tuple,0.0,0.0,0.0,PASS,有限 T 逐项一致
+C2_kernel_equiv_finite,synth@500,6000,D1/D1ev tuple,0.0,0.0,0.0,PASS,有限 T 逐项一致
+C2_kernel_equiv_finite,synth@520,6000,D1/D1ev tuple,0.0,0.0,0.0,PASS,有限 T 逐项一致
+C2_kernel_equiv_finite,synth@3000,6000,D1/D1ev tuple,0.0,0.0,0.0,PASS,有限 T 逐项一致
+C2_kernel_equiv_finite,四指指尖/数据1,19079,D1/D1ev tuple,0.0,0.0,0.0,PASS,有限 T 逐项一致
+C2_kernel_equiv_finite,左拇指指尖/数据2,19851,D1/D1ev tuple,0.0,0.0,0.0,PASS,有限 T 逐项一致
+D_kat_v6_onset,四指指尖/数据1,19079,T_stable_ev_tot5,0.5099999999999998,0.5099999999999998,0.0,PASS,落在 0.3~5 s（第一轮同口径为 0.4~5 s 量级）
+D_kat_v6_onset,左拇指指尖/数据2,19851,T_stable_ev_tot5,1.1000000000000014,1.1000000000000014,0.0,PASS,落在 0.3~5 s（第一轮同口径为 0.4~5 s 量级）

@@ -1,0 +1,4 @@
+c0052_0|r_fast=0.04,slow_confirm_s=0.0
+c0052_1|r_fast=0.04,slow_confirm_s=0.5
+c0052_2|r_fast=0.04,slow_confirm_s=2.0
+c0052_3|r_fast=0.04,slow_confirm_s=5.0

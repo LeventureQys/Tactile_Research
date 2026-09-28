@@ -1,0 +1,2 @@
+name,n,dur,in_end,out_end,ded_end,err_end,err_min,err_max,err_min_all,hold_mean_err,hold_std,tail30,disp_min,disp_min_t,disp_max,disp_max_t,notch,notch_t,sm_max,sm_min,sm_end
+e0056_0,18055,179.972,1690.0000,104.3069,1585.6931,71.5260,-232.3867,91.0181,-232.3867,-20.6750,45.0212,0.390072,-199.6058,12.879,123.7991,178.078,131.2049,17.295,82.1197,-167.4531,82.1197

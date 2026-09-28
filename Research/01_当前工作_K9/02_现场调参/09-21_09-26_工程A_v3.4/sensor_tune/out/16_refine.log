@@ -1,0 +1,113 @@
+
+########## 四指指腹 ##########
+  起点最好 J=837.8
+  起点0（J=837.8）→ 坐标下降
+    pass1: J=513.0
+    pass2: J=508.1
+    pass3: J=507.2
+    pass4: J=507.2
+  起点1（J=21144.6）→ 坐标下降
+    pass1: J=3932.4
+    pass2: J=3695.0
+    pass3: J=3685.4
+    pass4: J=3685.4
+  起点2（J=24288.5）→ 坐标下降
+    pass1: J=3930.2
+    pass2: J=3695.0
+    pass3: J=3685.4
+    pass4: J=3685.4
+  ★ J=507.2  {"edge_boost_s": 0.0, "edge_slope_thres": 60.0, "hold_eps": 0.0, "hold_tau_s": 0.15, "idle_frac": 0.02, "r_fast": 0.02, "r_slow_max": 1.0, "ramp_full_s": 0.0, "ramp_slope_min": 2.0, "slope_cap_frac": 6.0, "slope_gate_frac": 5.0, "slow_confirm_s": 0.5, "soft_unfreeze_s": 4.0, "tau_c_fast_boost_s": 4.0, "tau_c_fast_s": 8.0, "tau_r_fast_s": 1.0, "tau_r_slow_idle_s": 0.0, "tau_slope_s": 0.2}
+    会话          过减ADC      @t      欠减峰      末值偏差      绝对过减     扣除%       J
+    d1/6a679f     51.6   220.8      9.9     -37.3      41.7   107.9    28.6
+    d1/5ce2c4     53.3   189.7      0.0     -98.1      98.5   137.5    49.1
+    d2/857759    266.7    45.0      0.0    -234.3     421.6   116.9  1520.1
+    d2/8e127e    153.3     8.6    299.3     256.7       0.0    85.0   431.1
+
+########## 右拇指指腹 ##########
+  起点最好 J=348.8
+  起点0（J=348.8）→ 坐标下降
+    pass1: J=179.5
+    pass2: J=129.7
+    pass3: J=129.7
+    pass4: J=129.7
+  起点1（J=499.8）→ 坐标下降
+    pass1: J=179.9
+    pass2: J=155.7
+    pass3: J=155.7
+  起点2（J=614.0）→ 坐标下降
+    pass1: J=159.8
+    pass2: J=129.7
+    pass3: J=129.7
+  ★ J=129.7  {"edge_boost_s": 0.0, "edge_slope_thres": 3000.0, "hold_eps": 0.5, "hold_tau_s": 0.2, "idle_frac": 0.1, "r_fast": 2.0, "r_slow_max": 30.0, "ramp_full_s": 0.0, "ramp_slope_min": 0.0, "slope_cap_frac": 10.0, "slope_gate_frac": 5.0, "slow_confirm_s": 0.5, "soft_unfreeze_s": 0.2, "tau_c_fast_s": 1.0, "tau_r_fast_s": 1.0, "tau_r_slow_idle_s": 0.0, "tau_slope_s": 0.5}
+    会话          过减ADC      @t      欠减峰      末值偏差      绝对过减     扣除%       J
+    d1          149.5    11.8    145.4     101.1      95.5   106.8   196.0
+    d2          121.5    24.3     45.3     -36.2     100.0   113.3    63.3
+
+########## 左拇指指腹 ##########
+  起点最好 J=348.8
+  起点0（J=348.8）→ 坐标下降
+    pass1: J=296.8
+    pass2: J=242.7
+    pass3: J=240.5
+    pass4: J=240.5
+  起点1（J=570.4）→ 坐标下降
+    pass1: J=550.9
+    pass2: J=364.4
+    pass3: J=364.4
+  起点2（J=595.4）→ 坐标下降
+    pass1: J=264.2
+    pass2: J=175.8
+    pass3: J=175.4
+    pass4: J=175.4
+  ★ J=175.4  {"edge_boost_s": 0.0, "edge_slope_thres": 3000.0, "hold_eps": 0.0, "hold_tau_s": 0.2, "idle_frac": 0.02, "r_fast": 2.0, "r_slow_max": 100.0, "ramp_full_s": 4.0, "ramp_slope_min": 0.5, "slope_cap_frac": 0.8, "slope_gate_frac": 2.0, "slow_confirm_s": 0.0, "soft_unfreeze_s": 0.05, "tau_c_fast_boost_s": 4.0, "tau_c_fast_s": 1.0, "tau_r_fast_s": 0.2, "tau_r_slow_idle_s": 2.0, "tau_slope_s": 0.2}
+    会话          过减ADC      @t      欠减峰      末值偏差      绝对过减     扣除%       J
+    d1          192.1    28.1     92.8      22.5      99.3   102.1   146.3
+    d2          146.6    23.4    161.7      85.7       0.0   106.1   204.5
+
+########## 右手掌 ##########
+  起点最好 J=428.8
+  起点0（J=428.8）→ 坐标下降
+    pass1: J=142.5
+    pass2: J=140.3
+    pass3: J=138.6
+    pass4: J=138.6
+  起点1（J=606.9）→ 坐标下降
+    pass1: J=182.4
+    pass2: J=174.2
+    pass3: J=148.0
+    pass4: J=138.8
+    pass5: J=127.1
+    pass6: J=127.0
+  起点2（J=619.3）→ 坐标下降
+    pass1: J=141.8
+    pass2: J=140.9
+    pass3: J=140.7
+    pass4: J=140.7
+  ★ J=127.0  {"edge_boost_s": 0.0, "edge_slope_thres": 1000000000.0, "hold_eps": 0.0, "hold_tau_s": 0.05, "idle_frac": 0.2, "r_fast": 2.0, "r_slow_max": 30.0, "ramp_full_s": 4.0, "ramp_slope_min": 2.0, "slope_cap_frac": 0.4, "slope_gate_frac": 1.0, "slow_confirm_s": 0.0, "soft_unfreeze_s": 0.5, "tau_c_fast_boost_s": 0.5, "tau_c_fast_s": 1.0, "tau_r_fast_s": 1.0, "tau_r_slow_idle_s": 2.0, "tau_slope_s": 0.5}
+    会话          过减ADC      @t      欠减峰      末值偏差      绝对过减     扣除%       J
+    d1/A        154.3     7.5     47.5       4.2     108.1   101.4    86.4
+    d1/B        175.2   145.1     73.9       9.6     101.3   106.5   109.0
+    d2/A        128.2    86.7     98.1      50.3      30.1   104.5   123.2
+    d2/B         87.8    82.0    136.1     106.5       0.0    94.2   189.4
+
+########## 左手掌 ##########
+  起点最好 J=51.2
+  起点0（J=51.2）→ 坐标下降
+    pass1: J=35.3
+    pass2: J=31.3
+    pass3: J=31.1
+    pass4: J=31.1
+  起点1（J=96.6）→ 坐标下降
+    pass1: J=51.5
+    pass2: J=51.5
+  起点2（J=136.1）→ 坐标下降
+    pass1: J=32.8
+    pass2: J=32.8
+  ★ J=31.1  {"edge_boost_s": 0.0, "edge_slope_thres": 3000.0, "hold_eps": 0.0, "hold_tau_s": 0.1, "idle_frac": 0.1, "r_fast": 2.0, "r_slow_max": 30.0, "ramp_full_s": 4.0, "ramp_slope_min": 0.5, "slope_cap_frac": 6.0, "slope_gate_frac": 2.0, "slow_confirm_s": 0.5, "soft_unfreeze_s": 0.05, "tau_c_fast_boost_s": 2.0, "tau_c_fast_s": 1.0, "tau_r_fast_s": 2.0, "tau_r_slow_idle_s": 0.5, "tau_slope_s": 0.5}
+    会话          过减ADC      @t      欠减峰      末值偏差      绝对过减     扣除%       J
+    d1/A         95.8    15.0     42.0      24.7      85.0   108.3    54.4
+    d1/B         71.3    35.1      0.0     -47.3      78.9   119.8    23.6
+    d2/A        102.5    52.1      0.6     -23.3     103.9   108.8    28.0
+    d2/B         58.7    21.0      0.0     -36.9      67.9   109.4    18.5
+
+写出 D:\workshop\文档\v2.7 - 抗蠕变补偿算法\v3.4\sensor_tune\out\16_refine.json

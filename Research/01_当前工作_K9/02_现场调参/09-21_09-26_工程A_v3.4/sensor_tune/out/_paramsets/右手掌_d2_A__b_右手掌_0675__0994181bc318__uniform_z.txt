@@ -1,0 +1,5 @@
+c0675_0|r_fast=0.1,r_slow_max=5.0,slope_gate_frac=1.0,slope_cap_frac=0.08,tau_slope_s=0.5,slow_confirm_s=0.5,soft_unfreeze_s=4.0,hold_eps=0.0
+c0675_1|r_fast=0.1,r_slow_max=5.0,slope_gate_frac=1.0,slope_cap_frac=0.08,tau_slope_s=0.5,slow_confirm_s=0.5,soft_unfreeze_s=4.0,hold_eps=0.5
+c0675_2|r_fast=0.1,r_slow_max=5.0,slope_gate_frac=1.0,slope_cap_frac=0.08,tau_slope_s=0.5,slow_confirm_s=0.5,soft_unfreeze_s=4.0,hold_eps=2.0
+c0675_3|r_fast=0.1,r_slow_max=5.0,slope_gate_frac=1.0,slope_cap_frac=0.08,tau_slope_s=0.5,slow_confirm_s=0.5,soft_unfreeze_s=4.0,hold_eps=8.0
+c0675_4|r_fast=0.1,r_slow_max=5.0,slope_gate_frac=1.0,slope_cap_frac=0.08,tau_slope_s=0.5,slow_confirm_s=0.5,soft_unfreeze_s=4.0,hold_eps=30.0

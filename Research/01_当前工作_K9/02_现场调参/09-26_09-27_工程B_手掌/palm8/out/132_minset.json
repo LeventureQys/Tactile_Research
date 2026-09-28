@@ -1,0 +1,277 @@
+[
+  {
+    "name": "cur_rsm03",
+    "label": "现参数（rsm.03 封顶）",
+    "params": {
+      "r_fast": 0.04,
+      "tau_c_fast_s": 1.0,
+      "slow_confirm_s": 1.5,
+      "soft_unfreeze_s": 1.5,
+      "slope_cap_frac": 0.025,
+      "r_slow_max": 0.03,
+      "tau_r_fast_s": 6.0,
+      "tau_r_slow_idle_s": 0.5
+    },
+    "real": {
+      "dev": 1493.1216784358367,
+      "climb": 584.2568242415291,
+      "tail_span": 333.79439766301584,
+      "drop": 64.3891272367764,
+      "over": 0.0,
+      "slope": -1.7240862117831754,
+      "x2": 396.4843833043062,
+      "x1": 612.3939382598574
+    },
+    "flat": 0.8610481486859118
+  },
+  {
+    "name": "rsm0.06",
+    "label": "只改 rsm=0.06",
+    "params": {
+      "r_fast": 0.04,
+      "tau_c_fast_s": 1.0,
+      "slow_confirm_s": 1.5,
+      "soft_unfreeze_s": 1.5,
+      "slope_cap_frac": 0.025,
+      "r_slow_max": 0.06,
+      "tau_r_fast_s": 6.0,
+      "tau_r_slow_idle_s": 0.5
+    },
+    "real": {
+      "dev": 1149.7247147690287,
+      "climb": 457.63974381874505,
+      "tail_span": 298.81474771254216,
+      "drop": 64.16061759986042,
+      "over": 0.0,
+      "slope": -1.7755189231300077,
+      "x2": 753.6178345880995,
+      "x1": 598.6574506428693
+    },
+    "flat": 1.034948493100039
+  },
+  {
+    "name": "rsm0.1",
+    "label": "只改 rsm=0.1",
+    "params": {
+      "r_fast": 0.04,
+      "tau_c_fast_s": 1.0,
+      "slow_confirm_s": 1.5,
+      "soft_unfreeze_s": 1.5,
+      "slope_cap_frac": 0.025,
+      "r_slow_max": 0.1,
+      "tau_r_fast_s": 6.0,
+      "tau_r_slow_idle_s": 0.5
+    },
+    "real": {
+      "dev": 836.7599743726569,
+      "climb": 205.03227499129207,
+      "tail_span": 215.5031563239172,
+      "drop": 280.338799757832,
+      "over": 0.0,
+      "slope": -1.8281012554914178,
+      "x2": 1079.1016863189889,
+      "x1": 586.1383393083534
+    },
+    "flat": 1.034948493100039
+  },
+  {
+    "name": "rsm0.15",
+    "label": "只改 rsm=0.15",
+    "params": {
+      "r_fast": 0.04,
+      "tau_c_fast_s": 1.0,
+      "slow_confirm_s": 1.5,
+      "soft_unfreeze_s": 1.5,
+      "slope_cap_frac": 0.025,
+      "r_slow_max": 0.15,
+      "tau_r_fast_s": 6.0,
+      "tau_r_slow_idle_s": 0.5
+    },
+    "real": {
+      "dev": 629.8420773225444,
+      "climb": 3.9607484002335696,
+      "tail_span": 113.81535752240961,
+      "drop": 487.25669680794454,
+      "over": 0.0,
+      "slope": -1.8779782495339592,
+      "x2": 1294.2914155999576,
+      "x1": 577.8665070774963
+    },
+    "flat": 1.034948493100039
+  },
+  {
+    "name": "rsm0.3",
+    "label": "只改 rsm=0.3",
+    "params": {
+      "r_fast": 0.04,
+      "tau_c_fast_s": 1.0,
+      "slow_confirm_s": 1.5,
+      "soft_unfreeze_s": 1.5,
+      "slope_cap_frac": 0.025,
+      "r_slow_max": 0.3,
+      "tau_r_fast_s": 6.0,
+      "tau_r_slow_idle_s": 0.5
+    },
+    "real": {
+      "dev": 536.0464384007464,
+      "climb": -89.83489052156438,
+      "tail_span": 97.35681809405287,
+      "drop": 581.0523357297425,
+      "over": 0.0,
+      "slope": -1.965232423514876,
+      "x2": 1391.8331292024338,
+      "x1": 574.1204323968186
+    },
+    "flat": 1.034948493100039
+  },
+  {
+    "name": "rsm0.1_cap0.005",
+    "label": "rsm=0.1 + cap=0.005",
+    "params": {
+      "r_fast": 0.04,
+      "tau_c_fast_s": 1.0,
+      "slow_confirm_s": 1.5,
+      "soft_unfreeze_s": 1.5,
+      "slope_cap_frac": 0.005,
+      "r_slow_max": 0.1,
+      "tau_r_fast_s": 6.0,
+      "tau_r_slow_idle_s": 0.5
+    },
+    "real": {
+      "dev": 1025.7912371363818,
+      "climb": 4.104574449229403,
+      "tail_span": 97.28928634868498,
+      "drop": 97.62132551480317,
+      "over": 0.0,
+      "slope": -2.2293315275375454,
+      "x2": 882.4826872730071,
+      "x1": 593.7260755906175
+    },
+    "flat": 0.6461128098170903
+  },
+  {
+    "name": "rsm0.1_cap0.01",
+    "label": "rsm=0.1 + cap=0.01",
+    "params": {
+      "r_fast": 0.04,
+      "tau_c_fast_s": 1.0,
+      "slow_confirm_s": 1.5,
+      "soft_unfreeze_s": 1.5,
+      "slope_cap_frac": 0.01,
+      "r_slow_max": 0.1,
+      "tau_r_fast_s": 6.0,
+      "tau_r_slow_idle_s": 0.5
+    },
+    "real": {
+      "dev": 909.8375522007009,
+      "climb": 63.6090867265666,
+      "tail_span": 144.19763033194977,
+      "drop": 210.79893757850004,
+      "over": 0.0,
+      "slope": -1.9683490850059853,
+      "x2": 1003.0944082160959,
+      "x1": 589.0680395832024
+    },
+    "flat": 0.791488422698654
+  },
+  {
+    "name": "rsm0.15_cap0.005",
+    "label": "rsm=0.15 + cap=0.005",
+    "params": {
+      "r_fast": 0.04,
+      "tau_c_fast_s": 1.0,
+      "slow_confirm_s": 1.5,
+      "soft_unfreeze_s": 1.5,
+      "slope_cap_frac": 0.005,
+      "r_slow_max": 0.15,
+      "tau_r_fast_s": 6.0,
+      "tau_r_slow_idle_s": 0.5
+    },
+    "real": {
+      "dev": 988.4607096307554,
+      "climb": -33.225953056396975,
+      "tail_span": 131.5459221165911,
+      "drop": 134.95185302042955,
+      "over": 0.0,
+      "slope": -2.2890861136224268,
+      "x2": 921.2985712989945,
+      "x1": 592.2407190702513
+    },
+    "flat": 0.6461128098170903
+  },
+  {
+    "name": "rsm0.15_cap0.01",
+    "label": "rsm=0.15 + cap=0.01",
+    "params": {
+      "r_fast": 0.04,
+      "tau_c_fast_s": 1.0,
+      "slow_confirm_s": 1.5,
+      "soft_unfreeze_s": 1.5,
+      "slope_cap_frac": 0.01,
+      "r_slow_max": 0.15,
+      "tau_r_fast_s": 6.0,
+      "tau_r_slow_idle_s": 0.5
+    },
+    "real": {
+      "dev": 784.4071776441924,
+      "climb": -61.821287829941866,
+      "tail_span": 100.99552284507809,
+      "drop": 336.2293121350085,
+      "over": 0.0,
+      "slope": -2.034516258737775,
+      "x2": 1133.534464299532,
+      "x1": 584.0583580562765
+    },
+    "flat": 0.791488422698654
+  },
+  {
+    "name": "min_rf02",
+    "label": "rf.02+rsm.15+cap.005（压快态下坠）",
+    "params": {
+      "r_fast": 0.02,
+      "tau_c_fast_s": 1.0,
+      "slow_confirm_s": 1.5,
+      "soft_unfreeze_s": 1.5,
+      "slope_cap_frac": 0.005,
+      "r_slow_max": 0.15,
+      "tau_r_fast_s": 6.0,
+      "tau_r_slow_idle_s": 0.5
+    },
+    "real": {
+      "dev": 1267.3524971718289,
+      "climb": -34.0702544987289,
+      "tail_span": 133.45214910272261,
+      "drop": 133.45214910272261,
+      "over": 0.0,
+      "slope": -2.3037205282483195,
+      "x2": 932.9493601506417,
+      "x1": 301.69814267753003
+    },
+    "flat": 0.4654671745890475
+  },
+  {
+    "name": "rec",
+    "label": "推荐档（参照）",
+    "params": {
+      "r_fast": 0.06,
+      "tau_c_fast_s": 2.0,
+      "slow_confirm_s": 2.0,
+      "soft_unfreeze_s": 1.5,
+      "slope_cap_frac": 0.005,
+      "r_slow_max": 0.15,
+      "tau_r_fast_s": 6.0,
+      "tau_r_slow_idle_s": 0.5
+    },
+    "real": {
+      "dev": 762.2493463064129,
+      "climb": -34.37948733460871,
+      "tail_span": 131.66125800488226,
+      "drop": 160.51731085282518,
+      "over": 0.0,
+      "slope": -2.2782450953965396,
+      "x2": 864.9609588846631,
+      "x1": 874.7896948089206
+    },
+    "flat": 0.7678686967906518
+  }
+]

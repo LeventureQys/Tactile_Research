@@ -1,0 +1,2 @@
+c0299_0|r_fast=0.1,tau_c_fast_s=8.0,r_slow_max=0.35,slope_cap_frac=0.04,slope_gate_frac=1.0,slow_confirm_s=0.0,soft_unfreeze_s=1.0,edge_slope_thres=60.0,tau_slope_s=1.0,tau_r_slow_idle_s=2.0,tau_r_fast_s=2.0,hold_eps=8.0,idle_frac=0.02,ramp_slope_min=0.0
+c0299_1|r_fast=0.1,tau_c_fast_s=8.0,r_slow_max=0.35,slope_cap_frac=0.04,slope_gate_frac=1.0,slow_confirm_s=0.0,soft_unfreeze_s=1.0,edge_slope_thres=60.0,tau_slope_s=1.0,tau_r_slow_idle_s=2.0,tau_r_fast_s=2.0,hold_eps=8.0,idle_frac=0.02,ramp_slope_min=2.0

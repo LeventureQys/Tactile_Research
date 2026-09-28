@@ -1,0 +1,4 @@
+c0115_0|r_fast=0.1,r_slow_max=2.0,tau_r_fast_s=0.2
+c0115_1|r_fast=0.1,r_slow_max=2.0,tau_r_fast_s=0.5
+c0115_2|r_fast=0.1,r_slow_max=2.0,tau_r_fast_s=1.0
+c0115_3|r_fast=0.1,r_slow_max=2.0,tau_r_fast_s=2.0

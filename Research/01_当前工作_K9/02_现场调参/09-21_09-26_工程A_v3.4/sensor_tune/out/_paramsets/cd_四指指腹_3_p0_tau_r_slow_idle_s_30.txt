@@ -1,0 +1,1 @@
+cand|r_fast=0.0,r_slow_max=0.06,slope_gate_frac=0.02,tau_r_slow_idle_s=30.0

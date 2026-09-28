@@ -1,0 +1,7 @@
+c0215_0|r_fast=0.04,r_slow_max=0.02
+c0215_1|r_fast=0.04,r_slow_max=0.04
+c0215_2|r_fast=0.04,r_slow_max=0.06
+c0215_3|r_fast=0.04,r_slow_max=0.1
+c0215_4|r_fast=0.04,r_slow_max=0.2
+c0215_5|r_fast=0.04,r_slow_max=0.35
+c0215_6|r_fast=0.04,r_slow_max=0.6

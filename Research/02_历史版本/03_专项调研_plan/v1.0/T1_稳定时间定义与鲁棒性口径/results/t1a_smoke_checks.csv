@@ -1,0 +1,33 @@
+﻿check,key,ok,detail
+frames,右拇指指尖/数据1,True,n_raw=16355 exp=16355 n_ch=31 pkt_dt=0.0176
+frames,右拇指指尖/数据2,True,n_raw=23536 exp=23536 n_ch=31 pkt_dt=0.0177
+frames,右拇指指尖/数据3,True,n_raw=19137 exp=19137 n_ch=31 pkt_dt=0.0177
+frames,左拇指指尖/数据1,True,n_raw=19739 exp=19739 n_ch=31 pkt_dt=0.0178
+frames,左拇指指尖/数据2,True,n_raw=19974 exp=19974 n_ch=31 pkt_dt=0.0179
+frames,左拇指指尖/数据3,True,n_raw=19401 exp=19401 n_ch=31 pkt_dt=0.0180
+frames,四指指尖/数据1,True,n_raw=19139 exp=19139 n_ch=21 pkt_dt=0.0181
+frames,四指指尖/数据2,True,n_raw=19113 exp=19113 n_ch=21 pkt_dt=0.0181
+frames,四指指尖/数据3,True,n_raw=20032 exp=20032 n_ch=21 pkt_dt=0.0180
+frames,切换负载-快相无责,True,n_raw=25692 exp=25692 n_ch=21 pkt_dt=0.0402
+frames,再切换负载,True,n_raw=7128 exp=7128 n_ch=21 pkt_dt=0.0401
+frames,中途切换-1d9493,True,n_raw=6420 exp=6420 n_ch=21 pkt_dt=0.0401
+frames,中途切换-13ffca,True,n_raw=12120 exp=12120 n_ch=21 pkt_dt=0.0402
+algo_smoke,v5.1,True,epoch=1
+algo_smoke,v6,True,epoch=1
+algo_smoke,v6.1,True,epoch=1
+grid_vs_t4a,t4a_morphology,True,n=60 bad=0
+J_ch_vs_round1_step,settle_arms.step,False,n=13 max_rel=0.2321
+kernel_vs_r4_stable_time,t_stable,True,same=200 diff=0 worst=0.000000
+main_channel,右拇指指尖/数据1,True,fix=17 peak=17
+main_channel,右拇指指尖/数据2,True,fix=17 peak=17
+main_channel,右拇指指尖/数据3,True,fix=17 peak=17
+main_channel,左拇指指尖/数据1,True,fix=18 peak=18
+main_channel,左拇指指尖/数据2,True,fix=18 peak=18
+main_channel,左拇指指尖/数据3,True,fix=18 peak=18
+main_channel,四指指尖/数据1,True,fix=11 peak=11
+main_channel,四指指尖/数据2,True,fix=11 peak=11
+main_channel,四指指尖/数据3,True,fix=11 peak=11
+main_channel,切换负载-快相无责,False,fix=4 peak=6
+main_channel,再切换负载,False,fix=15 peak=6
+main_channel,中途切换-1d9493,True,fix=6 peak=6
+main_channel,中途切换-13ffca,False,fix=11 peak=6

@@ -1,0 +1,5 @@
+c0119_0|r_fast=0.0,r_slow_max=2.0
+c0119_1|r_fast=0.01,r_slow_max=2.0
+c0119_2|r_fast=0.02,r_slow_max=2.0
+c0119_3|r_fast=0.04,r_slow_max=2.0
+c0119_4|r_fast=0.06,r_slow_max=2.0

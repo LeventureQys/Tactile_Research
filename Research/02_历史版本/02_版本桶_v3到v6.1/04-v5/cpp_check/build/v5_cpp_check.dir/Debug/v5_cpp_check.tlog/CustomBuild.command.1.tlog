@@ -1,0 +1,10 @@
+^D:\WORKSHOP\PROCESSING\MULTI-DEVICE-CASCADE-HOST-CPP\TEMP\V4.1FLASH\CPP_V5_CHECK\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/workshop/Processing/multi-device-cascade-host-cpp/temp/v4.1flash/cpp_v5_check -BD:/workshop/Processing/multi-device-cascade-host-cpp/temp/v4.1flash/cpp_v5_check/build --check-stamp-file D:/workshop/Processing/multi-device-cascade-host-cpp/temp/v4.1flash/cpp_v5_check/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

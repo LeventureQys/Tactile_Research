@@ -1,0 +1,114 @@
+{
+  "四指指腹/d1/6a679f": {
+    "v0_raw": 0.0,
+    "ded_raw_adc": 446.7063,
+    "ded_raw_pct": 84.73085224973191,
+    "ded_zero_adc": 446.7063,
+    "ded_zero_pct": 84.73085224973191
+  },
+  "四指指腹/d1/5ce2c4": {
+    "v0_raw": 0.0,
+    "ded_raw_adc": 257.4268,
+    "ded_raw_pct": 99.95488542850458,
+    "ded_zero_adc": 257.4268,
+    "ded_zero_pct": 99.95488542850458
+  },
+  "四指指腹/d2/857759": {
+    "v0_raw": 885.0,
+    "ded_raw_adc": 1487.2769,
+    "ded_raw_pct": 103.2968479150493,
+    "ded_zero_adc": 1487.2833,
+    "ded_zero_pct": 103.2972924185756
+  },
+  "四指指腹/d2/8e127e": {
+    "v0_raw": 883.0,
+    "ded_raw_adc": 1189.535,
+    "ded_raw_pct": 67.55631193622158,
+    "ded_zero_adc": 1189.5371,
+    "ded_zero_pct": 67.55643119984565
+  },
+  "右拇指指腹/d1": {
+    "v0_raw": 19121.0,
+    "ded_raw_adc": 0.0,
+    "ded_raw_pct": 0.0,
+    "ded_zero_adc": 1836.1894,
+    "ded_zero_pct": 81.33592770696573
+  },
+  "右拇指指腹/d2": {
+    "v0_raw": 25120.0,
+    "ded_raw_adc": 0.0,
+    "ded_raw_pct": 0.0,
+    "ded_zero_adc": 624.5693,
+    "ded_zero_pct": 65.65354983871104
+  },
+  "左拇指指腹/d1": {
+    "v0_raw": 19097.0,
+    "ded_raw_adc": 0.0,
+    "ded_raw_pct": 0.0,
+    "ded_zero_adc": 1298.4009,
+    "ded_zero_pct": 56.704825337126984
+  },
+  "左拇指指腹/d2": {
+    "v0_raw": 24001.0,
+    "ded_raw_adc": 0.0,
+    "ded_raw_pct": 0.0,
+    "ded_zero_adc": 1005.6164,
+    "ded_zero_pct": 61.98509086759223
+  },
+  "右手掌/d1/A": {
+    "v0_raw": 13857.0,
+    "ded_raw_adc": 0.0,
+    "ded_raw_pct": 0.0,
+    "ded_zero_adc": 1107.4803,
+    "ded_zero_pct": 72.6110202627135
+  },
+  "右手掌/d1/B": {
+    "v0_raw": 13437.0,
+    "ded_raw_adc": 0.0,
+    "ded_raw_pct": 0.0,
+    "ded_zero_adc": 876.6821,
+    "ded_zero_pct": 77.56244462650857
+  },
+  "右手掌/d2/A": {
+    "v0_raw": 17012.0,
+    "ded_raw_adc": 0.0,
+    "ded_raw_pct": 0.0,
+    "ded_zero_adc": 720.0706,
+    "ded_zero_pct": 75.9692279643618
+  },
+  "右手掌/d2/B": {
+    "v0_raw": 17164.0,
+    "ded_raw_adc": 0.0,
+    "ded_raw_pct": 0.0,
+    "ded_zero_adc": 968.1935,
+    "ded_zero_pct": 58.422783235221964
+  },
+  "左手掌/d1/A": {
+    "v0_raw": 14936.0,
+    "ded_raw_adc": 0.0,
+    "ded_raw_pct": 0.0,
+    "ded_zero_adc": 758.182,
+    "ded_zero_pct": 66.72527234173606
+  },
+  "左手掌/d1/B": {
+    "v0_raw": 4915.0,
+    "ded_raw_adc": 0.0,
+    "ded_raw_pct": 0.0,
+    "ded_zero_adc": 313.8629,
+    "ded_zero_pct": 79.65693382270604
+  },
+  "左手掌/d2/A": {
+    "v0_raw": 18085.0,
+    "ded_raw_adc": 0.0,
+    "ded_raw_pct": 0.0,
+    "ded_zero_adc": 563.6123,
+    "ded_zero_pct": 63.045977417018214
+  },
+  "左手掌/d2/B": {
+    "v0_raw": 5790.0,
+    "ded_raw_adc": 0.0,
+    "ded_raw_pct": 0.0,
+    "ded_zero_adc": 420.3314,
+    "ded_zero_pct": 69.65948725069592
+  }
+}

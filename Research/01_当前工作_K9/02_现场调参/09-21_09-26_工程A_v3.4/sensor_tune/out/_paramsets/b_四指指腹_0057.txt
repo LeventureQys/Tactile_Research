@@ -1,0 +1,4 @@
+c0057_0|r_fast=0.04,tau_r_fast_s=0.2
+c0057_1|r_fast=0.04,tau_r_fast_s=0.5
+c0057_2|r_fast=0.04,tau_r_fast_s=1.0
+c0057_3|r_fast=0.04,tau_r_fast_s=2.0

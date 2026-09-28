@@ -1,0 +1,9 @@
+﻿vid,what,subject,n_elem,max_abs_diff,pass_,note
+V1,数据层 load_rec（timestamp 轴）,SW3,6420,0.0,True,
+V2,原型 glm53_v6 vs t5a_glm53_v6（逐帧输出）,SW3,134106,0.0,True,epoch 6 vs 6
+V3,κ 补丁 KV6(1.30/1.12) vs 原型 v6（逐帧输出）,SW3,134106,0.0,True,epoch 6 vs 6
+V4,κ 补丁 KV61(1.30/1.12) vs 原型 v6.1（逐帧输出）,SW3,134106,0.0,True,
+V5,v6.1 关 F1/F2 后 vs v6（逐帧输出）,SW3,134106,0.0,True,
+V6,κ 探针补丁 KV6P（探针开）vs 原型 v6（逐帧输出）,SW3,134106,0.0,True,探针有效帧 5279 帧
+V7,κ 探针补丁 KV61P（探针开）vs 原型 v6.1（逐帧输出）,SW3,134106,0.0,True,
+V8,κ 探针补丁（探针关）vs 原型 v6（逐帧输出）,SW3,134106,0.0,True,

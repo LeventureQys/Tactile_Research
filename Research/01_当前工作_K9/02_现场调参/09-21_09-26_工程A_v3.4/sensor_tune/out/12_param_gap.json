@@ -1,0 +1,196 @@
+{
+  "params_members": [
+    "r_fast",
+    "tau_c_fast_s",
+    "tau_r_fast_s",
+    "r_slow_max",
+    "tau_r_slow_s",
+    "tau_slope_s",
+    "slope_gate_frac",
+    "slope_cap_frac",
+    "tau_zero_s",
+    "idle_frac",
+    "y_max_tau_s",
+    "edge_slope_thres",
+    "edge_refract_s",
+    "edge_boost_s",
+    "tau_c_fast_boost_s",
+    "soft_unfreeze_s",
+    "hold_eps",
+    "hold_tau_s",
+    "slow_confirm_s",
+    "y_floor_tau_s",
+    "tau_r_slow_idle_s",
+    "bypass_release_frac",
+    "bypass_engage_frac",
+    "bypass_noise_sigma",
+    "bypass_base_tau_s",
+    "ramp_slope_min",
+    "ramp_full_s"
+  ],
+  "ui_specs": {
+    "r_fast": [
+      0.0,
+      0.5
+    ],
+    "tau_c_fast_s": [
+      0.5,
+      120.0
+    ],
+    "slow_confirm_s": [
+      0.0,
+      60.0
+    ],
+    "soft_unfreeze_s": [
+      0.1,
+      60.0
+    ],
+    "slope_cap_frac": [
+      0.0,
+      0.05
+    ],
+    "r_slow_max": [
+      0.01,
+      0.6
+    ],
+    "tau_r_slow_idle_s": [
+      0.0,
+      300.0
+    ],
+    "tau_r_fast_s": [
+      0.05,
+      300.0
+    ]
+  },
+  "used_keys": [
+    "edge_slope_thres",
+    "hold_eps",
+    "idle_frac",
+    "r_fast",
+    "r_slow_max",
+    "ramp_slope_min",
+    "slope_cap_frac",
+    "slope_gate_frac",
+    "slow_confirm_s",
+    "soft_unfreeze_s",
+    "tau_c_fast_s",
+    "tau_r_fast_s",
+    "tau_r_slow_idle_s",
+    "tau_slope_s"
+  ],
+  "need_new": [],
+  "need_expose": [
+    "edge_slope_thres",
+    "hold_eps",
+    "idle_frac",
+    "ramp_slope_min",
+    "slope_gate_frac",
+    "tau_slope_s"
+  ],
+  "need_widen": [
+    "r_slow_max",
+    "slope_cap_frac"
+  ],
+  "results": {
+    "四指指腹": [
+      {
+        "case": "① 现役默认（8 项全默认）",
+        "score": 340.96945184187064,
+        "ded_pct": 209.86648897606733,
+        "over_pct": 125.27111163076269
+      },
+      {
+        "case": "② 只用现有 8 项调到最好",
+        "score": 28.20491707500244,
+        "ded_pct": 89.99313784576472,
+        "over_pct": 7.079349791279083
+      },
+      {
+        "case": "③ 全量推荐预设（含 6 个未暴露项）",
+        "score": 26.488291346109687,
+        "ded_pct": 88.88486532416444,
+        "over_pct": 4.912802850889572
+      }
+    ],
+    "右拇指指腹": [
+      {
+        "case": "① 现役默认（8 项全默认）",
+        "score": 138.64939019577955,
+        "ded_pct": 10.999350020927448,
+        "over_pct": -31.83031893897362
+      },
+      {
+        "case": "② 只用现有 8 项调到最好",
+        "score": 103.0842007438151,
+        "ded_pct": 35.08303408301707,
+        "over_pct": -22.84275678817147
+      },
+      {
+        "case": "③ 全量推荐预设（含 6 个未暴露项）",
+        "score": 41.19787564286089,
+        "ded_pct": 73.49473877283839,
+        "over_pct": -15.796069986372434
+      }
+    ],
+    "左拇指指腹": [
+      {
+        "case": "① 现役默认（8 项全默认）",
+        "score": 83.56104214632114,
+        "ded_pct": 18.36506737791555,
+        "over_pct": -24.649460871815123
+      },
+      {
+        "case": "② 只用现有 8 项调到最好",
+        "score": 59.913306487221334,
+        "ded_pct": 41.21912720754115,
+        "over_pct": -16.452208097083805
+      },
+      {
+        "case": "③ 全量推荐预设（含 6 个未暴露项）",
+        "score": 42.09493612079292,
+        "ded_pct": 59.344958102359605,
+        "over_pct": -15.272824564900992
+      }
+    ],
+    "右手掌": [
+      {
+        "case": "① 现役默认（8 项全默认）",
+        "score": 91.83806792871235,
+        "ded_pct": 13.593826679180335,
+        "over_pct": -15.870067381771076
+      },
+      {
+        "case": "② 只用现有 8 项调到最好",
+        "score": 65.98709398831997,
+        "ded_pct": 37.568240993670734,
+        "over_pct": -9.327484567837978
+      },
+      {
+        "case": "③ 全量推荐预设（含 6 个未暴露项）",
+        "score": 31.38787554661049,
+        "ded_pct": 71.14136902220146,
+        "over_pct": -6.959946972581706
+      }
+    ],
+    "左手掌": [
+      {
+        "case": "① 现役默认（8 项全默认）",
+        "score": 94.01740053195905,
+        "ded_pct": 10.9534643475275,
+        "over_pct": -23.18417113753539
+      },
+      {
+        "case": "② 只用现有 8 项调到最好",
+        "score": 69.34849710176755,
+        "ded_pct": 34.1632788977034,
+        "over_pct": -15.805978776667537
+      },
+      {
+        "case": "③ 全量推荐预设（含 6 个未暴露项）",
+        "score": 31.52208861205378,
+        "ded_pct": 69.77191770803906,
+        "over_pct": -0.3466914990665516
+      }
+    ]
+  }
+}

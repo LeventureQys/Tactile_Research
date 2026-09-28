@@ -1,0 +1,6 @@
+c0287_0|r_fast=0.3,tau_c_fast_s=2.0,slow_confirm_s=0.0,slope_cap_frac=0.002
+c0287_1|r_fast=0.3,tau_c_fast_s=2.0,slow_confirm_s=0.0,slope_cap_frac=0.005
+c0287_2|r_fast=0.3,tau_c_fast_s=2.0,slow_confirm_s=0.0,slope_cap_frac=0.01
+c0287_3|r_fast=0.3,tau_c_fast_s=2.0,slow_confirm_s=0.0,slope_cap_frac=0.02
+c0287_4|r_fast=0.3,tau_c_fast_s=2.0,slow_confirm_s=0.0,slope_cap_frac=0.04
+c0287_5|r_fast=0.3,tau_c_fast_s=2.0,slow_confirm_s=0.0,slope_cap_frac=0.05

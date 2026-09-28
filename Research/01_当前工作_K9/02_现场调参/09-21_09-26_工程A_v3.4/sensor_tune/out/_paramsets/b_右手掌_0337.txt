@@ -1,0 +1,5 @@
+c0337_0|r_fast=0.04,edge_slope_thres=10.0
+c0337_1|r_fast=0.04,edge_slope_thres=20.0
+c0337_2|r_fast=0.04,edge_slope_thres=60.0
+c0337_3|r_fast=0.04,edge_slope_thres=150.0
+c0337_4|r_fast=0.04,edge_slope_thres=400.0

@@ -1,0 +1,6 @@
+c0042_0|r_fast=0.0,slow_confirm_s=5.0,slope_cap_frac=0.002
+c0042_1|r_fast=0.0,slow_confirm_s=5.0,slope_cap_frac=0.005
+c0042_2|r_fast=0.0,slow_confirm_s=5.0,slope_cap_frac=0.01
+c0042_3|r_fast=0.0,slow_confirm_s=5.0,slope_cap_frac=0.02
+c0042_4|r_fast=0.0,slow_confirm_s=5.0,slope_cap_frac=0.04
+c0042_5|r_fast=0.0,slow_confirm_s=5.0,slope_cap_frac=0.05

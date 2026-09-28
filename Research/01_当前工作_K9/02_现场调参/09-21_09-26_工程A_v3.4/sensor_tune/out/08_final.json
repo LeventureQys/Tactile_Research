@@ -1,0 +1,4543 @@
+{
+  "四指指腹": {
+    "candidates": [
+      {
+        "name": "放宽最优",
+        "params": {
+          "r_fast": 0.0,
+          "tau_c_fast_s": 2.0,
+          "r_slow_max": 30.0,
+          "slope_cap_frac": 0.08,
+          "slope_gate_frac": 20.0,
+          "slow_confirm_s": 5.0,
+          "soft_unfreeze_s": 4.0,
+          "edge_slope_thres": 400.0,
+          "tau_slope_s": 0.5,
+          "tau_r_slow_idle_s": 8.0,
+          "tau_r_fast_s": 0.2,
+          "hold_eps": 0.0,
+          "idle_frac": 0.02,
+          "ramp_slope_min": 2.0
+        },
+        "uniform": {
+          "ded_pct": 80.81370252375035,
+          "resid_pct": 19.18629381976654,
+          "over_pct": -3.4241281789431923,
+          "tail_pct": -0.7055819882645096,
+          "std_pct": 2.671584553606725,
+          "score": 22.381303124119675
+        },
+        "raw": {
+          "score": 22.893876262669995,
+          "ded_pct": 81.10448264684297
+        }
+      },
+      {
+        "name": "收敛(放宽骨架) r5·gate20·cap0.08",
+        "params": {
+          "r_fast": 0.0,
+          "tau_c_fast_s": 2.0,
+          "r_slow_max": 5.0,
+          "slope_cap_frac": 0.08,
+          "slope_gate_frac": 20.0,
+          "slow_confirm_s": 5.0,
+          "soft_unfreeze_s": 4.0,
+          "edge_slope_thres": 400.0,
+          "tau_slope_s": 0.5,
+          "tau_r_slow_idle_s": 8.0,
+          "tau_r_fast_s": 0.2,
+          "hold_eps": 0.0,
+          "idle_frac": 0.02,
+          "ramp_slope_min": 2.0
+        },
+        "uniform": {
+          "ded_pct": 80.1584832678918,
+          "resid_pct": 19.841513075625095,
+          "over_pct": -4.04935311840642,
+          "tail_pct": -0.47169016909807593,
+          "std_pct": 2.5742412331336593,
+          "score": 22.8026305608118
+        },
+        "raw": {
+          "score": 22.901872029295404,
+          "ded_pct": 80.47580873350108
+        }
+      },
+      {
+        "name": "收敛(放宽骨架) r2·gate20·cap0.08",
+        "params": {
+          "r_fast": 0.0,
+          "tau_c_fast_s": 2.0,
+          "r_slow_max": 2.0,
+          "slope_cap_frac": 0.08,
+          "slope_gate_frac": 20.0,
+          "slow_confirm_s": 5.0,
+          "soft_unfreeze_s": 4.0,
+          "edge_slope_thres": 400.0,
+          "tau_slope_s": 0.5,
+          "tau_r_slow_idle_s": 8.0,
+          "tau_r_fast_s": 0.2,
+          "hold_eps": 0.0,
+          "idle_frac": 0.02,
+          "ramp_slope_min": 2.0
+        },
+        "uniform": {
+          "ded_pct": 79.90794551546479,
+          "resid_pct": 20.09205224785715,
+          "over_pct": -4.335827500025624,
+          "tail_pct": -0.5362182845948497,
+          "std_pct": 2.5409366849505295,
+          "score": 23.117697848540626
+        },
+        "raw": {
+          "score": 23.157142843085097,
+          "ded_pct": 80.1699934857461
+        }
+      },
+      {
+        "name": "收敛(放宽骨架) r1·gate20·cap0.08",
+        "params": {
+          "r_fast": 0.0,
+          "tau_c_fast_s": 2.0,
+          "r_slow_max": 1.0,
+          "slope_cap_frac": 0.08,
+          "slope_gate_frac": 20.0,
+          "slow_confirm_s": 5.0,
+          "soft_unfreeze_s": 4.0,
+          "edge_slope_thres": 400.0,
+          "tau_slope_s": 0.5,
+          "tau_r_slow_idle_s": 8.0,
+          "tau_r_fast_s": 0.2,
+          "hold_eps": 0.0,
+          "idle_frac": 0.02,
+          "ramp_slope_min": 2.0
+        },
+        "uniform": {
+          "ded_pct": 79.6038856478901,
+          "resid_pct": 20.396112115431848,
+          "over_pct": -4.5966226327487005,
+          "tail_pct": -0.4006064614868675,
+          "std_pct": 2.521639762432925,
+          "score": 23.28614589300734
+        },
+        "raw": {
+          "score": 23.37280702198663,
+          "ded_pct": 79.8234075847475
+        }
+      },
+      {
+        "name": "实用 r0.6·gate1·cap0.08",
+        "params": {
+          "r_fast": 0.01,
+          "tau_c_fast_s": 20.0,
+          "r_slow_max": 0.6,
+          "slope_cap_frac": 0.08,
+          "slope_gate_frac": 1.0,
+          "slow_confirm_s": 5.0,
+          "soft_unfreeze_s": 2.0,
+          "edge_slope_thres": 60.0,
+          "tau_slope_s": 0.5,
+          "tau_r_slow_idle_s": 0.5,
+          "tau_r_fast_s": 2.0,
+          "hold_eps": 2.0,
+          "idle_frac": 0.02,
+          "ramp_slope_min": 2.0
+        },
+        "uniform": {
+          "ded_pct": 88.88486532416444,
+          "resid_pct": 11.115137181135193,
+          "over_pct": 4.912802850889572,
+          "tail_pct": -0.21583009524100077,
+          "std_pct": 2.382076983344329,
+          "score": 26.488291346109687
+        },
+        "raw": {
+          "score": 26.810126359479995,
+          "ded_pct": 89.1337720603894
+        }
+      },
+      {
+        "name": "实用 r0.6·gate0.5·cap0.08",
+        "params": {
+          "r_fast": 0.01,
+          "tau_c_fast_s": 20.0,
+          "r_slow_max": 0.6,
+          "slope_cap_frac": 0.08,
+          "slope_gate_frac": 0.5,
+          "slow_confirm_s": 5.0,
+          "soft_unfreeze_s": 2.0,
+          "edge_slope_thres": 60.0,
+          "tau_slope_s": 0.5,
+          "tau_r_slow_idle_s": 0.5,
+          "tau_r_fast_s": 2.0,
+          "hold_eps": 2.0,
+          "idle_frac": 0.02,
+          "ramp_slope_min": 2.0
+        },
+        "uniform": {
+          "ded_pct": 88.87188621551928,
+          "resid_pct": 11.128114869975306,
+          "over_pct": 4.917769875499141,
+          "tail_pct": -0.2364163047425805,
+          "std_pct": 2.39301013715946,
+          "score": 26.503255550022153
+        },
+        "raw": {
+          "score": 26.78478386671375,
+          "ded_pct": 89.12412000609297
+        }
+      },
+      {
+        "name": "实用 r0.6·gate2·cap0.08",
+        "params": {
+          "r_fast": 0.01,
+          "tau_c_fast_s": 20.0,
+          "r_slow_max": 0.6,
+          "slope_cap_frac": 0.08,
+          "slope_gate_frac": 2.0,
+          "slow_confirm_s": 5.0,
+          "soft_unfreeze_s": 2.0,
+          "edge_slope_thres": 60.0,
+          "tau_slope_s": 0.5,
+          "tau_r_slow_idle_s": 0.5,
+          "tau_r_fast_s": 2.0,
+          "hold_eps": 2.0,
+          "idle_frac": 0.02,
+          "ramp_slope_min": 2.0
+        },
+        "uniform": {
+          "ded_pct": 88.89472332085649,
+          "resid_pct": 11.105277764638094,
+          "over_pct": 4.927003739559667,
+          "tail_pct": -0.21356675639053654,
+          "std_pct": 2.3807728706973585,
+          "score": 26.52206010717031
+        },
+        "raw": {
+          "score": 26.825461323106637,
+          "ded_pct": 89.13765094986499
+        }
+      },
+      {
+        "name": "UI最优",
+        "params": {
+          "r_fast": 0.01,
+          "tau_c_fast_s": 20.0,
+          "r_slow_max": 0.35,
+          "slope_cap_frac": 0.04,
+          "slope_gate_frac": 0.5,
+          "slow_confirm_s": 5.0,
+          "soft_unfreeze_s": 2.0,
+          "edge_slope_thres": 60.0,
+          "tau_slope_s": 0.5,
+          "tau_r_slow_idle_s": 0.5,
+          "tau_r_fast_s": 2.0,
+          "hold_eps": 2.0,
+          "idle_frac": 0.02,
+          "ramp_slope_min": 2.0
+        },
+        "uniform": {
+          "ded_pct": 89.3084615310194,
+          "resid_pct": 10.691539554475172,
+          "over_pct": 5.227576804525187,
+          "tail_pct": -0.24523577163926782,
+          "std_pct": 2.416273896106426,
+          "score": 26.822353871086484
+        },
+        "raw": {
+          "score": 27.180457284179212,
+          "ded_pct": 89.49516183483499
+        }
+      },
+      {
+        "name": "实用 r1·gate0.5·cap0.08",
+        "params": {
+          "r_fast": 0.01,
+          "tau_c_fast_s": 20.0,
+          "r_slow_max": 1.0,
+          "slope_cap_frac": 0.08,
+          "slope_gate_frac": 0.5,
+          "slow_confirm_s": 5.0,
+          "soft_unfreeze_s": 2.0,
+          "edge_slope_thres": 60.0,
+          "tau_slope_s": 0.5,
+          "tau_r_slow_idle_s": 0.5,
+          "tau_r_fast_s": 2.0,
+          "hold_eps": 2.0,
+          "idle_frac": 0.02,
+          "ramp_slope_min": 2.0
+        },
+        "uniform": {
+          "ded_pct": 89.36556752403865,
+          "resid_pct": 10.634434981260974,
+          "over_pct": 5.123525319282095,
+          "tail_pct": -0.45212633990249124,
+          "std_pct": 2.4368525244632164,
+          "score": 27.370309416835266
+        },
+        "raw": {
+          "score": 27.659155834439794,
+          "ded_pct": 89.59257009537123
+        }
+      },
+      {
+        "name": "实用 r1·gate1·cap0.08",
+        "params": {
+          "r_fast": 0.01,
+          "tau_c_fast_s": 20.0,
+          "r_slow_max": 1.0,
+          "slope_cap_frac": 0.08,
+          "slope_gate_frac": 1.0,
+          "slow_confirm_s": 5.0,
+          "soft_unfreeze_s": 2.0,
+          "edge_slope_thres": 60.0,
+          "tau_slope_s": 0.5,
+          "tau_r_slow_idle_s": 0.5,
+          "tau_r_fast_s": 2.0,
+          "hold_eps": 2.0,
+          "idle_frac": 0.02,
+          "ramp_slope_min": 2.0
+        },
+        "uniform": {
+          "ded_pct": 89.38763430736118,
+          "resid_pct": 10.612366778133392,
+          "over_pct": 5.118715256745055,
+          "tail_pct": -0.4540656991389855,
+          "std_pct": 2.423581126732403,
+          "score": 27.372957905984002
+        },
+        "raw": {
+          "score": 27.666820808185953,
+          "ded_pct": 89.60284077517976
+        }
+      },
+      {
+        "name": "实用 r1·gate2·cap0.08",
+        "params": {
+          "r_fast": 0.01,
+          "tau_c_fast_s": 20.0,
+          "r_slow_max": 1.0,
+          "slope_cap_frac": 0.08,
+          "slope_gate_frac": 2.0,
+          "slow_confirm_s": 5.0,
+          "soft_unfreeze_s": 2.0,
+          "edge_slope_thres": 60.0,
+          "tau_slope_s": 0.5,
+          "tau_r_slow_idle_s": 0.5,
+          "tau_r_fast_s": 2.0,
+          "hold_eps": 2.0,
+          "idle_frac": 0.02,
+          "ramp_slope_min": 2.0
+        },
+        "uniform": {
+          "ded_pct": 89.40773331924105,
+          "resid_pct": 10.592267766253533,
+          "over_pct": 5.137610854376111,
+          "tail_pct": -0.4650604207472435,
+          "std_pct": 2.422367337746763,
+          "score": 27.439707447941235
+        },
+        "raw": {
+          "score": 27.722466982001656,
+          "ded_pct": 89.61890997126372
+        }
+      },
+      {
+        "name": "实用 r2·gate0.5·cap0.08",
+        "params": {
+          "r_fast": 0.01,
+          "tau_c_fast_s": 20.0,
+          "r_slow_max": 2.0,
+          "slope_cap_frac": 0.08,
+          "slope_gate_frac": 0.5,
+          "slow_confirm_s": 5.0,
+          "soft_unfreeze_s": 2.0,
+          "edge_slope_thres": 60.0,
+          "tau_slope_s": 0.5,
+          "tau_r_slow_idle_s": 0.5,
+          "tau_r_fast_s": 2.0,
+          "hold_eps": 2.0,
+          "idle_frac": 0.02,
+          "ramp_slope_min": 2.0
+        },
+        "uniform": {
+          "ded_pct": 89.56290330884156,
+          "resid_pct": 10.43709777665303,
+          "over_pct": 5.318797944027858,
+          "tail_pct": -0.5885882609726362,
+          "std_pct": 2.4436398515925917,
+          "score": 27.860059403835933
+        },
+        "raw": {
+          "score": 28.0567307522986,
+          "ded_pct": 89.82325280414706
+        }
+      },
+      {
+        "name": "实用 r2·gate1·cap0.08",
+        "params": {
+          "r_fast": 0.01,
+          "tau_c_fast_s": 20.0,
+          "r_slow_max": 2.0,
+          "slope_cap_frac": 0.08,
+          "slope_gate_frac": 1.0,
+          "slow_confirm_s": 5.0,
+          "soft_unfreeze_s": 2.0,
+          "edge_slope_thres": 60.0,
+          "tau_slope_s": 0.5,
+          "tau_r_slow_idle_s": 0.5,
+          "tau_r_fast_s": 2.0,
+          "hold_eps": 2.0,
+          "idle_frac": 0.02,
+          "ramp_slope_min": 2.0
+        },
+        "uniform": {
+          "ded_pct": 89.60005288169667,
+          "resid_pct": 10.399948203797905,
+          "over_pct": 5.293101583803867,
+          "tail_pct": -0.5789602035740324,
+          "std_pct": 2.4322545665931,
+          "score": 27.887468717587357
+        },
+        "raw": {
+          "score": 28.15172472705437,
+          "ded_pct": 89.86435964868357
+        }
+      },
+      {
+        "name": "实用 r5·gate0.5·cap0.08",
+        "params": {
+          "r_fast": 0.01,
+          "tau_c_fast_s": 20.0,
+          "r_slow_max": 5.0,
+          "slope_cap_frac": 0.08,
+          "slope_gate_frac": 0.5,
+          "slow_confirm_s": 5.0,
+          "soft_unfreeze_s": 2.0,
+          "edge_slope_thres": 60.0,
+          "tau_slope_s": 0.5,
+          "tau_r_slow_idle_s": 0.5,
+          "tau_r_fast_s": 2.0,
+          "hold_eps": 2.0,
+          "idle_frac": 0.02,
+          "ramp_slope_min": 2.0
+        },
+        "uniform": {
+          "ded_pct": 89.76077169818664,
+          "resid_pct": 10.239230807112975,
+          "over_pct": 5.4901560110432985,
+          "tail_pct": -0.5139933122245235,
+          "std_pct": 2.444726947004892,
+          "score": 27.93086186106045
+        },
+        "raw": {
+          "score": 28.246433083896004,
+          "ded_pct": 90.04454255292586
+        }
+      },
+      {
+        "name": "实用 r2·gate2·cap0.08",
+        "params": {
+          "r_fast": 0.01,
+          "tau_c_fast_s": 20.0,
+          "r_slow_max": 2.0,
+          "slope_cap_frac": 0.08,
+          "slope_gate_frac": 2.0,
+          "slow_confirm_s": 5.0,
+          "soft_unfreeze_s": 2.0,
+          "edge_slope_thres": 60.0,
+          "tau_slope_s": 0.5,
+          "tau_r_slow_idle_s": 0.5,
+          "tau_r_fast_s": 2.0,
+          "hold_eps": 2.0,
+          "idle_frac": 0.02,
+          "ramp_slope_min": 2.0
+        },
+        "uniform": {
+          "ded_pct": 89.66367302607082,
+          "resid_pct": 10.336328059423755,
+          "over_pct": 5.352140652837682,
+          "tail_pct": -0.6256327410601259,
+          "std_pct": 2.4303756357758632,
+          "score": 28.004347926274203
+        },
+        "raw": {
+          "score": 28.262423659041872,
+          "ded_pct": 89.93877910768816
+        }
+      },
+      {
+        "name": "实用 r5·gate1·cap0.08",
+        "params": {
+          "r_fast": 0.01,
+          "tau_c_fast_s": 20.0,
+          "r_slow_max": 5.0,
+          "slope_cap_frac": 0.08,
+          "slope_gate_frac": 1.0,
+          "slow_confirm_s": 5.0,
+          "soft_unfreeze_s": 2.0,
+          "edge_slope_thres": 60.0,
+          "tau_slope_s": 0.5,
+          "tau_r_slow_idle_s": 0.5,
+          "tau_r_fast_s": 2.0,
+          "hold_eps": 2.0,
+          "idle_frac": 0.02,
+          "ramp_slope_min": 2.0
+        },
+        "uniform": {
+          "ded_pct": 89.78036717639688,
+          "resid_pct": 10.21963390909769,
+          "over_pct": 5.498936793888008,
+          "tail_pct": -0.5818301732867898,
+          "std_pct": 2.4346878455470797,
+          "score": 28.033230546487637
+        },
+        "raw": {
+          "score": 28.333885263701212,
+          "ded_pct": 90.09485347175102
+        }
+      },
+      {
+        "name": "实用 r0.6·gate0.5·cap0.04",
+        "params": {
+          "r_fast": 0.01,
+          "tau_c_fast_s": 20.0,
+          "r_slow_max": 0.6,
+          "slope_cap_frac": 0.04,
+          "slope_gate_frac": 0.5,
+          "slow_confirm_s": 5.0,
+          "soft_unfreeze_s": 2.0,
+          "edge_slope_thres": 60.0,
+          "tau_slope_s": 0.5,
+          "tau_r_slow_idle_s": 0.5,
+          "tau_r_fast_s": 2.0,
+          "hold_eps": 2.0,
+          "idle_frac": 0.02,
+          "ramp_slope_min": 2.0
+        },
+        "uniform": {
+          "ded_pct": 90.11416555223958,
+          "resid_pct": 9.885835533254983,
+          "over_pct": 5.469236784815251,
+          "tail_pct": -0.4785145108451411,
+          "std_pct": 2.4810483829750734,
+          "score": 28.04003457932003
+        },
+        "raw": {
+          "score": 28.366479689676186,
+          "ded_pct": 90.32969805374853
+        }
+      },
+      {
+        "name": "实用 r5·gate2·cap0.08",
+        "params": {
+          "r_fast": 0.01,
+          "tau_c_fast_s": 20.0,
+          "r_slow_max": 5.0,
+          "slope_cap_frac": 0.08,
+          "slope_gate_frac": 2.0,
+          "slow_confirm_s": 5.0,
+          "soft_unfreeze_s": 2.0,
+          "edge_slope_thres": 60.0,
+          "tau_slope_s": 0.5,
+          "tau_r_slow_idle_s": 0.5,
+          "tau_r_fast_s": 2.0,
+          "hold_eps": 2.0,
+          "idle_frac": 0.02,
+          "ramp_slope_min": 2.0
+        },
+        "uniform": {
+          "ded_pct": 89.85392352609495,
+          "resid_pct": 10.14607755939963,
+          "over_pct": 5.538652947964908,
+          "tail_pct": -0.5441006416436275,
+          "std_pct": 2.428190165707267,
+          "score": 28.095658726840462
+        },
+        "raw": {
+          "score": 28.501020293821696,
+          "ded_pct": 90.11466069582902
+        }
+      },
+      {
+        "name": "实用 r0.6·gate1·cap0.04",
+        "params": {
+          "r_fast": 0.01,
+          "tau_c_fast_s": 20.0,
+          "r_slow_max": 0.6,
+          "slope_cap_frac": 0.04,
+          "slope_gate_frac": 1.0,
+          "slow_confirm_s": 5.0,
+          "soft_unfreeze_s": 2.0,
+          "edge_slope_thres": 60.0,
+          "tau_slope_s": 0.5,
+          "tau_r_slow_idle_s": 0.5,
+          "tau_r_fast_s": 2.0,
+          "hold_eps": 2.0,
+          "idle_frac": 0.02,
+          "ramp_slope_min": 2.0
+        },
+        "uniform": {
+          "ded_pct": 90.14398715175135,
+          "resid_pct": 9.856013933743236,
+          "over_pct": 5.448583757348882,
+          "tail_pct": -0.5333149676471391,
+          "std_pct": 2.4795838847885188,
+          "score": 28.153045970923376
+        },
+        "raw": {
+          "score": 28.400070657049824,
+          "ded_pct": 90.32860133855269
+        }
+      },
+      {
+        "name": "实用 r0.6·gate2·cap0.04",
+        "params": {
+          "r_fast": 0.01,
+          "tau_c_fast_s": 20.0,
+          "r_slow_max": 0.6,
+          "slope_cap_frac": 0.04,
+          "slope_gate_frac": 2.0,
+          "slow_confirm_s": 5.0,
+          "soft_unfreeze_s": 2.0,
+          "edge_slope_thres": 60.0,
+          "tau_slope_s": 0.5,
+          "tau_r_slow_idle_s": 0.5,
+          "tau_r_fast_s": 2.0,
+          "hold_eps": 2.0,
+          "idle_frac": 0.02,
+          "ramp_slope_min": 2.0
+        },
+        "uniform": {
+          "ded_pct": 90.15129449349251,
+          "resid_pct": 9.848706592002051,
+          "over_pct": 5.464719416739571,
+          "tail_pct": -0.5399256570038558,
+          "std_pct": 2.478847270179507,
+          "score": 28.20998892424024
+        },
+        "raw": {
+          "score": 28.438277302314436,
+          "ded_pct": 90.33170164654456
+        }
+      },
+      {
+        "name": "实用 r1·gate0.5·cap0.04",
+        "params": {
+          "r_fast": 0.01,
+          "tau_c_fast_s": 20.0,
+          "r_slow_max": 1.0,
+          "slope_cap_frac": 0.04,
+          "slope_gate_frac": 0.5,
+          "slow_confirm_s": 5.0,
+          "soft_unfreeze_s": 2.0,
+          "edge_slope_thres": 60.0,
+          "tau_slope_s": 0.5,
+          "tau_r_slow_idle_s": 0.5,
+          "tau_r_fast_s": 2.0,
+          "hold_eps": 2.0,
+          "idle_frac": 0.02,
+          "ramp_slope_min": 2.0
+        },
+        "uniform": {
+          "ded_pct": 90.52524976767339,
+          "resid_pct": 9.474752737626243,
+          "over_pct": 5.589453764117437,
+          "tail_pct": -0.6283073505621475,
+          "std_pct": 2.5310398237965743,
+          "score": 28.731701148202312
+        },
+        "raw": {
+          "score": 29.156101358895192,
+          "ded_pct": 90.72476983742516
+        }
+      },
+      {
+        "name": "实用 r1·gate2·cap0.04",
+        "params": {
+          "r_fast": 0.01,
+          "tau_c_fast_s": 20.0,
+          "r_slow_max": 1.0,
+          "slope_cap_frac": 0.04,
+          "slope_gate_frac": 2.0,
+          "slow_confirm_s": 5.0,
+          "soft_unfreeze_s": 2.0,
+          "edge_slope_thres": 60.0,
+          "tau_slope_s": 0.5,
+          "tau_r_slow_idle_s": 0.5,
+          "tau_r_fast_s": 2.0,
+          "hold_eps": 2.0,
+          "idle_frac": 0.02,
+          "ramp_slope_min": 2.0
+        },
+        "uniform": {
+          "ded_pct": 90.55918551857633,
+          "resid_pct": 9.440815566918253,
+          "over_pct": 5.59736228231746,
+          "tail_pct": -0.6600681803376443,
+          "std_pct": 2.52788340952827,
+          "score": 28.902530441468794
+        },
+        "raw": {
+          "score": 29.277355814497238,
+          "ded_pct": 90.74083567453562
+        }
+      },
+      {
+        "name": "实用 r1·gate1·cap0.04",
+        "params": {
+          "r_fast": 0.01,
+          "tau_c_fast_s": 20.0,
+          "r_slow_max": 1.0,
+          "slope_cap_frac": 0.04,
+          "slope_gate_frac": 1.0,
+          "slow_confirm_s": 5.0,
+          "soft_unfreeze_s": 2.0,
+          "edge_slope_thres": 60.0,
+          "tau_slope_s": 0.5,
+          "tau_r_slow_idle_s": 0.5,
+          "tau_r_fast_s": 2.0,
+          "hold_eps": 2.0,
+          "idle_frac": 0.02,
+          "ramp_slope_min": 2.0
+        },
+        "uniform": {
+          "ded_pct": 90.55627837742266,
+          "resid_pct": 9.443724127876965,
+          "over_pct": 5.587307615224563,
+          "tail_pct": -0.6926125388286972,
+          "std_pct": 2.530812614993627,
+          "score": 28.902916199912895
+        },
+        "raw": {
+          "score": 29.240120829548886,
+          "ded_pct": 90.75071287580252
+        }
+      },
+      {
+        "name": "实用 r2·gate0.5·cap0.04",
+        "params": {
+          "r_fast": 0.01,
+          "tau_c_fast_s": 20.0,
+          "r_slow_max": 2.0,
+          "slope_cap_frac": 0.04,
+          "slope_gate_frac": 0.5,
+          "slow_confirm_s": 5.0,
+          "soft_unfreeze_s": 2.0,
+          "edge_slope_thres": 60.0,
+          "tau_slope_s": 0.5,
+          "tau_r_slow_idle_s": 0.5,
+          "tau_r_fast_s": 2.0,
+          "hold_eps": 2.0,
+          "idle_frac": 0.02,
+          "ramp_slope_min": 2.0
+        },
+        "uniform": {
+          "ded_pct": 90.7333113515713,
+          "resid_pct": 9.266689733923267,
+          "over_pct": 5.738516590451753,
+          "tail_pct": -0.8018520943738193,
+          "std_pct": 2.543727642814739,
+          "score": 29.278569191943966
+        },
+        "raw": {
+          "score": 29.51680972035552,
+          "ded_pct": 90.88819131641458
+        }
+      },
+      {
+        "name": "实用 r2·gate1·cap0.04",
+        "params": {
+          "r_fast": 0.01,
+          "tau_c_fast_s": 20.0,
+          "r_slow_max": 2.0,
+          "slope_cap_frac": 0.04,
+          "slope_gate_frac": 1.0,
+          "slow_confirm_s": 5.0,
+          "soft_unfreeze_s": 2.0,
+          "edge_slope_thres": 60.0,
+          "tau_slope_s": 0.5,
+          "tau_r_slow_idle_s": 0.5,
+          "tau_r_fast_s": 2.0,
+          "hold_eps": 2.0,
+          "idle_frac": 0.02,
+          "ramp_slope_min": 2.0
+        },
+        "uniform": {
+          "ded_pct": 90.73168962672798,
+          "resid_pct": 9.268311458766597,
+          "over_pct": 5.732656799232877,
+          "tail_pct": -0.7912853632837114,
+          "std_pct": 2.5373278524313894,
+          "score": 29.350055015173545
+        },
+        "raw": {
+          "score": 29.612273467801224,
+          "ded_pct": 90.91584208353953
+        }
+      },
+      {
+        "name": "实用 r2·gate2·cap0.04",
+        "params": {
+          "r_fast": 0.01,
+          "tau_c_fast_s": 20.0,
+          "r_slow_max": 2.0,
+          "slope_cap_frac": 0.04,
+          "slope_gate_frac": 2.0,
+          "slow_confirm_s": 5.0,
+          "soft_unfreeze_s": 2.0,
+          "edge_slope_thres": 60.0,
+          "tau_slope_s": 0.5,
+          "tau_r_slow_idle_s": 0.5,
+          "tau_r_fast_s": 2.0,
+          "hold_eps": 2.0,
+          "idle_frac": 0.02,
+          "ramp_slope_min": 2.0
+        },
+        "uniform": {
+          "ded_pct": 90.76444622880632,
+          "resid_pct": 9.235554856688259,
+          "over_pct": 5.76172619826857,
+          "tail_pct": -0.8093583772042885,
+          "std_pct": 2.53608516959082,
+          "score": 29.432544065088724
+        },
+        "raw": {
+          "score": 29.667188694556707,
+          "ded_pct": 90.92883380291146
+        }
+      },
+      {
+        "name": "实用 r5·gate0.5·cap0.04",
+        "params": {
+          "r_fast": 0.01,
+          "tau_c_fast_s": 20.0,
+          "r_slow_max": 5.0,
+          "slope_cap_frac": 0.04,
+          "slope_gate_frac": 0.5,
+          "slow_confirm_s": 5.0,
+          "soft_unfreeze_s": 2.0,
+          "edge_slope_thres": 60.0,
+          "tau_slope_s": 0.5,
+          "tau_r_slow_idle_s": 0.5,
+          "tau_r_fast_s": 2.0,
+          "hold_eps": 2.0,
+          "idle_frac": 0.02,
+          "ramp_slope_min": 2.0
+        },
+        "uniform": {
+          "ded_pct": 90.88775774752476,
+          "resid_pct": 9.112243337969824,
+          "over_pct": 5.845542201626729,
+          "tail_pct": -0.8212443714607067,
+          "std_pct": 2.565166053480758,
+          "score": 29.51056733261553
+        },
+        "raw": {
+          "score": 29.736217766210952,
+          "ded_pct": 91.042850790149
+        }
+      },
+      {
+        "name": "实用 r5·gate1·cap0.04",
+        "params": {
+          "r_fast": 0.01,
+          "tau_c_fast_s": 20.0,
+          "r_slow_max": 5.0,
+          "slope_cap_frac": 0.04,
+          "slope_gate_frac": 1.0,
+          "slow_confirm_s": 5.0,
+          "soft_unfreeze_s": 2.0,
+          "edge_slope_thres": 60.0,
+          "tau_slope_s": 0.5,
+          "tau_r_slow_idle_s": 0.5,
+          "tau_r_fast_s": 2.0,
+          "hold_eps": 2.0,
+          "idle_frac": 0.02,
+          "ramp_slope_min": 2.0
+        },
+        "uniform": {
+          "ded_pct": 90.92187984895234,
+          "resid_pct": 9.078121236542225,
+          "over_pct": 5.895767319842914,
+          "tail_pct": -0.7836586648129517,
+          "std_pct": 2.548668359557791,
+          "score": 29.542296884187113
+        },
+        "raw": {
+          "score": 29.789058048072068,
+          "ded_pct": 91.08489042858017
+        }
+      },
+      {
+        "name": "实用 r5·gate2·cap0.04",
+        "params": {
+          "r_fast": 0.01,
+          "tau_c_fast_s": 20.0,
+          "r_slow_max": 5.0,
+          "slope_cap_frac": 0.04,
+          "slope_gate_frac": 2.0,
+          "slow_confirm_s": 5.0,
+          "soft_unfreeze_s": 2.0,
+          "edge_slope_thres": 60.0,
+          "tau_slope_s": 0.5,
+          "tau_r_slow_idle_s": 0.5,
+          "tau_r_fast_s": 2.0,
+          "hold_eps": 2.0,
+          "idle_frac": 0.02,
+          "ramp_slope_min": 2.0
+        },
+        "uniform": {
+          "ded_pct": 90.96838584770276,
+          "resid_pct": 9.031615237791819,
+          "over_pct": 5.92133393841301,
+          "tail_pct": -0.8073683737102558,
+          "std_pct": 2.5531942560488314,
+          "score": 29.662793945945896
+        },
+        "raw": {
+          "score": 29.94843084713,
+          "ded_pct": 91.13941278094991
+        }
+      },
+      {
+        "name": "现役默认",
+        "params": {},
+        "uniform": {
+          "ded_pct": 209.86648897606733,
+          "resid_pct": -109.86648789057276,
+          "over_pct": 125.27111163076269,
+          "tail_pct": -0.3853078422217672,
+          "std_pct": 2.5259676120498336,
+          "score": 340.96945184187064
+        },
+        "raw": {
+          "score": 341.38051855415097,
+          "ded_pct": 209.92255135357846
+        }
+      }
+    ]
+  },
+  "右拇指指腹": {
+    "candidates": [
+      {
+        "name": "放宽最优",
+        "params": {
+          "r_fast": 0.02,
+          "tau_c_fast_s": 4.0,
+          "r_slow_max": 30.0,
+          "slope_cap_frac": 0.3,
+          "slope_gate_frac": 1.0,
+          "slow_confirm_s": 0.0,
+          "soft_unfreeze_s": 0.5,
+          "edge_slope_thres": 10.0,
+          "tau_slope_s": 3.0,
+          "tau_r_slow_idle_s": 0.5,
+          "tau_r_fast_s": 1.0,
+          "hold_eps": 2.0,
+          "idle_frac": 0.02,
+          "ramp_slope_min": 0.5
+        },
+        "uniform": {
+          "ded_pct": 99.79886948367198,
+          "resid_pct": 0.20113117763802493,
+          "over_pct": 6.20901579660175,
+          "tail_pct": -2.152255934520088,
+          "std_pct": 1.0570542326638015,
+          "score": 3.5315750804510255
+        },
+        "raw": {
+          "score": 7.958213964958354,
+          "ded_pct": 97.31312521715421
+        }
+      },
+      {
+        "name": "收敛(放宽骨架) r5·gate1·cap0.15",
+        "params": {
+          "r_fast": 0.02,
+          "tau_c_fast_s": 4.0,
+          "r_slow_max": 5.0,
+          "slope_cap_frac": 0.15,
+          "slope_gate_frac": 1.0,
+          "slow_confirm_s": 0.0,
+          "soft_unfreeze_s": 0.5,
+          "edge_slope_thres": 10.0,
+          "tau_slope_s": 3.0,
+          "tau_r_slow_idle_s": 0.5,
+          "tau_r_fast_s": 1.0,
+          "hold_eps": 2.0,
+          "idle_frac": 0.02,
+          "ramp_slope_min": 0.5
+        },
+        "uniform": {
+          "ded_pct": 75.36253916680835,
+          "resid_pct": 24.63746149450165,
+          "over_pct": -10.561770684264436,
+          "tail_pct": 14.316198829874018,
+          "std_pct": 1.280915368475324,
+          "score": 38.95366032437567
+        },
+        "raw": {
+          "score": 37.60217085953067,
+          "ded_pct": 76.45446557799413
+        }
+      },
+      {
+        "name": "实用 r5·gate1·cap0.08",
+        "params": {
+          "r_fast": 0.1,
+          "tau_c_fast_s": 4.0,
+          "r_slow_max": 5.0,
+          "slope_cap_frac": 0.08,
+          "slope_gate_frac": 1.0,
+          "slow_confirm_s": 0.0,
+          "soft_unfreeze_s": 4.0,
+          "edge_slope_thres": 150.0,
+          "tau_slope_s": 3.0,
+          "tau_r_slow_idle_s": 30.0,
+          "tau_r_fast_s": 2.0,
+          "hold_eps": 8.0,
+          "idle_frac": 0.1,
+          "ramp_slope_min": 2.0
+        },
+        "uniform": {
+          "ded_pct": 73.49473877283839,
+          "resid_pct": 26.505264103273838,
+          "over_pct": -15.796069986372434,
+          "tail_pct": 14.692611539587048,
+          "std_pct": 1.067884615588544,
+          "score": 41.19787564286089
+        },
+        "raw": {
+          "score": 40.22132611847353,
+          "ded_pct": 74.1857391267408
+        }
+      },
+      {
+        "name": "实用 r5·gate2·cap0.08",
+        "params": {
+          "r_fast": 0.1,
+          "tau_c_fast_s": 4.0,
+          "r_slow_max": 5.0,
+          "slope_cap_frac": 0.08,
+          "slope_gate_frac": 2.0,
+          "slow_confirm_s": 0.0,
+          "soft_unfreeze_s": 4.0,
+          "edge_slope_thres": 150.0,
+          "tau_slope_s": 3.0,
+          "tau_r_slow_idle_s": 30.0,
+          "tau_r_fast_s": 2.0,
+          "hold_eps": 8.0,
+          "idle_frac": 0.1,
+          "ramp_slope_min": 2.0
+        },
+        "uniform": {
+          "ded_pct": 73.49753179271546,
+          "resid_pct": 26.502468868594537,
+          "over_pct": -15.784111612783825,
+          "tail_pct": 14.744658375126269,
+          "std_pct": 1.0695944429132682,
+          "score": 41.247127243720804
+        },
+        "raw": {
+          "score": 40.124600146488355,
+          "ded_pct": 74.23619198343972
+        }
+      },
+      {
+        "name": "实用 r5·gate0.5·cap0.08",
+        "params": {
+          "r_fast": 0.1,
+          "tau_c_fast_s": 4.0,
+          "r_slow_max": 5.0,
+          "slope_cap_frac": 0.08,
+          "slope_gate_frac": 0.5,
+          "slow_confirm_s": 0.0,
+          "soft_unfreeze_s": 4.0,
+          "edge_slope_thres": 150.0,
+          "tau_slope_s": 3.0,
+          "tau_r_slow_idle_s": 30.0,
+          "tau_r_fast_s": 2.0,
+          "hold_eps": 8.0,
+          "idle_frac": 0.1,
+          "ramp_slope_min": 2.0
+        },
+        "uniform": {
+          "ded_pct": 73.29558422947429,
+          "resid_pct": 26.704416431835718,
+          "over_pct": -15.866636011694496,
+          "tail_pct": 14.737994627437011,
+          "std_pct": 1.08036502617769,
+          "score": 41.44241105927273
+        },
+        "raw": {
+          "score": 40.47742639622714,
+          "ded_pct": 73.98975260044526
+        }
+      },
+      {
+        "name": "实用 r2·gate2·cap0.08",
+        "params": {
+          "r_fast": 0.1,
+          "tau_c_fast_s": 4.0,
+          "r_slow_max": 2.0,
+          "slope_cap_frac": 0.08,
+          "slope_gate_frac": 2.0,
+          "slow_confirm_s": 0.0,
+          "soft_unfreeze_s": 4.0,
+          "edge_slope_thres": 150.0,
+          "tau_slope_s": 3.0,
+          "tau_r_slow_idle_s": 30.0,
+          "tau_r_fast_s": 2.0,
+          "hold_eps": 8.0,
+          "idle_frac": 0.1,
+          "ramp_slope_min": 2.0
+        },
+        "uniform": {
+          "ded_pct": 63.87824627489307,
+          "resid_pct": 36.121754386416924,
+          "over_pct": -16.5865297575828,
+          "tail_pct": 20.03220333963463,
+          "std_pct": 1.7893210065104383,
+          "score": 56.15395772605155
+        },
+        "raw": {
+          "score": 54.746398505949806,
+          "ded_pct": 65.01083914823174
+        }
+      },
+      {
+        "name": "实用 r2·gate1·cap0.08",
+        "params": {
+          "r_fast": 0.1,
+          "tau_c_fast_s": 4.0,
+          "r_slow_max": 2.0,
+          "slope_cap_frac": 0.08,
+          "slope_gate_frac": 1.0,
+          "slow_confirm_s": 0.0,
+          "soft_unfreeze_s": 4.0,
+          "edge_slope_thres": 150.0,
+          "tau_slope_s": 3.0,
+          "tau_r_slow_idle_s": 30.0,
+          "tau_r_fast_s": 2.0,
+          "hold_eps": 8.0,
+          "idle_frac": 0.1,
+          "ramp_slope_min": 2.0
+        },
+        "uniform": {
+          "ded_pct": 63.8504218504059,
+          "resid_pct": 36.14958102570634,
+          "over_pct": -16.598874861265955,
+          "tail_pct": 20.032487798702586,
+          "std_pct": 1.7932345620580907,
+          "score": 56.18206882440893
+        },
+        "raw": {
+          "score": 54.70844161960328,
+          "ded_pct": 65.0130396392387
+        }
+      },
+      {
+        "name": "实用 r2·gate0.5·cap0.08",
+        "params": {
+          "r_fast": 0.1,
+          "tau_c_fast_s": 4.0,
+          "r_slow_max": 2.0,
+          "slope_cap_frac": 0.08,
+          "slope_gate_frac": 0.5,
+          "slow_confirm_s": 0.0,
+          "soft_unfreeze_s": 4.0,
+          "edge_slope_thres": 150.0,
+          "tau_slope_s": 3.0,
+          "tau_r_slow_idle_s": 30.0,
+          "tau_r_fast_s": 2.0,
+          "hold_eps": 8.0,
+          "idle_frac": 0.1,
+          "ramp_slope_min": 2.0
+        },
+        "uniform": {
+          "ded_pct": 63.73230371451556,
+          "resid_pct": 36.267696946794445,
+          "over_pct": -16.67052835448496,
+          "tail_pct": 20.045985440540278,
+          "std_pct": 1.811960714947395,
+          "score": 56.31368238733472
+        },
+        "raw": {
+          "score": 55.06680134658922,
+          "ded_pct": 64.7930019005525
+        }
+      },
+      {
+        "name": "收敛(放宽骨架) r2·gate1·cap0.15",
+        "params": {
+          "r_fast": 0.02,
+          "tau_c_fast_s": 4.0,
+          "r_slow_max": 2.0,
+          "slope_cap_frac": 0.15,
+          "slope_gate_frac": 1.0,
+          "slow_confirm_s": 0.0,
+          "soft_unfreeze_s": 0.5,
+          "edge_slope_thres": 10.0,
+          "tau_slope_s": 3.0,
+          "tau_r_slow_idle_s": 0.5,
+          "tau_r_fast_s": 1.0,
+          "hold_eps": 2.0,
+          "idle_frac": 0.02,
+          "ramp_slope_min": 0.5
+        },
+        "uniform": {
+          "ded_pct": 60.451726170864376,
+          "resid_pct": 39.54827449044562,
+          "over_pct": -13.947175079302706,
+          "tail_pct": 24.575808240664813,
+          "std_pct": 1.879620708396875,
+          "score": 64.12408273111043
+        },
+        "raw": {
+          "score": 61.92906772388216,
+          "ded_pct": 62.152275815787036
+        }
+      },
+      {
+        "name": "实用 r5·gate2·cap0.04",
+        "params": {
+          "r_fast": 0.1,
+          "tau_c_fast_s": 4.0,
+          "r_slow_max": 5.0,
+          "slope_cap_frac": 0.04,
+          "slope_gate_frac": 2.0,
+          "slow_confirm_s": 0.0,
+          "soft_unfreeze_s": 4.0,
+          "edge_slope_thres": 150.0,
+          "tau_slope_s": 3.0,
+          "tau_r_slow_idle_s": 30.0,
+          "tau_r_fast_s": 2.0,
+          "hold_eps": 8.0,
+          "idle_frac": 0.1,
+          "ramp_slope_min": 2.0
+        },
+        "uniform": {
+          "ded_pct": 57.91901488572163,
+          "resid_pct": 42.080985775588374,
+          "over_pct": -23.41063426832369,
+          "tail_pct": 23.74006649190109,
+          "std_pct": 1.0247469124750042,
+          "score": 66.9824586792546
+        },
+        "raw": {
+          "score": 66.3667038114113,
+          "ded_pct": 58.210459515892964
+        }
+      },
+      {
+        "name": "实用 r5·gate1·cap0.04",
+        "params": {
+          "r_fast": 0.1,
+          "tau_c_fast_s": 4.0,
+          "r_slow_max": 5.0,
+          "slope_cap_frac": 0.04,
+          "slope_gate_frac": 1.0,
+          "slow_confirm_s": 0.0,
+          "soft_unfreeze_s": 4.0,
+          "edge_slope_thres": 150.0,
+          "tau_slope_s": 3.0,
+          "tau_r_slow_idle_s": 30.0,
+          "tau_r_fast_s": 2.0,
+          "hold_eps": 8.0,
+          "idle_frac": 0.1,
+          "ramp_slope_min": 2.0
+        },
+        "uniform": {
+          "ded_pct": 57.90848156851659,
+          "resid_pct": 42.091519092793405,
+          "over_pct": -23.411131406437867,
+          "tail_pct": 23.73278919742865,
+          "std_pct": 1.0247889937174521,
+          "score": 66.9889890656101
+        },
+        "raw": {
+          "score": 66.3710092856308,
+          "ded_pct": 58.207335010258106
+        }
+      },
+      {
+        "name": "实用 r5·gate0.5·cap0.04",
+        "params": {
+          "r_fast": 0.1,
+          "tau_c_fast_s": 4.0,
+          "r_slow_max": 5.0,
+          "slope_cap_frac": 0.04,
+          "slope_gate_frac": 0.5,
+          "slow_confirm_s": 0.0,
+          "soft_unfreeze_s": 4.0,
+          "edge_slope_thres": 150.0,
+          "tau_slope_s": 3.0,
+          "tau_r_slow_idle_s": 30.0,
+          "tau_r_fast_s": 2.0,
+          "hold_eps": 8.0,
+          "idle_frac": 0.1,
+          "ramp_slope_min": 2.0
+        },
+        "uniform": {
+          "ded_pct": 57.802823402959994,
+          "resid_pct": 42.19717725835,
+          "over_pct": -23.423893797493125,
+          "tail_pct": 23.754060353154944,
+          "std_pct": 1.0245940911208515,
+          "score": 67.07337292189685
+        },
+        "raw": {
+          "score": 66.47456542869736,
+          "ded_pct": 58.09010493710529
+        }
+      },
+      {
+        "name": "实用 r2·gate2·cap0.04",
+        "params": {
+          "r_fast": 0.1,
+          "tau_c_fast_s": 4.0,
+          "r_slow_max": 2.0,
+          "slope_cap_frac": 0.04,
+          "slope_gate_frac": 2.0,
+          "slow_confirm_s": 0.0,
+          "soft_unfreeze_s": 4.0,
+          "edge_slope_thres": 150.0,
+          "tau_slope_s": 3.0,
+          "tau_r_slow_idle_s": 30.0,
+          "tau_r_fast_s": 2.0,
+          "hold_eps": 8.0,
+          "idle_frac": 0.1,
+          "ramp_slope_min": 2.0
+        },
+        "uniform": {
+          "ded_pct": 55.689752880343164,
+          "resid_pct": 44.31024778096683,
+          "over_pct": -23.42512793414363,
+          "tail_pct": 25.951078973314008,
+          "std_pct": 1.0667329184268126,
+          "score": 70.26132675428084
+        },
+        "raw": {
+          "score": 68.97261490373944,
+          "ded_pct": 56.44887488012368
+        }
+      },
+      {
+        "name": "实用 r2·gate1·cap0.04",
+        "params": {
+          "r_fast": 0.1,
+          "tau_c_fast_s": 4.0,
+          "r_slow_max": 2.0,
+          "slope_cap_frac": 0.04,
+          "slope_gate_frac": 1.0,
+          "slow_confirm_s": 0.0,
+          "soft_unfreeze_s": 4.0,
+          "edge_slope_thres": 150.0,
+          "tau_slope_s": 3.0,
+          "tau_r_slow_idle_s": 30.0,
+          "tau_r_fast_s": 2.0,
+          "hold_eps": 8.0,
+          "idle_frac": 0.1,
+          "ramp_slope_min": 2.0
+        },
+        "uniform": {
+          "ded_pct": 55.674674838825496,
+          "resid_pct": 44.3253258224845,
+          "over_pct": -23.425620642653342,
+          "tail_pct": 25.948450805326807,
+          "std_pct": 1.0672068861049098,
+          "score": 70.27377662781132
+        },
+        "raw": {
+          "score": 68.98012783171669,
+          "ded_pct": 56.43818699499604
+        }
+      },
+      {
+        "name": "实用 r2·gate0.5·cap0.04",
+        "params": {
+          "r_fast": 0.1,
+          "tau_c_fast_s": 4.0,
+          "r_slow_max": 2.0,
+          "slope_cap_frac": 0.04,
+          "slope_gate_frac": 0.5,
+          "slow_confirm_s": 0.0,
+          "soft_unfreeze_s": 4.0,
+          "edge_slope_thres": 150.0,
+          "tau_slope_s": 3.0,
+          "tau_r_slow_idle_s": 30.0,
+          "tau_r_fast_s": 2.0,
+          "hold_eps": 8.0,
+          "idle_frac": 0.1,
+          "ramp_slope_min": 2.0
+        },
+        "uniform": {
+          "ded_pct": 55.58311890470313,
+          "resid_pct": 44.41688175660687,
+          "over_pct": -23.43858015110743,
+          "tail_pct": 25.952686135513552,
+          "std_pct": 1.0712931962268217,
+          "score": 70.36956789212041
+        },
+        "raw": {
+          "score": 69.12052200296816,
+          "ded_pct": 56.316798056582286
+        }
+      },
+      {
+        "name": "实用 r1·gate2·cap0.08",
+        "params": {
+          "r_fast": 0.1,
+          "tau_c_fast_s": 4.0,
+          "r_slow_max": 1.0,
+          "slope_cap_frac": 0.08,
+          "slope_gate_frac": 2.0,
+          "slow_confirm_s": 0.0,
+          "soft_unfreeze_s": 4.0,
+          "edge_slope_thres": 150.0,
+          "tau_slope_s": 3.0,
+          "tau_r_slow_idle_s": 30.0,
+          "tau_r_fast_s": 2.0,
+          "hold_eps": 8.0,
+          "idle_frac": 0.1,
+          "ramp_slope_min": 2.0
+        },
+        "uniform": {
+          "ded_pct": 50.49002888237875,
+          "resid_pct": 49.509971778931245,
+          "over_pct": -18.52981770379955,
+          "tail_pct": 27.55641999886655,
+          "std_pct": 2.2192030461378187,
+          "score": 77.0663917777978
+        },
+        "raw": {
+          "score": 75.90188859353202,
+          "ded_pct": 51.27481071742044
+        }
+      },
+      {
+        "name": "实用 r1·gate1·cap0.08",
+        "params": {
+          "r_fast": 0.1,
+          "tau_c_fast_s": 4.0,
+          "r_slow_max": 1.0,
+          "slope_cap_frac": 0.08,
+          "slope_gate_frac": 1.0,
+          "slow_confirm_s": 0.0,
+          "soft_unfreeze_s": 4.0,
+          "edge_slope_thres": 150.0,
+          "tau_slope_s": 3.0,
+          "tau_r_slow_idle_s": 30.0,
+          "tau_r_fast_s": 2.0,
+          "hold_eps": 8.0,
+          "idle_frac": 0.1,
+          "ramp_slope_min": 2.0
+        },
+        "uniform": {
+          "ded_pct": 50.46721975071092,
+          "resid_pct": 49.53277786949538,
+          "over_pct": -18.530842953264226,
+          "tail_pct": 27.553011060560287,
+          "std_pct": 2.221315967469149,
+          "score": 77.08578893005567
+        },
+        "raw": {
+          "score": 75.9048432048805,
+          "ded_pct": 51.26337145213615
+        }
+      },
+      {
+        "name": "实用 r1·gate0.5·cap0.08",
+        "params": {
+          "r_fast": 0.1,
+          "tau_c_fast_s": 4.0,
+          "r_slow_max": 1.0,
+          "slope_cap_frac": 0.08,
+          "slope_gate_frac": 0.5,
+          "slow_confirm_s": 0.0,
+          "soft_unfreeze_s": 4.0,
+          "edge_slope_thres": 150.0,
+          "tau_slope_s": 3.0,
+          "tau_r_slow_idle_s": 30.0,
+          "tau_r_fast_s": 2.0,
+          "hold_eps": 8.0,
+          "idle_frac": 0.1,
+          "ramp_slope_min": 2.0
+        },
+        "uniform": {
+          "ded_pct": 50.377790045013356,
+          "resid_pct": 49.62221061629664,
+          "over_pct": -18.558858880529005,
+          "tail_pct": 27.533901477737956,
+          "std_pct": 2.224042389019324,
+          "score": 77.1561120940346
+        },
+        "raw": {
+          "score": 75.96578917824505,
+          "ded_pct": 51.175881591526206
+        }
+      },
+      {
+        "name": "实用 r1·gate2·cap0.04",
+        "params": {
+          "r_fast": 0.1,
+          "tau_c_fast_s": 4.0,
+          "r_slow_max": 1.0,
+          "slope_cap_frac": 0.04,
+          "slope_gate_frac": 2.0,
+          "slow_confirm_s": 0.0,
+          "soft_unfreeze_s": 4.0,
+          "edge_slope_thres": 150.0,
+          "tau_slope_s": 3.0,
+          "tau_r_slow_idle_s": 30.0,
+          "tau_r_fast_s": 2.0,
+          "hold_eps": 8.0,
+          "idle_frac": 0.1,
+          "ramp_slope_min": 2.0
+        },
+        "uniform": {
+          "ded_pct": 49.79921726067799,
+          "resid_pct": 50.200783400632005,
+          "over_pct": -23.447710057722503,
+          "tail_pct": 27.91007161959673,
+          "std_pct": 1.8834456718551635,
+          "score": 78.11085502022874
+        },
+        "raw": {
+          "score": 76.74184203076084,
+          "ded_pct": 50.62812010802898
+        }
+      },
+      {
+        "name": "实用 r1·gate1·cap0.04",
+        "params": {
+          "r_fast": 0.1,
+          "tau_c_fast_s": 4.0,
+          "r_slow_max": 1.0,
+          "slope_cap_frac": 0.04,
+          "slope_gate_frac": 1.0,
+          "slow_confirm_s": 0.0,
+          "soft_unfreeze_s": 4.0,
+          "edge_slope_thres": 150.0,
+          "tau_slope_s": 3.0,
+          "tau_r_slow_idle_s": 30.0,
+          "tau_r_fast_s": 2.0,
+          "hold_eps": 8.0,
+          "idle_frac": 0.1,
+          "ramp_slope_min": 2.0
+        },
+        "uniform": {
+          "ded_pct": 49.78670567288281,
+          "resid_pct": 50.213294988427194,
+          "over_pct": -23.44825813628806,
+          "tail_pct": 27.90739581349375,
+          "std_pct": 1.8847258275464727,
+          "score": 78.12069080192094
+        },
+        "raw": {
+          "score": 76.74105895465512,
+          "ded_pct": 50.62186853976615
+        }
+      },
+      {
+        "name": "实用 r1·gate0.5·cap0.04",
+        "params": {
+          "r_fast": 0.1,
+          "tau_c_fast_s": 4.0,
+          "r_slow_max": 1.0,
+          "slope_cap_frac": 0.04,
+          "slope_gate_frac": 0.5,
+          "slow_confirm_s": 0.0,
+          "soft_unfreeze_s": 4.0,
+          "edge_slope_thres": 150.0,
+          "tau_slope_s": 3.0,
+          "tau_r_slow_idle_s": 30.0,
+          "tau_r_fast_s": 2.0,
+          "hold_eps": 8.0,
+          "idle_frac": 0.1,
+          "ramp_slope_min": 2.0
+        },
+        "uniform": {
+          "ded_pct": 49.711792858605264,
+          "resid_pct": 50.28820780270473,
+          "over_pct": -23.46118220790641,
+          "tail_pct": 27.907004258635176,
+          "std_pct": 1.8911974796745088,
+          "score": 78.1952120613399
+        },
+        "raw": {
+          "score": 76.82827085461474,
+          "ded_pct": 50.54145324416767
+        }
+      },
+      {
+        "name": "收敛(放宽骨架) r1·gate1·cap0.15",
+        "params": {
+          "r_fast": 0.02,
+          "tau_c_fast_s": 4.0,
+          "r_slow_max": 1.0,
+          "slope_cap_frac": 0.15,
+          "slope_gate_frac": 1.0,
+          "slow_confirm_s": 0.0,
+          "soft_unfreeze_s": 0.5,
+          "edge_slope_thres": 10.0,
+          "tau_slope_s": 3.0,
+          "tau_r_slow_idle_s": 0.5,
+          "tau_r_fast_s": 1.0,
+          "hold_eps": 2.0,
+          "idle_frac": 0.02,
+          "ramp_slope_min": 0.5
+        },
+        "uniform": {
+          "ded_pct": 47.376946251289,
+          "resid_pct": 52.623056624823235,
+          "over_pct": -16.478402846686105,
+          "tail_pct": 30.754278821001932,
+          "std_pct": 2.335533318681617,
+          "score": 83.37733544582517
+        },
+        "raw": {
+          "score": 82.00638753222381,
+          "ded_pct": 48.27520571873781
+        }
+      },
+      {
+        "name": "UI最优",
+        "params": {
+          "r_fast": 0.1,
+          "tau_c_fast_s": 4.0,
+          "r_slow_max": 0.6,
+          "slope_cap_frac": 0.04,
+          "slope_gate_frac": 0.2,
+          "slow_confirm_s": 0.0,
+          "soft_unfreeze_s": 4.0,
+          "edge_slope_thres": 150.0,
+          "tau_slope_s": 3.0,
+          "tau_r_slow_idle_s": 30.0,
+          "tau_r_fast_s": 2.0,
+          "hold_eps": 8.0,
+          "idle_frac": 0.1,
+          "ramp_slope_min": 2.0
+        },
+        "uniform": {
+          "ded_pct": 40.08760489257014,
+          "resid_pct": 59.912395768739856,
+          "over_pct": -26.44467852409528,
+          "tail_pct": 31.021216015538528,
+          "std_pct": 2.4866470603119346,
+          "score": 90.93361178427838
+        },
+        "raw": {
+          "score": 89.90135350160249,
+          "ded_pct": 40.655510827519045
+        }
+      },
+      {
+        "name": "实用 r0.6·gate2·cap0.04",
+        "params": {
+          "r_fast": 0.1,
+          "tau_c_fast_s": 4.0,
+          "r_slow_max": 0.6,
+          "slope_cap_frac": 0.04,
+          "slope_gate_frac": 2.0,
+          "slow_confirm_s": 0.0,
+          "soft_unfreeze_s": 4.0,
+          "edge_slope_thres": 150.0,
+          "tau_slope_s": 3.0,
+          "tau_r_slow_idle_s": 30.0,
+          "tau_r_fast_s": 2.0,
+          "hold_eps": 8.0,
+          "idle_frac": 0.1,
+          "ramp_slope_min": 2.0
+        },
+        "uniform": {
+          "ded_pct": 40.4180440008624,
+          "resid_pct": 59.58195666044761,
+          "over_pct": -23.55856736631337,
+          "tail_pct": 32.01411572658225,
+          "std_pct": 2.4723815191221057,
+          "score": 91.59607238702986
+        },
+        "raw": {
+          "score": 90.66050456225757,
+          "ded_pct": 40.96455115756107
+        }
+      },
+      {
+        "name": "实用 r0.6·gate1·cap0.04",
+        "params": {
+          "r_fast": 0.1,
+          "tau_c_fast_s": 4.0,
+          "r_slow_max": 0.6,
+          "slope_cap_frac": 0.04,
+          "slope_gate_frac": 1.0,
+          "slow_confirm_s": 0.0,
+          "soft_unfreeze_s": 4.0,
+          "edge_slope_thres": 150.0,
+          "tau_slope_s": 3.0,
+          "tau_r_slow_idle_s": 30.0,
+          "tau_r_fast_s": 2.0,
+          "hold_eps": 8.0,
+          "idle_frac": 0.1,
+          "ramp_slope_min": 2.0
+        },
+        "uniform": {
+          "ded_pct": 40.40794066140725,
+          "resid_pct": 59.592059999902744,
+          "over_pct": -23.55907111483929,
+          "tail_pct": 32.0095195182825,
+          "std_pct": 2.473748052100544,
+          "score": 91.60157951818525
+        },
+        "raw": {
+          "score": 90.65342703075825,
+          "ded_pct": 40.96211668196637
+        }
+      },
+      {
+        "name": "实用 r0.6·gate0.5·cap0.04",
+        "params": {
+          "r_fast": 0.1,
+          "tau_c_fast_s": 4.0,
+          "r_slow_max": 0.6,
+          "slope_cap_frac": 0.04,
+          "slope_gate_frac": 0.5,
+          "slow_confirm_s": 0.0,
+          "soft_unfreeze_s": 4.0,
+          "edge_slope_thres": 150.0,
+          "tau_slope_s": 3.0,
+          "tau_r_slow_idle_s": 30.0,
+          "tau_r_fast_s": 2.0,
+          "hold_eps": 8.0,
+          "idle_frac": 0.1,
+          "ramp_slope_min": 2.0
+        },
+        "uniform": {
+          "ded_pct": 40.356948521682654,
+          "resid_pct": 59.64305213962735,
+          "over_pct": -23.573410267253024,
+          "tail_pct": 32.00787457682451,
+          "std_pct": 2.475076933441003,
+          "score": 91.65092671645186
+        },
+        "raw": {
+          "score": 90.68489914992617,
+          "ded_pct": 40.915597872697916
+        }
+      },
+      {
+        "name": "实用 r0.6·gate2·cap0.08",
+        "params": {
+          "r_fast": 0.1,
+          "tau_c_fast_s": 4.0,
+          "r_slow_max": 0.6,
+          "slope_cap_frac": 0.08,
+          "slope_gate_frac": 2.0,
+          "slow_confirm_s": 0.0,
+          "soft_unfreeze_s": 4.0,
+          "edge_slope_thres": 150.0,
+          "tau_slope_s": 3.0,
+          "tau_r_slow_idle_s": 30.0,
+          "tau_r_fast_s": 2.0,
+          "hold_eps": 8.0,
+          "idle_frac": 0.1,
+          "ramp_slope_min": 2.0
+        },
+        "uniform": {
+          "ded_pct": 40.36689142805143,
+          "resid_pct": 59.633109233258565,
+          "over_pct": -19.318465388390806,
+          "tail_pct": 33.1114811883443,
+          "std_pct": 2.592625347213556,
+          "score": 92.74459042160287
+        },
+        "raw": {
+          "score": 91.95994122860648,
+          "ded_pct": 40.88320168533347
+        }
+      },
+      {
+        "name": "实用 r0.6·gate1·cap0.08",
+        "params": {
+          "r_fast": 0.1,
+          "tau_c_fast_s": 4.0,
+          "r_slow_max": 0.6,
+          "slope_cap_frac": 0.08,
+          "slope_gate_frac": 1.0,
+          "slow_confirm_s": 0.0,
+          "soft_unfreeze_s": 4.0,
+          "edge_slope_thres": 150.0,
+          "tau_slope_s": 3.0,
+          "tau_r_slow_idle_s": 30.0,
+          "tau_r_fast_s": 2.0,
+          "hold_eps": 8.0,
+          "idle_frac": 0.1,
+          "ramp_slope_min": 2.0
+        },
+        "uniform": {
+          "ded_pct": 40.35592100266167,
+          "resid_pct": 59.6440744027424,
+          "over_pct": -19.319326742490155,
+          "tail_pct": 33.107138586926865,
+          "std_pct": 2.5912012293770306,
+          "score": 92.75121298966926
+        },
+        "raw": {
+          "score": 91.95135064125091,
+          "ded_pct": 40.88331177954109
+        }
+      },
+      {
+        "name": "实用 r0.6·gate0.5·cap0.08",
+        "params": {
+          "r_fast": 0.1,
+          "tau_c_fast_s": 4.0,
+          "r_slow_max": 0.6,
+          "slope_cap_frac": 0.08,
+          "slope_gate_frac": 0.5,
+          "slow_confirm_s": 0.0,
+          "soft_unfreeze_s": 4.0,
+          "edge_slope_thres": 150.0,
+          "tau_slope_s": 3.0,
+          "tau_r_slow_idle_s": 30.0,
+          "tau_r_fast_s": 2.0,
+          "hold_eps": 8.0,
+          "idle_frac": 0.1,
+          "ramp_slope_min": 2.0
+        },
+        "uniform": {
+          "ded_pct": 40.30396993983968,
+          "resid_pct": 59.69603072147033,
+          "over_pct": -19.346098374553684,
+          "tail_pct": 33.08373177976873,
+          "std_pct": 2.591529020107677,
+          "score": 92.77976250123906
+        },
+        "raw": {
+          "score": 91.95871183129194,
+          "ded_pct": 40.840430776367285
+        }
+      },
+      {
+        "name": "现役默认",
+        "params": {},
+        "uniform": {
+          "ded_pct": 10.999350020927448,
+          "resid_pct": 89.00065285518478,
+          "over_pct": -31.83031893897362,
+          "tail_pct": 49.64873734059477,
+          "std_pct": 2.6118719786278732,
+          "score": 138.64939019577955
+        },
+        "raw": {
+          "score": 138.96548315755015,
+          "ded_pct": 10.784587041442592
+        }
+      }
+    ]
+  },
+  "左拇指指腹": {
+    "candidates": [
+      {
+        "name": "放宽最优",
+        "params": {
+          "r_fast": 0.04,
+          "slope_gate_frac": 2.0,
+          "slope_cap_frac": 0.3,
+          "tau_slope_s": 2.0,
+          "slow_confirm_s": 0.5,
+          "soft_unfreeze_s": 4.0,
+          "tau_c_fast_s": 20.0,
+          "tau_r_slow_idle_s": 30.0,
+          "tau_r_fast_s": 2.0,
+          "hold_eps": 0.5,
+          "idle_frac": 0.02,
+          "r_slow_max": 30.0,
+          "ramp_slope_min": 0.5
+        },
+        "uniform": {
+          "ded_pct": 88.34741157635145,
+          "resid_pct": 11.652589314120833,
+          "over_pct": 7.933406609088463,
+          "tail_pct": 0.611456672070238,
+          "std_pct": 3.66376008368019,
+          "score": 12.2789373285585
+        },
+        "raw": {
+          "score": 13.559523939889417,
+          "ded_pct": 87.68152351420795
+        }
+      },
+      {
+        "name": "收敛(放宽骨架) r5·gate2·cap0.15",
+        "params": {
+          "r_fast": 0.04,
+          "slope_gate_frac": 2.0,
+          "slope_cap_frac": 0.15,
+          "tau_slope_s": 2.0,
+          "slow_confirm_s": 0.5,
+          "soft_unfreeze_s": 4.0,
+          "tau_c_fast_s": 20.0,
+          "tau_r_slow_idle_s": 30.0,
+          "tau_r_fast_s": 2.0,
+          "hold_eps": 0.5,
+          "idle_frac": 0.02,
+          "r_slow_max": 5.0,
+          "ramp_slope_min": 0.5
+        },
+        "uniform": {
+          "ded_pct": 64.0776858250153,
+          "resid_pct": 35.92231506545699,
+          "over_pct": -5.141758689319037,
+          "tail_pct": 1.9462245277139112,
+          "std_pct": 5.234177406678381,
+          "score": 38.34547861151806
+        },
+        "raw": {
+          "score": 35.793849822498736,
+          "ded_pct": 66.02187066725304
+        }
+      },
+      {
+        "name": "实用 r5·gate2·cap0.08",
+        "params": {
+          "r_fast": 0.1,
+          "slope_gate_frac": 2.0,
+          "slope_cap_frac": 0.08,
+          "tau_slope_s": 0.5,
+          "slow_confirm_s": 0.0,
+          "soft_unfreeze_s": 2.0,
+          "tau_c_fast_s": 2.0,
+          "tau_r_slow_idle_s": 30.0,
+          "tau_r_fast_s": 2.0,
+          "hold_eps": 0.0,
+          "idle_frac": 0.1,
+          "r_slow_max": 5.0
+        },
+        "uniform": {
+          "ded_pct": 59.344958102359605,
+          "resid_pct": 40.655039706167564,
+          "over_pct": -15.272824564900992,
+          "tail_pct": -1.4398964146253608,
+          "std_pct": 3.2005398592180536,
+          "score": 42.09493612079292
+        },
+        "raw": {
+          "score": 40.52142444926889,
+          "ded_pct": 60.33129922348505
+        }
+      },
+      {
+        "name": "实用 r5·gate1·cap0.08",
+        "params": {
+          "r_fast": 0.1,
+          "slope_gate_frac": 1.0,
+          "slope_cap_frac": 0.08,
+          "tau_slope_s": 0.5,
+          "slow_confirm_s": 0.0,
+          "soft_unfreeze_s": 2.0,
+          "tau_c_fast_s": 2.0,
+          "tau_r_slow_idle_s": 30.0,
+          "tau_r_fast_s": 2.0,
+          "hold_eps": 0.0,
+          "idle_frac": 0.1,
+          "r_slow_max": 5.0
+        },
+        "uniform": {
+          "ded_pct": 57.97784367764763,
+          "resid_pct": 42.02215721282464,
+          "over_pct": -16.178100794094295,
+          "tail_pct": -0.8979597484894394,
+          "std_pct": 3.1747190207058913,
+          "score": 43.19978763879831
+        },
+        "raw": {
+          "score": 41.47243744348884,
+          "ded_pct": 59.477351461172795
+        }
+      },
+      {
+        "name": "实用 r5·gate0.5·cap0.08",
+        "params": {
+          "r_fast": 0.1,
+          "slope_gate_frac": 0.5,
+          "slope_cap_frac": 0.08,
+          "tau_slope_s": 0.5,
+          "slow_confirm_s": 0.0,
+          "soft_unfreeze_s": 2.0,
+          "tau_c_fast_s": 2.0,
+          "tau_r_slow_idle_s": 30.0,
+          "tau_r_fast_s": 2.0,
+          "hold_eps": 0.0,
+          "idle_frac": 0.1,
+          "r_slow_max": 5.0
+        },
+        "uniform": {
+          "ded_pct": 55.990421770627336,
+          "resid_pct": 44.00957911984493,
+          "over_pct": -17.589314188023913,
+          "tail_pct": -1.0483356922873635,
+          "std_pct": 3.2817783922774737,
+          "score": 45.057914812132296
+        },
+        "raw": {
+          "score": 43.00695939384988,
+          "ded_pct": 57.98692675661471
+        }
+      },
+      {
+        "name": "实用 r2·gate2·cap0.08",
+        "params": {
+          "r_fast": 0.1,
+          "slope_gate_frac": 2.0,
+          "slope_cap_frac": 0.08,
+          "tau_slope_s": 0.5,
+          "slow_confirm_s": 0.0,
+          "soft_unfreeze_s": 2.0,
+          "tau_c_fast_s": 2.0,
+          "tau_r_slow_idle_s": 30.0,
+          "tau_r_fast_s": 2.0,
+          "hold_eps": 0.0,
+          "idle_frac": 0.1,
+          "r_slow_max": 2.0
+        },
+        "uniform": {
+          "ded_pct": 52.22352115084071,
+          "resid_pct": 47.77647665768646,
+          "over_pct": -16.40399395942475,
+          "tail_pct": -0.26950342646734543,
+          "std_pct": 3.881041333166762,
+          "score": 49.02202169519873
+        },
+        "raw": {
+          "score": 48.81489260675702,
+          "ded_pct": 52.24046529662543
+        }
+      },
+      {
+        "name": "实用 r2·gate1·cap0.08",
+        "params": {
+          "r_fast": 0.1,
+          "slope_gate_frac": 1.0,
+          "slope_cap_frac": 0.08,
+          "tau_slope_s": 0.5,
+          "slow_confirm_s": 0.0,
+          "soft_unfreeze_s": 2.0,
+          "tau_c_fast_s": 2.0,
+          "tau_r_slow_idle_s": 30.0,
+          "tau_r_fast_s": 2.0,
+          "hold_eps": 0.0,
+          "idle_frac": 0.1,
+          "r_slow_max": 2.0
+        },
+        "uniform": {
+          "ded_pct": 51.78162337719767,
+          "resid_pct": 48.21837443132951,
+          "over_pct": -17.17159353680345,
+          "tail_pct": -0.07116757567450738,
+          "std_pct": 3.820179816052886,
+          "score": 49.2224864084435
+        },
+        "raw": {
+          "score": 48.491782466186805,
+          "ded_pct": 52.43568406290673
+        }
+      },
+      {
+        "name": "实用 r2·gate0.5·cap0.08",
+        "params": {
+          "r_fast": 0.1,
+          "slope_gate_frac": 0.5,
+          "slope_cap_frac": 0.08,
+          "tau_slope_s": 0.5,
+          "slow_confirm_s": 0.0,
+          "soft_unfreeze_s": 2.0,
+          "tau_c_fast_s": 2.0,
+          "tau_r_slow_idle_s": 30.0,
+          "tau_r_fast_s": 2.0,
+          "hold_eps": 0.0,
+          "idle_frac": 0.1,
+          "r_slow_max": 2.0
+        },
+        "uniform": {
+          "ded_pct": 51.819722342020455,
+          "resid_pct": 48.180278548451824,
+          "over_pct": -18.315004392615727,
+          "tail_pct": -0.08543510383616071,
+          "std_pct": 3.6814020180383755,
+          "score": 49.46149810086601
+        },
+        "raw": {
+          "score": 49.98582871794865,
+          "ded_pct": 51.59182753386706
+        }
+      },
+      {
+        "name": "收敛(放宽骨架) r2·gate2·cap0.15",
+        "params": {
+          "r_fast": 0.04,
+          "slope_gate_frac": 2.0,
+          "slope_cap_frac": 0.15,
+          "tau_slope_s": 2.0,
+          "slow_confirm_s": 0.5,
+          "soft_unfreeze_s": 4.0,
+          "tau_c_fast_s": 20.0,
+          "tau_r_slow_idle_s": 30.0,
+          "tau_r_fast_s": 2.0,
+          "hold_eps": 0.5,
+          "idle_frac": 0.02,
+          "r_slow_max": 2.0,
+          "ramp_slope_min": 0.5
+        },
+        "uniform": {
+          "ded_pct": 50.80142441985052,
+          "resid_pct": 49.19857338867666,
+          "over_pct": -11.087855678128886,
+          "tail_pct": 2.319025194925387,
+          "std_pct": 6.768580966339046,
+          "score": 51.86444130231949
+        },
+        "raw": {
+          "score": 45.70240269887806,
+          "ded_pct": 56.3118002255137
+        }
+      },
+      {
+        "name": "实用 r5·gate2·cap0.04",
+        "params": {
+          "r_fast": 0.1,
+          "slope_gate_frac": 2.0,
+          "slope_cap_frac": 0.04,
+          "tau_slope_s": 0.5,
+          "slow_confirm_s": 0.0,
+          "soft_unfreeze_s": 2.0,
+          "tau_c_fast_s": 2.0,
+          "tau_r_slow_idle_s": 30.0,
+          "tau_r_fast_s": 2.0,
+          "hold_eps": 0.0,
+          "idle_frac": 0.1,
+          "r_slow_max": 5.0
+        },
+        "uniform": {
+          "ded_pct": 47.29409113222462,
+          "resid_pct": 52.70590667630255,
+          "over_pct": -19.544158451736614,
+          "tail_pct": -0.02945681752511531,
+          "std_pct": 3.450877141564085,
+          "score": 53.283684886797246
+        },
+        "raw": {
+          "score": 52.93842318176393,
+          "ded_pct": 47.5279094652809
+        }
+      },
+      {
+        "name": "实用 r5·gate1·cap0.04",
+        "params": {
+          "r_fast": 0.1,
+          "slope_gate_frac": 1.0,
+          "slope_cap_frac": 0.04,
+          "tau_slope_s": 0.5,
+          "slow_confirm_s": 0.0,
+          "soft_unfreeze_s": 2.0,
+          "tau_c_fast_s": 2.0,
+          "tau_r_slow_idle_s": 30.0,
+          "tau_r_fast_s": 2.0,
+          "hold_eps": 0.0,
+          "idle_frac": 0.1,
+          "r_slow_max": 5.0
+        },
+        "uniform": {
+          "ded_pct": 46.32367475005023,
+          "resid_pct": 53.67632305847694,
+          "over_pct": -19.95068555231966,
+          "tail_pct": 0.18607219335388364,
+          "std_pct": 3.5023889938932697,
+          "score": 54.58328933344731
+        },
+        "raw": {
+          "score": 54.27669914956614,
+          "ded_pct": 46.458801428816486
+        }
+      },
+      {
+        "name": "实用 r1·gate2·cap0.08",
+        "params": {
+          "r_fast": 0.1,
+          "slope_gate_frac": 2.0,
+          "slope_cap_frac": 0.08,
+          "tau_slope_s": 0.5,
+          "slow_confirm_s": 0.0,
+          "soft_unfreeze_s": 2.0,
+          "tau_c_fast_s": 2.0,
+          "tau_r_slow_idle_s": 30.0,
+          "tau_r_fast_s": 2.0,
+          "hold_eps": 0.0,
+          "idle_frac": 0.1,
+          "r_slow_max": 1.0
+        },
+        "uniform": {
+          "ded_pct": 46.03265574197185,
+          "resid_pct": 53.96734206655532,
+          "over_pct": -16.702566724225555,
+          "tail_pct": 1.154924908806447,
+          "std_pct": 4.762184683162927,
+          "score": 55.5112059822941
+        },
+        "raw": {
+          "score": 55.813619240676,
+          "ded_pct": 45.902259000548895
+        }
+      },
+      {
+        "name": "实用 r1·gate1·cap0.08",
+        "params": {
+          "r_fast": 0.1,
+          "slope_gate_frac": 1.0,
+          "slope_cap_frac": 0.08,
+          "tau_slope_s": 0.5,
+          "slow_confirm_s": 0.0,
+          "soft_unfreeze_s": 2.0,
+          "tau_c_fast_s": 2.0,
+          "tau_r_slow_idle_s": 30.0,
+          "tau_r_fast_s": 2.0,
+          "hold_eps": 0.0,
+          "idle_frac": 0.1,
+          "r_slow_max": 1.0
+        },
+        "uniform": {
+          "ded_pct": 45.92372950898675,
+          "resid_pct": 54.07627138148554,
+          "over_pct": -17.292063689086334,
+          "tail_pct": 1.158644931524906,
+          "std_pct": 4.7236484713719715,
+          "score": 55.52755069924295
+        },
+        "raw": {
+          "score": 55.894588055094644,
+          "ded_pct": 45.77635024819453
+        }
+      },
+      {
+        "name": "实用 r1·gate0.5·cap0.08",
+        "params": {
+          "r_fast": 0.1,
+          "slope_gate_frac": 0.5,
+          "slope_cap_frac": 0.08,
+          "tau_slope_s": 0.5,
+          "slow_confirm_s": 0.0,
+          "soft_unfreeze_s": 2.0,
+          "tau_c_fast_s": 2.0,
+          "tau_r_slow_idle_s": 30.0,
+          "tau_r_fast_s": 2.0,
+          "hold_eps": 0.0,
+          "idle_frac": 0.1,
+          "r_slow_max": 1.0
+        },
+        "uniform": {
+          "ded_pct": 45.77979222966896,
+          "resid_pct": 54.220208660803316,
+          "over_pct": -18.315004392615727,
+          "tail_pct": 1.2580804137877555,
+          "std_pct": 4.6175523538706775,
+          "score": 55.596243743277725
+        },
+        "raw": {
+          "score": 56.007745557262496,
+          "ded_pct": 45.532708618633606
+        }
+      },
+      {
+        "name": "实用 r5·gate0.5·cap0.04",
+        "params": {
+          "r_fast": 0.1,
+          "slope_gate_frac": 0.5,
+          "slope_cap_frac": 0.04,
+          "tau_slope_s": 0.5,
+          "slow_confirm_s": 0.0,
+          "soft_unfreeze_s": 2.0,
+          "tau_c_fast_s": 2.0,
+          "tau_r_slow_idle_s": 30.0,
+          "tau_r_fast_s": 2.0,
+          "hold_eps": 0.0,
+          "idle_frac": 0.1,
+          "r_slow_max": 5.0
+        },
+        "uniform": {
+          "ded_pct": 45.287605738570136,
+          "resid_pct": 54.71239515190213,
+          "over_pct": -20.54104531016042,
+          "tail_pct": 0.16396245048622848,
+          "std_pct": 3.428282699747677,
+          "score": 55.811690342596535
+        },
+        "raw": {
+          "score": 55.66971753019182,
+          "ded_pct": 45.29753596286612
+        }
+      },
+      {
+        "name": "实用 r2·gate2·cap0.04",
+        "params": {
+          "r_fast": 0.1,
+          "slope_gate_frac": 2.0,
+          "slope_cap_frac": 0.04,
+          "tau_slope_s": 0.5,
+          "slow_confirm_s": 0.0,
+          "soft_unfreeze_s": 2.0,
+          "tau_c_fast_s": 2.0,
+          "tau_r_slow_idle_s": 30.0,
+          "tau_r_fast_s": 2.0,
+          "hold_eps": 0.0,
+          "idle_frac": 0.1,
+          "r_slow_max": 2.0
+        },
+        "uniform": {
+          "ded_pct": 43.98261868800788,
+          "resid_pct": 56.01737912051929,
+          "over_pct": -19.544158451736614,
+          "tail_pct": 0.18952350655094086,
+          "std_pct": 3.9842111081812948,
+          "score": 56.73609910664967
+        },
+        "raw": {
+          "score": 57.05927678437618,
+          "ded_pct": 43.651223493719314
+        }
+      },
+      {
+        "name": "实用 r2·gate1·cap0.04",
+        "params": {
+          "r_fast": 0.1,
+          "slope_gate_frac": 1.0,
+          "slope_cap_frac": 0.04,
+          "tau_slope_s": 0.5,
+          "slow_confirm_s": 0.0,
+          "soft_unfreeze_s": 2.0,
+          "tau_c_fast_s": 2.0,
+          "tau_r_slow_idle_s": 30.0,
+          "tau_r_fast_s": 2.0,
+          "hold_eps": 0.0,
+          "idle_frac": 0.1,
+          "r_slow_max": 2.0
+        },
+        "uniform": {
+          "ded_pct": 43.82467203772609,
+          "resid_pct": 56.17532885274619,
+          "over_pct": -19.95068555231966,
+          "tail_pct": 0.21940729294330957,
+          "std_pct": 3.930705079359388,
+          "score": 56.83746742251734
+        },
+        "raw": {
+          "score": 57.14540626447035,
+          "ded_pct": 43.51769314389327
+        }
+      },
+      {
+        "name": "实用 r2·gate0.5·cap0.04",
+        "params": {
+          "r_fast": 0.1,
+          "slope_gate_frac": 0.5,
+          "slope_cap_frac": 0.04,
+          "tau_slope_s": 0.5,
+          "slow_confirm_s": 0.0,
+          "soft_unfreeze_s": 2.0,
+          "tau_c_fast_s": 2.0,
+          "tau_r_slow_idle_s": 30.0,
+          "tau_r_fast_s": 2.0,
+          "hold_eps": 0.0,
+          "idle_frac": 0.1,
+          "r_slow_max": 2.0
+        },
+        "uniform": {
+          "ded_pct": 43.370349925210306,
+          "resid_pct": 56.62964788331686,
+          "over_pct": -20.54104531016042,
+          "tail_pct": 0.1475135313249913,
+          "std_pct": 3.7628970737082783,
+          "score": 57.558360532553706
+        },
+        "raw": {
+          "score": 57.58168086259999,
+          "ded_pct": 43.252168546818446
+        }
+      },
+      {
+        "name": "实用 r1·gate2·cap0.04",
+        "params": {
+          "r_fast": 0.1,
+          "slope_gate_frac": 2.0,
+          "slope_cap_frac": 0.04,
+          "tau_slope_s": 0.5,
+          "slow_confirm_s": 0.0,
+          "soft_unfreeze_s": 2.0,
+          "tau_c_fast_s": 2.0,
+          "tau_r_slow_idle_s": 30.0,
+          "tau_r_fast_s": 2.0,
+          "hold_eps": 0.0,
+          "idle_frac": 0.1,
+          "r_slow_max": 1.0
+        },
+        "uniform": {
+          "ded_pct": 40.94513663603938,
+          "resid_pct": 59.054866438073766,
+          "over_pct": -19.5497953293371,
+          "tail_pct": 0.6393243610845766,
+          "std_pct": 4.407397735881079,
+          "score": 59.76851067263274
+        },
+        "raw": {
+          "score": 60.16067223270643,
+          "ded_pct": 40.636993666045484
+        }
+      },
+      {
+        "name": "实用 r1·gate1·cap0.04",
+        "params": {
+          "r_fast": 0.1,
+          "slope_gate_frac": 1.0,
+          "slope_cap_frac": 0.04,
+          "tau_slope_s": 0.5,
+          "slow_confirm_s": 0.0,
+          "soft_unfreeze_s": 2.0,
+          "tau_c_fast_s": 2.0,
+          "tau_r_slow_idle_s": 30.0,
+          "tau_r_fast_s": 2.0,
+          "hold_eps": 0.0,
+          "idle_frac": 0.1,
+          "r_slow_max": 1.0
+        },
+        "uniform": {
+          "ded_pct": 40.847294229325946,
+          "resid_pct": 59.15270357920123,
+          "over_pct": -19.95068555231966,
+          "tail_pct": 0.6265534450080774,
+          "std_pct": 4.383420602482967,
+          "score": 59.88257368641631
+        },
+        "raw": {
+          "score": 60.31131014461406,
+          "ded_pct": 40.467779767947896
+        }
+      },
+      {
+        "name": "实用 r1·gate0.5·cap0.04",
+        "params": {
+          "r_fast": 0.1,
+          "slope_gate_frac": 0.5,
+          "slope_cap_frac": 0.04,
+          "tau_slope_s": 0.5,
+          "slow_confirm_s": 0.0,
+          "soft_unfreeze_s": 2.0,
+          "tau_c_fast_s": 2.0,
+          "tau_r_slow_idle_s": 30.0,
+          "tau_r_fast_s": 2.0,
+          "hold_eps": 0.0,
+          "idle_frac": 0.1,
+          "r_slow_max": 1.0
+        },
+        "uniform": {
+          "ded_pct": 40.82643910342536,
+          "resid_pct": 59.17355870510181,
+          "over_pct": -20.54104531016042,
+          "tail_pct": 0.6058732758801374,
+          "std_pct": 4.280919883918387,
+          "score": 59.89837040654671
+        },
+        "raw": {
+          "score": 60.40799121316604,
+          "ded_pct": 40.39577633182195
+        }
+      },
+      {
+        "name": "收敛(放宽骨架) r1·gate2·cap0.15",
+        "params": {
+          "r_fast": 0.04,
+          "slope_gate_frac": 2.0,
+          "slope_cap_frac": 0.15,
+          "tau_slope_s": 2.0,
+          "slow_confirm_s": 0.5,
+          "soft_unfreeze_s": 4.0,
+          "tau_c_fast_s": 20.0,
+          "tau_r_slow_idle_s": 30.0,
+          "tau_r_fast_s": 2.0,
+          "hold_eps": 0.5,
+          "idle_frac": 0.02,
+          "r_slow_max": 1.0,
+          "ramp_slope_min": 0.5
+        },
+        "uniform": {
+          "ded_pct": 40.94279743470726,
+          "resid_pct": 59.05720037381991,
+          "over_pct": -13.33817622884615,
+          "tail_pct": 2.3428749062807057,
+          "std_pct": 7.4494387495262355,
+          "score": 61.40007528010062
+        },
+        "raw": {
+          "score": 58.27169608405849,
+          "ded_pct": 43.52158020170464
+        }
+      },
+      {
+        "name": "UI最优",
+        "params": {
+          "r_fast": 0.1,
+          "slope_gate_frac": 5.0,
+          "slope_cap_frac": 0.04,
+          "tau_slope_s": 0.5,
+          "slow_confirm_s": 0.0,
+          "soft_unfreeze_s": 2.0,
+          "tau_c_fast_s": 2.0,
+          "tau_r_slow_idle_s": 30.0,
+          "tau_r_fast_s": 2.0,
+          "hold_eps": 0.0,
+          "idle_frac": 0.1,
+          "r_slow_max": 0.6
+        },
+        "uniform": {
+          "ded_pct": 37.402056714177995,
+          "resid_pct": 62.597944176294284,
+          "over_pct": -19.624567286893576,
+          "tail_pct": 1.1686651988353585,
+          "std_pct": 5.157865901406648,
+          "score": 63.76660937512965
+        },
+        "raw": {
+          "score": 63.685100733857865,
+          "ded_pct": 37.60184253085266
+        }
+      },
+      {
+        "name": "实用 r0.6·gate2·cap0.04",
+        "params": {
+          "r_fast": 0.1,
+          "slope_gate_frac": 2.0,
+          "slope_cap_frac": 0.04,
+          "tau_slope_s": 0.5,
+          "slow_confirm_s": 0.0,
+          "soft_unfreeze_s": 2.0,
+          "tau_c_fast_s": 2.0,
+          "tau_r_slow_idle_s": 30.0,
+          "tau_r_fast_s": 2.0,
+          "hold_eps": 0.0,
+          "idle_frac": 0.1,
+          "r_slow_max": 0.6
+        },
+        "uniform": {
+          "ded_pct": 37.37809146815485,
+          "resid_pct": 62.621909422317444,
+          "over_pct": -19.645568550686804,
+          "tail_pct": 1.1793578515506546,
+          "std_pct": 5.154013102445775,
+          "score": 63.8012672738681
+        },
+        "raw": {
+          "score": 63.70160663951485,
+          "ded_pct": 37.5778926567542
+        }
+      },
+      {
+        "name": "实用 r0.6·gate1·cap0.04",
+        "params": {
+          "r_fast": 0.1,
+          "slope_gate_frac": 1.0,
+          "slope_cap_frac": 0.04,
+          "tau_slope_s": 0.5,
+          "slow_confirm_s": 0.0,
+          "soft_unfreeze_s": 2.0,
+          "tau_c_fast_s": 2.0,
+          "tau_r_slow_idle_s": 30.0,
+          "tau_r_fast_s": 2.0,
+          "hold_eps": 0.0,
+          "idle_frac": 0.1,
+          "r_slow_max": 0.6
+        },
+        "uniform": {
+          "ded_pct": 37.30829607532394,
+          "resid_pct": 62.691706998789215,
+          "over_pct": -19.98411067381621,
+          "tail_pct": 1.1715347199862403,
+          "std_pct": 5.127691783123083,
+          "score": 63.863241718775456
+        },
+        "raw": {
+          "score": 63.77423207230622,
+          "ded_pct": 37.47543294634554
+        }
+      },
+      {
+        "name": "实用 r0.6·gate0.5·cap0.04",
+        "params": {
+          "r_fast": 0.1,
+          "slope_gate_frac": 0.5,
+          "slope_cap_frac": 0.04,
+          "tau_slope_s": 0.5,
+          "slow_confirm_s": 0.0,
+          "soft_unfreeze_s": 2.0,
+          "tau_c_fast_s": 2.0,
+          "tau_r_slow_idle_s": 30.0,
+          "tau_r_fast_s": 2.0,
+          "hold_eps": 0.0,
+          "idle_frac": 0.1,
+          "r_slow_max": 0.6
+        },
+        "uniform": {
+          "ded_pct": 37.22962500946847,
+          "resid_pct": 62.770378064644675,
+          "over_pct": -20.54104531016042,
+          "tail_pct": 1.0998186381026689,
+          "std_pct": 5.048598092445454,
+          "score": 63.870196702747336
+        },
+        "raw": {
+          "score": 63.75366140459866,
+          "ded_pct": 37.4145154882841
+        }
+      },
+      {
+        "name": "实用 r0.6·gate0.5·cap0.08",
+        "params": {
+          "r_fast": 0.1,
+          "slope_gate_frac": 0.5,
+          "slope_cap_frac": 0.08,
+          "tau_slope_s": 0.5,
+          "slow_confirm_s": 0.0,
+          "soft_unfreeze_s": 2.0,
+          "tau_c_fast_s": 2.0,
+          "tau_r_slow_idle_s": 30.0,
+          "tau_r_fast_s": 2.0,
+          "hold_eps": 0.0,
+          "idle_frac": 0.1,
+          "r_slow_max": 0.6
+        },
+        "uniform": {
+          "ded_pct": 38.22642487406232,
+          "resid_pct": 61.77357601640996,
+          "over_pct": -18.34682497777702,
+          "tail_pct": 2.10694399913681,
+          "std_pct": 6.076485310091481,
+          "score": 63.880520015546765
+        },
+        "raw": {
+          "score": 62.535611932352836,
+          "ded_pct": 39.35216871873406
+        }
+      },
+      {
+        "name": "实用 r0.6·gate1·cap0.08",
+        "params": {
+          "r_fast": 0.1,
+          "slope_gate_frac": 1.0,
+          "slope_cap_frac": 0.08,
+          "tau_slope_s": 0.5,
+          "slow_confirm_s": 0.0,
+          "soft_unfreeze_s": 2.0,
+          "tau_c_fast_s": 2.0,
+          "tau_r_slow_idle_s": 30.0,
+          "tau_r_fast_s": 2.0,
+          "hold_eps": 0.0,
+          "idle_frac": 0.1,
+          "r_slow_max": 0.6
+        },
+        "uniform": {
+          "ded_pct": 38.2466778499097,
+          "resid_pct": 61.75332522420344,
+          "over_pct": -17.504335259179996,
+          "tail_pct": 2.151605224780837,
+          "std_pct": 6.144532571172191,
+          "score": 63.904930448984274
+        },
+        "raw": {
+          "score": 62.43592992170211,
+          "ded_pct": 39.47260135233567
+        }
+      },
+      {
+        "name": "实用 r0.6·gate2·cap0.08",
+        "params": {
+          "r_fast": 0.1,
+          "slope_gate_frac": 2.0,
+          "slope_cap_frac": 0.08,
+          "tau_slope_s": 0.5,
+          "slow_confirm_s": 0.0,
+          "soft_unfreeze_s": 2.0,
+          "tau_c_fast_s": 2.0,
+          "tau_r_slow_idle_s": 30.0,
+          "tau_r_fast_s": 2.0,
+          "hold_eps": 0.0,
+          "idle_frac": 0.1,
+          "r_slow_max": 0.6
+        },
+        "uniform": {
+          "ded_pct": 38.251308669852236,
+          "resid_pct": 61.74869222062004,
+          "over_pct": -17.076283148106732,
+          "tail_pct": 2.1758834290045788,
+          "std_pct": 6.1807878946992885,
+          "score": 63.92457564962462
+        },
+        "raw": {
+          "score": 62.36540772079522,
+          "ded_pct": 39.53143016400251
+        }
+      },
+      {
+        "name": "现役默认",
+        "params": {},
+        "uniform": {
+          "ded_pct": 18.36506737791555,
+          "resid_pct": 81.63493351255673,
+          "over_pct": -24.649460871815123,
+          "tail_pct": 1.9261086337644078,
+          "std_pct": 6.74374400446112,
+          "score": 83.56104214632114
+        },
+        "raw": {
+          "score": 83.65672141396996,
+          "ded_pct": 18.380642791410132
+        }
+      }
+    ]
+  },
+  "右手掌": {
+    "candidates": [
+      {
+        "name": "放宽最优",
+        "params": {
+          "r_fast": 0.1,
+          "tau_c_fast_s": 12.0,
+          "r_slow_max": 30.0,
+          "slope_cap_frac": 0.08,
+          "slope_gate_frac": 20.0,
+          "slow_confirm_s": 0.0,
+          "soft_unfreeze_s": 0.5,
+          "edge_slope_thres": 60.0,
+          "tau_slope_s": 2.0,
+          "tau_r_slow_idle_s": 0.5,
+          "tau_r_fast_s": 0.5,
+          "hold_eps": 8.0,
+          "idle_frac": 0.1,
+          "ramp_slope_min": 0.0
+        },
+        "uniform": {
+          "ded_pct": 90.42234611920401,
+          "resid_pct": 9.577654185211244,
+          "over_pct": 6.571223311216513,
+          "tail_pct": 0.8266885834495926,
+          "std_pct": 4.589878793027709,
+          "score": 11.17679694481094
+        },
+        "raw": {
+          "score": 10.802397400195176,
+          "ded_pct": 90.81383433452065
+        }
+      },
+      {
+        "name": "实用 r5·gate2·cap0.08",
+        "params": {
+          "r_fast": 0.1,
+          "tau_c_fast_s": 2.0,
+          "r_slow_max": 5.0,
+          "slope_cap_frac": 0.08,
+          "slope_gate_frac": 2.0,
+          "slow_confirm_s": 0.0,
+          "soft_unfreeze_s": 2.0,
+          "edge_slope_thres": 20.0,
+          "tau_slope_s": 1.0,
+          "tau_r_slow_idle_s": 30.0,
+          "tau_r_fast_s": 2.0,
+          "hold_eps": 0.0,
+          "idle_frac": 0.1,
+          "ramp_slope_min": 0.0
+        },
+        "uniform": {
+          "ded_pct": 71.14136902220146,
+          "resid_pct": 28.858631282213793,
+          "over_pct": -6.959946972581706,
+          "tail_pct": 2.529244264396699,
+          "std_pct": 3.153041904620572,
+          "score": 31.38787554661049
+        },
+        "raw": {
+          "score": 30.821112509624225,
+          "ded_pct": 71.25005534855494
+        }
+      },
+      {
+        "name": "实用 r5·gate0.5·cap0.08",
+        "params": {
+          "r_fast": 0.1,
+          "tau_c_fast_s": 2.0,
+          "r_slow_max": 5.0,
+          "slope_cap_frac": 0.08,
+          "slope_gate_frac": 0.5,
+          "slow_confirm_s": 0.0,
+          "soft_unfreeze_s": 2.0,
+          "edge_slope_thres": 20.0,
+          "tau_slope_s": 1.0,
+          "tau_r_slow_idle_s": 30.0,
+          "tau_r_fast_s": 2.0,
+          "hold_eps": 0.0,
+          "idle_frac": 0.1,
+          "ramp_slope_min": 0.0
+        },
+        "uniform": {
+          "ded_pct": 69.2735660143316,
+          "resid_pct": 30.72643165252186,
+          "over_pct": -8.954486882754015,
+          "tail_pct": 1.5752299451520875,
+          "std_pct": 3.169355985911626,
+          "score": 32.563406198442564
+        },
+        "raw": {
+          "score": 32.63123941160809,
+          "ded_pct": 69.53760006336367
+        }
+      },
+      {
+        "name": "实用 r5·gate1·cap0.08",
+        "params": {
+          "r_fast": 0.1,
+          "tau_c_fast_s": 2.0,
+          "r_slow_max": 5.0,
+          "slope_cap_frac": 0.08,
+          "slope_gate_frac": 1.0,
+          "slow_confirm_s": 0.0,
+          "soft_unfreeze_s": 2.0,
+          "edge_slope_thres": 20.0,
+          "tau_slope_s": 1.0,
+          "tau_r_slow_idle_s": 30.0,
+          "tau_r_fast_s": 2.0,
+          "hold_eps": 0.0,
+          "idle_frac": 0.1,
+          "ramp_slope_min": 0.0
+        },
+        "uniform": {
+          "ded_pct": 70.04881521116795,
+          "resid_pct": 29.951186732351413,
+          "over_pct": -7.177781721082091,
+          "tail_pct": 2.8767985533922302,
+          "std_pct": 3.1641526880761823,
+          "score": 32.827985285743644
+        },
+        "raw": {
+          "score": 31.20244397323704,
+          "ded_pct": 70.59798933386395
+        }
+      },
+      {
+        "name": "收敛(放宽骨架) r5·gate20·cap0.08",
+        "params": {
+          "r_fast": 0.1,
+          "tau_c_fast_s": 12.0,
+          "r_slow_max": 5.0,
+          "slope_cap_frac": 0.08,
+          "slope_gate_frac": 20.0,
+          "slow_confirm_s": 0.0,
+          "soft_unfreeze_s": 0.5,
+          "edge_slope_thres": 60.0,
+          "tau_slope_s": 2.0,
+          "tau_r_slow_idle_s": 0.5,
+          "tau_r_fast_s": 0.5,
+          "hold_eps": 8.0,
+          "idle_frac": 0.1,
+          "ramp_slope_min": 0.0
+        },
+        "uniform": {
+          "ded_pct": 66.69426866426294,
+          "resid_pct": 33.3057317707051,
+          "over_pct": -6.2607983119017945,
+          "tail_pct": 3.32598891513218,
+          "std_pct": 4.622395564560593,
+          "score": 36.66384144080199
+        },
+        "raw": {
+          "score": 34.5137154612736,
+          "ded_pct": 67.92772052371774
+        }
+      },
+      {
+        "name": "实用 r5·gate2·cap0.04",
+        "params": {
+          "r_fast": 0.1,
+          "tau_c_fast_s": 2.0,
+          "r_slow_max": 5.0,
+          "slope_cap_frac": 0.04,
+          "slope_gate_frac": 2.0,
+          "slow_confirm_s": 0.0,
+          "soft_unfreeze_s": 2.0,
+          "edge_slope_thres": 20.0,
+          "tau_slope_s": 1.0,
+          "tau_r_slow_idle_s": 30.0,
+          "tau_r_fast_s": 2.0,
+          "hold_eps": 0.0,
+          "idle_frac": 0.1,
+          "ramp_slope_min": 0.0
+        },
+        "uniform": {
+          "ded_pct": 60.88830406129631,
+          "resid_pct": 39.11169473456762,
+          "over_pct": -10.280987795211239,
+          "tail_pct": 1.9171293528870148,
+          "std_pct": 3.2928798904880545,
+          "score": 41.02882408745464
+        },
+        "raw": {
+          "score": 39.75578395223283,
+          "ded_pct": 61.77795634905648
+        }
+      },
+      {
+        "name": "实用 r5·gate1·cap0.04",
+        "params": {
+          "r_fast": 0.1,
+          "tau_c_fast_s": 2.0,
+          "r_slow_max": 5.0,
+          "slope_cap_frac": 0.04,
+          "slope_gate_frac": 1.0,
+          "slow_confirm_s": 0.0,
+          "soft_unfreeze_s": 2.0,
+          "edge_slope_thres": 20.0,
+          "tau_slope_s": 1.0,
+          "tau_r_slow_idle_s": 30.0,
+          "tau_r_fast_s": 2.0,
+          "hold_eps": 0.0,
+          "idle_frac": 0.1,
+          "ramp_slope_min": 0.0
+        },
+        "uniform": {
+          "ded_pct": 60.357416054732575,
+          "resid_pct": 39.64258010356957,
+          "over_pct": -10.399235630699119,
+          "tail_pct": 1.7672774378183456,
+          "std_pct": 3.26841997585876,
+          "score": 41.40985754138792
+        },
+        "raw": {
+          "score": 40.25724402681773,
+          "ded_pct": 61.23559311872833
+        }
+      },
+      {
+        "name": "实用 r5·gate0.5·cap0.04",
+        "params": {
+          "r_fast": 0.1,
+          "tau_c_fast_s": 2.0,
+          "r_slow_max": 5.0,
+          "slope_cap_frac": 0.04,
+          "slope_gate_frac": 0.5,
+          "slow_confirm_s": 0.0,
+          "soft_unfreeze_s": 2.0,
+          "edge_slope_thres": 20.0,
+          "tau_slope_s": 1.0,
+          "tau_r_slow_idle_s": 30.0,
+          "tau_r_fast_s": 2.0,
+          "hold_eps": 0.0,
+          "idle_frac": 0.1,
+          "ramp_slope_min": 0.0
+        },
+        "uniform": {
+          "ded_pct": 59.53349878288245,
+          "resid_pct": 40.466500012981484,
+          "over_pct": -11.336625605450976,
+          "tail_pct": 1.1933818882170417,
+          "std_pct": 3.2639189185755635,
+          "score": 41.659881901198524
+        },
+        "raw": {
+          "score": 41.77771972906564,
+          "ded_pct": 59.673867133742654
+        }
+      },
+      {
+        "name": "实用 r2·gate1·cap0.08",
+        "params": {
+          "r_fast": 0.1,
+          "tau_c_fast_s": 2.0,
+          "r_slow_max": 2.0,
+          "slope_cap_frac": 0.08,
+          "slope_gate_frac": 1.0,
+          "slow_confirm_s": 0.0,
+          "soft_unfreeze_s": 2.0,
+          "edge_slope_thres": 20.0,
+          "tau_slope_s": 1.0,
+          "tau_r_slow_idle_s": 30.0,
+          "tau_r_fast_s": 2.0,
+          "hold_eps": 0.0,
+          "idle_frac": 0.1,
+          "ramp_slope_min": 0.0
+        },
+        "uniform": {
+          "ded_pct": 58.42468748588372,
+          "resid_pct": 41.57531294908431,
+          "over_pct": -7.2212502933521305,
+          "tail_pct": 3.216019434384856,
+          "std_pct": 4.625134343241974,
+          "score": 44.79133238346917
+        },
+        "raw": {
+          "score": 44.65302132176381,
+          "ded_pct": 58.71631478024996
+        }
+      },
+      {
+        "name": "实用 r2·gate2·cap0.08",
+        "params": {
+          "r_fast": 0.1,
+          "tau_c_fast_s": 2.0,
+          "r_slow_max": 2.0,
+          "slope_cap_frac": 0.08,
+          "slope_gate_frac": 2.0,
+          "slow_confirm_s": 0.0,
+          "soft_unfreeze_s": 2.0,
+          "edge_slope_thres": 20.0,
+          "tau_slope_s": 1.0,
+          "tau_r_slow_idle_s": 30.0,
+          "tau_r_fast_s": 2.0,
+          "hold_eps": 0.0,
+          "idle_frac": 0.1,
+          "ramp_slope_min": 0.0
+        },
+        "uniform": {
+          "ded_pct": 58.462525426780346,
+          "resid_pct": 41.53747500818769,
+          "over_pct": -7.00141916708356,
+          "tail_pct": 3.5659081626818447,
+          "std_pct": 4.648676354307348,
+          "score": 45.103383170869535
+        },
+        "raw": {
+          "score": 44.22082109256651,
+          "ded_pct": 59.14089309757826
+        }
+      },
+      {
+        "name": "实用 r2·gate0.5·cap0.08",
+        "params": {
+          "r_fast": 0.1,
+          "tau_c_fast_s": 2.0,
+          "r_slow_max": 2.0,
+          "slope_cap_frac": 0.08,
+          "slope_gate_frac": 0.5,
+          "slow_confirm_s": 0.0,
+          "soft_unfreeze_s": 2.0,
+          "edge_slope_thres": 20.0,
+          "tau_slope_s": 1.0,
+          "tau_r_slow_idle_s": 30.0,
+          "tau_r_fast_s": 2.0,
+          "hold_eps": 0.0,
+          "idle_frac": 0.1,
+          "ramp_slope_min": 0.0
+        },
+        "uniform": {
+          "ded_pct": 57.54642692439512,
+          "resid_pct": 42.45357187146882,
+          "over_pct": -8.954536055877181,
+          "tail_pct": 3.394080428168932,
+          "std_pct": 4.516276048102477,
+          "score": 45.84765229963775
+        },
+        "raw": {
+          "score": 44.897013052513756,
+          "ded_pct": 58.296766368731085
+        }
+      },
+      {
+        "name": "实用 r2·gate2·cap0.04",
+        "params": {
+          "r_fast": 0.1,
+          "tau_c_fast_s": 2.0,
+          "r_slow_max": 2.0,
+          "slope_cap_frac": 0.04,
+          "slope_gate_frac": 2.0,
+          "slow_confirm_s": 0.0,
+          "soft_unfreeze_s": 2.0,
+          "edge_slope_thres": 20.0,
+          "tau_slope_s": 1.0,
+          "tau_r_slow_idle_s": 30.0,
+          "tau_r_fast_s": 2.0,
+          "hold_eps": 0.0,
+          "idle_frac": 0.1,
+          "ramp_slope_min": 0.0
+        },
+        "uniform": {
+          "ded_pct": 54.19505491196053,
+          "resid_pct": 45.804945523007504,
+          "over_pct": -10.280987795211239,
+          "tail_pct": 2.1900178914074013,
+          "std_pct": 3.642762853256174,
+          "score": 47.99496341441491
+        },
+        "raw": {
+          "score": 46.92925709777691,
+          "ded_pct": 55.102220998213795
+        }
+      },
+      {
+        "name": "实用 r2·gate1·cap0.04",
+        "params": {
+          "r_fast": 0.1,
+          "tau_c_fast_s": 2.0,
+          "r_slow_max": 2.0,
+          "slope_cap_frac": 0.04,
+          "slope_gate_frac": 1.0,
+          "slow_confirm_s": 0.0,
+          "soft_unfreeze_s": 2.0,
+          "edge_slope_thres": 20.0,
+          "tau_slope_s": 1.0,
+          "tau_r_slow_idle_s": 30.0,
+          "tau_r_fast_s": 2.0,
+          "hold_eps": 0.0,
+          "idle_frac": 0.1,
+          "ramp_slope_min": 0.0
+        },
+        "uniform": {
+          "ded_pct": 53.77029232040881,
+          "resid_pct": 46.22970798400644,
+          "over_pct": -10.399235630699119,
+          "tail_pct": 2.249797644064132,
+          "std_pct": 3.6556811874993715,
+          "score": 48.47950562807058
+        },
+        "raw": {
+          "score": 47.207914831261185,
+          "ded_pct": 54.74577691833181
+        }
+      },
+      {
+        "name": "实用 r2·gate0.5·cap0.04",
+        "params": {
+          "r_fast": 0.1,
+          "tau_c_fast_s": 2.0,
+          "r_slow_max": 2.0,
+          "slope_cap_frac": 0.04,
+          "slope_gate_frac": 0.5,
+          "slow_confirm_s": 0.0,
+          "soft_unfreeze_s": 2.0,
+          "edge_slope_thres": 20.0,
+          "tau_slope_s": 1.0,
+          "tau_r_slow_idle_s": 30.0,
+          "tau_r_fast_s": 2.0,
+          "hold_eps": 0.0,
+          "idle_frac": 0.1,
+          "ramp_slope_min": 0.0
+        },
+        "uniform": {
+          "ded_pct": 53.14827771450004,
+          "resid_pct": 46.85172108136389,
+          "over_pct": -11.336625605450976,
+          "tail_pct": 2.153505091378005,
+          "std_pct": 3.6049589700274662,
+          "score": 49.00522617274189
+        },
+        "raw": {
+          "score": 47.84346764982012,
+          "ded_pct": 54.05380948450821
+        }
+      },
+      {
+        "name": "收敛(放宽骨架) r2·gate20·cap0.08",
+        "params": {
+          "r_fast": 0.1,
+          "tau_c_fast_s": 12.0,
+          "r_slow_max": 2.0,
+          "slope_cap_frac": 0.08,
+          "slope_gate_frac": 20.0,
+          "slow_confirm_s": 0.0,
+          "soft_unfreeze_s": 0.5,
+          "edge_slope_thres": 60.0,
+          "tau_slope_s": 2.0,
+          "tau_r_slow_idle_s": 0.5,
+          "tau_r_fast_s": 0.5,
+          "hold_eps": 8.0,
+          "idle_frac": 0.1,
+          "ramp_slope_min": 0.0
+        },
+        "uniform": {
+          "ded_pct": 54.6345689701659,
+          "resid_pct": 45.365429252984285,
+          "over_pct": -6.512909197556869,
+          "tail_pct": 4.133676434286473,
+          "std_pct": 6.070043608421974,
+          "score": 49.49910568727076
+        },
+        "raw": {
+          "score": 48.37571425285342,
+          "ded_pct": 55.53485831271732
+        }
+      },
+      {
+        "name": "实用 r1·gate2·cap0.08",
+        "params": {
+          "r_fast": 0.1,
+          "tau_c_fast_s": 2.0,
+          "r_slow_max": 1.0,
+          "slope_cap_frac": 0.08,
+          "slope_gate_frac": 2.0,
+          "slow_confirm_s": 0.0,
+          "soft_unfreeze_s": 2.0,
+          "edge_slope_thres": 20.0,
+          "tau_slope_s": 1.0,
+          "tau_r_slow_idle_s": 30.0,
+          "tau_r_fast_s": 2.0,
+          "hold_eps": 0.0,
+          "idle_frac": 0.1,
+          "ramp_slope_min": 0.0
+        },
+        "uniform": {
+          "ded_pct": 46.541147180740275,
+          "resid_pct": 53.45885325422777,
+          "over_pct": -7.207968657333053,
+          "tail_pct": 3.943332531722244,
+          "std_pct": 6.4582188256789586,
+          "score": 57.40218578595001
+        },
+        "raw": {
+          "score": 56.24335401441192,
+          "ded_pct": 47.36466980490513
+        }
+      },
+      {
+        "name": "实用 r1·gate1·cap0.08",
+        "params": {
+          "r_fast": 0.1,
+          "tau_c_fast_s": 2.0,
+          "r_slow_max": 1.0,
+          "slope_cap_frac": 0.08,
+          "slope_gate_frac": 1.0,
+          "slow_confirm_s": 0.0,
+          "soft_unfreeze_s": 2.0,
+          "edge_slope_thres": 20.0,
+          "tau_slope_s": 1.0,
+          "tau_r_slow_idle_s": 30.0,
+          "tau_r_fast_s": 2.0,
+          "hold_eps": 0.0,
+          "idle_frac": 0.1,
+          "ramp_slope_min": 0.0
+        },
+        "uniform": {
+          "ded_pct": 46.351667340218675,
+          "resid_pct": 53.64833309474936,
+          "over_pct": -7.429485567208091,
+          "tail_pct": 3.9398471246548086,
+          "std_pct": 6.454861255466172,
+          "score": 57.58818021940418
+        },
+        "raw": {
+          "score": 56.383253223971835,
+          "ded_pct": 47.193207067610196
+        }
+      },
+      {
+        "name": "实用 r1·gate0.5·cap0.08",
+        "params": {
+          "r_fast": 0.1,
+          "tau_c_fast_s": 2.0,
+          "r_slow_max": 1.0,
+          "slope_cap_frac": 0.08,
+          "slope_gate_frac": 0.5,
+          "slow_confirm_s": 0.0,
+          "soft_unfreeze_s": 2.0,
+          "edge_slope_thres": 20.0,
+          "tau_slope_s": 1.0,
+          "tau_r_slow_idle_s": 30.0,
+          "tau_r_fast_s": 2.0,
+          "hold_eps": 0.0,
+          "idle_frac": 0.1,
+          "ramp_slope_min": 0.0
+        },
+        "uniform": {
+          "ded_pct": 46.0992395211777,
+          "resid_pct": 53.90076078323755,
+          "over_pct": -9.00333112153499,
+          "tail_pct": 3.9373368315574866,
+          "std_pct": 6.3874803168984045,
+          "score": 57.83809761479504
+        },
+        "raw": {
+          "score": 56.67094106408715,
+          "ded_pct": 46.936317402015064
+        }
+      },
+      {
+        "name": "实用 r1·gate2·cap0.04",
+        "params": {
+          "r_fast": 0.1,
+          "tau_c_fast_s": 2.0,
+          "r_slow_max": 1.0,
+          "slope_cap_frac": 0.04,
+          "slope_gate_frac": 2.0,
+          "slow_confirm_s": 0.0,
+          "soft_unfreeze_s": 2.0,
+          "edge_slope_thres": 20.0,
+          "tau_slope_s": 1.0,
+          "tau_r_slow_idle_s": 30.0,
+          "tau_r_fast_s": 2.0,
+          "hold_eps": 0.0,
+          "idle_frac": 0.1,
+          "ramp_slope_min": 0.0
+        },
+        "uniform": {
+          "ded_pct": 45.60657909442834,
+          "resid_pct": 54.393421340539696,
+          "over_pct": -10.300033618584528,
+          "tail_pct": 3.9110908558361914,
+          "std_pct": 5.006118179052342,
+          "score": 58.30451219637588
+        },
+        "raw": {
+          "score": 57.09699313344338,
+          "ded_pct": 46.49219290675996
+        }
+      },
+      {
+        "name": "实用 r1·gate1·cap0.04",
+        "params": {
+          "r_fast": 0.1,
+          "tau_c_fast_s": 2.0,
+          "r_slow_max": 1.0,
+          "slope_cap_frac": 0.04,
+          "slope_gate_frac": 1.0,
+          "slow_confirm_s": 0.0,
+          "soft_unfreeze_s": 2.0,
+          "edge_slope_thres": 20.0,
+          "tau_slope_s": 1.0,
+          "tau_r_slow_idle_s": 30.0,
+          "tau_r_fast_s": 2.0,
+          "hold_eps": 0.0,
+          "idle_frac": 0.1,
+          "ramp_slope_min": 0.0
+        },
+        "uniform": {
+          "ded_pct": 45.41162946222572,
+          "resid_pct": 54.58837084218953,
+          "over_pct": -10.419548740554363,
+          "tail_pct": 3.927103723874835,
+          "std_pct": 5.010436150147182,
+          "score": 58.51547456606437
+        },
+        "raw": {
+          "score": 57.22436964294414,
+          "ded_pct": 46.33984373160705
+        }
+      },
+      {
+        "name": "实用 r1·gate0.5·cap0.04",
+        "params": {
+          "r_fast": 0.1,
+          "tau_c_fast_s": 2.0,
+          "r_slow_max": 1.0,
+          "slope_cap_frac": 0.04,
+          "slope_gate_frac": 0.5,
+          "slow_confirm_s": 0.0,
+          "soft_unfreeze_s": 2.0,
+          "edge_slope_thres": 20.0,
+          "tau_slope_s": 1.0,
+          "tau_r_slow_idle_s": 30.0,
+          "tau_r_fast_s": 2.0,
+          "hold_eps": 0.0,
+          "idle_frac": 0.1,
+          "ramp_slope_min": 0.0
+        },
+        "uniform": {
+          "ded_pct": 45.138784800257405,
+          "resid_pct": 54.861213995606526,
+          "over_pct": -11.337322224695843,
+          "tail_pct": 3.9343616066648153,
+          "std_pct": 4.895656761271204,
+          "score": 58.79557560227134
+        },
+        "raw": {
+          "score": 57.52311934873028,
+          "ded_pct": 46.02848152874631
+        }
+      },
+      {
+        "name": "收敛(放宽骨架) r1·gate20·cap0.08",
+        "params": {
+          "r_fast": 0.1,
+          "tau_c_fast_s": 12.0,
+          "r_slow_max": 1.0,
+          "slope_cap_frac": 0.08,
+          "slope_gate_frac": 20.0,
+          "slow_confirm_s": 0.0,
+          "soft_unfreeze_s": 0.5,
+          "edge_slope_thres": 60.0,
+          "tau_slope_s": 2.0,
+          "tau_r_slow_idle_s": 0.5,
+          "tau_r_fast_s": 0.5,
+          "hold_eps": 8.0,
+          "idle_frac": 0.1,
+          "ramp_slope_min": 0.0
+        },
+        "uniform": {
+          "ded_pct": 44.07766796435762,
+          "resid_pct": 55.922333979161735,
+          "over_pct": -7.038637119769822,
+          "tail_pct": 4.08644283462298,
+          "std_pct": 6.991154092160437,
+          "score": 60.00877681378472
+        },
+        "raw": {
+          "score": 58.75753461796867,
+          "ded_pct": 44.883235259390176
+        }
+      },
+      {
+        "name": "实用 r0.6·gate2·cap0.08",
+        "params": {
+          "r_fast": 0.1,
+          "tau_c_fast_s": 2.0,
+          "r_slow_max": 0.6,
+          "slope_cap_frac": 0.08,
+          "slope_gate_frac": 2.0,
+          "slow_confirm_s": 0.0,
+          "soft_unfreeze_s": 2.0,
+          "edge_slope_thres": 20.0,
+          "tau_slope_s": 1.0,
+          "tau_r_slow_idle_s": 30.0,
+          "tau_r_fast_s": 2.0,
+          "hold_eps": 0.0,
+          "idle_frac": 0.1,
+          "ramp_slope_min": 0.0
+        },
+        "uniform": {
+          "ded_pct": 37.535318195846514,
+          "resid_pct": 62.46468060001742,
+          "over_pct": -7.712151785027686,
+          "tail_pct": 4.430847498752894,
+          "std_pct": 7.457559441104075,
+          "score": 66.89552809877031
+        },
+        "raw": {
+          "score": 66.00906947449084,
+          "ded_pct": 38.20355802709356
+        }
+      },
+      {
+        "name": "实用 r0.6·gate1·cap0.08",
+        "params": {
+          "r_fast": 0.1,
+          "tau_c_fast_s": 2.0,
+          "r_slow_max": 0.6,
+          "slope_cap_frac": 0.08,
+          "slope_gate_frac": 1.0,
+          "slow_confirm_s": 0.0,
+          "soft_unfreeze_s": 2.0,
+          "edge_slope_thres": 20.0,
+          "tau_slope_s": 1.0,
+          "tau_r_slow_idle_s": 30.0,
+          "tau_r_fast_s": 2.0,
+          "hold_eps": 0.0,
+          "idle_frac": 0.1,
+          "ramp_slope_min": 0.0
+        },
+        "uniform": {
+          "ded_pct": 37.411374044051016,
+          "resid_pct": 62.58862789946834,
+          "over_pct": -7.910079853520341,
+          "tail_pct": 4.417848756854132,
+          "std_pct": 7.456566739813471,
+          "score": 67.00647665632248
+        },
+        "raw": {
+          "score": 66.07584744068565,
+          "ded_pct": 38.119011529821876
+        }
+      },
+      {
+        "name": "UI最优",
+        "params": {
+          "r_fast": 0.1,
+          "tau_c_fast_s": 2.0,
+          "r_slow_max": 0.6,
+          "slope_cap_frac": 0.04,
+          "slope_gate_frac": 5.0,
+          "slow_confirm_s": 0.0,
+          "soft_unfreeze_s": 2.0,
+          "edge_slope_thres": 20.0,
+          "tau_slope_s": 1.0,
+          "tau_r_slow_idle_s": 30.0,
+          "tau_r_fast_s": 2.0,
+          "hold_eps": 0.0,
+          "idle_frac": 0.1,
+          "ramp_slope_min": 0.0
+        },
+        "uniform": {
+          "ded_pct": 37.40894345464354,
+          "resid_pct": 62.59105463795386,
+          "over_pct": -10.339287184350077,
+          "tail_pct": 4.533393513719426,
+          "std_pct": 6.9910665627541455,
+          "score": 67.12444815167328
+        },
+        "raw": {
+          "score": 66.28637265045245,
+          "ded_pct": 37.94792814641185
+        }
+      },
+      {
+        "name": "实用 r0.6·gate2·cap0.04",
+        "params": {
+          "r_fast": 0.1,
+          "tau_c_fast_s": 2.0,
+          "r_slow_max": 0.6,
+          "slope_cap_frac": 0.04,
+          "slope_gate_frac": 2.0,
+          "slow_confirm_s": 0.0,
+          "soft_unfreeze_s": 2.0,
+          "edge_slope_thres": 20.0,
+          "tau_slope_s": 1.0,
+          "tau_r_slow_idle_s": 30.0,
+          "tau_r_fast_s": 2.0,
+          "hold_eps": 0.0,
+          "idle_frac": 0.1,
+          "ramp_slope_min": 0.0
+        },
+        "uniform": {
+          "ded_pct": 37.388603177033914,
+          "resid_pct": 62.611397257934115,
+          "over_pct": -10.351104365713008,
+          "tail_pct": 4.529686517414547,
+          "std_pct": 6.985598566566878,
+          "score": 67.14108377534866
+        },
+        "raw": {
+          "score": 66.29634351716695,
+          "ded_pct": 37.93810561689262
+        }
+      },
+      {
+        "name": "实用 r0.6·gate0.5·cap0.08",
+        "params": {
+          "r_fast": 0.1,
+          "tau_c_fast_s": 2.0,
+          "r_slow_max": 0.6,
+          "slope_cap_frac": 0.08,
+          "slope_gate_frac": 0.5,
+          "slow_confirm_s": 0.0,
+          "soft_unfreeze_s": 2.0,
+          "edge_slope_thres": 20.0,
+          "tau_slope_s": 1.0,
+          "tau_r_slow_idle_s": 30.0,
+          "tau_r_fast_s": 2.0,
+          "hold_eps": 0.0,
+          "idle_frac": 0.1,
+          "ramp_slope_min": 0.0
+        },
+        "uniform": {
+          "ded_pct": 37.27434699193033,
+          "resid_pct": 62.72565331248492,
+          "over_pct": -9.118863463005454,
+          "tail_pct": 4.436796004133603,
+          "std_pct": 7.426703196025143,
+          "score": 67.16244931661853
+        },
+        "raw": {
+          "score": 66.21665345667915,
+          "ded_pct": 37.980643830130965
+        }
+      },
+      {
+        "name": "实用 r0.6·gate1·cap0.04",
+        "params": {
+          "r_fast": 0.1,
+          "tau_c_fast_s": 2.0,
+          "r_slow_max": 0.6,
+          "slope_cap_frac": 0.04,
+          "slope_gate_frac": 1.0,
+          "slow_confirm_s": 0.0,
+          "soft_unfreeze_s": 2.0,
+          "edge_slope_thres": 20.0,
+          "tau_slope_s": 1.0,
+          "tau_r_slow_idle_s": 30.0,
+          "tau_r_fast_s": 2.0,
+          "hold_eps": 0.0,
+          "idle_frac": 0.1,
+          "ramp_slope_min": 0.0
+        },
+        "uniform": {
+          "ded_pct": 37.260734697048356,
+          "resid_pct": 62.739265607366896,
+          "over_pct": -10.470352745535763,
+          "tail_pct": 4.528585964388551,
+          "std_pct": 6.988680529537433,
+          "score": 67.26785157175544
+        },
+        "raw": {
+          "score": 66.37139215073975,
+          "ded_pct": 37.841888182680954
+        }
+      },
+      {
+        "name": "实用 r0.6·gate0.5·cap0.04",
+        "params": {
+          "r_fast": 0.1,
+          "tau_c_fast_s": 2.0,
+          "r_slow_max": 0.6,
+          "slope_cap_frac": 0.04,
+          "slope_gate_frac": 0.5,
+          "slow_confirm_s": 0.0,
+          "soft_unfreeze_s": 2.0,
+          "edge_slope_thres": 20.0,
+          "tau_slope_s": 1.0,
+          "tau_r_slow_idle_s": 30.0,
+          "tau_r_fast_s": 2.0,
+          "hold_eps": 0.0,
+          "idle_frac": 0.1,
+          "ramp_slope_min": 0.0
+        },
+        "uniform": {
+          "ded_pct": 37.103304973667626,
+          "resid_pct": 62.89669546130041,
+          "over_pct": -11.354205961399638,
+          "tail_pct": 4.561122138141022,
+          "std_pct": 6.901138234146453,
+          "score": 67.45781759944143
+        },
+        "raw": {
+          "score": 66.57323418652103,
+          "ded_pct": 37.67488807201197
+        }
+      },
+      {
+        "name": "现役默认",
+        "params": {},
+        "uniform": {
+          "ded_pct": 13.593826679180335,
+          "resid_pct": 86.4061737557877,
+          "over_pct": -15.870067381771076,
+          "tail_pct": 5.431894172924655,
+          "std_pct": 8.891565152486411,
+          "score": 91.83806792871235
+        },
+        "raw": {
+          "score": 91.59466012870709,
+          "ded_pct": 13.73050603775649
+        }
+      }
+    ]
+  },
+  "左手掌": {
+    "candidates": [
+      {
+        "name": "放宽最优",
+        "params": {
+          "r_fast": 0.04,
+          "tau_c_fast_s": 2.0,
+          "r_slow_max": 30.0,
+          "slope_cap_frac": 0.08,
+          "slope_gate_frac": 0.5,
+          "slow_confirm_s": 0.0,
+          "soft_unfreeze_s": 1.0,
+          "edge_slope_thres": 60.0,
+          "tau_slope_s": 3.0,
+          "tau_r_slow_idle_s": 0.5,
+          "tau_r_fast_s": 0.2,
+          "hold_eps": 8.0,
+          "idle_frac": 0.02,
+          "ramp_slope_min": 0.0
+        },
+        "uniform": {
+          "ded_pct": 90.62443651996567,
+          "resid_pct": 9.375559633525736,
+          "over_pct": 11.769517827348974,
+          "tail_pct": -1.704724875037842,
+          "std_pct": 4.294473090170411,
+          "score": 15.90385324190588
+        },
+        "raw": {
+          "score": 16.10059179824652,
+          "ded_pct": 90.57782452198875
+        }
+      },
+      {
+        "name": "实用 r5·gate2·cap0.08",
+        "params": {
+          "r_fast": 0.1,
+          "tau_c_fast_s": 2.0,
+          "r_slow_max": 5.0,
+          "slope_cap_frac": 0.08,
+          "slope_gate_frac": 2.0,
+          "slow_confirm_s": 0.0,
+          "soft_unfreeze_s": 2.0,
+          "edge_slope_thres": 10.0,
+          "tau_slope_s": 2.0,
+          "tau_r_slow_idle_s": 30.0,
+          "tau_r_fast_s": 2.0,
+          "hold_eps": 0.5,
+          "idle_frac": 0.1,
+          "ramp_slope_min": 2.0
+        },
+        "uniform": {
+          "ded_pct": 69.36599819457786,
+          "resid_pct": 30.63400210204248,
+          "over_pct": -0.776116627380401,
+          "tail_pct": 0.5932491860651441,
+          "std_pct": 4.428118872307676,
+          "score": 31.924809216784233
+        },
+        "raw": {
+          "score": 30.06866800013384,
+          "ded_pct": 71.47256059790173
+        }
+      },
+      {
+        "name": "实用 r5·gate1·cap0.08",
+        "params": {
+          "r_fast": 0.1,
+          "tau_c_fast_s": 2.0,
+          "r_slow_max": 5.0,
+          "slope_cap_frac": 0.08,
+          "slope_gate_frac": 1.0,
+          "slow_confirm_s": 0.0,
+          "soft_unfreeze_s": 2.0,
+          "edge_slope_thres": 10.0,
+          "tau_slope_s": 2.0,
+          "tau_r_slow_idle_s": 30.0,
+          "tau_r_fast_s": 2.0,
+          "hold_eps": 0.5,
+          "idle_frac": 0.1,
+          "ramp_slope_min": 2.0
+        },
+        "uniform": {
+          "ded_pct": 69.1989152010177,
+          "resid_pct": 30.801085095602627,
+          "over_pct": -0.7900132882693844,
+          "tail_pct": 0.8400629987128456,
+          "std_pct": 4.432053023426465,
+          "score": 32.09713452434986
+        },
+        "raw": {
+          "score": 30.141516284267198,
+          "ded_pct": 71.70529600939108
+        }
+      },
+      {
+        "name": "实用 r5·gate0.5·cap0.08",
+        "params": {
+          "r_fast": 0.1,
+          "tau_c_fast_s": 2.0,
+          "r_slow_max": 5.0,
+          "slope_cap_frac": 0.08,
+          "slope_gate_frac": 0.5,
+          "slow_confirm_s": 0.0,
+          "soft_unfreeze_s": 2.0,
+          "edge_slope_thres": 10.0,
+          "tau_slope_s": 2.0,
+          "tau_r_slow_idle_s": 30.0,
+          "tau_r_fast_s": 2.0,
+          "hold_eps": 0.5,
+          "idle_frac": 0.1,
+          "ramp_slope_min": 2.0
+        },
+        "uniform": {
+          "ded_pct": 68.22744794189862,
+          "resid_pct": 31.772549558208155,
+          "over_pct": -1.1226454827000634,
+          "tail_pct": 0.695831312630151,
+          "std_pct": 4.538303115185214,
+          "score": 33.0512799303532
+        },
+        "raw": {
+          "score": 30.563379272364724,
+          "ded_pct": 71.00561967693345
+        }
+      },
+      {
+        "name": "收敛(放宽骨架) r5·gate0.5·cap0.08",
+        "params": {
+          "r_fast": 0.04,
+          "tau_c_fast_s": 2.0,
+          "r_slow_max": 5.0,
+          "slope_cap_frac": 0.08,
+          "slope_gate_frac": 0.5,
+          "slow_confirm_s": 0.0,
+          "soft_unfreeze_s": 1.0,
+          "edge_slope_thres": 60.0,
+          "tau_slope_s": 3.0,
+          "tau_r_slow_idle_s": 0.5,
+          "tau_r_fast_s": 0.2,
+          "hold_eps": 8.0,
+          "idle_frac": 0.02,
+          "ramp_slope_min": 0.0
+        },
+        "uniform": {
+          "ded_pct": 65.64384652047477,
+          "resid_pct": 34.356150979632,
+          "over_pct": -1.1950328352487627,
+          "tail_pct": 2.0734093884150155,
+          "std_pct": 5.378996385902853,
+          "score": 36.429560368047014
+        },
+        "raw": {
+          "score": 33.96085209797958,
+          "ded_pct": 67.94957602220022
+        }
+      },
+      {
+        "name": "实用 r5·gate1·cap0.04",
+        "params": {
+          "r_fast": 0.1,
+          "tau_c_fast_s": 2.0,
+          "r_slow_max": 5.0,
+          "slope_cap_frac": 0.04,
+          "slope_gate_frac": 1.0,
+          "slow_confirm_s": 0.0,
+          "soft_unfreeze_s": 2.0,
+          "edge_slope_thres": 10.0,
+          "tau_slope_s": 2.0,
+          "tau_r_slow_idle_s": 30.0,
+          "tau_r_fast_s": 2.0,
+          "hold_eps": 0.5,
+          "idle_frac": 0.1,
+          "ramp_slope_min": 2.0
+        },
+        "uniform": {
+          "ded_pct": 62.21750784689463,
+          "resid_pct": 37.7824924497257,
+          "over_pct": -10.688548641700931,
+          "tail_pct": -0.547605807468501,
+          "std_pct": 3.88299582424883,
+          "score": 39.85292401912659
+        },
+        "raw": {
+          "score": 39.82297676658038,
+          "ded_pct": 62.18213540442461
+        }
+      },
+      {
+        "name": "实用 r5·gate2·cap0.04",
+        "params": {
+          "r_fast": 0.1,
+          "tau_c_fast_s": 2.0,
+          "r_slow_max": 5.0,
+          "slope_cap_frac": 0.04,
+          "slope_gate_frac": 2.0,
+          "slow_confirm_s": 0.0,
+          "soft_unfreeze_s": 2.0,
+          "edge_slope_thres": 10.0,
+          "tau_slope_s": 2.0,
+          "tau_r_slow_idle_s": 30.0,
+          "tau_r_fast_s": 2.0,
+          "hold_eps": 0.5,
+          "idle_frac": 0.1,
+          "ramp_slope_min": 2.0
+        },
+        "uniform": {
+          "ded_pct": 62.25623345348208,
+          "resid_pct": 37.7437640466247,
+          "over_pct": -10.689537778651575,
+          "tail_pct": -0.6024048118160343,
+          "std_pct": 3.8849782299708444,
+          "score": 39.86561911446469
+        },
+        "raw": {
+          "score": 39.8149785310737,
+          "ded_pct": 62.19719698599488
+        }
+      },
+      {
+        "name": "实用 r5·gate0.5·cap0.04",
+        "params": {
+          "r_fast": 0.1,
+          "tau_c_fast_s": 2.0,
+          "r_slow_max": 5.0,
+          "slope_cap_frac": 0.04,
+          "slope_gate_frac": 0.5,
+          "slow_confirm_s": 0.0,
+          "soft_unfreeze_s": 2.0,
+          "edge_slope_thres": 10.0,
+          "tau_slope_s": 2.0,
+          "tau_r_slow_idle_s": 30.0,
+          "tau_r_fast_s": 2.0,
+          "hold_eps": 0.5,
+          "idle_frac": 0.1,
+          "ramp_slope_min": 2.0
+        },
+        "uniform": {
+          "ded_pct": 62.06196051320835,
+          "resid_pct": 37.9380419835853,
+          "over_pct": -10.838065810949505,
+          "tail_pct": -0.46822336778076473,
+          "std_pct": 3.901905540188366,
+          "score": 40.009218785425965
+        },
+        "raw": {
+          "score": 40.02272598551252,
+          "ded_pct": 61.97384151895213
+        }
+      },
+      {
+        "name": "实用 r2·gate2·cap0.08",
+        "params": {
+          "r_fast": 0.1,
+          "tau_c_fast_s": 2.0,
+          "r_slow_max": 2.0,
+          "slope_cap_frac": 0.08,
+          "slope_gate_frac": 2.0,
+          "slow_confirm_s": 0.0,
+          "soft_unfreeze_s": 2.0,
+          "edge_slope_thres": 10.0,
+          "tau_slope_s": 2.0,
+          "tau_r_slow_idle_s": 30.0,
+          "tau_r_fast_s": 2.0,
+          "hold_eps": 0.5,
+          "idle_frac": 0.1,
+          "ramp_slope_min": 2.0
+        },
+        "uniform": {
+          "ded_pct": 55.45385677718185,
+          "resid_pct": 44.54614072292493,
+          "over_pct": -5.580455026080468,
+          "tail_pct": 1.106843556019322,
+          "std_pct": 6.884130636863798,
+          "score": 46.444020774713685
+        },
+        "raw": {
+          "score": 45.24148679411495,
+          "ded_pct": 56.714136537935474
+        }
+      },
+      {
+        "name": "实用 r2·gate1·cap0.08",
+        "params": {
+          "r_fast": 0.1,
+          "tau_c_fast_s": 2.0,
+          "r_slow_max": 2.0,
+          "slope_cap_frac": 0.08,
+          "slope_gate_frac": 1.0,
+          "slow_confirm_s": 0.0,
+          "soft_unfreeze_s": 2.0,
+          "edge_slope_thres": 10.0,
+          "tau_slope_s": 2.0,
+          "tau_r_slow_idle_s": 30.0,
+          "tau_r_fast_s": 2.0,
+          "hold_eps": 0.5,
+          "idle_frac": 0.1,
+          "ramp_slope_min": 2.0
+        },
+        "uniform": {
+          "ded_pct": 55.310171386335,
+          "resid_pct": 44.68982611377179,
+          "over_pct": -5.594564266340565,
+          "tail_pct": 1.2196072247566565,
+          "std_pct": 6.9074457908889855,
+          "score": 46.51333802349267
+        },
+        "raw": {
+          "score": 45.295413196948516,
+          "ded_pct": 56.69424152869408
+        }
+      },
+      {
+        "name": "实用 r2·gate0.5·cap0.08",
+        "params": {
+          "r_fast": 0.1,
+          "tau_c_fast_s": 2.0,
+          "r_slow_max": 2.0,
+          "slope_cap_frac": 0.08,
+          "slope_gate_frac": 0.5,
+          "slow_confirm_s": 0.0,
+          "soft_unfreeze_s": 2.0,
+          "edge_slope_thres": 10.0,
+          "tau_slope_s": 2.0,
+          "tau_r_slow_idle_s": 30.0,
+          "tau_r_fast_s": 2.0,
+          "hold_eps": 0.5,
+          "idle_frac": 0.1,
+          "ramp_slope_min": 2.0
+        },
+        "uniform": {
+          "ded_pct": 55.21561139511357,
+          "resid_pct": 44.78438890150676,
+          "over_pct": -5.871958131252872,
+          "tail_pct": 1.2526021084544887,
+          "std_pct": 6.815455309383721,
+          "score": 46.58975181966257
+        },
+        "raw": {
+          "score": 45.277679627289714,
+          "ded_pct": 56.57814084583654
+        }
+      },
+      {
+        "name": "实用 r2·gate2·cap0.04",
+        "params": {
+          "r_fast": 0.1,
+          "tau_c_fast_s": 2.0,
+          "r_slow_max": 2.0,
+          "slope_cap_frac": 0.04,
+          "slope_gate_frac": 2.0,
+          "slow_confirm_s": 0.0,
+          "soft_unfreeze_s": 2.0,
+          "edge_slope_thres": 10.0,
+          "tau_slope_s": 2.0,
+          "tau_r_slow_idle_s": 30.0,
+          "tau_r_fast_s": 2.0,
+          "hold_eps": 0.5,
+          "idle_frac": 0.1,
+          "ramp_slope_min": 2.0
+        },
+        "uniform": {
+          "ded_pct": 53.50574717864736,
+          "resid_pct": 46.49425032145942,
+          "over_pct": -11.606968429281237,
+          "tail_pct": 0.22902090789660534,
+          "std_pct": 5.002709014031547,
+          "score": 48.26022933608005
+        },
+        "raw": {
+          "score": 47.86790711477583,
+          "ded_pct": 53.77010713262918
+        }
+      },
+      {
+        "name": "实用 r2·gate1·cap0.04",
+        "params": {
+          "r_fast": 0.1,
+          "tau_c_fast_s": 2.0,
+          "r_slow_max": 2.0,
+          "slope_cap_frac": 0.04,
+          "slope_gate_frac": 1.0,
+          "slow_confirm_s": 0.0,
+          "soft_unfreeze_s": 2.0,
+          "edge_slope_thres": 10.0,
+          "tau_slope_s": 2.0,
+          "tau_r_slow_idle_s": 30.0,
+          "tau_r_fast_s": 2.0,
+          "hold_eps": 0.5,
+          "idle_frac": 0.1,
+          "ramp_slope_min": 2.0
+        },
+        "uniform": {
+          "ded_pct": 53.47812113449535,
+          "resid_pct": 46.52187636561142,
+          "over_pct": -11.611184181840565,
+          "tail_pct": 0.23787626067183748,
+          "std_pct": 5.003095969227502,
+          "score": 48.29862417858446
+        },
+        "raw": {
+          "score": 47.86239886703676,
+          "ded_pct": 53.7743758143511
+        }
+      },
+      {
+        "name": "实用 r2·gate0.5·cap0.04",
+        "params": {
+          "r_fast": 0.1,
+          "tau_c_fast_s": 2.0,
+          "r_slow_max": 2.0,
+          "slope_cap_frac": 0.04,
+          "slope_gate_frac": 0.5,
+          "slow_confirm_s": 0.0,
+          "soft_unfreeze_s": 2.0,
+          "edge_slope_thres": 10.0,
+          "tau_slope_s": 2.0,
+          "tau_r_slow_idle_s": 30.0,
+          "tau_r_fast_s": 2.0,
+          "hold_eps": 0.5,
+          "idle_frac": 0.1,
+          "ramp_slope_min": 2.0
+        },
+        "uniform": {
+          "ded_pct": 53.226225306921506,
+          "resid_pct": 46.773773046743216,
+          "over_pct": -11.77507846696692,
+          "tail_pct": 0.31676278040727757,
+          "std_pct": 5.013614298531216,
+          "score": 48.48669127476413
+        },
+        "raw": {
+          "score": 48.11521748286171,
+          "ded_pct": 53.54336459408299
+        }
+      },
+      {
+        "name": "收敛(放宽骨架) r2·gate0.5·cap0.08",
+        "params": {
+          "r_fast": 0.04,
+          "tau_c_fast_s": 2.0,
+          "r_slow_max": 2.0,
+          "slope_cap_frac": 0.08,
+          "slope_gate_frac": 0.5,
+          "slow_confirm_s": 0.0,
+          "soft_unfreeze_s": 1.0,
+          "edge_slope_thres": 60.0,
+          "tau_slope_s": 3.0,
+          "tau_r_slow_idle_s": 0.5,
+          "tau_r_fast_s": 0.2,
+          "hold_eps": 8.0,
+          "idle_frac": 0.02,
+          "ramp_slope_min": 0.0
+        },
+        "uniform": {
+          "ded_pct": 52.044012783798586,
+          "resid_pct": 47.95598471630819,
+          "over_pct": -6.23317131964932,
+          "tail_pct": 1.7693708260437733,
+          "std_pct": 7.207012928195303,
+          "score": 50.246855426229814
+        },
+        "raw": {
+          "score": 49.034591270605645,
+          "ded_pct": 53.08466068658551
+        }
+      },
+      {
+        "name": "实用 r1·gate2·cap0.04",
+        "params": {
+          "r_fast": 0.1,
+          "tau_c_fast_s": 2.0,
+          "r_slow_max": 1.0,
+          "slope_cap_frac": 0.04,
+          "slope_gate_frac": 2.0,
+          "slow_confirm_s": 0.0,
+          "soft_unfreeze_s": 2.0,
+          "edge_slope_thres": 10.0,
+          "tau_slope_s": 2.0,
+          "tau_r_slow_idle_s": 30.0,
+          "tau_r_fast_s": 2.0,
+          "hold_eps": 0.5,
+          "idle_frac": 0.1,
+          "ramp_slope_min": 2.0
+        },
+        "uniform": {
+          "ded_pct": 43.82320344330509,
+          "resid_pct": 56.17679685331524,
+          "over_pct": -13.619148613198849,
+          "tail_pct": 1.3950249808463036,
+          "std_pct": 6.985079723162258,
+          "score": 58.046519979058836
+        },
+        "raw": {
+          "score": 57.65037819314295,
+          "ded_pct": 44.51637971029481
+        }
+      },
+      {
+        "name": "实用 r1·gate1·cap0.04",
+        "params": {
+          "r_fast": 0.1,
+          "tau_c_fast_s": 2.0,
+          "r_slow_max": 1.0,
+          "slope_cap_frac": 0.04,
+          "slope_gate_frac": 1.0,
+          "slow_confirm_s": 0.0,
+          "soft_unfreeze_s": 2.0,
+          "edge_slope_thres": 10.0,
+          "tau_slope_s": 2.0,
+          "tau_r_slow_idle_s": 30.0,
+          "tau_r_fast_s": 2.0,
+          "hold_eps": 0.5,
+          "idle_frac": 0.1,
+          "ramp_slope_min": 2.0
+        },
+        "uniform": {
+          "ded_pct": 43.81456924234398,
+          "resid_pct": 56.18543105427635,
+          "over_pct": -13.622729688755541,
+          "tail_pct": 1.3983416204903292,
+          "std_pct": 6.985659789708608,
+          "score": 58.058323031352856
+        },
+        "raw": {
+          "score": 57.66484776605483,
+          "ded_pct": 44.50542863518491
+        }
+      },
+      {
+        "name": "实用 r1·gate0.5·cap0.04",
+        "params": {
+          "r_fast": 0.1,
+          "tau_c_fast_s": 2.0,
+          "r_slow_max": 1.0,
+          "slope_cap_frac": 0.04,
+          "slope_gate_frac": 0.5,
+          "slow_confirm_s": 0.0,
+          "soft_unfreeze_s": 2.0,
+          "edge_slope_thres": 10.0,
+          "tau_slope_s": 2.0,
+          "tau_r_slow_idle_s": 30.0,
+          "tau_r_fast_s": 2.0,
+          "hold_eps": 0.5,
+          "idle_frac": 0.1,
+          "ramp_slope_min": 2.0
+        },
+        "uniform": {
+          "ded_pct": 43.698054687840376,
+          "resid_pct": 56.30194780895327,
+          "over_pct": -13.767071758983008,
+          "tail_pct": 1.4009641013029108,
+          "std_pct": 6.975794388485315,
+          "score": 58.198966077100685
+        },
+        "raw": {
+          "score": 57.818656715555306,
+          "ded_pct": 44.377320236636535
+        }
+      },
+      {
+        "name": "实用 r1·gate2·cap0.08",
+        "params": {
+          "r_fast": 0.1,
+          "tau_c_fast_s": 2.0,
+          "r_slow_max": 1.0,
+          "slope_cap_frac": 0.08,
+          "slope_gate_frac": 2.0,
+          "slow_confirm_s": 0.0,
+          "soft_unfreeze_s": 2.0,
+          "edge_slope_thres": 10.0,
+          "tau_slope_s": 2.0,
+          "tau_r_slow_idle_s": 30.0,
+          "tau_r_fast_s": 2.0,
+          "hold_eps": 0.5,
+          "idle_frac": 0.1,
+          "ramp_slope_min": 2.0
+        },
+        "uniform": {
+          "ded_pct": 43.81158588644388,
+          "resid_pct": 56.18841026704752,
+          "over_pct": -11.13878331353394,
+          "tail_pct": 2.044458110665571,
+          "std_pct": 7.615354107544054,
+          "score": 58.232868377713096
+        },
+        "raw": {
+          "score": 57.843647700345045,
+          "ded_pct": 44.53434333901863
+        }
+      },
+      {
+        "name": "实用 r1·gate1·cap0.08",
+        "params": {
+          "r_fast": 0.1,
+          "tau_c_fast_s": 2.0,
+          "r_slow_max": 1.0,
+          "slope_cap_frac": 0.08,
+          "slope_gate_frac": 1.0,
+          "slow_confirm_s": 0.0,
+          "soft_unfreeze_s": 2.0,
+          "edge_slope_thres": 10.0,
+          "tau_slope_s": 2.0,
+          "tau_r_slow_idle_s": 30.0,
+          "tau_r_fast_s": 2.0,
+          "hold_eps": 0.5,
+          "idle_frac": 0.1,
+          "ramp_slope_min": 2.0
+        },
+        "uniform": {
+          "ded_pct": 43.80125941657208,
+          "resid_pct": 56.19874088004825,
+          "over_pct": -11.149441590955675,
+          "tail_pct": 2.0429862438795547,
+          "std_pct": 7.61404965413135,
+          "score": 58.24172712392781
+        },
+        "raw": {
+          "score": 57.84652233526674,
+          "ded_pct": 44.525696371280084
+        }
+      },
+      {
+        "name": "实用 r1·gate0.5·cap0.08",
+        "params": {
+          "r_fast": 0.1,
+          "tau_c_fast_s": 2.0,
+          "r_slow_max": 1.0,
+          "slope_cap_frac": 0.08,
+          "slope_gate_frac": 0.5,
+          "slow_confirm_s": 0.0,
+          "soft_unfreeze_s": 2.0,
+          "edge_slope_thres": 10.0,
+          "tau_slope_s": 2.0,
+          "tau_r_slow_idle_s": 30.0,
+          "tau_r_fast_s": 2.0,
+          "hold_eps": 0.5,
+          "idle_frac": 0.1,
+          "ramp_slope_min": 2.0
+        },
+        "uniform": {
+          "ded_pct": 43.644754883649966,
+          "resid_pct": 56.35524541297036,
+          "over_pct": -11.338526664175841,
+          "tail_pct": 2.0197626563065483,
+          "std_pct": 7.605858837058013,
+          "score": 58.375008069276916
+        },
+        "raw": {
+          "score": 58.007814791143545,
+          "ded_pct": 44.34723099251803
+        }
+      },
+      {
+        "name": "收敛(放宽骨架) r1·gate0.5·cap0.08",
+        "params": {
+          "r_fast": 0.04,
+          "tau_c_fast_s": 2.0,
+          "r_slow_max": 1.0,
+          "slope_cap_frac": 0.08,
+          "slope_gate_frac": 0.5,
+          "slow_confirm_s": 0.0,
+          "soft_unfreeze_s": 1.0,
+          "edge_slope_thres": 60.0,
+          "tau_slope_s": 3.0,
+          "tau_r_slow_idle_s": 0.5,
+          "tau_r_fast_s": 0.2,
+          "hold_eps": 8.0,
+          "idle_frac": 0.02,
+          "ramp_slope_min": 0.0
+        },
+        "uniform": {
+          "ded_pct": 39.49238412436117,
+          "resid_pct": 60.50761617225916,
+          "over_pct": -13.02088654063312,
+          "tail_pct": 2.1865651028093707,
+          "std_pct": 8.128136315829815,
+          "score": 62.774960517157226
+        },
+        "raw": {
+          "score": 62.116393700623995,
+          "ded_pct": 40.540658693426565
+        }
+      },
+      {
+        "name": "UI最优",
+        "params": {
+          "r_fast": 0.1,
+          "tau_c_fast_s": 2.0,
+          "r_slow_max": 0.6,
+          "slope_cap_frac": 0.04,
+          "slope_gate_frac": 5.0,
+          "slow_confirm_s": 0.0,
+          "soft_unfreeze_s": 2.0,
+          "edge_slope_thres": 10.0,
+          "tau_slope_s": 2.0,
+          "tau_r_slow_idle_s": 30.0,
+          "tau_r_fast_s": 2.0,
+          "hold_eps": 0.5,
+          "idle_frac": 0.1,
+          "ramp_slope_min": 2.0
+        },
+        "uniform": {
+          "ded_pct": 35.73783397678633,
+          "resid_pct": 64.262166319834,
+          "over_pct": -16.35802915679176,
+          "tail_pct": 2.375127600188872,
+          "std_pct": 7.766248310267398,
+          "score": 66.67391277716276
+        },
+        "raw": {
+          "score": 66.35053462423556,
+          "ded_pct": 36.371686652731846
+        }
+      },
+      {
+        "name": "实用 r0.6·gate2·cap0.04",
+        "params": {
+          "r_fast": 0.1,
+          "tau_c_fast_s": 2.0,
+          "r_slow_max": 0.6,
+          "slope_cap_frac": 0.04,
+          "slope_gate_frac": 2.0,
+          "slow_confirm_s": 0.0,
+          "soft_unfreeze_s": 2.0,
+          "edge_slope_thres": 10.0,
+          "tau_slope_s": 2.0,
+          "tau_r_slow_idle_s": 30.0,
+          "tau_r_fast_s": 2.0,
+          "hold_eps": 0.5,
+          "idle_frac": 0.1,
+          "ramp_slope_min": 2.0
+        },
+        "uniform": {
+          "ded_pct": 35.737789850287726,
+          "resid_pct": 64.2622104463326,
+          "over_pct": -16.357847303484647,
+          "tail_pct": 2.37525298197159,
+          "std_pct": 7.766178435895761,
+          "score": 66.67408228544407
+        },
+        "raw": {
+          "score": 66.35083536162068,
+          "ded_pct": 36.37159032793849
+        }
+      },
+      {
+        "name": "实用 r0.6·gate1·cap0.04",
+        "params": {
+          "r_fast": 0.1,
+          "tau_c_fast_s": 2.0,
+          "r_slow_max": 0.6,
+          "slope_cap_frac": 0.04,
+          "slope_gate_frac": 1.0,
+          "slow_confirm_s": 0.0,
+          "soft_unfreeze_s": 2.0,
+          "edge_slope_thres": 10.0,
+          "tau_slope_s": 2.0,
+          "tau_r_slow_idle_s": 30.0,
+          "tau_r_fast_s": 2.0,
+          "hold_eps": 0.5,
+          "idle_frac": 0.1,
+          "ramp_slope_min": 2.0
+        },
+        "uniform": {
+          "ded_pct": 35.73109021994157,
+          "resid_pct": 64.26891227685208,
+          "over_pct": -16.36187731034787,
+          "tail_pct": 2.3763975369494474,
+          "std_pct": 7.76677535024113,
+          "score": 66.68114825034533
+        },
+        "raw": {
+          "score": 66.35760264359456,
+          "ded_pct": 36.36497836106206
+        }
+      },
+      {
+        "name": "实用 r0.6·gate0.5·cap0.04",
+        "params": {
+          "r_fast": 0.1,
+          "tau_c_fast_s": 2.0,
+          "r_slow_max": 0.6,
+          "slope_cap_frac": 0.04,
+          "slope_gate_frac": 0.5,
+          "slow_confirm_s": 0.0,
+          "soft_unfreeze_s": 2.0,
+          "edge_slope_thres": 10.0,
+          "tau_slope_s": 2.0,
+          "tau_r_slow_idle_s": 30.0,
+          "tau_r_fast_s": 2.0,
+          "hold_eps": 0.5,
+          "idle_frac": 0.1,
+          "ramp_slope_min": 2.0
+        },
+        "uniform": {
+          "ded_pct": 35.66661865225655,
+          "resid_pct": 64.33338164436378,
+          "over_pct": -16.454436383409757,
+          "tail_pct": 2.3679524729616896,
+          "std_pct": 7.752459884469555,
+          "score": 66.74566581411244
+        },
+        "raw": {
+          "score": 66.45119588056018,
+          "ded_pct": 36.28895854688459
+        }
+      },
+      {
+        "name": "实用 r0.6·gate1·cap0.08",
+        "params": {
+          "r_fast": 0.1,
+          "tau_c_fast_s": 2.0,
+          "r_slow_max": 0.6,
+          "slope_cap_frac": 0.08,
+          "slope_gate_frac": 1.0,
+          "slow_confirm_s": 0.0,
+          "soft_unfreeze_s": 2.0,
+          "edge_slope_thres": 10.0,
+          "tau_slope_s": 2.0,
+          "tau_r_slow_idle_s": 30.0,
+          "tau_r_fast_s": 2.0,
+          "hold_eps": 0.5,
+          "idle_frac": 0.1,
+          "ramp_slope_min": 2.0
+        },
+        "uniform": {
+          "ded_pct": 35.575641302989055,
+          "resid_pct": 64.4243611938046,
+          "over_pct": -12.835483129734829,
+          "tail_pct": 2.7453719426523273,
+          "std_pct": 7.90941313294241,
+          "score": 67.16973313645693
+        },
+        "raw": {
+          "score": 66.77374563309698,
+          "ded_pct": 36.22684740083973
+        }
+      },
+      {
+        "name": "实用 r0.6·gate2·cap0.08",
+        "params": {
+          "r_fast": 0.1,
+          "tau_c_fast_s": 2.0,
+          "r_slow_max": 0.6,
+          "slope_cap_frac": 0.08,
+          "slope_gate_frac": 2.0,
+          "slow_confirm_s": 0.0,
+          "soft_unfreeze_s": 2.0,
+          "edge_slope_thres": 10.0,
+          "tau_slope_s": 2.0,
+          "tau_r_slow_idle_s": 30.0,
+          "tau_r_fast_s": 2.0,
+          "hold_eps": 0.5,
+          "idle_frac": 0.1,
+          "ramp_slope_min": 2.0
+        },
+        "uniform": {
+          "ded_pct": 35.58043599548404,
+          "resid_pct": 64.41956430113629,
+          "over_pct": -12.826496681177192,
+          "tail_pct": 2.7509197853659177,
+          "std_pct": 7.910698795345794,
+          "score": 67.1704840865022
+        },
+        "raw": {
+          "score": 66.7726966921307,
+          "ded_pct": 36.232428801681365
+        }
+      },
+      {
+        "name": "实用 r0.6·gate0.5·cap0.08",
+        "params": {
+          "r_fast": 0.1,
+          "tau_c_fast_s": 2.0,
+          "r_slow_max": 0.6,
+          "slope_cap_frac": 0.08,
+          "slope_gate_frac": 0.5,
+          "slow_confirm_s": 0.0,
+          "soft_unfreeze_s": 2.0,
+          "edge_slope_thres": 10.0,
+          "tau_slope_s": 2.0,
+          "tau_r_slow_idle_s": 30.0,
+          "tau_r_fast_s": 2.0,
+          "hold_eps": 0.5,
+          "idle_frac": 0.1,
+          "ramp_slope_min": 2.0
+        },
+        "uniform": {
+          "ded_pct": 35.49621136441745,
+          "resid_pct": 64.50379113237621,
+          "over_pct": -13.001548036421376,
+          "tail_pct": 2.7391604494488675,
+          "std_pct": 7.902255472940945,
+          "score": 67.24295158182508
+        },
+        "raw": {
+          "score": 66.83810196603815,
+          "ded_pct": 36.143407288903425
+        }
+      },
+      {
+        "name": "现役默认",
+        "params": {},
+        "uniform": {
+          "ded_pct": 10.9534643475275,
+          "resid_pct": 89.04653594909283,
+          "over_pct": -23.18417113753539,
+          "tail_pct": 4.256383816762061,
+          "std_pct": 8.81244586421386,
+          "score": 94.01740053195905
+        },
+        "raw": {
+          "score": 93.99324300686874,
+          "ded_pct": 11.03669654997563
+        }
+      }
+    ]
+  }
+}

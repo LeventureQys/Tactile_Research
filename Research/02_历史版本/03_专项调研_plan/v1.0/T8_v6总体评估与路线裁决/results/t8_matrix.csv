@@ -1,0 +1,79 @@
+﻿dimension,route,value,unit,source_task,source_file,column,caliber,n,note
+稳定时间,v3,缺数据,s,—,—,—,T1~T7 无任何席位交付 v3 臂；第一轮 13-v6-assessment 的 settle_arms.csv 只有 raw / v5.1 / v6 三臂,,★ 本席位未在 progress/01-v3-baseline 与 04-v5 的产物里找到任何 T_stable 口径的 v3 实测值 ⇒ 空缺（诚实登记）
+稳定时间,v5.1,2.89,s,T1-A,results/t1a_settle_summary.csv,med,T_stable_ch5（主通道+5 s 参考，C-1 冻结主口径）,n=9（恒载 9 组 onset）,p10~p90 0.618~6.992，worst 13.16
+稳定时间,v5.1,3.81,s,T3-B,results/t3b_route_q6q7.csv,med,总通道 D1-ev（窗在下一事件处截断），tag=tot_ev，arm=v51_f3,n=13 录制,≤2 s 录制比 8%
+稳定时间,v6,1.80,s,T1-A,results/t1a_settle_summary.csv,med,T_stable_ch5（冻结主口径）,n=9,p10~p90 0.488~7.960，worst 13.16；达标率 5/9=55.6%
+稳定时间,v6,0.54,s,T3-B,results/t3b_route_q6q7.csv,med,总通道 D1-ev，tag=tot_ev，arm=v6,n=13 录制,≤2 s 录制比 77%
+稳定时间,v6,5.36,s,T5-A,results/t5a_kappa_loo.csv,T10_med_fold_max,κ_onset=1.10 留一 13 折中最坏折的 T_stable(10 s 窗) 中位,n_folds=13,对照 κ=1.15 为 78.50 s ⇒ 改善 14.6 倍；这是「尾部」而非中位口径
+稳定时间,v6.1,1.16,s,T1-A,results/t1a_settle_summary.csv,med,T_stable_ch5（冻结主口径）,n=9,p10~p90 0.430~7.008；达标率 5/9=55.6%
+稳定时间,T3-B第三条路,0.52,s,T3-B,results/t3b_route_roi.csv,Tstab_tot_ev_med,总通道 D1-ev；route=rom_scale 1.06（形状库上包络重标）,n=13 录制,≤2 s 录制比 69%；拐点 T=knee 1.06（t3b_roi_knee.csv）
+稳定时间,T3-B第三条路,0.70,s,T3-B,results/t3b_third_routes.csv,Tstab_tot_ev_med,候选 C4 单侧门（rt_onesided）,n=13 录制,过充归零但 err1 −10.97%、G 0.946
+稳态时漂,v3,1.58,%,01-v3-baseline（转引 04-v5 §4.3）,progress/04-v5/docs/05-v5算法说明.md:§4.3 表（v3 行）,时漂残余 全段,负载段末 10% − 首 10%，占电平 % 的中位；恒载 9 组,n=9,★ 非 T1~T7 产物，引自 v5 文档的 v3 对照表（列名与时漂残余定义见该表）；同表：慢相段 1.49%、受载中位 0.59%、噪声比 0.71、平坦度 1.88%、零漂残余 1.50%、阶跃保真 1.00
+稳态时漂,v5.1,0.0000,%·|J|,T7-A,results/t7_frozen_summary.csv,resid_late_pct,卸载后稳态残余（相对加载前空载电平）,n=14 全卸载,v5.1/v6 在 14/14 事件上 ded_late_pct = 0.0000（加载期累积的慢相补偿被彻底撤销）
+稳态时漂,v6,0.0000,%·|J|,T7-A,results/t7_frozen_summary.csv,resid_late_pct,同上（v6 臂，卸载后稳态残余）,n=14,与 v5.1 相同
+稳态时漂,v6,34.14,%,T5-A,results/t5a_nonfilter_options.csv,err1_abs_med（arm=B0_baseline = v6 默认参数）,1 s 时刻显示绝对误差中位,n=41 加载事件,κ 扫描的配对值见 t5a_kappa_verdict.csv:err1_abs_med_all（κ=1.30 为 30.06%、κ=1.10 为 33.97%）；该列对 t_on 的 ±1 包极敏感（−3.6%→−69.4%）⇒ 只在同口径配对差里使用
+稳态时漂,v6,4.08,%·J,T5-A,results/t5a_overcharge_summary.csv,OS5_med（kind=onset）,onset 5 s 窗瞬态过充（慢相走廊失配的另一侧面）,n=22,30 s 窗口径下同批要 +12.5 pt（t5a G10），引用必须带窗长
+稳态时漂,v6.1,缺数据,%,—,—,—,无 v6.1 的稳态时漂/1 s 误差独立产物,,T5-A 只给了 v6/v6.1 的过充与 G；T7 未跑 v6.1 臂
+稳态时漂,T3-B第三条路,9.15,%,T3-B,results/t3b_route_roi.csv,err1_ch_med（rom_scale=1.06）,1 s 时刻误差中位（主通道）,n=13 录制,v6 基线为 −3.70% ⇒ 上包络重标把误差推向「欠报」侧
+台阶保真,v3,0.89,—,01-v3-baseline（转引 01-v3-baseline/MANIFEST.md）,progress/01-v3-baseline/MANIFEST.md:基线数字,变载台阶捕获比,变载实录台阶捕获比（中位）,,同处另给 04-v5 §10.3B：v3 0.91/0.85、0.97/0.92、0.93/0.66（三份实录的中位/最小）
+台阶保真,v3,1.00,—,01-v3-baseline（转引 04-v5 §4.3）,progress/04-v5/docs/05-v5算法说明.md:§4.3 表（v3 行）,阶跃保真,onset+0.5~2.5 s 幅度 ÷ 原始同窗,n=9,事件跳变超额 0.03
+台阶保真,v5.1,1.000,—,T7-A,results/t7_frozen_summary.csv,recovery_pct/type 的组合说明列,台阶捕获比 G（事件后 20 s 显示增量/原始增量）,n=14 卸载,T7-A 未跑 v5.1 的 G 列；此处给的是「卸载沿回收率」的等价事实，见 note
+台阶保真,v5.1,0.98,—,07-v6,07-v6/MANIFEST.md（转引 01 号文档 §3 地基表）,台阶捕获比 G,历史口径,—,转引；本次调研未独立复算 v5.1 的 G
+台阶保真,v6,1.033,—,T3-B,results/t3b_route_roi.csv,G_med（arm=v6）,|Δ原始|≥2000 ADC 的 ADC 域大台阶，20 s 窗,n=7,G_min −0.141
+台阶保真,v6.1,0.920,—,T5-A,results/t5a_v6_vs_v61_summary.csv,G_med（行 v61_s106）,同批 41 加载事件,n=41,v6 同批为 0.942 ⇒ ROM_SCALE 使台阶略钝
+台阶保真,T3-B第三条路,0.982,—,T3-B,results/t3b_route_roi.csv,G_med（rom_scale=1.06）,同上,n=7,v6 1.033 → 0.982（−5 pt）
+过充,v3,5.9,%,01-v3-baseline（转引 04-v5 §3.6）,progress/04-v5/docs/05-v5算法说明.md:§3.6（台阶 100% 场景）,实测过冲,合成台阶 100% 场景的稳定值相对理想值的超出（理想 1.50×10N，实测 1.62×10N 为 +7.9%；100% 场景 +5.9%）,合成砝码场景（非实录）,★ 该量是「负载比例蠕变场的稳态偏差」，不是指标字典 §3 的 OS%（5 s 窗瞬态过充）⇒ **与 v6 的 OS5 不同源、不可横比**；v6 的 OS5 来自快相反演高估，v3 没有形状反演
+过充,v5.1,1.05,%,第一轮,progress/13-v6-assessment/docs/v6评估与需求答复.md §5,over_pct（v5.1 行）,历史口径,—,本批未独立复算 v5.1 的主通道过充；T5-A 只给了 v5.1 的 OS5 max（见下）
+过充,v5.1,54.39,%,T5-A,results/t5a_v6_vs_v61_summary.csv,OS5_max（行 v5.1）,41 加载事件的 5 s 窗过充最大值,n=41,★ 这是 T5-A 的可证伪条件：v5.1 的过充上限远低于 v6 的 120.81%
+过充,v6,9.64,%,T5-A,results/t5a_kappa_verdict.csv,OS5_med_onset（arm=unif_k1.30）,onset 22 事件、主通道、5 s 窗,n=22,与 T3-B 主通道 9.00% 同口径同量级；总通道口径下为 +4.08%（通道平均稀释）
+过充,v6,120.81,%,T5-A,results/t5a_kappa_verdict.csv,OS5_max（arm=unif_k1.30）,41 加载事件,n=39~41,12 个事件 >5%
+过充,v6.1,-2.51,%,T5-A,results/t5a_v6_vs_v61_summary.csv,OS5_med（行 v61_s106）,同批 41 加载事件,n=41,max +74.83%（−38%）、OS>5% 事件 12→7 ⇒ 压掉约一半，未清零
+过充,T3-B第三条路,3.02,%,T3-B,results/t3b_route_roi.csv,OS_ch_med（rom_scale=1.06）,总通道+主通道口径（route_roi 的 OS_ch_med）,n=13 录制,v6 同列 8.999%；拐点 OS=knee 1.06
+下冲,v3,缺数据,%,—,—,—,v3 无形状反演，其「向下」表现是卸载门控自动归零的伪零点（见卸载行为行），不是 load 沿下冲,,★ 05-v5算法说明 §10.3A 给出 v3 的零点段显示均值 −1051~+210 ADC、卸载沿后 0.5 s 显示总量 −6362~+1289⇒ 属「零点被强制拉回 0」的另一类缺陷，登记在卸载行为维度
+下冲,v5.1,缺数据,%,—,—,—,T5-A 的 US5 列只在 v6/v6.1 臂上产出,,T7 报的是卸载沿「额外下冲」，不是加载沿下冲，不可横比
+下冲,v6,18.59,%·J,T5-A,results/t5a_overcharge_summary.csv,OS5_med（kind=restep，负号即下冲）,restep 11 事件、5 s 窗,n=11,9/11 向下 >2%，中位下冲 2865.2 ADC；根因 = 复合事件继承的 c0 被 pin 钉住（G=0.473）
+下冲,v6,1230.09,%,T5-A,results/t5a_kappa_verdict.csv,US5_max,41 加载事件的最大欠冲,n=39~41,★ ROM_SCALE 1.00→1.06 对该列几乎无效（两臂同值）
+下冲,v6.1,缺数据,%,—,—,—,缺数据（US5 在 v6.1 汇总表未给分列）,,从 US5_max 两臂同值可推知 ROM_SCALE 治不了下冲
+下冲,T3-B第三条路,缺数据,%,—,—,—,缺数据,,t3b_third_routes.csv 未给 US 列；C4 单侧门只截上限、对欠冲无效（T5-A Q5）
+重复性,v3,缺数据,pp,—,—,—,无 v3 臂的重复性产物（第一轮 b_repeat_disp.csv 与 T6 都只跑 raw/v5.1/v6/v6.1）,,★ 与 T_stable 同为矩阵中 v3 的空缺项；若要补齐需按 T1-A 冻结口径补跑 v3 臂
+重复性,v5.1,3.39,pp,T6,results/t6_repeat_dispersion.csv,value,std(平台误差) 相对机械台阶电平 Rstep；impl=v5.1,n=9（3 组×3 次）,相对 5 s 实测电平 R5 口径下为 3.07 pp
+重复性,v5.1,0.26,%·电平,T6,results/t6_jitter_summary_a.csv,rms_pct_lvl_med（cond=timing_J100P）,±1 包(±40.0 ms)时序抖动下输出轨线 RMS 差,n=30 种子,序列相同率 1.00（路径完全稳定）
+重复性,v6,3.52,pp,T6,results/t6_repeat_dispersion.csv,value,std(平台误差) Rstep；impl=v6,n=9,相对 5 s 口径 R5 下为 5.09 pp（比 v5.1 差 66%）
+重复性,v6,7.90,%·电平,T6,results/t6_jitter_summary_a.csv,rms_pct_lvl_med（cond=timing_J100P）,±1 包时序抖动下输出轨线 RMS 差,n=30 种子,★ 30.6× v5.1；epoch 变 50.0%、revoke 变 73.3%、handoff 变 70.0% ⇒ 主缺口在 L3 路径层
+重复性,v6,1.71,次/100 s,T3-B,results/t3b_route_roi.csv,epoch_per100s,补偿器内部建事件率,n=13 录制,v5.1 为 1.05 ⇒ 1.63 倍；与第一轮 1.6~1.7 倍一致
+重复性,v6.1,3.37,pp,T6,results/t6_improve_ab.csv,std_R5_pp,arm=v6.1_asIS，相对 5 s 实测电平 R5,n=9,−33.8% vs v6，但 ±1 包抖动下 L3 毫无帮助（7.744% vs 7.714%）；bias 由 +2.22 变 −3.83 pp
+重复性,T3-B第三条路,2.57,pp,T6,results/t6_improve_ab.csv,std_R5_pp,arm=I4_ho10s（τ_ho 5→10 s），T1 口径 std(R5),n=9,−49.6%；组合臂 I7_h3_I4ho10 在 L3 上再取 −84.7%
+强扰动鲁棒性,v3,缺数据,%,—,—,—,v3 无快相状态机（无 epoch/revoke/handoff），T5-B 的 M1~M4 失败定义对它不成立；第一轮 a_ 分支只跑 v6,,★ 结构上不可比：v3 的失效模式是「把真实加载当蠕变扣掉」（捕获比 0.13~0.61，见 04-v5 §4.4 注）
+强扰动鲁棒性,v5.1,缺数据,%,—,—,—,缺数据（T5-B 只扫 v6 臂）,,T1-B 的 A=2000/4000 档也只做 v6/v6.1 相对档，未给 v5.1 的绝对失败率
+强扰动鲁棒性,v6,100,%,T5-B,results/t5b_q1_headline.csv,"white,1000.0,W1_1w",M1~M4 任一成立的 trial 失败率；12048 ADC 平台 + ±1000 ADC RMS 白噪,n=10,"Wilson 95% CI [0.72,1.00]；算法可归因显示超额中位 29.5% 电平（≈3570 ADC）"
+强扰动鲁棒性,v6,75.7,ADC,T5-B,results/t5b_boundary_measured.csv,A50,复合（任一 M）50% 失效幅度，@1.2w 平台，白噪,n=32,"95% CI [50.8,100.2] = 0.63% 电平；共模 89.0 ADC；低频带限（f_hi=1 Hz）更狠 3~4 倍"
+强扰动鲁棒性,v6,0.402,AUC,T5-B,results/t5b_criteria_summary.csv,auc,现行唯一旋钮（抬 ratio 门限）作为拍击/真实变载判据,n=1062 trials,比随机差；「保持维」因果版 AUC 0.841、非因果版 0.950 ⇒ 缺的是平台/保持这一维
+强扰动鲁棒性,v6,6.96,个/次,T1-B,results/t1b_summary_noise_adc.csv,n_miss_mean,A=4000 ADC 白噪下真实变载漏检数,n=11~16 实录事件,A=1000 → 0.31（基线 0.29）、A=2000 → 1.44；带限 0.3~40 Hz 在 2000 ADC 时为 1.96
+强扰动鲁棒性,v6,16.18,s,T1-B,results/t1b_summary_noise_hold.csv,t_stable_med,显示域白噪 r=10% 的 T_stable 中位（总通道）,n=31,r=2% 时反而 0.39 s ⇒ 「更稳」是假象（同批显示偏置中位 2.26 显示单位 = 12.8% 电平）
+强扰动鲁棒性,v6.1,缺数据,%,—,—,—,缺数据,,T5-B 未扫 v6.1；T1-B 只做「3 个相对档 × 5 种子」的四臂对照，未给绝对失败率
+强扰动鲁棒性,T3-B第三条路,116,ADC,T5-B,results/t5b_fallback_policies.csv,tap_dA_end_med,"低置信期冻结锚定（hold, lowconf_thr=0.50）后的拍击永久锚点损伤",n=23,基线（policy=none）为 2713.3 ADC；干净数据副作用 clean_sideeffect_rel = 0.0
+卸载行为,v3,1023,ADC,01-v3-baseline（转引 04-v5 §10.3A）,progress/04-v5/docs/05-v5算法说明.md:§10.3A,零点段显示均值（−1051~+210）,含空载段的 3 份实录、6 个零负载段：零点段显示均值的极差（原始读数 40~76 ADC）,n=6 个零负载段,★ 这是 v3 的结构性缺陷：卸载门控自动归零（空载期以 τ=2 s 跟踪基线 b_ 并减掉）把零点强制拉回 0；同表：卸载沿后 0.5 s 显示总量 −6362~+1289、零负载段被钳成 0 的时长 0~6.05 s
+卸载行为,v3,0.89,—,01-v3-baseline（转引 04-v5 §10.3B）,progress/04-v5/docs/05-v5算法说明.md:§10.3B,台阶捕获比 中位/最小（v3 列）,4 份变化负载实录,n=3 份实录 × 2 事件,v3 0.91/0.85、0.97/0.92、0.93/0.66；变载窗最大偏差中位 850/2190/2129 ADC（v5.1 为 247/1082/767）
+卸载行为,v5.1,0.8889,比例,T1-A,results/t1a_target_verdict.csv,rate_2s,unload 工况「≤2 s」达标率（冻结口径 ch5）,n=9 可测,v6 为 1.0000（9/9）；v5.1 的卸载沿本身也很快（t90 中位 0.03 s），差距在事件级稳定判据上
+卸载行为,v5.1,0.745,s,T7-A,results/t7_frozen_offset.csv,t_ded_half（v5 臂）,v5（含空载自动归零）的撤销半时,n=14,v5 额外贴零 +5.58 s、额外下冲最大 25.9%、零点被改到 −552~+552 ADC ⇒ 这是被淘汰的实现
+卸载行为,v6,0.040,s,T7-A,results/t7_unload_events.csv,t90,全卸载沿 t90 中位（真实卸载沿 t0）,n=14,t50 0.02 s、0.2 s 完成度 1.0022；T7-B 独立复算 n=16 得 0.015 s
+卸载行为,v6,1.0000,比例,T1-A,results/t1a_target_verdict.csv,rate_2s,unload 工况「≤2 s」达标率（冻结口径 ch5）,n=9 可测,worst 1.15 s；是全项目唯一「达标」的工况（rate_2s_lo 0.4737）
+卸载行为,v6,2.81,%·|J|,T7-A,results/t7_frozen_summary.csv,resid4_pct,卸载后 4~6 s 残余（相对加载前空载电平）；列单位为 %·|J|,n=14,力域（恒载 9）中位 +0.19%、p10~p90 0.00~2.50%、max +2.81%；ADC 域（实录 5）全部 ≤0.08%；11/14 单调回零、2/14 过冲、1/14 留 2.12% 稳态残余（54.7 s 不衰减）
+卸载行为,v6,0.000,ADC,T7-B,results/t7b_partial_amp_response.csv,kind_eff + drop_frac_eff,反向事件误判率与全卸载稳态偏差,n=19 减重事件,反向误判 0/19；全卸载稳态偏差 0.000%（±1 s 与 ±2 s 窗均 0%）
+卸载行为,v6.1,缺数据,—,—,—,—,缺数据,,T7 未跑 v6.1 臂
+卸载行为,T3-B第三条路,3.4,%·|J|,T7-A,results/t7_inject_amp.csv,e3s_dip_extra_pct（α=1.0 行的中位；该列以分数记，0.034 = 3.4%）,卸载判据前移后的额外下冲（现役 e3s 臂，注入对照）,n=18（3 录制 × 3 α × 2 沿时长）,α=0.6 时为 42~44%、α=0.3 时为 22~87%；v6 同列略差（α=1.0 为 3.4%）
+计算量,v3,缺数据,次/100 s,—,—,—,v3 无 epoch 状态机；第一轮与 T3-B 都未报 v3 的 epoch_per100s,,★ 定性可判：v3 只有「三级 EMA + 双滞后电平判据 + 蠕变积分」，无形状反演/滑行器/停滞检测 ⇒ 计算量明显低于 v6；但无量化产物 ⇒ 按纪律写「缺数据」
+计算量,v5.1,1.05,次/100 s,T3-B,results/t3b_route_roi.csv,epoch_per100s,补偿器内部建事件率,n=13 录制,v5.1 在 ±1 包抖动下事件序列 100% 不变（T6）
+计算量,v5.1,0.98,s,T7-A,results/t7_arm_unload.csv,t_ded_half,加载期累积慢相的撤销延迟（近似实现成本代理）,n=14,T7-A 报中位 0.025 s（非 v5 的 0.745 s）
+计算量,v6,1.71,次/100 s,T3-B,results/t3b_route_roi.csv,epoch_per100s,补偿器内部建事件率,n=13 录制,= v5.1 的 1.63 倍；inv_calls 与 trigger_rate 见同表
+计算量,v6,0.65,s,T1-A,results/t1a_lowerbound.csv,T_internal,v6 内部判据/估计延迟下界（TAU_REF 0.20 + STALL_HOLD_S 0.45）,—,纯跟随器下界 T_in5 中位 4.70 s（n=8）；v6 在 8/8 事件上快于该下界（靠预测+冻结）
+计算量,v6,8.6,×,T5-A,results/t5a_kappa_verdict.csv,trigger_rate（arm=onset_k1.15 vs onset_k1.10）,κ 上限被截断的事件占比（计算路径变化量）,n=39,κ=1.30 为 4.1%、1.15 为 41%、1.00 为 75.8%
+计算量,v6.1,1.71,次/100 s,T3-B,results/t3b_route_roi.csv,epoch_per100s,与 v6 相同（ROM_SCALE 只改形状库数值，不改状态机）,n=13 录制,T5-A 亦确认 λ 扫描不改事件结构；故与 v6 同值
+计算量,T3-B第三条路,1.71,次/100 s,T6,results/t6_improve_ab.csv,mean_epoch,I7/I4 改进臂的 epoch 数（未引入新状态机）,n=9,改动 = 1 个计数器 + 1 个常量；工作量落 src/domain/drift_v6/ 补偿器状态机
+可标定性,v3,不需标定,—,01-v3-baseline（转引 04-v5 §3）,progress/04-v5/docs/05-v5算法说明.md:§3（v3 对照列）,常量表（22 个常量逐项保持）,无形状库、无现场标定项；但有 22 个面板常量,,★ v3 的代价不是标定，而是「把真实加载当蠕变吃掉」（04-v5 §4.4 注：13ffca 的 53~69 s 窗 v3 记 4.67% 看似很好，实际把一次 +13.7% 的真实加载当蠕变吃掉了，该事件捕获比 0.13~0.61）
+可标定性,v5.1,不需标定,—,T6,results/t6_jitter_summary_a.csv,seq_same_rate,"1 s 均值窗（[2,3] s）与跳变沿无关 ⇒ 无标定依赖",n=30 种子,±1 包下事件序列相同率 1.00、输出 RMS 差 0.26% 电平
+可标定性,v5.1,12.794,倍,T7-B,results/t7b_asymmetry.csv,ratio_load_over_unload（contrast=A5_conservative）,对对称性假设最有利边界下的加载/卸载 t90 比,n=40/16,>1 即不对称 ⇒ 线性粘弹性镜像假设不成立（C-5 关闭）
+可标定性,v6,5.52,%,T3-A,results/t3a_generalization.csv,med_abs_pct,onset 自身标定(own) → 同族留一事件(loo_event)@tau_d=0.2 s,n=18,→ 留一录制 4.76% → 跨族 5.33% → **跨形态 56.39%**；restep 侧 29.88%→52.07%
+可标定性,v6,1.10,—,T5-A,results/t5a_kappa_verdict.csv,kappa_onset,C-4 裁决值（κ_restep 保持 1.12），一行常量,n=39 事件 / 13 折留一,饱和区 κ≥1.15 六个工作点逐事件完全相同（39/39）⇒ 真正的工作点只有两个
+可标定性,v6.1,1.06,—,T3-B,results/t3b_roi_knee.csv,knee_OS,形状库上包络重标倍率拐点,n=13 录制,甜点区间 1.04~1.06；1.12 时 G 0.950、err1 −10.97%；与 κ 同类 ⇒ 二选一
+可标定性,T3-B第三条路,不需新增标定,—,T3-B,results/t3b_third_routes.csv,needs_field_calib,5 个候选路线全部 needs_field_calib=否,n=13 录制,C1/C2/C3/C4 均不依赖新增现场标定；C4（单侧门）收益最大但付 11% 欠报

@@ -1,0 +1,5 @@
+c0833_0|r_fast=0.1,r_slow_max=5.0,slope_gate_frac=1.0,slope_cap_frac=0.15,tau_slope_s=3.0,edge_slope_thres=10.0
+c0833_1|r_fast=0.1,r_slow_max=5.0,slope_gate_frac=1.0,slope_cap_frac=0.15,tau_slope_s=3.0,edge_slope_thres=20.0
+c0833_2|r_fast=0.1,r_slow_max=5.0,slope_gate_frac=1.0,slope_cap_frac=0.15,tau_slope_s=3.0,edge_slope_thres=60.0
+c0833_3|r_fast=0.1,r_slow_max=5.0,slope_gate_frac=1.0,slope_cap_frac=0.15,tau_slope_s=3.0,edge_slope_thres=150.0
+c0833_4|r_fast=0.1,r_slow_max=5.0,slope_gate_frac=1.0,slope_cap_frac=0.15,tau_slope_s=3.0,edge_slope_thres=400.0

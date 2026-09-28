@@ -1,0 +1,8 @@
+﻿value_name,source,published_s,recomputed_round1caliber_s,recomputed_frozen_s,delta_vs_round1,delta_frozen_vs_pub,note
+T_stable v6 主通道+5s（恒载 9 组中位）,13-v6-assessment/settle_arms.csv / 第一轮现状与口径更正.md（1.72）,1.72,1.72,1.8,0.0,0.08,第一轮口径（r4 的 t_on + span/(n−1) 网格）逐份复现；冻结口径换用 T4-A 真沿 ⇒ +0.08 s
+T_stable v6 总通道+5s（恒载 9 组中位）,同上（0.46）,0.46,0.46,0.55,0.0,0.09,同左
+T_stable v6 含蠕变口径（恒载 9 组中位）,同上（0.41）,0.41,0.4,0.5,-0.01,0.09,参考幅度 = 卸载沿前 5 s 电平 − pre
+T_stable v6 主通道+5s（早期旧值，切片下标 bug）,plan/v1.0/第一轮现状与口径更正.md §1（2.72）,2.72,2.72,,-0.0,,旧值 = 修正值 + 1.00 s 的恒定偏移（切片相对下标当绝对下标），**不是另一个口径**
+T_stable raw / v5.1 主通道+5s（恒载 9 组中位）,同上（9.33 / 2.80）,9.33,9.34,9.42,0.01,0.09,v5.1 见 t1a_settle_summary.csv（第一轮口径 2.81）
+T_stable raw 总通道+5s（恒载 9 组中位）,同上（17.98）,17.98,16.21,16.29,-1.77,-1.69,raw 臂总通道 T_stable 处于删失边界，逐份平台判定不稳（非候选臂，未深究）
+T_stable v6 总通道+回溯真沿（恒载 9 组中位）,07-v6/MANIFEST.md、11-paper-v6/results/metrics_settle.csv（0.55）,0.55,0.55,0.55,0.0,-0.0,用 pv_common.first_onset 口径独立复算（n_meas=9）；与『主通道+5s』不可横比

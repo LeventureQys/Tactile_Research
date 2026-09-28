@@ -1,0 +1,11 @@
+c0841_0|r_fast=0.1,r_slow_max=0.02,slope_gate_frac=1.0,slope_cap_frac=0.15,tau_slope_s=3.0,tau_c_fast_s=8.0,hold_eps=0.5,idle_frac=0.02
+c0841_1|r_fast=0.1,r_slow_max=0.04,slope_gate_frac=1.0,slope_cap_frac=0.15,tau_slope_s=3.0,tau_c_fast_s=8.0,hold_eps=0.5,idle_frac=0.02
+c0841_2|r_fast=0.1,r_slow_max=0.06,slope_gate_frac=1.0,slope_cap_frac=0.15,tau_slope_s=3.0,tau_c_fast_s=8.0,hold_eps=0.5,idle_frac=0.02
+c0841_3|r_fast=0.1,r_slow_max=0.1,slope_gate_frac=1.0,slope_cap_frac=0.15,tau_slope_s=3.0,tau_c_fast_s=8.0,hold_eps=0.5,idle_frac=0.02
+c0841_4|r_fast=0.1,r_slow_max=0.2,slope_gate_frac=1.0,slope_cap_frac=0.15,tau_slope_s=3.0,tau_c_fast_s=8.0,hold_eps=0.5,idle_frac=0.02
+c0841_5|r_fast=0.1,r_slow_max=0.35,slope_gate_frac=1.0,slope_cap_frac=0.15,tau_slope_s=3.0,tau_c_fast_s=8.0,hold_eps=0.5,idle_frac=0.02
+c0841_6|r_fast=0.1,r_slow_max=0.6,slope_gate_frac=1.0,slope_cap_frac=0.15,tau_slope_s=3.0,tau_c_fast_s=8.0,hold_eps=0.5,idle_frac=0.02
+c0841_7|r_fast=0.1,r_slow_max=1.0,slope_gate_frac=1.0,slope_cap_frac=0.15,tau_slope_s=3.0,tau_c_fast_s=8.0,hold_eps=0.5,idle_frac=0.02
+c0841_8|r_fast=0.1,r_slow_max=2.0,slope_gate_frac=1.0,slope_cap_frac=0.15,tau_slope_s=3.0,tau_c_fast_s=8.0,hold_eps=0.5,idle_frac=0.02
+c0841_9|r_fast=0.1,r_slow_max=10.0,slope_gate_frac=1.0,slope_cap_frac=0.15,tau_slope_s=3.0,tau_c_fast_s=8.0,hold_eps=0.5,idle_frac=0.02
+c0841_10|r_fast=0.1,r_slow_max=30.0,slope_gate_frac=1.0,slope_cap_frac=0.15,tau_slope_s=3.0,tau_c_fast_s=8.0,hold_eps=0.5,idle_frac=0.02

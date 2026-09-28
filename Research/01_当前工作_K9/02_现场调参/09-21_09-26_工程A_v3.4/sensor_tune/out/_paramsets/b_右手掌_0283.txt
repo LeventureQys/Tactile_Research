@@ -1,0 +1,3 @@
+c0283_0|r_fast=0.02,ramp_slope_min=0.0
+c0283_1|r_fast=0.02,ramp_slope_min=0.5
+c0283_2|r_fast=0.02,ramp_slope_min=2.0

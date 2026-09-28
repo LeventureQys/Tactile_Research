@@ -1,0 +1,22 @@
+起点最好 J%=1.305
+  起点0（J%=1.305）→ 坐标下降
+    pass1: J%=0.672
+    pass2: J%=0.557
+    pass3: J%=0.555
+    pass4: J%=0.551
+    pass5: J%=0.551
+  起点1（J%=1.437）→ 坐标下降
+    pass1: J%=1.043
+    pass2: J%=1.041
+    pass3: J%=1.041
+  起点2（J%=2.058）→ 坐标下降
+    pass1: J%=1.114
+    pass2: J%=1.036
+    pass3: J%=1.036
+★ J%=0.551  {"edge_boost_s": 0.0, "edge_slope_thres": 400.0, "hold_eps": 0.0, "hold_tau_s": 0.15, "idle_frac": 0.02, "r_fast": 0.01, "r_slow_max": 0.1, "ramp_full_s": 0.0, "ramp_slope_min": 2.0, "slope_cap_frac": 1.5, "slope_gate_frac": 2.0, "slow_confirm_s": 0.5, "soft_unfreeze_s": 4.0, "tau_c_fast_boost_s": 4.0, "tau_c_fast_s": 4.0, "tau_r_fast_s": 2.0, "tau_r_slow_idle_s": 0.0, "tau_slope_s": 0.2}
+  会话              过减ADC    过减%ΣE    回落ADC      欠减峰       末值     扣除%     J%
+  d1/6a679f        23.7     0.30     28.4      4.7    -11.2   102.9   0.13
+  d1/5ce2c4        69.9     0.85     22.9      0.0    -68.6   126.0   0.42
+  d2/857759       308.2     1.06    152.0      0.0   -106.0   108.0   0.41
+  d2/8e127e         0.0     0.00    235.7    325.6    188.6    88.9   1.24
+写出 D:\workshop\文档\v2.7 - 抗蠕变补偿算法\v3.4\sensor_tune\out\18_search_4f.json

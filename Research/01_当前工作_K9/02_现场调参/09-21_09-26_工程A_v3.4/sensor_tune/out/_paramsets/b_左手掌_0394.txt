@@ -1,0 +1,4 @@
+c0394_0|r_slow_max=0.6,slope_gate_frac=5.0,soft_unfreeze_s=0.5
+c0394_1|r_slow_max=0.6,slope_gate_frac=5.0,soft_unfreeze_s=1.0
+c0394_2|r_slow_max=0.6,slope_gate_frac=5.0,soft_unfreeze_s=2.0
+c0394_3|r_slow_max=0.6,slope_gate_frac=5.0,soft_unfreeze_s=4.0

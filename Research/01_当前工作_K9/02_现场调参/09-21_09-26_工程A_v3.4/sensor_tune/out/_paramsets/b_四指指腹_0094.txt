@@ -1,0 +1,5 @@
+c0094_0|r_fast=0.0,r_slow_max=0.2,slope_gate_frac=0.02,slope_cap_frac=0.002
+c0094_1|r_fast=0.0,r_slow_max=0.2,slope_gate_frac=0.02,slope_cap_frac=0.005
+c0094_2|r_fast=0.0,r_slow_max=0.2,slope_gate_frac=0.02,slope_cap_frac=0.01
+c0094_3|r_fast=0.0,r_slow_max=0.2,slope_gate_frac=0.02,slope_cap_frac=0.02
+c0094_4|r_fast=0.0,r_slow_max=0.2,slope_gate_frac=0.02,slope_cap_frac=0.04

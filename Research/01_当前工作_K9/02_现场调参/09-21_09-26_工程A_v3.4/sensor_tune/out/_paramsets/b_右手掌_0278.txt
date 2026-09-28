@@ -1,0 +1,5 @@
+c0278_0|r_fast=0.02,tau_c_fast_s=2.0
+c0278_1|r_fast=0.02,tau_c_fast_s=4.0
+c0278_2|r_fast=0.02,tau_c_fast_s=8.0
+c0278_3|r_fast=0.02,tau_c_fast_s=12.0
+c0278_4|r_fast=0.02,tau_c_fast_s=20.0

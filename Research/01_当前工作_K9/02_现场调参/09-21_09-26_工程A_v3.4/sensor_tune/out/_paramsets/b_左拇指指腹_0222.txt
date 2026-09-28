@@ -1,0 +1,5 @@
+c0222_0|r_fast=0.04,tau_c_fast_s=2.0
+c0222_1|r_fast=0.04,tau_c_fast_s=4.0
+c0222_2|r_fast=0.04,tau_c_fast_s=8.0
+c0222_3|r_fast=0.04,tau_c_fast_s=12.0
+c0222_4|r_fast=0.04,tau_c_fast_s=20.0

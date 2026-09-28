@@ -1,0 +1,7 @@
+c0110_0|r_fast=0.3,tau_c_fast_s=2.0,soft_unfreeze_s=8.0,slope_cap_frac=0.05,r_slow_max=0.02
+c0110_1|r_fast=0.3,tau_c_fast_s=2.0,soft_unfreeze_s=8.0,slope_cap_frac=0.05,r_slow_max=0.04
+c0110_2|r_fast=0.3,tau_c_fast_s=2.0,soft_unfreeze_s=8.0,slope_cap_frac=0.05,r_slow_max=0.06
+c0110_3|r_fast=0.3,tau_c_fast_s=2.0,soft_unfreeze_s=8.0,slope_cap_frac=0.05,r_slow_max=0.1
+c0110_4|r_fast=0.3,tau_c_fast_s=2.0,soft_unfreeze_s=8.0,slope_cap_frac=0.05,r_slow_max=0.2
+c0110_5|r_fast=0.3,tau_c_fast_s=2.0,soft_unfreeze_s=8.0,slope_cap_frac=0.05,r_slow_max=0.35
+c0110_6|r_fast=0.3,tau_c_fast_s=2.0,soft_unfreeze_s=8.0,slope_cap_frac=0.05,r_slow_max=0.6

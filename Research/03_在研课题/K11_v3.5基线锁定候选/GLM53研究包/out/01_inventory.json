@@ -1,0 +1,634 @@
+{
+  "四指指腹/d1/6a679f": {
+    "path": "D:\\workshop\\文档\\v2.7 - 抗蠕变补偿算法\\data\\四指指腹\\device1\\20260926_091946_single_device_6a679f\\device_001_seg000.csv",
+    "frames": 27886,
+    "channels": 52,
+    "duration_s": 277.089,
+    "hz": 100.63914482350437,
+    "baseline": 8054.0,
+    "peak": 8417.0,
+    "segments": [
+      [
+        2715,
+        27885
+      ]
+    ],
+    "header": {
+      "会话ID": "20260926_091946_single_device_6a679f",
+      "数据阶段": "processed_display",
+      "显示模式": "adc",
+      "显示力值单位": "N",
+      "上报力值单位": "mN",
+      "显示压强单位": "KPa",
+      "含原始ADC": "false",
+      "录制频率": "0.00"
+    },
+    "nan_ratio": 0.0,
+    "monotonic_t": true,
+    "dup_t_ratio": 0.3770127308588847
+  },
+  "四指指腹/d1/5ce2c4": {
+    "path": "D:\\workshop\\文档\\v2.7 - 抗蠕变补偿算法\\data\\四指指腹\\device1\\20260926_092426_single_device_5ce2c4\\device_001_seg000.csv",
+    "frames": 19958,
+    "channels": 52,
+    "duration_s": 198.28,
+    "hz": 100.6556384910228,
+    "baseline": 8255.71,
+    "peak": 8551.0,
+    "segments": [
+      [
+        3203,
+        3223
+      ],
+      [
+        3225,
+        3248
+      ],
+      [
+        3358,
+        3419
+      ],
+      [
+        3475,
+        3513
+      ],
+      [
+        3515,
+        3564
+      ],
+      [
+        3566,
+        3589
+      ],
+      [
+        3606,
+        4764
+      ],
+      [
+        4767,
+        19957
+      ]
+    ],
+    "header": {
+      "会话ID": "20260926_092426_single_device_5ce2c4",
+      "数据阶段": "processed_display",
+      "显示模式": "adc",
+      "显示力值单位": "N",
+      "上报力值单位": "mN",
+      "显示压强单位": "KPa",
+      "含原始ADC": "false",
+      "录制频率": "0.00"
+    },
+    "nan_ratio": 0.0,
+    "monotonic_t": true,
+    "dup_t_ratio": 0.3761086335621586
+  },
+  "四指指腹/d2/857759": {
+    "path": "D:\\workshop\\文档\\v2.7 - 抗蠕变补偿算法\\data\\四指指腹\\device2\\20260926_092950_single_device_857759\\device_001_seg000.csv",
+    "frames": 19332,
+    "channels": 52,
+    "duration_s": 192.537,
+    "hz": 100.40667508063385,
+    "baseline": 30199.93,
+    "peak": 34285.0,
+    "segments": [
+      [
+        17614,
+        17634
+      ],
+      [
+        17840,
+        17863
+      ],
+      [
+        17875,
+        17896
+      ],
+      [
+        18044,
+        18079
+      ],
+      [
+        18099,
+        18129
+      ],
+      [
+        18325,
+        18365
+      ],
+      [
+        18511,
+        18574
+      ],
+      [
+        18576,
+        18604
+      ],
+      [
+        18760,
+        18875
+      ],
+      [
+        19013,
+        19039
+      ],
+      [
+        19041,
+        19148
+      ],
+      [
+        19295,
+        19331
+      ]
+    ],
+    "header": {
+      "会话ID": "20260926_092950_single_device_857759",
+      "数据阶段": "processed_display",
+      "显示模式": "adc",
+      "显示力值单位": "N",
+      "上报力值单位": "mN",
+      "显示压强单位": "KPa",
+      "含原始ADC": "false",
+      "录制频率": "0.00"
+    },
+    "nan_ratio": 0.0,
+    "monotonic_t": true,
+    "dup_t_ratio": 0.3772179400962185
+  },
+  "四指指腹/d2/8e127e": {
+    "path": "D:\\workshop\\文档\\v2.7 - 抗蠕变补偿算法\\data\\四指指腹\\device2\\20260926_093310_single_device_8e127e\\device_001_seg000.csv",
+    "frames": 9811,
+    "channels": 52,
+    "duration_s": 97.704,
+    "hz": 100.41554081716205,
+    "baseline": 34782.3,
+    "peak": 36690.0,
+    "segments": [
+      [
+        638,
+        9810
+      ]
+    ],
+    "header": {
+      "会话ID": "20260926_093310_single_device_8e127e",
+      "数据阶段": "processed_display",
+      "显示模式": "adc",
+      "显示力值单位": "N",
+      "上报力值单位": "mN",
+      "显示压强单位": "KPa",
+      "含原始ADC": "false",
+      "录制频率": "0.00"
+    },
+    "nan_ratio": 0.0,
+    "monotonic_t": true,
+    "dup_t_ratio": 0.3787971457696228
+  },
+  "右拇指指腹/d1": {
+    "path": "D:\\workshop\\文档\\v2.7 - 抗蠕变补偿算法\\data\\右拇指指腹\\device1\\device_001_seg000.csv",
+    "frames": 11500,
+    "channels": 57,
+    "duration_s": 114.31,
+    "hz": 100.60362173038229,
+    "baseline": 19955.0,
+    "peak": 21734.0,
+    "segments": [
+      [
+        1051,
+        1184
+      ],
+      [
+        1200,
+        11499
+      ]
+    ],
+    "header": {
+      "会话ID": "20260926_094029_single_device_7bfeea",
+      "数据阶段": "processed_display",
+      "显示模式": "adc",
+      "显示力值单位": "N",
+      "上报力值单位": "mN",
+      "显示压强单位": "KPa",
+      "含原始ADC": "false",
+      "录制频率": "0.00"
+    },
+    "nan_ratio": 0.0,
+    "monotonic_t": true,
+    "dup_t_ratio": 0.3755978780763545
+  },
+  "右拇指指腹/d2": {
+    "path": "D:\\workshop\\文档\\v2.7 - 抗蠕变补偿算法\\data\\右拇指指腹\\device2\\device_001_seg000.csv",
+    "frames": 2918,
+    "channels": 57,
+    "duration_s": 28.99,
+    "hz": 100.65539841324595,
+    "baseline": 25200.0,
+    "peak": 26245.0,
+    "segments": [
+      [
+        605,
+        660
+      ],
+      [
+        718,
+        2917
+      ]
+    ],
+    "header": {
+      "会话ID": "20260926_094300_single_device_c82986",
+      "数据阶段": "processed_display",
+      "显示模式": "adc",
+      "显示力值单位": "N",
+      "上报力值单位": "mN",
+      "显示压强单位": "KPa",
+      "含原始ADC": "false",
+      "录制频率": "0.00"
+    },
+    "nan_ratio": 0.0,
+    "monotonic_t": true,
+    "dup_t_ratio": 0.3805279396640384
+  },
+  "左拇指指腹/d1": {
+    "path": "D:\\workshop\\文档\\v2.7 - 抗蠕变补偿算法\\data\\左拇指指腹\\device1\\device_001_seg000.csv",
+    "frames": 18047,
+    "channels": 57,
+    "duration_s": 179.986,
+    "hz": 100.26890980409588,
+    "baseline": 19929.0,
+    "peak": 21521.0,
+    "segments": [
+      [
+        1669,
+        1702
+      ],
+      [
+        1704,
+        1774
+      ],
+      [
+        1776,
+        1876
+      ],
+      [
+        2014,
+        18046
+      ]
+    ],
+    "header": {
+      "会话ID": "20260926_094658_single_device_db8637",
+      "数据阶段": "processed_display",
+      "显示模式": "adc",
+      "显示力值单位": "N",
+      "上报力值单位": "mN",
+      "显示压强单位": "KPa",
+      "含原始ADC": "false",
+      "录制频率": "0.00"
+    },
+    "nan_ratio": 0.0,
+    "monotonic_t": true,
+    "dup_t_ratio": 0.3732683143078799
+  },
+  "左拇指指腹/d2": {
+    "path": "D:\\workshop\\文档\\v2.7 - 抗蠕变补偿算法\\data\\左拇指指腹\\device2\\device_001_seg000.csv",
+    "frames": 18049,
+    "channels": 57,
+    "duration_s": 179.969,
+    "hz": 100.28949430179642,
+    "baseline": 24662.44,
+    "peak": 25933.0,
+    "segments": [
+      [
+        2080,
+        2205
+      ],
+      [
+        2435,
+        18048
+      ]
+    ],
+    "header": {
+      "会话ID": "20260926_095020_single_device_00f747",
+      "数据阶段": "processed_display",
+      "显示模式": "adc",
+      "显示力值单位": "N",
+      "上报力值单位": "mN",
+      "显示压强单位": "KPa",
+      "含原始ADC": "false",
+      "录制频率": "0.00"
+    },
+    "nan_ratio": 0.0,
+    "monotonic_t": true,
+    "dup_t_ratio": 0.3705119680851064
+  },
+  "右手掌/d1/A": {
+    "path": "D:\\workshop\\文档\\v2.7 - 抗蠕变补偿算法\\data\\右手掌\\device1\\右手掌A\\device_001_seg000.csv",
+    "frames": 18059,
+    "channels": 71,
+    "duration_s": 179.99,
+    "hz": 100.33335185288071,
+    "baseline": 14162.0,
+    "peak": 15476.0,
+    "segments": [
+      [
+        1913,
+        1978
+      ],
+      [
+        1980,
+        2008
+      ],
+      [
+        2162,
+        2501
+      ],
+      [
+        2505,
+        18058
+      ]
+    ],
+    "header": {
+      "会话ID": "20260926_095651_single_device_ac7dd8",
+      "数据阶段": "processed_display",
+      "显示模式": "adc",
+      "显示力值单位": "N",
+      "上报力值单位": "mN",
+      "显示压强单位": "KPa",
+      "含原始ADC": "false",
+      "录制频率": "0.00"
+    },
+    "nan_ratio": 0.0,
+    "monotonic_t": true,
+    "dup_t_ratio": 0.37534610698859233
+  },
+  "右手掌/d1/B": {
+    "path": "D:\\workshop\\文档\\v2.7 - 抗蠕变补偿算法\\data\\右手掌\\device1\\右手掌B\\device_001_seg000.csv",
+    "frames": 18102,
+    "channels": 71,
+    "duration_s": 179.986,
+    "hz": 100.57448912693211,
+    "baseline": 13758.0,
+    "peak": 14703.0,
+    "segments": [
+      [
+        2709,
+        2731
+      ],
+      [
+        2835,
+        3010
+      ],
+      [
+        3016,
+        3436
+      ],
+      [
+        3438,
+        18101
+      ]
+    ],
+    "header": {
+      "会话ID": "20260926_100558_single_device_14eddf",
+      "数据阶段": "processed_display",
+      "显示模式": "adc",
+      "显示力值单位": "N",
+      "上报力值单位": "mN",
+      "显示压强单位": "KPa",
+      "含原始ADC": "false",
+      "录制频率": "0.00"
+    },
+    "nan_ratio": 0.0,
+    "monotonic_t": true,
+    "dup_t_ratio": 0.3743992044638418
+  },
+  "右手掌/d2/A": {
+    "path": "D:\\workshop\\文档\\v2.7 - 抗蠕变补偿算法\\data\\右手掌\\device2\\右手掌A\\device_001_seg000.csv",
+    "frames": 18098,
+    "channels": 71,
+    "duration_s": 179.971,
+    "hz": 100.56064588183652,
+    "baseline": 17335.0,
+    "peak": 18082.0,
+    "segments": [
+      [
+        1544,
+        1645
+      ],
+      [
+        1647,
+        1667
+      ],
+      [
+        1733,
+        1896
+      ],
+      [
+        1918,
+        2113
+      ],
+      [
+        2115,
+        18097
+      ]
+    ],
+    "header": {
+      "会话ID": "20260926_101106_single_device_071865",
+      "数据阶段": "processed_display",
+      "显示模式": "adc",
+      "显示力值单位": "N",
+      "上报力值单位": "mN",
+      "显示压强单位": "KPa",
+      "含原始ADC": "false",
+      "录制频率": "0.00"
+    },
+    "nan_ratio": 0.0,
+    "monotonic_t": true,
+    "dup_t_ratio": 0.3737083494501851
+  },
+  "右手掌/d2/B": {
+    "path": "D:\\workshop\\文档\\v2.7 - 抗蠕变补偿算法\\data\\右手掌\\device2\\右手掌B\\device_001_seg000.csv",
+    "frames": 18055,
+    "channels": 71,
+    "duration_s": 179.972,
+    "hz": 100.3211610694997,
+    "baseline": 17687.0,
+    "peak": 18855.0,
+    "segments": [
+      [
+        2319,
+        2590
+      ],
+      [
+        2618,
+        18054
+      ]
+    ],
+    "header": {
+      "会话ID": "20260926_100017_single_device_6d166f",
+      "数据阶段": "processed_display",
+      "显示模式": "adc",
+      "显示力值单位": "N",
+      "上报力值单位": "mN",
+      "显示压强单位": "KPa",
+      "含原始ADC": "false",
+      "录制频率": "0.00"
+    },
+    "nan_ratio": 0.0,
+    "monotonic_t": true,
+    "dup_t_ratio": 0.3733244710313504
+  },
+  "左手掌/d1/A": {
+    "path": "D:\\workshop\\文档\\v2.7 - 抗蠕变补偿算法\\data\\左手掌\\device1\\左手掌A\\device_001_seg000.csv",
+    "frames": 7190,
+    "channels": 71,
+    "duration_s": 71.494,
+    "hz": 100.56787982208297,
+    "baseline": 15211.0,
+    "peak": 16226.0,
+    "segments": [
+      [
+        764,
+        832
+      ],
+      [
+        872,
+        7189
+      ]
+    ],
+    "header": {
+      "会话ID": "20260926_102542_single_device_24f115",
+      "数据阶段": "processed_display",
+      "显示模式": "adc",
+      "显示力值单位": "N",
+      "上报力值单位": "mN",
+      "显示压强单位": "KPa",
+      "含原始ADC": "false",
+      "录制频率": "0.00"
+    },
+    "nan_ratio": 0.0,
+    "monotonic_t": true,
+    "dup_t_ratio": 0.37404367784114617
+  },
+  "左手掌/d1/B": {
+    "path": "D:\\workshop\\文档\\v2.7 - 抗蠕变补偿算法\\data\\左手掌\\device1\\左手掌B\\device_001_seg000.csv",
+    "frames": 18098,
+    "channels": 71,
+    "duration_s": 179.972,
+    "hz": 100.56008712466384,
+    "baseline": 5068.0,
+    "peak": 5366.0,
+    "segments": [
+      [
+        1451,
+        1572
+      ],
+      [
+        1656,
+        18097
+      ]
+    ],
+    "header": {
+      "会话ID": "20260926_103306_single_device_f55c08",
+      "数据阶段": "processed_display",
+      "显示模式": "adc",
+      "显示力值单位": "N",
+      "上报力值单位": "mN",
+      "显示压强单位": "KPa",
+      "含原始ADC": "false",
+      "录制频率": "0.00"
+    },
+    "nan_ratio": 0.0,
+    "monotonic_t": true,
+    "dup_t_ratio": 0.3733215450074598
+  },
+  "左手掌/d2/A": {
+    "path": "D:\\workshop\\文档\\v2.7 - 抗蠕变补偿算法\\data\\左手掌\\device2\\左手掌A\\device_001_seg000.csv",
+    "frames": 18088,
+    "channels": 71,
+    "duration_s": 179.975,
+    "hz": 100.50284761772468,
+    "baseline": 18382.83,
+    "peak": 19088.0,
+    "segments": [
+      [
+        1703,
+        1766
+      ],
+      [
+        1904,
+        2023
+      ],
+      [
+        2099,
+        2121
+      ],
+      [
+        2125,
+        2294
+      ],
+      [
+        2308,
+        2740
+      ],
+      [
+        2742,
+        18087
+      ]
+    ],
+    "header": {
+      "会话ID": "20260926_102844_single_device_a2d789",
+      "数据阶段": "processed_display",
+      "显示模式": "adc",
+      "显示力值单位": "N",
+      "上报力值单位": "mN",
+      "显示压强单位": "KPa",
+      "含原始ADC": "false",
+      "录制频率": "0.00"
+    },
+    "nan_ratio": 0.0,
+    "monotonic_t": true,
+    "dup_t_ratio": 0.37303035329241996
+  },
+  "左手掌/d2/B": {
+    "path": "D:\\workshop\\文档\\v2.7 - 抗蠕变补偿算法\\data\\左手掌\\device2\\左手掌B\\device_001_seg000.csv",
+    "frames": 18095,
+    "channels": 71,
+    "duration_s": 179.99,
+    "hz": 100.53336296460914,
+    "baseline": 5980.0,
+    "peak": 6439.0,
+    "segments": [
+      [
+        2656,
+        2711
+      ],
+      [
+        2727,
+        2757
+      ],
+      [
+        2801,
+        2914
+      ],
+      [
+        2952,
+        7290
+      ],
+      [
+        7295,
+        18094
+      ]
+    ],
+    "header": {
+      "会话ID": "20260926_103711_single_device_0a7918",
+      "数据阶段": "processed_display",
+      "显示模式": "adc",
+      "显示力值单位": "N",
+      "上报力值单位": "mN",
+      "显示压强单位": "KPa",
+      "含原始ADC": "false",
+      "录制频率": "0.00"
+    },
+    "nan_ratio": 0.0,
+    "monotonic_t": true,
+    "dup_t_ratio": 0.37482038244722005
+  }
+}

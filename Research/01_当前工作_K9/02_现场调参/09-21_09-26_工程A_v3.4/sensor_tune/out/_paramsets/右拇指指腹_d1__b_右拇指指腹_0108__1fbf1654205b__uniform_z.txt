@@ -1,0 +1,5 @@
+c0108_0|r_fast=0.3,tau_c_fast_s=2.0,soft_unfreeze_s=0.5
+c0108_1|r_fast=0.3,tau_c_fast_s=2.0,soft_unfreeze_s=1.0
+c0108_2|r_fast=0.3,tau_c_fast_s=2.0,soft_unfreeze_s=2.0
+c0108_3|r_fast=0.3,tau_c_fast_s=2.0,soft_unfreeze_s=4.0
+c0108_4|r_fast=0.3,tau_c_fast_s=2.0,soft_unfreeze_s=8.0

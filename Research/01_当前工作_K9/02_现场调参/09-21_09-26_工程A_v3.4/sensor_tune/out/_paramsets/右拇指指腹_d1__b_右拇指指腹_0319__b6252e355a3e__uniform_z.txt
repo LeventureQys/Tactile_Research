@@ -1,0 +1,4 @@
+c0319_0|r_fast=0.1,slope_gate_frac=2.0,slope_cap_frac=0.08,tau_slope_s=0.5
+c0319_1|r_fast=0.1,slope_gate_frac=2.0,slope_cap_frac=0.08,tau_slope_s=1.0
+c0319_2|r_fast=0.1,slope_gate_frac=2.0,slope_cap_frac=0.08,tau_slope_s=2.0
+c0319_3|r_fast=0.1,slope_gate_frac=2.0,slope_cap_frac=0.08,tau_slope_s=3.0

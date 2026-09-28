@@ -1,0 +1,104 @@
+
+########## 四指指腹 ##########
+  现役默认 score=340.969
+  随机 21 个起点：最好 29.181 / 最差 1361.710
+  起点0（29.181）→ 坐标下降
+    pass1: score=28.421  {'r_fast': 0.0, 'r_slow_max': 0.6, 'slope_cap_frac': 0.04, 'slow_confirm_s': 5.0, 'soft_unfreeze_s': 0.5, 'tau_c_fast_s': 2.0, 'tau_r_fast_s': 0.5, 'tau_r_slow_idle_s': 0.5}
+    pass2: score=28.421  {'r_fast': 0.0, 'r_slow_max': 0.6, 'slope_cap_frac': 0.04, 'slow_confirm_s': 5.0, 'soft_unfreeze_s': 0.5, 'tau_c_fast_s': 2.0, 'tau_r_fast_s': 0.5, 'tau_r_slow_idle_s': 0.5}
+  起点1（42.163）→ 坐标下降
+    pass1: score=28.205  {'r_fast': 0.01, 'r_slow_max': 0.2, 'slope_cap_frac': 0.05, 'slow_confirm_s': 5.0, 'soft_unfreeze_s': 8.0, 'tau_c_fast_s': 40.0, 'tau_r_fast_s': 6.0, 'tau_r_slow_idle_s': 0.5}
+    pass2: score=28.205  {'r_fast': 0.01, 'r_slow_max': 0.2, 'slope_cap_frac': 0.05, 'slow_confirm_s': 5.0, 'soft_unfreeze_s': 8.0, 'tau_c_fast_s': 40.0, 'tau_r_fast_s': 6.0, 'tau_r_slow_idle_s': 0.5}
+  起点2（43.540）→ 坐标下降
+    pass1: score=28.421  {'r_fast': 0.0, 'r_slow_max': 0.6, 'slope_cap_frac': 0.04, 'slow_confirm_s': 5.0, 'soft_unfreeze_s': 0.5, 'tau_c_fast_s': 2.0, 'tau_r_fast_s': 0.5, 'tau_r_slow_idle_s': 0.5}
+    pass2: score=28.421  {'r_fast': 0.0, 'r_slow_max': 0.6, 'slope_cap_frac': 0.04, 'slow_confirm_s': 5.0, 'soft_unfreeze_s': 0.5, 'tau_c_fast_s': 2.0, 'tau_r_fast_s': 0.5, 'tau_r_slow_idle_s': 0.5}
+  起点3（340.969）→ 坐标下降
+    pass1: score=28.421  {'r_fast': 0.0, 'r_slow_max': 0.6, 'slope_cap_frac': 0.04, 'slow_confirm_s': 5.0, 'tau_r_slow_idle_s': 0.5}
+    pass2: score=28.421  {'r_fast': 0.0, 'r_slow_max': 0.6, 'slope_cap_frac': 0.04, 'slow_confirm_s': 5.0, 'tau_r_slow_idle_s': 0.5}
+  ★ 最优 score=28.205（现役 340.969）
+    {"r_fast": 0.01, "r_slow_max": 0.2, "slope_cap_frac": 0.05, "slow_confirm_s": 5.0, "soft_unfreeze_s": 8.0, "tau_c_fast_s": 40.0, "tau_r_fast_s": 6.0, "tau_r_slow_idle_s": 0.5}
+
+########## 右拇指指腹 ##########
+  现役默认 score=138.649
+  随机 21 个起点：最好 112.734 / 最差 151.787
+  起点0（112.734）→ 坐标下降
+    pass1: score=103.249  {'r_fast': 0.3, 'r_slow_max': 0.6, 'slope_cap_frac': 0.04, 'slow_confirm_s': 5.0, 'soft_unfreeze_s': 0.5, 'tau_c_fast_s': 2.0, 'tau_r_fast_s': 6.0, 'tau_r_slow_idle_s': 100.0}
+    pass2: score=103.125  {'r_fast': 0.3, 'r_slow_max': 0.6, 'slope_cap_frac': 0.05, 'slow_confirm_s': 2.0, 'soft_unfreeze_s': 8.0, 'tau_c_fast_s': 2.0, 'tau_r_fast_s': 6.0, 'tau_r_slow_idle_s': 100.0}
+    pass3: score=103.084  {'r_fast': 0.3, 'r_slow_max': 0.6, 'slope_cap_frac': 0.05, 'slow_confirm_s': 0.0, 'soft_unfreeze_s': 8.0, 'tau_c_fast_s': 2.0, 'tau_r_fast_s': 6.0, 'tau_r_slow_idle_s': 0.0}
+    pass4: score=103.084  {'r_fast': 0.3, 'r_slow_max': 0.6, 'slope_cap_frac': 0.05, 'slow_confirm_s': 0.0, 'soft_unfreeze_s': 8.0, 'tau_c_fast_s': 2.0, 'tau_r_fast_s': 6.0, 'tau_r_slow_idle_s': 0.0}
+  起点1（113.601）→ 坐标下降
+    pass1: score=103.174  {'r_fast': 0.3, 'r_slow_max': 0.6, 'slope_cap_frac': 0.04, 'slow_confirm_s': 2.0, 'soft_unfreeze_s': 8.0, 'tau_c_fast_s': 2.0, 'tau_r_fast_s': 6.0, 'tau_r_slow_idle_s': 8.0}
+    pass2: score=103.084  {'r_fast': 0.3, 'r_slow_max': 0.6, 'slope_cap_frac': 0.05, 'slow_confirm_s': 0.0, 'soft_unfreeze_s': 8.0, 'tau_c_fast_s': 2.0, 'tau_r_fast_s': 6.0, 'tau_r_slow_idle_s': 0.0}
+    pass3: score=103.084  {'r_fast': 0.3, 'r_slow_max': 0.6, 'slope_cap_frac': 0.05, 'slow_confirm_s': 0.0, 'soft_unfreeze_s': 8.0, 'tau_c_fast_s': 2.0, 'tau_r_fast_s': 6.0, 'tau_r_slow_idle_s': 0.0}
+  起点2（122.555）→ 坐标下降
+    pass1: score=103.125  {'r_fast': 0.3, 'r_slow_max': 0.6, 'slope_cap_frac': 0.05, 'slow_confirm_s': 2.0, 'soft_unfreeze_s': 8.0, 'tau_c_fast_s': 2.0, 'tau_r_fast_s': 6.0, 'tau_r_slow_idle_s': 100.0}
+    pass2: score=103.084  {'r_fast': 0.3, 'r_slow_max': 0.6, 'slope_cap_frac': 0.05, 'slow_confirm_s': 0.0, 'soft_unfreeze_s': 8.0, 'tau_c_fast_s': 2.0, 'tau_r_fast_s': 6.0, 'tau_r_slow_idle_s': 0.0}
+    pass3: score=103.084  {'r_fast': 0.3, 'r_slow_max': 0.6, 'slope_cap_frac': 0.05, 'slow_confirm_s': 0.0, 'soft_unfreeze_s': 8.0, 'tau_c_fast_s': 2.0, 'tau_r_fast_s': 6.0, 'tau_r_slow_idle_s': 0.0}
+  起点3（138.649）→ 坐标下降
+    pass1: score=103.125  {'r_fast': 0.3, 'r_slow_max': 0.6, 'slope_cap_frac': 0.05, 'soft_unfreeze_s': 8.0, 'tau_c_fast_s': 2.0, 'tau_r_fast_s': 6.0, 'tau_r_slow_idle_s': 0.0}
+    pass2: score=103.084  {'r_fast': 0.3, 'r_slow_max': 0.6, 'slope_cap_frac': 0.05, 'slow_confirm_s': 0.0, 'soft_unfreeze_s': 8.0, 'tau_c_fast_s': 2.0, 'tau_r_fast_s': 6.0, 'tau_r_slow_idle_s': 0.0}
+    pass3: score=103.084  {'r_fast': 0.3, 'r_slow_max': 0.6, 'slope_cap_frac': 0.05, 'slow_confirm_s': 0.0, 'soft_unfreeze_s': 8.0, 'tau_c_fast_s': 2.0, 'tau_r_fast_s': 6.0, 'tau_r_slow_idle_s': 0.0}
+  ★ 最优 score=103.084（现役 138.649）
+    {"r_fast": 0.3, "r_slow_max": 0.6, "slope_cap_frac": 0.05, "slow_confirm_s": 0.0, "soft_unfreeze_s": 8.0, "tau_c_fast_s": 2.0, "tau_r_fast_s": 6.0, "tau_r_slow_idle_s": 0.0}
+
+########## 左拇指指腹 ##########
+  现役默认 score=83.561
+  随机 21 个起点：最好 69.439 / 最差 100.813
+  起点0（69.439）→ 坐标下降
+    pass1: score=60.094  {'r_fast': 0.3, 'r_slow_max': 0.6, 'slope_cap_frac': 0.05, 'slow_confirm_s': 2.0, 'soft_unfreeze_s': 1.0, 'tau_c_fast_s': 2.0, 'tau_r_fast_s': 6.0, 'tau_r_slow_idle_s': 0.0}
+    pass2: score=59.913  {'r_fast': 0.3, 'r_slow_max': 0.6, 'slope_cap_frac': 0.05, 'slow_confirm_s': 0.5, 'soft_unfreeze_s': 1.0, 'tau_c_fast_s': 2.0, 'tau_r_fast_s': 6.0, 'tau_r_slow_idle_s': 0.0}
+    pass3: score=59.913  {'r_fast': 0.3, 'r_slow_max': 0.6, 'slope_cap_frac': 0.05, 'slow_confirm_s': 0.5, 'soft_unfreeze_s': 1.0, 'tau_c_fast_s': 2.0, 'tau_r_fast_s': 6.0, 'tau_r_slow_idle_s': 0.0}
+  起点1（75.604）→ 坐标下降
+    pass1: score=60.691  {'r_fast': 0.3, 'r_slow_max': 0.6, 'slope_cap_frac': 0.05, 'slow_confirm_s': 5.0, 'soft_unfreeze_s': 4.0, 'tau_c_fast_s': 2.0, 'tau_r_fast_s': 6.0, 'tau_r_slow_idle_s': 0.0}
+    pass2: score=59.913  {'r_fast': 0.3, 'r_slow_max': 0.6, 'slope_cap_frac': 0.05, 'slow_confirm_s': 0.5, 'soft_unfreeze_s': 0.5, 'tau_c_fast_s': 2.0, 'tau_r_fast_s': 6.0, 'tau_r_slow_idle_s': 0.0}
+    pass3: score=59.913  {'r_fast': 0.3, 'r_slow_max': 0.6, 'slope_cap_frac': 0.05, 'slow_confirm_s': 0.5, 'soft_unfreeze_s': 0.5, 'tau_c_fast_s': 2.0, 'tau_r_fast_s': 6.0, 'tau_r_slow_idle_s': 0.0}
+  起点2（78.776）→ 坐标下降
+    pass1: score=60.040  {'r_fast': 0.3, 'r_slow_max': 0.6, 'slope_cap_frac': 0.05, 'slow_confirm_s': 0.5, 'soft_unfreeze_s': 0.5, 'tau_c_fast_s': 2.0, 'tau_r_fast_s': 6.0, 'tau_r_slow_idle_s': 0.5}
+    pass2: score=59.913  {'r_fast': 0.3, 'r_slow_max': 0.6, 'slope_cap_frac': 0.05, 'slow_confirm_s': 0.5, 'soft_unfreeze_s': 0.5, 'tau_c_fast_s': 2.0, 'tau_r_fast_s': 6.0, 'tau_r_slow_idle_s': 0.0}
+    pass3: score=59.913  {'r_fast': 0.3, 'r_slow_max': 0.6, 'slope_cap_frac': 0.05, 'slow_confirm_s': 0.5, 'soft_unfreeze_s': 0.5, 'tau_c_fast_s': 2.0, 'tau_r_fast_s': 6.0, 'tau_r_slow_idle_s': 0.0}
+  起点3（83.561）→ 坐标下降
+    pass1: score=60.036  {'r_fast': 0.3, 'r_slow_max': 0.6, 'slope_cap_frac': 0.04, 'slow_confirm_s': 0.0, 'soft_unfreeze_s': 0.5, 'tau_c_fast_s': 2.0, 'tau_r_fast_s': 6.0, 'tau_r_slow_idle_s': 0.0}
+    pass2: score=59.913  {'r_fast': 0.3, 'r_slow_max': 0.6, 'slope_cap_frac': 0.05, 'slow_confirm_s': 0.5, 'soft_unfreeze_s': 0.5, 'tau_c_fast_s': 2.0, 'tau_r_fast_s': 6.0, 'tau_r_slow_idle_s': 0.0}
+    pass3: score=59.913  {'r_fast': 0.3, 'r_slow_max': 0.6, 'slope_cap_frac': 0.05, 'slow_confirm_s': 0.5, 'soft_unfreeze_s': 0.5, 'tau_c_fast_s': 2.0, 'tau_r_fast_s': 6.0, 'tau_r_slow_idle_s': 0.0}
+  ★ 最优 score=59.913（现役 83.561）
+    {"r_fast": 0.3, "r_slow_max": 0.6, "slope_cap_frac": 0.05, "slow_confirm_s": 0.5, "soft_unfreeze_s": 1.0, "tau_c_fast_s": 2.0, "tau_r_fast_s": 6.0, "tau_r_slow_idle_s": 0.0}
+
+########## 右手掌 ##########
+  现役默认 score=91.838
+  随机 21 个起点：最好 70.568 / 最差 104.905
+  起点0（70.568）→ 坐标下降
+    pass1: score=65.987  {'r_fast': 0.3, 'r_slow_max': 0.6, 'slope_cap_frac': 0.05, 'slow_confirm_s': 0.0, 'soft_unfreeze_s': 2.0, 'tau_c_fast_s': 2.0, 'tau_r_fast_s': 6.0, 'tau_r_slow_idle_s': 0.0}
+    pass2: score=65.987  {'r_fast': 0.3, 'r_slow_max': 0.6, 'slope_cap_frac': 0.05, 'slow_confirm_s': 0.0, 'soft_unfreeze_s': 2.0, 'tau_c_fast_s': 2.0, 'tau_r_fast_s': 6.0, 'tau_r_slow_idle_s': 0.0}
+  起点1（78.076）→ 坐标下降
+    pass1: score=65.987  {'r_fast': 0.3, 'r_slow_max': 0.6, 'slope_cap_frac': 0.05, 'slow_confirm_s': 0.0, 'soft_unfreeze_s': 2.0, 'tau_c_fast_s': 2.0, 'tau_r_fast_s': 6.0, 'tau_r_slow_idle_s': 0.0}
+    pass2: score=65.987  {'r_fast': 0.3, 'r_slow_max': 0.6, 'slope_cap_frac': 0.05, 'slow_confirm_s': 0.0, 'soft_unfreeze_s': 2.0, 'tau_c_fast_s': 2.0, 'tau_r_fast_s': 6.0, 'tau_r_slow_idle_s': 0.0}
+  起点2（78.491）→ 坐标下降
+    pass1: score=70.071  {'r_fast': 0.3, 'r_slow_max': 0.6, 'slope_cap_frac': 0.02, 'slow_confirm_s': 0.0, 'soft_unfreeze_s': 2.0, 'tau_c_fast_s': 2.0, 'tau_r_fast_s': 6.0, 'tau_r_slow_idle_s': 0.0}
+    pass2: score=65.987  {'r_fast': 0.3, 'r_slow_max': 0.6, 'slope_cap_frac': 0.05, 'slow_confirm_s': 0.0, 'soft_unfreeze_s': 2.0, 'tau_c_fast_s': 2.0, 'tau_r_fast_s': 6.0, 'tau_r_slow_idle_s': 0.0}
+    pass3: score=65.987  {'r_fast': 0.3, 'r_slow_max': 0.6, 'slope_cap_frac': 0.05, 'slow_confirm_s': 0.0, 'soft_unfreeze_s': 2.0, 'tau_c_fast_s': 2.0, 'tau_r_fast_s': 6.0, 'tau_r_slow_idle_s': 0.0}
+  起点3（91.838）→ 坐标下降
+    pass1: score=65.999  {'r_fast': 0.3, 'r_slow_max': 0.6, 'slope_cap_frac': 0.05, 'slow_confirm_s': 0.5, 'tau_c_fast_s': 2.0, 'tau_r_fast_s': 6.0, 'tau_r_slow_idle_s': 0.0}
+    pass2: score=65.987  {'r_fast': 0.3, 'r_slow_max': 0.6, 'slope_cap_frac': 0.05, 'slow_confirm_s': 0.0, 'tau_c_fast_s': 2.0, 'tau_r_fast_s': 6.0, 'tau_r_slow_idle_s': 0.0}
+    pass3: score=65.987  {'r_fast': 0.3, 'r_slow_max': 0.6, 'slope_cap_frac': 0.05, 'slow_confirm_s': 0.0, 'tau_c_fast_s': 2.0, 'tau_r_fast_s': 6.0, 'tau_r_slow_idle_s': 0.0}
+  ★ 最优 score=65.987（现役 91.838）
+    {"r_fast": 0.3, "r_slow_max": 0.6, "slope_cap_frac": 0.05, "slow_confirm_s": 0.0, "soft_unfreeze_s": 2.0, "tau_c_fast_s": 2.0, "tau_r_fast_s": 6.0, "tau_r_slow_idle_s": 0.0}
+
+########## 左手掌 ##########
+  现役默认 score=94.017
+  随机 21 个起点：最好 76.007 / 最差 104.866
+  起点0（76.007）→ 坐标下降
+    pass1: score=69.820  {'r_fast': 0.3, 'r_slow_max': 0.6, 'slope_cap_frac': 0.05, 'slow_confirm_s': 20.0, 'soft_unfreeze_s': 2.0, 'tau_c_fast_s': 2.0, 'tau_r_fast_s': 6.0, 'tau_r_slow_idle_s': 8.0}
+    pass2: score=69.348  {'r_fast': 0.3, 'r_slow_max': 0.6, 'slope_cap_frac': 0.05, 'slow_confirm_s': 0.0, 'soft_unfreeze_s': 2.0, 'tau_c_fast_s': 2.0, 'tau_r_fast_s': 6.0, 'tau_r_slow_idle_s': 0.0}
+    pass3: score=69.348  {'r_fast': 0.3, 'r_slow_max': 0.6, 'slope_cap_frac': 0.05, 'slow_confirm_s': 0.0, 'soft_unfreeze_s': 2.0, 'tau_c_fast_s': 2.0, 'tau_r_fast_s': 6.0, 'tau_r_slow_idle_s': 0.0}
+  起点1（80.218）→ 坐标下降
+    pass1: score=69.348  {'r_fast': 0.3, 'r_slow_max': 0.6, 'slope_cap_frac': 0.05, 'slow_confirm_s': 0.0, 'soft_unfreeze_s': 8.0, 'tau_c_fast_s': 2.0, 'tau_r_fast_s': 6.0, 'tau_r_slow_idle_s': 0.0}
+    pass2: score=69.348  {'r_fast': 0.3, 'r_slow_max': 0.6, 'slope_cap_frac': 0.05, 'slow_confirm_s': 0.0, 'soft_unfreeze_s': 8.0, 'tau_c_fast_s': 2.0, 'tau_r_fast_s': 6.0, 'tau_r_slow_idle_s': 0.0}
+  起点2（82.734）→ 坐标下降
+    pass1: score=69.348  {'r_fast': 0.3, 'r_slow_max': 0.6, 'slope_cap_frac': 0.05, 'slow_confirm_s': 0.0, 'soft_unfreeze_s': 1.0, 'tau_c_fast_s': 2.0, 'tau_r_fast_s': 6.0, 'tau_r_slow_idle_s': 0.0}
+    pass2: score=69.348  {'r_fast': 0.3, 'r_slow_max': 0.6, 'slope_cap_frac': 0.05, 'slow_confirm_s': 0.0, 'soft_unfreeze_s': 1.0, 'tau_c_fast_s': 2.0, 'tau_r_fast_s': 6.0, 'tau_r_slow_idle_s': 0.0}
+  起点3（94.017）→ 坐标下降
+    pass1: score=69.348  {'r_fast': 0.3, 'r_slow_max': 0.6, 'slope_cap_frac': 0.05, 'slow_confirm_s': 0.0, 'tau_c_fast_s': 2.0, 'tau_r_fast_s': 6.0, 'tau_r_slow_idle_s': 0.0}
+    pass2: score=69.348  {'r_fast': 0.3, 'r_slow_max': 0.6, 'slope_cap_frac': 0.05, 'slow_confirm_s': 0.0, 'tau_c_fast_s': 2.0, 'tau_r_fast_s': 6.0, 'tau_r_slow_idle_s': 0.0}
+  ★ 最优 score=69.348（现役 94.017）
+    {"r_fast": 0.3, "r_slow_max": 0.6, "slope_cap_frac": 0.05, "slow_confirm_s": 0.0, "soft_unfreeze_s": 2.0, "tau_c_fast_s": 2.0, "tau_r_fast_s": 6.0, "tau_r_slow_idle_s": 0.0}
+
+写出 D:\workshop\文档\v2.7 - 抗蠕变补偿算法\v3.4\sensor_tune\out\04_search_ui.json

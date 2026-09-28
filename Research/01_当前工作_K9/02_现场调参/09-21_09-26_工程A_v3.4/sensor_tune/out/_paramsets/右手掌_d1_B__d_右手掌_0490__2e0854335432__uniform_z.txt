@@ -1,0 +1,1 @@
+d0490_0|r_fast=0.01,tau_c_fast_s=20.0,r_slow_max=30.0,slope_cap_frac=6.0,slope_gate_frac=5.0,slow_confirm_s=0.0,soft_unfreeze_s=4.0,edge_slope_thres=1000.0,edge_boost_s=0.0,tau_slope_s=0.5,tau_r_slow_idle_s=0.5,tau_r_fast_s=6.0,hold_eps=0.2,hold_tau_s=0.5,idle_frac=0.2,ramp_slope_min=2.0

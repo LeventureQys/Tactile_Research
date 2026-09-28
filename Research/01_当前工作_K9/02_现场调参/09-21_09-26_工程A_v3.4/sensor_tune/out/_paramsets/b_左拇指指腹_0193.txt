@@ -1,0 +1,12 @@
+c0193_0|r_fast=0.04,r_slow_max=0.02
+c0193_1|r_fast=0.04,r_slow_max=0.04
+c0193_2|r_fast=0.04,r_slow_max=0.06
+c0193_3|r_fast=0.04,r_slow_max=0.1
+c0193_4|r_fast=0.04,r_slow_max=0.2
+c0193_5|r_fast=0.04,r_slow_max=0.35
+c0193_6|r_fast=0.04,r_slow_max=0.6
+c0193_7|r_fast=0.04,r_slow_max=1.0
+c0193_8|r_fast=0.04,r_slow_max=2.0
+c0193_9|r_fast=0.04,r_slow_max=5.0
+c0193_10|r_fast=0.04,r_slow_max=10.0
+c0193_11|r_fast=0.04,r_slow_max=30.0

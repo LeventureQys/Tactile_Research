@@ -1,0 +1,6 @@
+c0040_0|r_fast=0.0,slow_confirm_s=0.0
+c0040_1|r_fast=0.0,slow_confirm_s=0.5
+c0040_2|r_fast=0.0,slow_confirm_s=2.0
+c0040_3|r_fast=0.0,slow_confirm_s=5.0
+c0040_4|r_fast=0.0,slow_confirm_s=10.0
+c0040_5|r_fast=0.0,slow_confirm_s=20.0

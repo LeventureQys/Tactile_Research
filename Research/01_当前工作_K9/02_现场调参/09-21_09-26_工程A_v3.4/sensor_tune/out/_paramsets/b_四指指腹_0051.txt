@@ -1,0 +1,4 @@
+c0051_0|r_fast=0.04,tau_slope_s=0.5
+c0051_1|r_fast=0.04,tau_slope_s=1.0
+c0051_2|r_fast=0.04,tau_slope_s=2.0
+c0051_3|r_fast=0.04,tau_slope_s=3.0

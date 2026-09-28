@@ -1,0 +1,292 @@
+﻿conclusion,metric,value,source_file,column,note
+C1,P1_pre_frac.auc_eff,0.9964,results/t4b_separability.csv,auc_eff,
+C1,P1_pre_frac.balanced_acc,0.9783,results/t4b_separability.csv,balanced_acc,
+C1,P1_pre_frac.lag_s,0.0,results/t4b_separability.csv,lag_s,
+C1,P1_pre_frac.p10p90_overlap,0.0,results/t4b_separability.csv,p10p90_overlap,
+C1,P1b_pre_frac_frozenV.auc_eff,0.9964,results/t4b_separability.csv,auc_eff,
+C1,P1b_pre_frac_frozenV.balanced_acc,0.9783,results/t4b_separability.csv,balanced_acc,
+C1,P1b_pre_frac_frozenV.lag_s,0.0,results/t4b_separability.csv,lag_s,
+C1,P1b_pre_frac_frozenV.p10p90_overlap,0.0,results/t4b_separability.csv,p10p90_overlap,
+C2,P2_slope@0.1s.auc_eff,0.9275,results/t4b_separability.csv,auc_eff,
+C2,P2_slope@0.1s.balanced_acc,0.9565,results/t4b_separability.csv,balanced_acc,
+C2,P2_slope@0.1s.lag_s,0.1,results/t4b_separability.csv,lag_s,
+C2,P2_slope@0.1s.p10p90_overlap,0.0,results/t4b_separability.csv,p10p90_overlap,
+C2,P3_J_over_pre@0.2s.auc_eff,0.9746,results/t4b_separability.csv,auc_eff,
+C2,P3_J_over_pre@0.2s.balanced_acc,0.9783,results/t4b_separability.csv,balanced_acc,
+C2,P3_J_over_pre@0.2s.lag_s,0.2,results/t4b_separability.csv,lag_s,
+C2,P3_J_over_pre@0.2s.p10p90_overlap,0.0,results/t4b_separability.csv,p10p90_overlap,
+C3,P4_singleframe@020.auc_eff,0.6166,results/t4b_separability.csv,auc_eff,
+C3,P4_singleframe@020.balanced_acc,0.6601,results/t4b_separability.csv,balanced_acc,
+C3,P4_singleframe@020.lag_s,0.2,results/t4b_separability.csv,lag_s,
+C3,P4_singleframe@020.p10p90_overlap,0.4172,results/t4b_separability.csv,p10p90_overlap,
+C3,P4_shape020.auc_eff,0.837,results/t4b_separability.csv,auc_eff,
+C3,P4_shape020.balanced_acc,0.8098,results/t4b_separability.csv,balanced_acc,
+C3,P4_shape020.lag_s,0.05,results/t4b_separability.csv,lag_s,
+C3,P4_shape020.p10p90_overlap,0.326,results/t4b_separability.csv,p10p90_overlap,
+C3,P2_dur@0.20s.auc_eff,0.5217,results/t4b_separability.csv,auc_eff,
+C3,P2_dur@0.20s.balanced_acc,0.6383,results/t4b_separability.csv,balanced_acc,
+C3,P2_dur@0.20s.lag_s,0.2,results/t4b_separability.csv,lag_s,
+C3,P2_dur@0.20s.p10p90_overlap,0.6667,results/t4b_separability.csv,p10p90_overlap,
+C1,P1 fixed-threshold acc @10%,0.6857,results/t4b_separability.csv,acc,
+C1,P1 fixed-threshold acc @20%,0.8286,results/t4b_separability.csv,acc,
+C1,P1 fixed-threshold acc @30%,0.8286,results/t4b_separability.csv,acc,
+C1,P1 fixed-threshold acc @40%,0.9429,results/t4b_separability.csv,acc,
+C3,shape@0.05s med_onset,0.7014,results/t4b_shape_by_arm.csv,med_on,
+C3,shape@0.05s med_restep,0.3958,results/t4b_shape_by_arm.csv,med_re,
+C3,shape@0.05s d_pt,30.6,results/t4b_shape_by_arm.csv,d_pt,
+C3,shape@0.05s auc,0.7283,results/t4b_shape_by_arm.csv,auc,
+C3,shape@0.05s p10p90_overlap,0.4802,results/t4b_shape_by_arm.csv,overlap,
+C3,shape@0.10s med_onset,0.7602,results/t4b_shape_by_arm.csv,med_on,
+C3,shape@0.10s med_restep,0.4816,results/t4b_shape_by_arm.csv,med_re,
+C3,shape@0.10s d_pt,27.9,results/t4b_shape_by_arm.csv,d_pt,
+C3,shape@0.10s auc,0.6957,results/t4b_shape_by_arm.csv,auc,
+C3,shape@0.10s p10p90_overlap,0.3811,results/t4b_shape_by_arm.csv,overlap,
+C3,shape@0.20s med_onset,0.8152,results/t4b_shape_by_arm.csv,med_on,
+C3,shape@0.20s med_restep,0.6337,results/t4b_shape_by_arm.csv,med_re,
+C3,shape@0.20s d_pt,18.2,results/t4b_shape_by_arm.csv,d_pt,
+C3,shape@0.20s auc,0.692,results/t4b_shape_by_arm.csv,auc,
+C3,shape@0.20s p10p90_overlap,0.2935,results/t4b_shape_by_arm.csv,overlap,
+C3,shape@0.50s med_onset,0.8823,results/t4b_shape_by_arm.csv,med_on,
+C3,shape@0.50s med_restep,0.8685,results/t4b_shape_by_arm.csv,med_re,
+C3,shape@0.50s d_pt,1.4,results/t4b_shape_by_arm.csv,d_pt,
+C3,shape@0.50s auc,0.5326,results/t4b_shape_by_arm.csv,auc,
+C3,shape@0.50s p10p90_overlap,0.1342,results/t4b_shape_by_arm.csv,overlap,
+C3,shape@1.00s med_onset,0.9195,results/t4b_shape_by_arm.csv,med_on,
+C3,shape@1.00s med_restep,0.9211,results/t4b_shape_by_arm.csv,med_re,
+C3,shape@1.00s d_pt,-0.2,results/t4b_shape_by_arm.csv,d_pt,
+C3,shape@1.00s auc,0.5036,results/t4b_shape_by_arm.csv,auc,
+C3,shape@1.00s p10p90_overlap,0.1347,results/t4b_shape_by_arm.csv,overlap,
+C0,n_events_total,40.0,results/t4b_morphology_by_arm.csv,kind,
+C0,n_onset,23.0,results/t4b_morphology_by_arm.csv,kind,
+C0,n_restep,12.0,results/t4b_morphology_by_arm.csv,kind,
+C0,n_decrement+partial_unload,5.0,results/t4b_morphology_by_arm.csv,kind,
+C4,excess_cross θ=0.20 h=0.00 A=400,1.1714,results/t4b_chattering_excess.csv,excess,
+C4,final_err_A400 θ=0.20 h=0.00,0.5086,results/t4b_chattering_excess.csv,final_err_A400,
+C4,excess_cross θ=0.20 h=0.02 A=400,1.1085,results/t4b_chattering_excess.csv,excess,
+C4,final_err_A400 θ=0.20 h=0.02,0.5486,results/t4b_chattering_excess.csv,final_err_A400,
+C4,excess_cross θ=0.20 h=0.05 A=400,1.24,results/t4b_chattering_excess.csv,excess,
+C4,final_err_A400 θ=0.20 h=0.05,0.56,results/t4b_chattering_excess.csv,final_err_A400,
+C4,excess_cross θ=0.20 h=0.08 A=400,1.12,results/t4b_chattering_excess.csv,excess,
+C4,final_err_A400 θ=0.20 h=0.08,0.5714,results/t4b_chattering_excess.csv,final_err_A400,
+C4,excess_cross θ=0.20 h=0.10 A=400,1.0742,results/t4b_chattering_excess.csv,excess,
+C4,final_err_A400 θ=0.20 h=0.10,0.5829,results/t4b_chattering_excess.csv,final_err_A400,
+C4,excess_cross θ=0.20 h=0.15 A=400,0.9715,results/t4b_chattering_excess.csv,excess,
+C4,final_err_A400 θ=0.20 h=0.15,0.5314,results/t4b_chattering_excess.csv,final_err_A400,
+C4,excess_cross θ=0.30 h=0.00 A=400,0.8743,results/t4b_chattering_excess.csv,excess,
+C4,final_err_A400 θ=0.30 h=0.00,0.48,results/t4b_chattering_excess.csv,final_err_A400,
+C4,excess_cross θ=0.30 h=0.02 A=400,0.7657,results/t4b_chattering_excess.csv,excess,
+C4,final_err_A400 θ=0.30 h=0.02,0.4971,results/t4b_chattering_excess.csv,final_err_A400,
+C4,excess_cross θ=0.30 h=0.05 A=400,0.8171,results/t4b_chattering_excess.csv,excess,
+C4,final_err_A400 θ=0.30 h=0.05,0.4686,results/t4b_chattering_excess.csv,final_err_A400,
+C4,excess_cross θ=0.30 h=0.08 A=400,0.9314,results/t4b_chattering_excess.csv,excess,
+C4,final_err_A400 θ=0.30 h=0.08,0.48,results/t4b_chattering_excess.csv,final_err_A400,
+C4,excess_cross θ=0.30 h=0.10 A=400,0.76,results/t4b_chattering_excess.csv,excess,
+C4,final_err_A400 θ=0.30 h=0.10,0.5086,results/t4b_chattering_excess.csv,final_err_A400,
+C4,excess_cross θ=0.30 h=0.15 A=400,0.7143,results/t4b_chattering_excess.csv,excess,
+C4,final_err_A400 θ=0.30 h=0.15,0.5314,results/t4b_chattering_excess.csv,final_err_A400,
+C4,excess_cross θ=0.40 h=0.00 A=400,0.3772,results/t4b_chattering_excess.csv,excess,
+C4,final_err_A400 θ=0.40 h=0.00,0.4686,results/t4b_chattering_excess.csv,final_err_A400,
+C4,excess_cross θ=0.40 h=0.02 A=400,0.4343,results/t4b_chattering_excess.csv,excess,
+C4,final_err_A400 θ=0.40 h=0.02,0.4743,results/t4b_chattering_excess.csv,final_err_A400,
+C4,excess_cross θ=0.40 h=0.05 A=400,0.5428,results/t4b_chattering_excess.csv,excess,
+C4,final_err_A400 θ=0.40 h=0.05,0.4914,results/t4b_chattering_excess.csv,final_err_A400,
+C4,excess_cross θ=0.40 h=0.08 A=400,0.5486,results/t4b_chattering_excess.csv,excess,
+C4,final_err_A400 θ=0.40 h=0.08,0.4914,results/t4b_chattering_excess.csv,final_err_A400,
+C4,excess_cross θ=0.40 h=0.10 A=400,0.5885,results/t4b_chattering_excess.csv,excess,
+C4,final_err_A400 θ=0.40 h=0.10,0.4971,results/t4b_chattering_excess.csv,final_err_A400,
+C4,excess_cross θ=0.40 h=0.15 A=400,0.48,results/t4b_chattering_excess.csv,excess,
+C4,final_err_A400 θ=0.40 h=0.15,0.5029,results/t4b_chattering_excess.csv,final_err_A400,
+C4,s_std@400 onset,0.2684,results/t4b_chattering_per_event.csv,s_400_std,
+C4,s_std@400 restep,0.0239,results/t4b_chattering_per_event.csv,s_400_std,
+C6,M0_now.dT_med,0.0,results/t4b_branch_cost.csv,dT_med,true_kind=onset n=23
+C6,M0_now.dT_absmax,0.0,results/t4b_branch_cost.csv,dT_absmax,true_kind=onset n=23
+C6,M0_now.dOS_med,0.0,results/t4b_branch_cost.csv,dOS_med,true_kind=onset n=23
+C6,M0_now.dOS_absmax,0.0009999999999905,results/t4b_branch_cost.csv,dOS_absmax,true_kind=onset n=23
+C6,M0_now.dPlatAbs_med,0.0,results/t4b_branch_cost.csv,dPlatAbs_med,true_kind=onset n=23
+C6,M0_now.dPlatAbs_absmax,1.5729999999999995,results/t4b_branch_cost.csv,dPlatAbs_absmax,true_kind=onset n=23
+C6,M0_now.dMAE_abs_med,0.0,results/t4b_branch_cost.csv,dMAE_abs_med,true_kind=onset n=23
+C6,M0_now.dMAE_abs_max,1.4309999999999992,results/t4b_branch_cost.csv,dMAE_abs_max,true_kind=onset n=23
+C6,M0_now.dADC_med,0.0,results/t4b_branch_cost.csv,dADC_med,true_kind=onset n=23
+C6,M0_now.dADC_absmax,236.69999999999985,results/t4b_branch_cost.csv,dADC_absmax,true_kind=onset n=23
+C6,M0_now.dMD_med,0.0,results/t4b_branch_cost.csv,dMD_med,true_kind=onset n=23
+C6,M0_now.dMD_absmax,0.0,results/t4b_branch_cost.csv,dMD_absmax,true_kind=onset n=23
+C6,M0_now.dT_med,0.0,results/t4b_branch_cost.csv,dT_med,true_kind=restep n=12
+C6,M0_now.dT_absmax,0.0,results/t4b_branch_cost.csv,dT_absmax,true_kind=restep n=12
+C6,M0_now.dOS_med,0.0,results/t4b_branch_cost.csv,dOS_med,true_kind=restep n=12
+C6,M0_now.dOS_absmax,12.035000000000082,results/t4b_branch_cost.csv,dOS_absmax,true_kind=restep n=12
+C6,M0_now.dPlatAbs_med,0.0,results/t4b_branch_cost.csv,dPlatAbs_med,true_kind=restep n=12
+C6,M0_now.dPlatAbs_absmax,11.527,results/t4b_branch_cost.csv,dPlatAbs_absmax,true_kind=restep n=12
+C6,M0_now.dMAE_abs_med,0.0,results/t4b_branch_cost.csv,dMAE_abs_med,true_kind=restep n=12
+C6,M0_now.dMAE_abs_max,10.799999999999995,results/t4b_branch_cost.csv,dMAE_abs_max,true_kind=restep n=12
+C6,M0_now.dADC_med,0.0,results/t4b_branch_cost.csv,dADC_med,true_kind=restep n=12
+C6,M0_now.dADC_absmax,543.9999999999998,results/t4b_branch_cost.csv,dADC_absmax,true_kind=restep n=12
+C6,M0_now.dMD_med,0.0,results/t4b_branch_cost.csv,dMD_med,true_kind=restep n=12
+C6,M0_now.dMD_absmax,388.1999999999998,results/t4b_branch_cost.csv,dMD_absmax,true_kind=restep n=12
+C6,M1_flat112.dT_med,0.03,results/t4b_branch_cost.csv,dT_med,true_kind=onset n=23
+C6,M1_flat112.dT_absmax,0.2699999999999996,results/t4b_branch_cost.csv,dT_absmax,true_kind=onset n=23
+C6,M1_flat112.dOS_med,0.0,results/t4b_branch_cost.csv,dOS_med,true_kind=onset n=23
+C6,M1_flat112.dOS_absmax,2.840999999999994,results/t4b_branch_cost.csv,dOS_absmax,true_kind=onset n=23
+C6,M1_flat112.dPlatAbs_med,0.0,results/t4b_branch_cost.csv,dPlatAbs_med,true_kind=onset n=23
+C6,M1_flat112.dPlatAbs_absmax,1.5930000000000009,results/t4b_branch_cost.csv,dPlatAbs_absmax,true_kind=onset n=23
+C6,M1_flat112.dMAE_abs_med,0.3599999999999999,results/t4b_branch_cost.csv,dMAE_abs_med,true_kind=onset n=23
+C6,M1_flat112.dMAE_abs_max,1.5910000000000002,results/t4b_branch_cost.csv,dMAE_abs_max,true_kind=onset n=23
+C6,M1_flat112.dADC_med,0.0,results/t4b_branch_cost.csv,dADC_med,true_kind=onset n=23
+C6,M1_flat112.dADC_absmax,400.3999999999999,results/t4b_branch_cost.csv,dADC_absmax,true_kind=onset n=23
+C6,M1_flat112.dMD_med,-0.4499999999999999,results/t4b_branch_cost.csv,dMD_med,true_kind=onset n=23
+C6,M1_flat112.dMD_absmax,980.4,results/t4b_branch_cost.csv,dMD_absmax,true_kind=onset n=23
+C6,M1_flat112.dT_med,0.0,results/t4b_branch_cost.csv,dT_med,true_kind=restep n=12
+C6,M1_flat112.dT_absmax,0.0,results/t4b_branch_cost.csv,dT_absmax,true_kind=restep n=12
+C6,M1_flat112.dOS_med,0.0,results/t4b_branch_cost.csv,dOS_med,true_kind=restep n=12
+C6,M1_flat112.dOS_absmax,16.721000000000004,results/t4b_branch_cost.csv,dOS_absmax,true_kind=restep n=12
+C6,M1_flat112.dPlatAbs_med,0.0,results/t4b_branch_cost.csv,dPlatAbs_med,true_kind=restep n=12
+C6,M1_flat112.dPlatAbs_absmax,9.259,results/t4b_branch_cost.csv,dPlatAbs_absmax,true_kind=restep n=12
+C6,M1_flat112.dMAE_abs_med,0.7869999999999999,results/t4b_branch_cost.csv,dMAE_abs_med,true_kind=restep n=12
+C6,M1_flat112.dMAE_abs_max,8.710999999999999,results/t4b_branch_cost.csv,dMAE_abs_max,true_kind=restep n=12
+C6,M1_flat112.dADC_med,0.0,results/t4b_branch_cost.csv,dADC_med,true_kind=restep n=12
+C6,M1_flat112.dADC_absmax,436.8999999999999,results/t4b_branch_cost.csv,dADC_absmax,true_kind=restep n=12
+C6,M1_flat112.dMD_med,-161.95000000000005,results/t4b_branch_cost.csv,dMD_med,true_kind=restep n=12
+C6,M1_flat112.dMD_absmax,327.5,results/t4b_branch_cost.csv,dMD_absmax,true_kind=restep n=12
+C6,M2_correctA.dT_med,0.0,results/t4b_branch_cost.csv,dT_med,true_kind=onset n=23
+C6,M2_correctA.dT_absmax,0.0,results/t4b_branch_cost.csv,dT_absmax,true_kind=onset n=23
+C6,M2_correctA.dOS_med,0.0,results/t4b_branch_cost.csv,dOS_med,true_kind=onset n=23
+C6,M2_correctA.dOS_absmax,0.0009999999999905,results/t4b_branch_cost.csv,dOS_absmax,true_kind=onset n=23
+C6,M2_correctA.dPlatAbs_med,0.0,results/t4b_branch_cost.csv,dPlatAbs_med,true_kind=onset n=23
+C6,M2_correctA.dPlatAbs_absmax,1.5359999999999996,results/t4b_branch_cost.csv,dPlatAbs_absmax,true_kind=onset n=23
+C6,M2_correctA.dMAE_abs_med,0.0,results/t4b_branch_cost.csv,dMAE_abs_med,true_kind=onset n=23
+C6,M2_correctA.dMAE_abs_max,1.395999999999999,results/t4b_branch_cost.csv,dMAE_abs_max,true_kind=onset n=23
+C6,M2_correctA.dADC_med,0.0,results/t4b_branch_cost.csv,dADC_med,true_kind=onset n=23
+C6,M2_correctA.dADC_absmax,231.19999999999985,results/t4b_branch_cost.csv,dADC_absmax,true_kind=onset n=23
+C6,M2_correctA.dMD_med,0.0,results/t4b_branch_cost.csv,dMD_med,true_kind=onset n=23
+C6,M2_correctA.dMD_absmax,0.0,results/t4b_branch_cost.csv,dMD_absmax,true_kind=onset n=23
+C6,M2_correctA.dT_med,0.0,results/t4b_branch_cost.csv,dT_med,true_kind=restep n=12
+C6,M2_correctA.dT_absmax,0.0,results/t4b_branch_cost.csv,dT_absmax,true_kind=restep n=12
+C6,M2_correctA.dOS_med,0.0,results/t4b_branch_cost.csv,dOS_med,true_kind=restep n=12
+C6,M2_correctA.dOS_absmax,10.20900000000006,results/t4b_branch_cost.csv,dOS_absmax,true_kind=restep n=12
+C6,M2_correctA.dPlatAbs_med,0.0,results/t4b_branch_cost.csv,dPlatAbs_med,true_kind=restep n=12
+C6,M2_correctA.dPlatAbs_absmax,9.259,results/t4b_branch_cost.csv,dPlatAbs_absmax,true_kind=restep n=12
+C6,M2_correctA.dMAE_abs_med,0.0,results/t4b_branch_cost.csv,dMAE_abs_med,true_kind=restep n=12
+C6,M2_correctA.dMAE_abs_max,8.710999999999999,results/t4b_branch_cost.csv,dMAE_abs_max,true_kind=restep n=12
+C6,M2_correctA.dADC_med,0.0,results/t4b_branch_cost.csv,dADC_med,true_kind=restep n=12
+C6,M2_correctA.dADC_absmax,436.8999999999999,results/t4b_branch_cost.csv,dADC_absmax,true_kind=restep n=12
+C6,M2_correctA.dMD_med,0.0,results/t4b_branch_cost.csv,dMD_med,true_kind=restep n=12
+C6,M2_correctA.dMD_absmax,327.5,results/t4b_branch_cost.csv,dMD_absmax,true_kind=restep n=12
+C6,M2_inverse.dT_med,-0.02,results/t4b_branch_cost.csv,dT_med,true_kind=onset n=23
+C6,M2_inverse.dT_absmax,1.69,results/t4b_branch_cost.csv,dT_absmax,true_kind=onset n=23
+C6,M2_inverse.dOS_med,-0.0539999999999998,results/t4b_branch_cost.csv,dOS_med,true_kind=onset n=23
+C6,M2_inverse.dOS_absmax,10.397,results/t4b_branch_cost.csv,dOS_absmax,true_kind=onset n=23
+C6,M2_inverse.dPlatAbs_med,-3.821,results/t4b_branch_cost.csv,dPlatAbs_med,true_kind=onset n=23
+C6,M2_inverse.dPlatAbs_absmax,31.148,results/t4b_branch_cost.csv,dPlatAbs_absmax,true_kind=onset n=23
+C6,M2_inverse.dMAE_abs_med,2.68,results/t4b_branch_cost.csv,dMAE_abs_med,true_kind=onset n=23
+C6,M2_inverse.dMAE_abs_max,27.044000000000004,results/t4b_branch_cost.csv,dMAE_abs_max,true_kind=onset n=23
+C6,M2_inverse.dADC_med,-0.7,results/t4b_branch_cost.csv,dADC_med,true_kind=onset n=23
+C6,M2_inverse.dADC_absmax,1895.8,results/t4b_branch_cost.csv,dADC_absmax,true_kind=onset n=23
+C6,M2_inverse.dMD_med,-0.6999999999999998,results/t4b_branch_cost.csv,dMD_med,true_kind=onset n=23
+C6,M2_inverse.dMD_absmax,1557.2999999999995,results/t4b_branch_cost.csv,dMD_absmax,true_kind=onset n=23
+C6,M2_inverse.dT_med,-0.0049999999999998,results/t4b_branch_cost.csv,dT_med,true_kind=restep n=12
+C6,M2_inverse.dT_absmax,0.0099999999999997,results/t4b_branch_cost.csv,dT_absmax,true_kind=restep n=12
+C6,M2_inverse.dOS_med,-0.7339999999999804,results/t4b_branch_cost.csv,dOS_med,true_kind=restep n=12
+C6,M2_inverse.dOS_absmax,72.9670000000001,results/t4b_branch_cost.csv,dOS_absmax,true_kind=restep n=12
+C6,M2_inverse.dPlatAbs_med,0.0,results/t4b_branch_cost.csv,dPlatAbs_med,true_kind=restep n=12
+C6,M2_inverse.dPlatAbs_absmax,82.494,results/t4b_branch_cost.csv,dPlatAbs_absmax,true_kind=restep n=12
+C6,M2_inverse.dMAE_abs_med,7.011,results/t4b_branch_cost.csv,dMAE_abs_med,true_kind=restep n=12
+C6,M2_inverse.dMAE_abs_max,57.169,results/t4b_branch_cost.csv,dMAE_abs_max,true_kind=restep n=12
+C6,M2_inverse.dADC_med,0.0,results/t4b_branch_cost.csv,dADC_med,true_kind=restep n=12
+C6,M2_inverse.dADC_absmax,882.8,results/t4b_branch_cost.csv,dADC_absmax,true_kind=restep n=12
+C6,M2_inverse.dMD_med,-0.5,results/t4b_branch_cost.csv,dMD_med,true_kind=restep n=12
+C6,M2_inverse.dMD_absmax,963.5,results/t4b_branch_cost.csv,dMD_absmax,true_kind=restep n=12
+C6,M3_causal_P1.dT_med,0.0,results/t4b_branch_cost.csv,dT_med,true_kind=onset n=23
+C6,M3_causal_P1.dT_absmax,0.0,results/t4b_branch_cost.csv,dT_absmax,true_kind=onset n=23
+C6,M3_causal_P1.dOS_med,0.0,results/t4b_branch_cost.csv,dOS_med,true_kind=onset n=23
+C6,M3_causal_P1.dOS_absmax,0.0,results/t4b_branch_cost.csv,dOS_absmax,true_kind=onset n=23
+C6,M3_causal_P1.dPlatAbs_med,0.0,results/t4b_branch_cost.csv,dPlatAbs_med,true_kind=onset n=23
+C6,M3_causal_P1.dPlatAbs_absmax,0.0269999999999992,results/t4b_branch_cost.csv,dPlatAbs_absmax,true_kind=onset n=23
+C6,M3_causal_P1.dMAE_abs_med,0.0,results/t4b_branch_cost.csv,dMAE_abs_med,true_kind=onset n=23
+C6,M3_causal_P1.dMAE_abs_max,0.048,results/t4b_branch_cost.csv,dMAE_abs_max,true_kind=onset n=23
+C6,M3_causal_P1.dADC_med,0.0,results/t4b_branch_cost.csv,dADC_med,true_kind=onset n=23
+C6,M3_causal_P1.dADC_absmax,1.099999999999966,results/t4b_branch_cost.csv,dADC_absmax,true_kind=onset n=23
+C6,M3_causal_P1.dMD_med,0.0,results/t4b_branch_cost.csv,dMD_med,true_kind=onset n=23
+C6,M3_causal_P1.dMD_absmax,0.0,results/t4b_branch_cost.csv,dMD_absmax,true_kind=onset n=23
+C6,M3_causal_P1.dT_med,0.0,results/t4b_branch_cost.csv,dT_med,true_kind=restep n=12
+C6,M3_causal_P1.dT_absmax,0.0,results/t4b_branch_cost.csv,dT_absmax,true_kind=restep n=12
+C6,M3_causal_P1.dOS_med,0.0,results/t4b_branch_cost.csv,dOS_med,true_kind=restep n=12
+C6,M3_causal_P1.dOS_absmax,0.0,results/t4b_branch_cost.csv,dOS_absmax,true_kind=restep n=12
+C6,M3_causal_P1.dPlatAbs_med,0.0,results/t4b_branch_cost.csv,dPlatAbs_med,true_kind=restep n=12
+C6,M3_causal_P1.dPlatAbs_absmax,0.0,results/t4b_branch_cost.csv,dPlatAbs_absmax,true_kind=restep n=12
+C6,M3_causal_P1.dMAE_abs_med,0.0,results/t4b_branch_cost.csv,dMAE_abs_med,true_kind=restep n=12
+C6,M3_causal_P1.dMAE_abs_max,0.0,results/t4b_branch_cost.csv,dMAE_abs_max,true_kind=restep n=12
+C6,M3_causal_P1.dADC_med,0.0,results/t4b_branch_cost.csv,dADC_med,true_kind=restep n=12
+C6,M3_causal_P1.dADC_absmax,0.0,results/t4b_branch_cost.csv,dADC_absmax,true_kind=restep n=12
+C6,M3_causal_P1.dMD_med,0.0,results/t4b_branch_cost.csv,dMD_med,true_kind=restep n=12
+C6,M3_causal_P1.dMD_absmax,0.0,results/t4b_branch_cost.csv,dMD_absmax,true_kind=restep n=12
+C6,M3_causal_thr0.20.dT_med,0.0,results/t4b_branch_cost.csv,dT_med,true_kind=onset n=23
+C6,M3_causal_thr0.20.dT_absmax,0.0,results/t4b_branch_cost.csv,dT_absmax,true_kind=onset n=23
+C6,M3_causal_thr0.20.dOS_med,0.0,results/t4b_branch_cost.csv,dOS_med,true_kind=onset n=23
+C6,M3_causal_thr0.20.dOS_absmax,0.0,results/t4b_branch_cost.csv,dOS_absmax,true_kind=onset n=23
+C6,M3_causal_thr0.20.dPlatAbs_med,0.0,results/t4b_branch_cost.csv,dPlatAbs_med,true_kind=onset n=23
+C6,M3_causal_thr0.20.dPlatAbs_absmax,0.0269999999999992,results/t4b_branch_cost.csv,dPlatAbs_absmax,true_kind=onset n=23
+C6,M3_causal_thr0.20.dMAE_abs_med,0.0,results/t4b_branch_cost.csv,dMAE_abs_med,true_kind=onset n=23
+C6,M3_causal_thr0.20.dMAE_abs_max,0.048,results/t4b_branch_cost.csv,dMAE_abs_max,true_kind=onset n=23
+C6,M3_causal_thr0.20.dADC_med,0.0,results/t4b_branch_cost.csv,dADC_med,true_kind=onset n=23
+C6,M3_causal_thr0.20.dADC_absmax,1.099999999999966,results/t4b_branch_cost.csv,dADC_absmax,true_kind=onset n=23
+C6,M3_causal_thr0.20.dMD_med,0.0,results/t4b_branch_cost.csv,dMD_med,true_kind=onset n=23
+C6,M3_causal_thr0.20.dMD_absmax,0.0,results/t4b_branch_cost.csv,dMD_absmax,true_kind=onset n=23
+C6,M3_causal_thr0.20.dT_med,0.0,results/t4b_branch_cost.csv,dT_med,true_kind=restep n=12
+C6,M3_causal_thr0.20.dT_absmax,0.0,results/t4b_branch_cost.csv,dT_absmax,true_kind=restep n=12
+C6,M3_causal_thr0.20.dOS_med,0.0,results/t4b_branch_cost.csv,dOS_med,true_kind=restep n=12
+C6,M3_causal_thr0.20.dOS_absmax,0.0,results/t4b_branch_cost.csv,dOS_absmax,true_kind=restep n=12
+C6,M3_causal_thr0.20.dPlatAbs_med,0.0,results/t4b_branch_cost.csv,dPlatAbs_med,true_kind=restep n=12
+C6,M3_causal_thr0.20.dPlatAbs_absmax,0.0,results/t4b_branch_cost.csv,dPlatAbs_absmax,true_kind=restep n=12
+C6,M3_causal_thr0.20.dMAE_abs_med,0.0,results/t4b_branch_cost.csv,dMAE_abs_med,true_kind=restep n=12
+C6,M3_causal_thr0.20.dMAE_abs_max,0.0,results/t4b_branch_cost.csv,dMAE_abs_max,true_kind=restep n=12
+C6,M3_causal_thr0.20.dADC_med,0.0,results/t4b_branch_cost.csv,dADC_med,true_kind=restep n=12
+C6,M3_causal_thr0.20.dADC_absmax,0.0,results/t4b_branch_cost.csv,dADC_absmax,true_kind=restep n=12
+C6,M3_causal_thr0.20.dMD_med,0.0,results/t4b_branch_cost.csv,dMD_med,true_kind=restep n=12
+C6,M3_causal_thr0.20.dMD_absmax,0.0,results/t4b_branch_cost.csv,dMD_absmax,true_kind=restep n=12
+C6,M3_causal_thr0.40.dT_med,0.0,results/t4b_branch_cost.csv,dT_med,true_kind=onset n=23
+C6,M3_causal_thr0.40.dT_absmax,0.0,results/t4b_branch_cost.csv,dT_absmax,true_kind=onset n=23
+C6,M3_causal_thr0.40.dOS_med,0.0,results/t4b_branch_cost.csv,dOS_med,true_kind=onset n=23
+C6,M3_causal_thr0.40.dOS_absmax,0.0,results/t4b_branch_cost.csv,dOS_absmax,true_kind=onset n=23
+C6,M3_causal_thr0.40.dPlatAbs_med,0.0,results/t4b_branch_cost.csv,dPlatAbs_med,true_kind=onset n=23
+C6,M3_causal_thr0.40.dPlatAbs_absmax,0.0269999999999992,results/t4b_branch_cost.csv,dPlatAbs_absmax,true_kind=onset n=23
+C6,M3_causal_thr0.40.dMAE_abs_med,0.0,results/t4b_branch_cost.csv,dMAE_abs_med,true_kind=onset n=23
+C6,M3_causal_thr0.40.dMAE_abs_max,0.048,results/t4b_branch_cost.csv,dMAE_abs_max,true_kind=onset n=23
+C6,M3_causal_thr0.40.dADC_med,0.0,results/t4b_branch_cost.csv,dADC_med,true_kind=onset n=23
+C6,M3_causal_thr0.40.dADC_absmax,1.099999999999966,results/t4b_branch_cost.csv,dADC_absmax,true_kind=onset n=23
+C6,M3_causal_thr0.40.dMD_med,0.0,results/t4b_branch_cost.csv,dMD_med,true_kind=onset n=23
+C6,M3_causal_thr0.40.dMD_absmax,0.0,results/t4b_branch_cost.csv,dMD_absmax,true_kind=onset n=23
+C6,M3_causal_thr0.40.dT_med,0.0,results/t4b_branch_cost.csv,dT_med,true_kind=restep n=12
+C6,M3_causal_thr0.40.dT_absmax,0.0,results/t4b_branch_cost.csv,dT_absmax,true_kind=restep n=12
+C6,M3_causal_thr0.40.dOS_med,0.0,results/t4b_branch_cost.csv,dOS_med,true_kind=restep n=12
+C6,M3_causal_thr0.40.dOS_absmax,0.0,results/t4b_branch_cost.csv,dOS_absmax,true_kind=restep n=12
+C6,M3_causal_thr0.40.dPlatAbs_med,0.0,results/t4b_branch_cost.csv,dPlatAbs_med,true_kind=restep n=12
+C6,M3_causal_thr0.40.dPlatAbs_absmax,0.0,results/t4b_branch_cost.csv,dPlatAbs_absmax,true_kind=restep n=12
+C6,M3_causal_thr0.40.dMAE_abs_med,0.0,results/t4b_branch_cost.csv,dMAE_abs_med,true_kind=restep n=12
+C6,M3_causal_thr0.40.dMAE_abs_max,0.0,results/t4b_branch_cost.csv,dMAE_abs_max,true_kind=restep n=12
+C6,M3_causal_thr0.40.dADC_med,0.0,results/t4b_branch_cost.csv,dADC_med,true_kind=restep n=12
+C6,M3_causal_thr0.40.dADC_absmax,0.0,results/t4b_branch_cost.csv,dADC_absmax,true_kind=restep n=12
+C6,M3_causal_thr0.40.dMD_med,0.0,results/t4b_branch_cost.csv,dMD_med,true_kind=restep n=12
+C6,M3_causal_thr0.40.dMD_absmax,0.0,results/t4b_branch_cost.csv,dMD_absmax,true_kind=restep n=12
+C6,M4_warped.dT_med,0.0,results/t4b_branch_cost.csv,dT_med,true_kind=onset n=23
+C6,M4_warped.dT_absmax,0.18,results/t4b_branch_cost.csv,dT_absmax,true_kind=onset n=23
+C6,M4_warped.dOS_med,0.0,results/t4b_branch_cost.csv,dOS_med,true_kind=onset n=23
+C6,M4_warped.dOS_absmax,0.149,results/t4b_branch_cost.csv,dOS_absmax,true_kind=onset n=23
+C6,M4_warped.dPlatAbs_med,0.0,results/t4b_branch_cost.csv,dPlatAbs_med,true_kind=onset n=23
+C6,M4_warped.dPlatAbs_absmax,4.200000000000003,results/t4b_branch_cost.csv,dPlatAbs_absmax,true_kind=onset n=23
+C6,M4_warped.dMAE_abs_med,0.0,results/t4b_branch_cost.csv,dMAE_abs_med,true_kind=onset n=23
+C6,M4_warped.dMAE_abs_max,4.068999999999999,results/t4b_branch_cost.csv,dMAE_abs_max,true_kind=onset n=23
+C6,M4_warped.dADC_med,0.0,results/t4b_branch_cost.csv,dADC_med,true_kind=onset n=23
+C6,M4_warped.dADC_absmax,669.8000000000002,results/t4b_branch_cost.csv,dADC_absmax,true_kind=onset n=23
+C6,M4_warped.dMD_med,0.0,results/t4b_branch_cost.csv,dMD_med,true_kind=onset n=23
+C6,M4_warped.dMD_absmax,378.4000000000001,results/t4b_branch_cost.csv,dMD_absmax,true_kind=onset n=23
+C6,M4_warped.dT_med,0.0,results/t4b_branch_cost.csv,dT_med,true_kind=restep n=12
+C6,M4_warped.dT_absmax,0.0,results/t4b_branch_cost.csv,dT_absmax,true_kind=restep n=12
+C6,M4_warped.dOS_med,0.0,results/t4b_branch_cost.csv,dOS_med,true_kind=restep n=12
+C6,M4_warped.dOS_absmax,11.627999999999986,results/t4b_branch_cost.csv,dOS_absmax,true_kind=restep n=12
+C6,M4_warped.dPlatAbs_med,0.0,results/t4b_branch_cost.csv,dPlatAbs_med,true_kind=restep n=12
+C6,M4_warped.dPlatAbs_absmax,3.6880000000000015,results/t4b_branch_cost.csv,dPlatAbs_absmax,true_kind=restep n=12
+C6,M4_warped.dMAE_abs_med,0.0,results/t4b_branch_cost.csv,dMAE_abs_med,true_kind=restep n=12
+C6,M4_warped.dMAE_abs_max,3.953000000000003,results/t4b_branch_cost.csv,dMAE_abs_max,true_kind=restep n=12
+C6,M4_warped.dADC_med,0.0,results/t4b_branch_cost.csv,dADC_med,true_kind=restep n=12
+C6,M4_warped.dADC_absmax,232.4000000000001,results/t4b_branch_cost.csv,dADC_absmax,true_kind=restep n=12
+C6,M4_warped.dMD_med,0.0,results/t4b_branch_cost.csv,dMD_med,true_kind=restep n=12
+C6,M4_warped.dMD_absmax,665.4000000000001,results/t4b_branch_cost.csv,dMD_absmax,true_kind=restep n=12

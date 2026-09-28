@@ -1,0 +1,5 @@
+c0396_0|r_slow_max=0.6,slope_gate_frac=5.0,tau_c_fast_s=2.0
+c0396_1|r_slow_max=0.6,slope_gate_frac=5.0,tau_c_fast_s=4.0
+c0396_2|r_slow_max=0.6,slope_gate_frac=5.0,tau_c_fast_s=8.0
+c0396_3|r_slow_max=0.6,slope_gate_frac=5.0,tau_c_fast_s=12.0
+c0396_4|r_slow_max=0.6,slope_gate_frac=5.0,tau_c_fast_s=20.0

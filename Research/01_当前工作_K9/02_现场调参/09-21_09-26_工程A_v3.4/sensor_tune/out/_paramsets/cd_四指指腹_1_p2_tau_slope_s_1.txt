@@ -1,0 +1,1 @@
+cand|r_fast=0.01,tau_c_fast_s=2.0,r_slow_max=0.1,slope_cap_frac=0.005,slope_gate_frac=0.02,slow_confirm_s=0.0,soft_unfreeze_s=2.0,edge_slope_thres=20.0,tau_slope_s=1.0,tau_r_slow_idle_s=30.0,tau_r_fast_s=0.5,hold_eps=0.0,idle_frac=0.1,ramp_slope_min=0.0

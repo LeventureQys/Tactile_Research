@@ -1,0 +1,6 @@
+c0216_0|r_fast=0.3,tau_c_fast_s=2.0,slow_confirm_s=0.0
+c0216_1|r_fast=0.3,tau_c_fast_s=2.0,slow_confirm_s=0.5
+c0216_2|r_fast=0.3,tau_c_fast_s=2.0,slow_confirm_s=2.0
+c0216_3|r_fast=0.3,tau_c_fast_s=2.0,slow_confirm_s=5.0
+c0216_4|r_fast=0.3,tau_c_fast_s=2.0,slow_confirm_s=10.0
+c0216_5|r_fast=0.3,tau_c_fast_s=2.0,slow_confirm_s=20.0

@@ -1,0 +1,8 @@
+c0050_0|r_fast=0.04,slope_cap_frac=0.002
+c0050_1|r_fast=0.04,slope_cap_frac=0.005
+c0050_2|r_fast=0.04,slope_cap_frac=0.01
+c0050_3|r_fast=0.04,slope_cap_frac=0.02
+c0050_4|r_fast=0.04,slope_cap_frac=0.04
+c0050_5|r_fast=0.04,slope_cap_frac=0.08
+c0050_6|r_fast=0.04,slope_cap_frac=0.15
+c0050_7|r_fast=0.04,slope_cap_frac=0.3

@@ -1,0 +1,10 @@
+﻿arm,rec,n,max_abs_diff,rms_diff,identical,status
+v6,SW3,6386,0.0,0.0,True,本地副本 vs progress 原版
+v6,SW4,12058,0.0,0.0,True,本地副本 vs progress 原版
+v6,RT1,16270,0.0,0.0,True,本地副本 vs progress 原版
+v6,F41,19079,0.0,0.0,True,本地副本 vs progress 原版
+v51,SW3,6386,0.0,0.0,True,本地副本 vs progress 原版
+v51,SW4,12058,0.0,0.0,True,本地副本 vs progress 原版
+v51,RT1,16270,0.0,0.0,True,本地副本 vs progress 原版
+v51,F41,19079,0.0,0.0,True,本地副本 vs progress 原版
+v2_comp,f_varying_load.py[:571],571,0.0,0.0,True,类定义部分逐字相同（顶层执行代码已截去）

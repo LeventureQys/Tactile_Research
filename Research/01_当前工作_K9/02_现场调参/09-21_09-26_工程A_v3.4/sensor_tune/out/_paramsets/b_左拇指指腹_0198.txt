@@ -1,0 +1,4 @@
+c0198_0|r_fast=0.04,soft_unfreeze_s=0.5
+c0198_1|r_fast=0.04,soft_unfreeze_s=1.0
+c0198_2|r_fast=0.04,soft_unfreeze_s=2.0
+c0198_3|r_fast=0.04,soft_unfreeze_s=4.0
