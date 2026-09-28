@@ -1,0 +1,17 @@
+﻿arm,pair,n_paired,med_D1,med_other,med_delta,max_delta,spearman,n_D1_gt_other,n_cens_D1,n_cens_other
+raw,T_stable_ch5 vs T_settle(2%) ch,11,0.12,0.29,0.0,107.74,0.8904,0,40,47
+raw,T_stable_ch5 vs T_settle(5%) ch,13,0.19,1.21,1.19,107.67,0.9174,1,40,45
+raw,T_stable_ch5 vs T_settle(5%) tot,11,0.12,0.03,0.01,58.32,0.8,3,40,44
+raw,T_stable_ch5 vs T_band(5%) ch,12,0.155,0.33,0.0,9.55,0.6281,4,40,47
+v5.1,T_stable_ch5 vs T_settle(2%) ch,11,0.53,0.9,0.0,115.64,0.9358,0,37,47
+v5.1,T_stable_ch5 vs T_settle(5%) ch,15,0.9,0.9,0.0,121.27,0.9606,3,37,42
+v5.1,T_stable_ch5 vs T_settle(5%) tot,14,0.91,0.11,0.0,61.27,0.7053,5,37,43
+v5.1,T_stable_ch5 vs T_band(5%) ch,18,1.035,1.055,0.0,9.55,0.9276,6,37,41
+v6,T_stable_ch5 vs T_settle(2%) ch,11,0.12,0.34,0.0,117.76,0.7982,0,37,47
+v6,T_stable_ch5 vs T_settle(5%) ch,14,0.33,1.11,0.0,120.96,0.7792,2,37,43
+v6,T_stable_ch5 vs T_settle(5%) tot,13,0.32,0.1,0.0,61.31,0.8273,5,37,44
+v6,T_stable_ch5 vs T_band(5%) ch,16,0.41,0.925,0.0,68.71,0.6814,4,37,43
+v6.1,T_stable_ch5 vs T_settle(2%) ch,11,0.32,0.9,0.1,119.13,0.8333,0,37,46
+v6.1,T_stable_ch5 vs T_settle(5%) ch,14,0.43,0.89,0.03,121.28,0.867,2,37,43
+v6.1,T_stable_ch5 vs T_settle(5%) tot,12,0.375,0.11,0.005,61.37,0.7055,4,37,45
+v6.1,T_stable_ch5 vs T_band(5%) ch,14,0.43,0.54,0.0,9.55,0.8058,4,37,45

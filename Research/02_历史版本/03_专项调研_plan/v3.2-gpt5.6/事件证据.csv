@@ -1,0 +1,17 @@
+﻿id,t_edge_s,kind,arm,in_settled,out_settled,ded,step_in,step_out,ref_in,ref_out,ref_ded,src
+E_offload_240,240.0,Decrease(整片卸载),现场 plan-v3.0 PCT,2662.0,2634.0,28.0,,,,,,本目录 recompute_metrics.py
+E1_first_load,3.3,Onset(首次加载),现场 plan-v3.0 PCT,12891.0,12290.0,601.0,,,,,,本目录 recompute_metrics.py
+E2,15.18,Restep(+1 砝码),现场 plan-v3.0 PCT,16632.0,15544.0,1088.0,2606,,16844,15219,1625,现场=本目录重算；引用值=plan/v3.6-v41flash/results/v36_ab_final.txt（臂 v36）
+E3,41.65,Restep(卸载→重载),现场 plan-v3.0 PCT,17407.0,15832.0,1575.0,,,17521,15641,1880,现场=本目录重算；引用值=plan/v3.6-v41flash/分析报告_245s丢基线.md §1（臂 v31）
+E4,63.41,Restep(卸载→重载),现场 plan-v3.0 PCT,17293.0,15279.0,2014.0,,,17609,15425,2184,现场=本目录重算；引用值=plan/v3.6-v41flash/分析报告_245s丢基线.md §1（臂 v31）
+E5,232.23,Restep(长保压后加重),现场 plan-v3.0 PCT,17568.0,15334.0,2234.0,,,17556,15299,2258,现场=本目录重算；引用值=plan/v3.6-v41flash/分析报告_245s丢基线.md §1（臂 v31）
+E6_reload_245,245.27,Onset(整片卸载后重载),现场 plan-v3.0 PCT,16750.0,16721.0,29.0,12639,12668,17255,17237,18,现场=本目录重算（台阶=0.5 s 分辨率口径）；引用值=plan/v3.6-v41flash/分析报告_245s丢基线.md §1（臂 v31）
+E7,258.26,Onset(整片卸载后重载),现场 plan-v3.0 PCT,16675.0,16711.0,-36.0,,,17659,17601,58,现场=本目录重算；引用值=plan/v3.6-v41flash/分析报告_245s丢基线.md §1（臂 v31）
+E8,278.53,Onset(整片卸载后重载),现场 plan-v3.0 PCT,15013.0,15080.0,-67.0,,,17693,17778,-85,现场=本目录重算；引用值=plan/v3.6-v41flash/分析报告_245s丢基线.md §1（臂 v31）
+E9,300.53,Onset(整片卸载后重载),现场 plan-v3.0 PCT,16739.0,16747.0,-8.0,,,17371,17393,-22,现场=本目录重算；引用值=plan/v3.6-v41flash/分析报告_245s丢基线.md §1（臂 v31）
+V34_handoff_245,245.31,Onset 交接后,plan-v3.4 (mem ON),17268,15278,2009,,,15234,15234,2009,plan/v3.4/results/v34_replay_mem_on.txt:30（A=15234 ded=2009）
+V34_pre_edge_239,239.05,卸载沿前（同一回放）,plan-v3.4 (mem ON),17610,15264,2295,,,15188,15188,2295,plan/v3.4/results/v34_replay_mem_on.txt:13（A=15188 ded=2295）
+V34_snapshot_240,240.08,Decrease 检测当帧快照,plan-v3.4 (mem ON),1841,1171,2030,,,15188,15188,2030,plan/v3.4/results/v34_replay_mem_on.txt:16（A=15188 ded=2030）→ 快照比沿前低 265 ADC
+V34_familyA_15s,232.23,Restep 交接后,plan-v3.4 (mem ON),,,2382,,,15188,15188,2382,plan/v3.4/results/v34_replay_mem_on.txt:9-10
+V32_ded_collapse_248,248.8,交接当帧（v3.2 seed 缺陷）,plan-v3.2 (--seed-gain 1.0),,,-81,,,14680,14680,-81,plan/v3.6-v41flash/分析报告_245s丢基线.md §4（248.60 s +2298 → 248.80 s −81）
+V36_handoff_245,245.31,Onset 交接后,"plan-v3.6 (seed-gain 1.0, v36_d 400)",17288,,2818,,,14621,,2818,"plan/v3.6-v41flash/results/v36_handoff_check.txt:8（A_ho=14621, ded=2818）"

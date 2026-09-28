@@ -1,0 +1,10 @@
+^D:\WORKSHOP\PROCESSING\MULTI-DEVICE-CASCADE-HOST-CPP\TEMP\GLM53_CPP_HARNESS\BUILD\CMAKEFILES\7F78D4C1E0AE27458624F947EEA5863C\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/workshop/Processing/multi-device-cascade-host-cpp/temp/glm53_cpp_harness -BD:/workshop/Processing/multi-device-cascade-host-cpp/temp/glm53_cpp_harness/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/workshop/Processing/multi-device-cascade-host-cpp/temp/glm53_cpp_harness/build/glm53_drift_harness.slnx
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

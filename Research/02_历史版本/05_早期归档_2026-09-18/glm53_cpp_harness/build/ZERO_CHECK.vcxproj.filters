@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\workshop\Processing\multi-device-cascade-host-cpp\temp\glm53_cpp_harness\build\CMakeFiles\7f78d4c1e0ae27458624f947eea5863c\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{921ABA53-FC88-3BC8-A924-B60BB962C05F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,14 @@
+const,cpp,proto,same
+kDetFastS,0.2,0.2,True
+kDetGapS,0.15,0.15,True
+kDetLagS,0.3,0.3,True
+kDetK,5.0,5.0,True
+kDetRel,0.05,0.05,True
+kDetAbsFrac,0.01,0.01,True
+kDetIdleFrac,0.1,0.1,True
+kDetPersist,3.0,3.0,True
+kIdleSettleS,0.5,0.5,True
+kRevokeS,0.4,0.4,True
+kTailGateS,3.0,3.0,True
+kTailGateFrac,0.1,0.1,True
+kBackdateS,0.6,0.6,True
