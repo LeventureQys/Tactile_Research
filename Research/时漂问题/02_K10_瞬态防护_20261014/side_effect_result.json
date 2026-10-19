@@ -1,0 +1,73 @@
+{
+  "sessions": [
+    {
+      "id": "设备1/测试1",
+      "frames": 67551,
+      "drift_plain": 711.12,
+      "drift_guarded": 706.31,
+      "max_60s_diff": 0.715,
+      "mean_60s_diff": 0.373,
+      "max_instant_diff": 5.22
+    },
+    {
+      "id": "设备1/测试2",
+      "frames": 31417,
+      "drift_plain": 547.57,
+      "drift_guarded": 547.05,
+      "max_60s_diff": 0.841,
+      "mean_60s_diff": 0.74,
+      "max_instant_diff": 1.01
+    },
+    {
+      "id": "设备1/10g",
+      "frames": 9700,
+      "drift_plain": 575.09,
+      "drift_guarded": 574.8,
+      "max_60s_diff": 0.432,
+      "mean_60s_diff": 0.432,
+      "max_instant_diff": 0.49
+    },
+    {
+      "id": "设备2/测试1",
+      "frames": 45532,
+      "drift_plain": 993.33,
+      "drift_guarded": 993.13,
+      "max_60s_diff": 0.288,
+      "mean_60s_diff": 0.157,
+      "max_instant_diff": 0.5
+    },
+    {
+      "id": "设备2/测试2",
+      "frames": 25293,
+      "drift_plain": 96.2,
+      "drift_guarded": 96.11,
+      "max_60s_diff": 0.017,
+      "mean_60s_diff": 0.013,
+      "max_instant_diff": 0.12
+    },
+    {
+      "id": "设备2/10g",
+      "frames": 5959,
+      "drift_plain": 29.3,
+      "drift_guarded": 29.31,
+      "max_60s_diff": null,
+      "mean_60s_diff": null,
+      "max_instant_diff": 0.07
+    }
+  ],
+  "injection": {
+    "host": "设备1/测试2",
+    "start_s": 33.67,
+    "rise_s": 2.5,
+    "hold_s": 15.0,
+    "injected_total_adc": 100.0,
+    "shape": "分散57通道",
+    "plain_hold": 35.69,
+    "guarded_hold": 35.68,
+    "plain_retention": 0.3569,
+    "guarded_retention": 0.3568,
+    "plain_release": 7.77,
+    "guarded_release": 7.51,
+    "clean_pair_max_diff": 1.01
+  }
+}

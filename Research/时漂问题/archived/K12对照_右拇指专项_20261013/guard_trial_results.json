@@ -1,0 +1,505 @@
+{
+  "method": {
+    "k9_core": "D:\\workshop\\Processing\\multi-device-cascade-host-cpp\\toolbox\\数据解析工具\\plugins\\k9_creep_observer.py",
+    "k12_core": "D:\\workshop\\Github\\Tactile_Research\\Research\\时漂问题\\02_历史版本\\06_K12_旧实验归档_2026-10-13\\scripts\\k12_v2_core.py",
+    "k12_options": {
+      "enabled": true,
+      "window_s": 0.25,
+      "separation_s": 0.5,
+      "threshold_total_adc": 45.0,
+      "noise_multiplier": 4.0,
+      "drift_tau_s": 8.0,
+      "confirm_s": 0.35,
+      "large_step_adc": 2000.0,
+      "large_freeze_s": 8.0,
+      "refractory_s": 2.0
+    },
+    "time_axis": "(frame_index - first_frame_index) / observed_fps",
+    "first_load": "first consecutive-frame absolute total input ADC jump >= 2000",
+    "constant_load": "from first load +15s, first 5s median vs recording last 5s median; maximum absolute full 5s window median offset relative to first 5s (1s stride plus final window)",
+    "ten_g": "candidate net change only; not actual event detection or detection rate",
+    "candidate_events": "K12 ledger events inside +15s to recording end are unverified candidates, not confirmed false positives",
+    "injection": "device1 test2: load+30s through +45s, 100 total ADC evenly on 57 channels; injected minus clean output, last 5s loaded and first 5s after withdrawal"
+  },
+  "samples": [
+    {
+      "id": "设备1/10g反复增减荷载-2026-10-13_17-07-18",
+      "kind": "ten_g",
+      "observed_fps": 100.5441779493038,
+      "frame_count": 9700,
+      "load_time_s": 1.6410696607733568,
+      "original_r_slow_max": 0.1,
+      "arms": {
+        "k9_original": {
+          "candidate_net_change_adc": 575.0876871518376
+        },
+        "k9_rslow_0_3": {
+          "candidate_net_change_adc": 103.30818157090835
+        },
+        "k12_v2_original": {
+          "candidate_net_change_adc": 495.8471069400621
+        },
+        "k12_v2_rslow_0_3": {
+          "candidate_net_change_adc": 136.1188842048141
+        }
+      }
+    },
+    {
+      "id": "设备1/测试1-2026-10-13_16-32-15",
+      "kind": "constant_load",
+      "observed_fps": 100.43005118454182,
+      "frame_count": 67551,
+      "load_time_s": 2.3399370729004585,
+      "original_r_slow_max": 0.1,
+      "arms": {
+        "k9_original": {
+          "window": {
+            "start_s": 17.339937072900458,
+            "end_s": 672.6074437209616,
+            "first_5s_median_adc": 28107.357281380202,
+            "last_5s_median_adc": 28818.48121482063,
+            "net_change_adc": 711.1239334404272,
+            "max_abs_offset_adc_5s_median": 711.1239334404272
+          }
+        },
+        "k9_rslow_0_3": {
+          "window": {
+            "start_s": 17.339937072900458,
+            "end_s": 672.6074437209616,
+            "first_5s_median_adc": 28104.57369430802,
+            "last_5s_median_adc": 27999.04885902034,
+            "net_change_adc": -105.52483528768062,
+            "max_abs_offset_adc_5s_median": 117.58377870565528
+          }
+        },
+        "k12_v2_original": {
+          "window": {
+            "start_s": 17.339937072900458,
+            "end_s": 672.6074437209616,
+            "first_5s_median_adc": 28260.7522186016,
+            "last_5s_median_adc": 28868.88600107681,
+            "net_change_adc": 608.1337824752118,
+            "max_abs_offset_adc_5s_median": 608.1337824752118
+          },
+          "hold_candidate_events": {
+            "count": 2,
+            "events": [
+              {
+                "time_s": 159.3049073588699,
+                "delta_total_adc": -49.06083395893688
+              },
+              {
+                "time_s": 665.9261765894032,
+                "delta_total_adc": 58.55172888726715
+              }
+            ]
+          }
+        },
+        "k12_v2_rslow_0_3": {
+          "window": {
+            "start_s": 17.339937072900458,
+            "end_s": 672.6074437209616,
+            "first_5s_median_adc": 28258.79273831835,
+            "last_5s_median_adc": 28158.707622885686,
+            "net_change_adc": -100.08511543266286,
+            "max_abs_offset_adc_5s_median": 154.94622026542493
+          },
+          "hold_candidate_events": {
+            "count": 2,
+            "events": [
+              {
+                "time_s": 159.3049073588699,
+                "delta_total_adc": -49.06083395893688
+              },
+              {
+                "time_s": 665.9261765894032,
+                "delta_total_adc": 58.55172888726715
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "设备1/测试2-2026-10-13_16-43-59",
+      "kind": "constant_load",
+      "observed_fps": 100.42669020552529,
+      "frame_count": 31417,
+      "load_time_s": 3.6743220277879707,
+      "original_r_slow_max": 0.1,
+      "arms": {
+        "k9_original": {
+          "window": {
+            "start_s": 18.67432202778797,
+            "end_s": 312.8252054877693,
+            "first_5s_median_adc": 28267.16290402166,
+            "last_5s_median_adc": 28814.72793396994,
+            "net_change_adc": 547.5650299482804,
+            "max_abs_offset_adc_5s_median": 548.9448733193785
+          }
+        },
+        "k9_rslow_0_3": {
+          "window": {
+            "start_s": 18.67432202778797,
+            "end_s": 312.8252054877693,
+            "first_5s_median_adc": 28263.321766371497,
+            "last_5s_median_adc": 28300.097137609035,
+            "net_change_adc": 36.77537123753791,
+            "max_abs_offset_adc_5s_median": 49.803365374602436
+          }
+        },
+        "k12_v2_original": {
+          "window": {
+            "start_s": 18.67432202778797,
+            "end_s": 312.8252054877693,
+            "first_5s_median_adc": 28338.145421346613,
+            "last_5s_median_adc": 28827.66127963423,
+            "net_change_adc": 489.51585828761745,
+            "max_abs_offset_adc_5s_median": 490.88439027161076
+          },
+          "hold_candidate_events": {
+            "count": 3,
+            "events": [
+              {
+                "time_s": 37.65931140675909,
+                "delta_total_adc": -66.45300602387152
+              },
+              {
+                "time_s": 55.04512783092656,
+                "delta_total_adc": -46.28124464955379
+              },
+              {
+                "time_s": 106.644956416285,
+                "delta_total_adc": 49.64437438927272
+              }
+            ]
+          }
+        },
+        "k12_v2_rslow_0_3": {
+          "window": {
+            "start_s": 18.67432202778797,
+            "end_s": 312.8252054877693,
+            "first_5s_median_adc": 28338.09014397423,
+            "last_5s_median_adc": 28312.770196419337,
+            "net_change_adc": -25.319947554893588,
+            "max_abs_offset_adc_5s_median": 133.8900250128936
+          },
+          "hold_candidate_events": {
+            "count": 3,
+            "events": [
+              {
+                "time_s": 37.65931140675909,
+                "delta_total_adc": -66.45300602387152
+              },
+              {
+                "time_s": 55.04512783092656,
+                "delta_total_adc": -46.28124464955379
+              },
+              {
+                "time_s": 106.644956416285,
+                "delta_total_adc": 49.64437438927272
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "设备2/10g反复增减荷载-2026-10-13_17-05-32",
+      "kind": "ten_g",
+      "observed_fps": 100.46363995126288,
+      "frame_count": 5959,
+      "load_time_s": 1.6423852458466082,
+      "original_r_slow_max": 0.1,
+      "arms": {
+        "k9_original": {
+          "candidate_net_change_adc": 29.29996030928669
+        },
+        "k9_rslow_0_3": {
+          "candidate_net_change_adc": -37.75642240828165
+        },
+        "k12_v2_original": {
+          "candidate_net_change_adc": 116.7589198243113
+        },
+        "k12_v2_rslow_0_3": {
+          "candidate_net_change_adc": 103.62827826518333
+        }
+      }
+    },
+    {
+      "id": "设备2/测试1-2026-10-13_16-53-24",
+      "kind": "constant_load",
+      "observed_fps": 100.44474500725751,
+      "frame_count": 45532,
+      "load_time_s": 1.8816315376811803,
+      "original_r_slow_max": 0.1,
+      "arms": {
+        "k9_original": {
+          "window": {
+            "start_s": 16.88163153768118,
+            "end_s": 453.29399757757574,
+            "first_5s_median_adc": 25808.562994872293,
+            "last_5s_median_adc": 26801.89672096876,
+            "net_change_adc": 993.333726096469,
+            "max_abs_offset_adc_5s_median": 993.333726096469
+          }
+        },
+        "k9_rslow_0_3": {
+          "window": {
+            "start_s": 16.88163153768118,
+            "end_s": 453.29399757757574,
+            "first_5s_median_adc": 25775.21406695673,
+            "last_5s_median_adc": 26122.31659568503,
+            "net_change_adc": 347.10252872830097,
+            "max_abs_offset_adc_5s_median": 347.10252872830097
+          }
+        },
+        "k12_v2_original": {
+          "window": {
+            "start_s": 16.88163153768118,
+            "end_s": 453.29399757757574,
+            "first_5s_median_adc": 25808.562994872293,
+            "last_5s_median_adc": 26844.24415963134,
+            "net_change_adc": 1035.6811647590475,
+            "max_abs_offset_adc_5s_median": 1035.6811647590475
+          },
+          "hold_candidate_events": {
+            "count": 5,
+            "events": [
+              {
+                "time_s": 48.11600646356161,
+                "delta_total_adc": 48.035741949755455
+              },
+              {
+                "time_s": 217.21395179432798,
+                "delta_total_adc": 80.45054613914267
+              },
+              {
+                "time_s": 238.6386664455973,
+                "delta_total_adc": 60.47213585670349
+              },
+              {
+                "time_s": 269.27242433684063,
+                "delta_total_adc": 49.360843757314335
+              },
+              {
+                "time_s": 444.2840687860336,
+                "delta_total_adc": 52.6429884604331
+              }
+            ]
+          }
+        },
+        "k12_v2_rslow_0_3": {
+          "window": {
+            "start_s": 16.88163153768118,
+            "end_s": 453.29399757757574,
+            "first_5s_median_adc": 25775.21406695673,
+            "last_5s_median_adc": 26213.698337608505,
+            "net_change_adc": 438.48427065177384,
+            "max_abs_offset_adc_5s_median": 438.48427065177384
+          },
+          "hold_candidate_events": {
+            "count": 5,
+            "events": [
+              {
+                "time_s": 48.11600646356161,
+                "delta_total_adc": 48.035741949755455
+              },
+              {
+                "time_s": 217.21395179432798,
+                "delta_total_adc": 80.45054613914267
+              },
+              {
+                "time_s": 238.6386664455973,
+                "delta_total_adc": 60.47213585670349
+              },
+              {
+                "time_s": 269.27242433684063,
+                "delta_total_adc": 49.360843757314335
+              },
+              {
+                "time_s": 444.2840687860336,
+                "delta_total_adc": 52.6429884604331
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "id": "设备2/测试2-2026-10-13_17-01-06",
+      "kind": "constant_load",
+      "observed_fps": 100.45319562668449,
+      "frame_count": 25293,
+      "load_time_s": 1.9611123247100435,
+      "original_r_slow_max": 0.1,
+      "arms": {
+        "k9_original": {
+          "window": {
+            "start_s": 16.961112324710044,
+            "end_s": 251.778948815058,
+            "first_5s_median_adc": 27282.44398756704,
+            "last_5s_median_adc": 27378.64557398746,
+            "net_change_adc": 96.20158642041861,
+            "max_abs_offset_adc_5s_median": 120.18017686154053
+          }
+        },
+        "k9_rslow_0_3": {
+          "window": {
+            "start_s": 16.961112324710044,
+            "end_s": 251.778948815058,
+            "first_5s_median_adc": 27260.909430730735,
+            "last_5s_median_adc": 27141.766647067583,
+            "net_change_adc": -119.14278366315193,
+            "max_abs_offset_adc_5s_median": 168.83924990262312
+          }
+        },
+        "k12_v2_original": {
+          "window": {
+            "start_s": 16.961112324710044,
+            "end_s": 251.778948815058,
+            "first_5s_median_adc": 27282.44398756704,
+            "last_5s_median_adc": 27475.334266127134,
+            "net_change_adc": 192.89027856009488,
+            "max_abs_offset_adc_5s_median": 200.2580150236754
+          },
+          "hold_candidate_events": {
+            "count": 4,
+            "events": [
+              {
+                "time_s": 183.29929560855854,
+                "delta_total_adc": -53.34873145340361
+              },
+              {
+                "time_s": 204.6525237126349,
+                "delta_total_adc": 69.06745254979691
+              },
+              {
+                "time_s": 240.27110187411986,
+                "delta_total_adc": 65.92986970915226
+              },
+              {
+                "time_s": 250.03684395808204,
+                "delta_total_adc": 56.4698728480234
+              }
+            ]
+          }
+        },
+        "k12_v2_rslow_0_3": {
+          "window": {
+            "start_s": 16.961112324710044,
+            "end_s": 251.778948815058,
+            "first_5s_median_adc": 27260.909430730735,
+            "last_5s_median_adc": 27263.378589068572,
+            "net_change_adc": 2.4691583378371433,
+            "max_abs_offset_adc_5s_median": 168.83924990262312
+          },
+          "hold_candidate_events": {
+            "count": 4,
+            "events": [
+              {
+                "time_s": 183.29929560855854,
+                "delta_total_adc": -53.34873145340361
+              },
+              {
+                "time_s": 204.6525237126349,
+                "delta_total_adc": 69.06745254979691
+              },
+              {
+                "time_s": 240.27110187411986,
+                "delta_total_adc": 65.92986970915226
+              },
+              {
+                "time_s": 250.03684395808204,
+                "delta_total_adc": 56.4698728480234
+              }
+            ]
+          }
+        }
+      }
+    }
+  ],
+  "injection": {
+    "recording": "设备1/测试2-2026-10-13_16-43-59",
+    "start_s": 33.67432202778797,
+    "end_s": 48.67432202778797,
+    "amplitude_total_adc": 100.0,
+    "channel_count": 57,
+    "injected_frames": 1507,
+    "arms": {
+      "k9_original": {
+        "hold_last_5s_delta_adc": 36.131674156138615,
+        "hold_retention_fraction": 0.36131674156138616,
+        "withdrawal_first_5s_delta_adc": 4.711503184784306,
+        "withdrawal_residual_fraction": 0.047115031847843054
+      },
+      "k9_rslow_0_3": {
+        "hold_last_5s_delta_adc": 21.771227219245702,
+        "hold_retention_fraction": 0.21771227219245703,
+        "withdrawal_first_5s_delta_adc": -7.181645615695743,
+        "withdrawal_residual_fraction": -0.07181645615695743
+      },
+      "k12_v2_original": {
+        "hold_last_5s_delta_adc": 82.40879080696686,
+        "hold_retention_fraction": 0.8240879080696686,
+        "withdrawal_first_5s_delta_adc": -9.257760270202198,
+        "withdrawal_residual_fraction": -0.09257760270202198,
+        "injected_candidate_events": {
+          "count": 3,
+          "events": [
+            {
+              "time_s": 34.18413962437968,
+              "delta_total_adc": 75.51940853239618
+            },
+            {
+              "time_s": 37.60952384540695,
+              "delta_total_adc": -70.32628442704836
+            },
+            {
+              "time_s": 49.18015310364441,
+              "delta_total_adc": -91.8986178683193
+            }
+          ]
+        }
+      },
+      "k12_v2_rslow_0_3": {
+        "hold_last_5s_delta_adc": 76.16691268790964,
+        "hold_retention_fraction": 0.7616691268790965,
+        "withdrawal_first_5s_delta_adc": -15.048140490569494,
+        "withdrawal_residual_fraction": -0.15048140490569495,
+        "injected_candidate_events": {
+          "count": 3,
+          "events": [
+            {
+              "time_s": 34.18413962437968,
+              "delta_total_adc": 75.51940853239618
+            },
+            {
+              "time_s": 37.60952384540695,
+              "delta_total_adc": -70.32628442704836
+            },
+            {
+              "time_s": 49.18015310364441,
+              "delta_total_adc": -91.8986178683193
+            }
+          ]
+        }
+      }
+    }
+  },
+  "verdict": {
+    "combination_candidate_failed": true,
+    "worsened_vs_k12_recordings": [],
+    "over_300_adc_max_offset_recordings": [
+      "设备2/测试1-2026-10-13_16-53-24"
+    ],
+    "constant_load_with_unverified_k12_candidates": [
+      "设备1/测试1-2026-10-13_16-32-15",
+      "设备1/测试2-2026-10-13_16-43-59",
+      "设备2/测试1-2026-10-13_16-53-24",
+      "设备2/测试2-2026-10-13_17-01-06"
+    ],
+    "injection_retention_or_withdrawal_worse_than_k12": true,
+    "rule": "candidate fails on any K12 comparison regression, >300 ADC max offset, unverified K12 constant-load candidate, or paired-injection hold/withdrawal regression; no actual 10g detection claim"
+  }
+}

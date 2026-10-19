@@ -1,0 +1,1391 @@
+{
+    "algorithm": {
+        "enabled": true,
+        "id": "drift_k10_creep_observer",
+        "label": "时漂/零漂补偿（K10 观测器）",
+        "main_stream_role": "algorithm_result",
+        "params": {
+            "bypass_base_tau_s": 10,
+            "bypass_engage_frac": 1.25,
+            "bypass_noise_sigma": 3,
+            "bypass_release_frac": 1.15,
+            "edge_boost_s": 2,
+            "edge_refract_s": 2,
+            "edge_slope_thres": 60,
+            "guard_enable": 1,
+            "guard_floor_confirm_s": 0.5,
+            "guard_floor_deep": 200,
+            "guard_idle_confirm_s": 0.3,
+            "hold_eps": 2,
+            "hold_tau_s": 0.5,
+            "idle_frac": 0.05,
+            "param_set": "plan-v4 observer-k9 + K10 transient guard",
+            "r_fast": 0.02,
+            "r_slow_max": 0.2,
+            "ramp_full_s": 4,
+            "ramp_slope_min": 0.5,
+            "slope_cap_frac": 0.009,
+            "slope_gate_frac": 0.05,
+            "slow_confirm_s": 1.5,
+            "soft_unfreeze_s": 1.5,
+            "tau_c_fast_boost_s": 2,
+            "tau_c_fast_s": 1,
+            "tau_r_fast_s": 2,
+            "tau_r_slow_idle_s": 0.5,
+            "tau_r_slow_s": 150,
+            "tau_slope_s": 1,
+            "tau_zero_s": 8,
+            "y_floor_tau_s": 300,
+            "y_max_tau_s": 600
+        },
+        "split_streams": true
+    },
+    "app_version": "LTS v2.0.0 · Alpha v1.0.19 (2026-10-15)",
+    "calibration": {
+        "display_force_unit": "N",
+        "display_mode": "adc",
+        "display_pressure_unit": "KPa",
+        "force_conversion_active": false,
+        "params": {
+        },
+        "reported_force_unit": "mN",
+        "reported_pressure_unit": "KPa",
+        "value_stage": "algorithm_result"
+    },
+    "completed_at": "2026-10-15T16:16:45",
+    "created_at": "2026-10-15T16:05:03",
+    "data_domain_changes": [
+        {
+            "device_id": "",
+            "reason": "session_start",
+            "timestamp": 0,
+            "value_domain": "raw_adc",
+            "value_source": "display_pipeline"
+        }
+    ],
+    "device_force_mapping": {
+        "adc_domain_algorithms": {
+            "crosstalk": "display_only",
+            "drift": "adc_domain_before_mapping"
+        },
+        "adc_domain_drift_scheduled": true,
+        "adc_domain_drift_snapshot_note": "会话级快照：只表示录制开始时上述条件是否成立（unknown = 调用方未提供该事实），不代表任何单帧是否真的跑过算法；逐帧事实见数据层 [adc-domain-drift] 日志",
+        "host_mapping_enabled": true,
+        "host_mapping_input": "adc_domain_drift_output_when_branch_active_else_raw_adc",
+        "host_mapping_input_note": "分支生效（该 target 有绑定 + 会话开始时算法工作台档位非「不使用」+ 非回放）时，映射输入是 ADC 域算法输出；否则是设备原始 ADC（两种情况都不减全局零偏）",
+        "processing_order": [
+            "raw_adc",
+            "adc_domain_drift",
+            "host_adc_to_force_mn",
+            "host_total_force_curve",
+            "display_unit_conversion",
+            "display_threshold",
+            "display_algorithm_when_unbound"
+        ],
+        "processing_order_notes": {
+            "adc_domain_drift": "仅当该 target 有生效的本机映射绑定、算法工作台档位非「不使用」且非回放时运行，在映射之前的原始 ADC 域整帧只跑一次；条件不满足时该环节跳过，显示域算法随后照常运行",
+            "display_algorithm_when_unbound": "ADC 域分支生效时同一帧的时漂族算法不再作用于显示值（一个域只跑一次）；分支未生效（无绑定 / 档位为「不使用」/ 回放）时按既有显示域链路运行",
+            "host_adc_to_force_mn": "映射输入是原始 ADC（或 ADC 域算法输出）：全帧求和查曲线得总力，再按各点 ADC 占比分摊成逐点力；逐点力与曲线总力是同一次计算的两种产出",
+            "host_total_force_curve": "曲线总力来自同一张「总 ADC→力」曲线，不经逐点分摊的整除截断；总力显示位与波形取它，逐点视图取分摊后的逐点力"
+        },
+        "targets": [
+            {
+                "adc_domain_drift_allowed": true,
+                "adc_domain_drift_scheduled": true,
+                "applied_at_us": 1792051480964000,
+                "bind_sequence": 1,
+                "cell_count": 71,
+                "device_point_count": 71,
+                "device_side_algorithm_off_confirmed": true,
+                "device_sn": "",
+                "force_display_at_session_start": false,
+                "generation": 1,
+                "main_stream_carries_display": true,
+                "mapping_mode": "per_cell",
+                "mapping_scope": "firmware_unified",
+                "pointwise_force_recorded": true,
+                "recorded_pointwise_force_source": "force_pipeline_stream",
+                "sn_verified": false,
+                "source_fingerprint": "b55e3f5d757b76a17b0fa38c8ff79a722654b0f309602a2b5e898211f5b8c837",
+                "target_id": "serial-device:usb:VID_067B:PID_23A3:sn:EPBGB111216",
+                "total_force_output": "signal_and_frame_mapping + forcetotal_stream",
+                "total_force_recorded": true
+            }
+        ]
+    },
+    "devices": [
+        {
+            "active_data_points": 71,
+            "active_from": -1,
+            "active_to": -1,
+            "algorithm_input_file": "device_001_pre_seg0.csv",
+            "algorithm_result_file": "device_001_seg000.csv",
+            "alias": "",
+            "cols": 8,
+            "columns": [
+                {
+                    "channel_id": -1,
+                    "data_index": -1,
+                    "name": "timestamp",
+                    "role": "timestamp",
+                    "unit": "s"
+                },
+                {
+                    "channel_id": -1,
+                    "data_index": -1,
+                    "name": "elapsed",
+                    "role": "elapsed",
+                    "unit": "s"
+                },
+                {
+                    "channel_id": -1,
+                    "data_index": -1,
+                    "name": "frame_index",
+                    "role": "frame_index",
+                    "unit": ""
+                },
+                {
+                    "channel_id": 0,
+                    "data_index": 0,
+                    "name": "ch0",
+                    "role": "channel",
+                    "unit": ""
+                },
+                {
+                    "channel_id": 1,
+                    "data_index": 1,
+                    "name": "ch1",
+                    "role": "channel",
+                    "unit": ""
+                },
+                {
+                    "channel_id": 2,
+                    "data_index": 2,
+                    "name": "ch2",
+                    "role": "channel",
+                    "unit": ""
+                },
+                {
+                    "channel_id": 3,
+                    "data_index": 3,
+                    "name": "ch3",
+                    "role": "channel",
+                    "unit": ""
+                },
+                {
+                    "channel_id": 4,
+                    "data_index": 4,
+                    "name": "ch4",
+                    "role": "channel",
+                    "unit": ""
+                },
+                {
+                    "channel_id": 5,
+                    "data_index": 5,
+                    "name": "ch5",
+                    "role": "channel",
+                    "unit": ""
+                },
+                {
+                    "channel_id": 6,
+                    "data_index": 6,
+                    "name": "ch6",
+                    "role": "channel",
+                    "unit": ""
+                },
+                {
+                    "channel_id": 7,
+                    "data_index": 7,
+                    "name": "ch7",
+                    "role": "channel",
+                    "unit": ""
+                },
+                {
+                    "channel_id": 8,
+                    "data_index": 8,
+                    "name": "ch8",
+                    "role": "channel",
+                    "unit": ""
+                },
+                {
+                    "channel_id": 9,
+                    "data_index": 9,
+                    "name": "ch9",
+                    "role": "channel",
+                    "unit": ""
+                },
+                {
+                    "channel_id": 10,
+                    "data_index": 10,
+                    "name": "ch10",
+                    "role": "channel",
+                    "unit": ""
+                },
+                {
+                    "channel_id": 11,
+                    "data_index": 11,
+                    "name": "ch11",
+                    "role": "channel",
+                    "unit": ""
+                },
+                {
+                    "channel_id": 12,
+                    "data_index": 12,
+                    "name": "ch12",
+                    "role": "channel",
+                    "unit": ""
+                },
+                {
+                    "channel_id": 13,
+                    "data_index": 13,
+                    "name": "ch13",
+                    "role": "channel",
+                    "unit": ""
+                },
+                {
+                    "channel_id": 14,
+                    "data_index": 14,
+                    "name": "ch14",
+                    "role": "channel",
+                    "unit": ""
+                },
+                {
+                    "channel_id": 15,
+                    "data_index": 15,
+                    "name": "ch15",
+                    "role": "channel",
+                    "unit": ""
+                },
+                {
+                    "channel_id": 16,
+                    "data_index": 16,
+                    "name": "ch16",
+                    "role": "channel",
+                    "unit": ""
+                },
+                {
+                    "channel_id": 17,
+                    "data_index": 17,
+                    "name": "ch17",
+                    "role": "channel",
+                    "unit": ""
+                },
+                {
+                    "channel_id": 18,
+                    "data_index": 18,
+                    "name": "ch18",
+                    "role": "channel",
+                    "unit": ""
+                },
+                {
+                    "channel_id": 19,
+                    "data_index": 19,
+                    "name": "ch19",
+                    "role": "channel",
+                    "unit": ""
+                },
+                {
+                    "channel_id": 20,
+                    "data_index": 20,
+                    "name": "ch20",
+                    "role": "channel",
+                    "unit": ""
+                },
+                {
+                    "channel_id": 21,
+                    "data_index": 21,
+                    "name": "ch21",
+                    "role": "channel",
+                    "unit": ""
+                },
+                {
+                    "channel_id": 22,
+                    "data_index": 22,
+                    "name": "ch22",
+                    "role": "channel",
+                    "unit": ""
+                },
+                {
+                    "channel_id": 23,
+                    "data_index": 23,
+                    "name": "ch23",
+                    "role": "channel",
+                    "unit": ""
+                },
+                {
+                    "channel_id": 24,
+                    "data_index": 24,
+                    "name": "ch24",
+                    "role": "channel",
+                    "unit": ""
+                },
+                {
+                    "channel_id": 25,
+                    "data_index": 25,
+                    "name": "ch25",
+                    "role": "channel",
+                    "unit": ""
+                },
+                {
+                    "channel_id": 26,
+                    "data_index": 26,
+                    "name": "ch26",
+                    "role": "channel",
+                    "unit": ""
+                },
+                {
+                    "channel_id": 27,
+                    "data_index": 27,
+                    "name": "ch27",
+                    "role": "channel",
+                    "unit": ""
+                },
+                {
+                    "channel_id": 28,
+                    "data_index": 28,
+                    "name": "ch28",
+                    "role": "channel",
+                    "unit": ""
+                },
+                {
+                    "channel_id": 29,
+                    "data_index": 29,
+                    "name": "ch29",
+                    "role": "channel",
+                    "unit": ""
+                },
+                {
+                    "channel_id": 30,
+                    "data_index": 30,
+                    "name": "ch30",
+                    "role": "channel",
+                    "unit": ""
+                },
+                {
+                    "channel_id": 31,
+                    "data_index": 31,
+                    "name": "ch31",
+                    "role": "channel",
+                    "unit": ""
+                },
+                {
+                    "channel_id": 32,
+                    "data_index": 32,
+                    "name": "ch32",
+                    "role": "channel",
+                    "unit": ""
+                },
+                {
+                    "channel_id": 33,
+                    "data_index": 33,
+                    "name": "ch33",
+                    "role": "channel",
+                    "unit": ""
+                },
+                {
+                    "channel_id": 34,
+                    "data_index": 34,
+                    "name": "ch34",
+                    "role": "channel",
+                    "unit": ""
+                },
+                {
+                    "channel_id": 35,
+                    "data_index": 35,
+                    "name": "ch35",
+                    "role": "channel",
+                    "unit": ""
+                },
+                {
+                    "channel_id": 36,
+                    "data_index": 36,
+                    "name": "ch36",
+                    "role": "channel",
+                    "unit": ""
+                },
+                {
+                    "channel_id": 37,
+                    "data_index": 37,
+                    "name": "ch37",
+                    "role": "channel",
+                    "unit": ""
+                },
+                {
+                    "channel_id": 38,
+                    "data_index": 38,
+                    "name": "ch38",
+                    "role": "channel",
+                    "unit": ""
+                },
+                {
+                    "channel_id": 39,
+                    "data_index": 39,
+                    "name": "ch39",
+                    "role": "channel",
+                    "unit": ""
+                },
+                {
+                    "channel_id": 40,
+                    "data_index": 40,
+                    "name": "ch40",
+                    "role": "channel",
+                    "unit": ""
+                },
+                {
+                    "channel_id": 41,
+                    "data_index": 41,
+                    "name": "ch41",
+                    "role": "channel",
+                    "unit": ""
+                },
+                {
+                    "channel_id": 42,
+                    "data_index": 42,
+                    "name": "ch42",
+                    "role": "channel",
+                    "unit": ""
+                },
+                {
+                    "channel_id": 43,
+                    "data_index": 43,
+                    "name": "ch43",
+                    "role": "channel",
+                    "unit": ""
+                },
+                {
+                    "channel_id": 44,
+                    "data_index": 44,
+                    "name": "ch44",
+                    "role": "channel",
+                    "unit": ""
+                },
+                {
+                    "channel_id": 45,
+                    "data_index": 45,
+                    "name": "ch45",
+                    "role": "channel",
+                    "unit": ""
+                },
+                {
+                    "channel_id": 46,
+                    "data_index": 46,
+                    "name": "ch46",
+                    "role": "channel",
+                    "unit": ""
+                },
+                {
+                    "channel_id": 47,
+                    "data_index": 47,
+                    "name": "ch47",
+                    "role": "channel",
+                    "unit": ""
+                },
+                {
+                    "channel_id": 48,
+                    "data_index": 48,
+                    "name": "ch48",
+                    "role": "channel",
+                    "unit": ""
+                },
+                {
+                    "channel_id": 49,
+                    "data_index": 49,
+                    "name": "ch49",
+                    "role": "channel",
+                    "unit": ""
+                },
+                {
+                    "channel_id": 50,
+                    "data_index": 50,
+                    "name": "ch50",
+                    "role": "channel",
+                    "unit": ""
+                },
+                {
+                    "channel_id": 51,
+                    "data_index": 51,
+                    "name": "ch51",
+                    "role": "channel",
+                    "unit": ""
+                },
+                {
+                    "channel_id": 52,
+                    "data_index": 52,
+                    "name": "ch52",
+                    "role": "channel",
+                    "unit": ""
+                },
+                {
+                    "channel_id": 53,
+                    "data_index": 53,
+                    "name": "ch53",
+                    "role": "channel",
+                    "unit": ""
+                },
+                {
+                    "channel_id": 54,
+                    "data_index": 54,
+                    "name": "ch54",
+                    "role": "channel",
+                    "unit": ""
+                },
+                {
+                    "channel_id": 55,
+                    "data_index": 55,
+                    "name": "ch55",
+                    "role": "channel",
+                    "unit": ""
+                },
+                {
+                    "channel_id": 56,
+                    "data_index": 56,
+                    "name": "ch56",
+                    "role": "channel",
+                    "unit": ""
+                },
+                {
+                    "channel_id": 57,
+                    "data_index": 57,
+                    "name": "ch57",
+                    "role": "channel",
+                    "unit": ""
+                },
+                {
+                    "channel_id": 58,
+                    "data_index": 58,
+                    "name": "ch58",
+                    "role": "channel",
+                    "unit": ""
+                },
+                {
+                    "channel_id": 59,
+                    "data_index": 59,
+                    "name": "ch59",
+                    "role": "channel",
+                    "unit": ""
+                },
+                {
+                    "channel_id": 60,
+                    "data_index": 60,
+                    "name": "ch60",
+                    "role": "channel",
+                    "unit": ""
+                },
+                {
+                    "channel_id": 61,
+                    "data_index": 61,
+                    "name": "ch61",
+                    "role": "channel",
+                    "unit": ""
+                },
+                {
+                    "channel_id": 62,
+                    "data_index": 62,
+                    "name": "ch62",
+                    "role": "channel",
+                    "unit": ""
+                },
+                {
+                    "channel_id": 63,
+                    "data_index": 63,
+                    "name": "ch63",
+                    "role": "channel",
+                    "unit": ""
+                },
+                {
+                    "channel_id": 64,
+                    "data_index": 64,
+                    "name": "ch64",
+                    "role": "channel",
+                    "unit": ""
+                },
+                {
+                    "channel_id": 65,
+                    "data_index": 65,
+                    "name": "ch65",
+                    "role": "channel",
+                    "unit": ""
+                },
+                {
+                    "channel_id": 66,
+                    "data_index": 66,
+                    "name": "ch66",
+                    "role": "channel",
+                    "unit": ""
+                },
+                {
+                    "channel_id": 67,
+                    "data_index": 67,
+                    "name": "ch67",
+                    "role": "channel",
+                    "unit": ""
+                },
+                {
+                    "channel_id": 68,
+                    "data_index": 68,
+                    "name": "ch68",
+                    "role": "channel",
+                    "unit": ""
+                },
+                {
+                    "channel_id": 69,
+                    "data_index": 69,
+                    "name": "ch69",
+                    "role": "channel",
+                    "unit": ""
+                },
+                {
+                    "channel_id": 70,
+                    "data_index": 70,
+                    "name": "ch70",
+                    "role": "channel",
+                    "unit": ""
+                }
+            ],
+            "data_file": "device_001_seg000.csv",
+            "data_points": 71,
+            "device_id": "device_001",
+            "first_timestamp": 48764.9940192,
+            "force_algorithm_adc_file": "device_001_algoadc_seg0.csv",
+            "force_mapped_force_file": "device_001_mapforce_algo_seg0.csv",
+            "force_mapped_raw_force_file": "device_001_mapforce_raw_seg0.csv",
+            "force_total_force_file": "device_001_forcetotal_seg0.csv",
+            "frame_count": 70526,
+            "last_timestamp": 49467.379584,
+            "layout_mask": "011100001111000011110000111100001111000011110000111111111111111111111111111111111111111111111111",
+            "layout_profile": {
+            },
+            "mirror": "none",
+            "observed_fps": 100.40923893429044,
+            "port_name": "",
+            "raw_columns": [
+                {
+                    "channel_id": -1,
+                    "data_index": -1,
+                    "name": "timestamp",
+                    "role": "timestamp",
+                    "unit": "s"
+                },
+                {
+                    "channel_id": -1,
+                    "data_index": -1,
+                    "name": "elapsed",
+                    "role": "elapsed",
+                    "unit": "s"
+                },
+                {
+                    "channel_id": -1,
+                    "data_index": -1,
+                    "name": "frame_index",
+                    "role": "frame_index",
+                    "unit": ""
+                },
+                {
+                    "channel_id": 0,
+                    "data_index": 0,
+                    "name": "raw_ch0",
+                    "role": "raw_channel",
+                    "unit": "adc"
+                },
+                {
+                    "channel_id": 1,
+                    "data_index": 1,
+                    "name": "raw_ch1",
+                    "role": "raw_channel",
+                    "unit": "adc"
+                },
+                {
+                    "channel_id": 2,
+                    "data_index": 2,
+                    "name": "raw_ch2",
+                    "role": "raw_channel",
+                    "unit": "adc"
+                },
+                {
+                    "channel_id": 3,
+                    "data_index": 3,
+                    "name": "raw_ch3",
+                    "role": "raw_channel",
+                    "unit": "adc"
+                },
+                {
+                    "channel_id": 4,
+                    "data_index": 4,
+                    "name": "raw_ch4",
+                    "role": "raw_channel",
+                    "unit": "adc"
+                },
+                {
+                    "channel_id": 5,
+                    "data_index": 5,
+                    "name": "raw_ch5",
+                    "role": "raw_channel",
+                    "unit": "adc"
+                },
+                {
+                    "channel_id": 6,
+                    "data_index": 6,
+                    "name": "raw_ch6",
+                    "role": "raw_channel",
+                    "unit": "adc"
+                },
+                {
+                    "channel_id": 7,
+                    "data_index": 7,
+                    "name": "raw_ch7",
+                    "role": "raw_channel",
+                    "unit": "adc"
+                },
+                {
+                    "channel_id": 8,
+                    "data_index": 8,
+                    "name": "raw_ch8",
+                    "role": "raw_channel",
+                    "unit": "adc"
+                },
+                {
+                    "channel_id": 9,
+                    "data_index": 9,
+                    "name": "raw_ch9",
+                    "role": "raw_channel",
+                    "unit": "adc"
+                },
+                {
+                    "channel_id": 10,
+                    "data_index": 10,
+                    "name": "raw_ch10",
+                    "role": "raw_channel",
+                    "unit": "adc"
+                },
+                {
+                    "channel_id": 11,
+                    "data_index": 11,
+                    "name": "raw_ch11",
+                    "role": "raw_channel",
+                    "unit": "adc"
+                },
+                {
+                    "channel_id": 12,
+                    "data_index": 12,
+                    "name": "raw_ch12",
+                    "role": "raw_channel",
+                    "unit": "adc"
+                },
+                {
+                    "channel_id": 13,
+                    "data_index": 13,
+                    "name": "raw_ch13",
+                    "role": "raw_channel",
+                    "unit": "adc"
+                },
+                {
+                    "channel_id": 14,
+                    "data_index": 14,
+                    "name": "raw_ch14",
+                    "role": "raw_channel",
+                    "unit": "adc"
+                },
+                {
+                    "channel_id": 15,
+                    "data_index": 15,
+                    "name": "raw_ch15",
+                    "role": "raw_channel",
+                    "unit": "adc"
+                },
+                {
+                    "channel_id": 16,
+                    "data_index": 16,
+                    "name": "raw_ch16",
+                    "role": "raw_channel",
+                    "unit": "adc"
+                },
+                {
+                    "channel_id": 17,
+                    "data_index": 17,
+                    "name": "raw_ch17",
+                    "role": "raw_channel",
+                    "unit": "adc"
+                },
+                {
+                    "channel_id": 18,
+                    "data_index": 18,
+                    "name": "raw_ch18",
+                    "role": "raw_channel",
+                    "unit": "adc"
+                },
+                {
+                    "channel_id": 19,
+                    "data_index": 19,
+                    "name": "raw_ch19",
+                    "role": "raw_channel",
+                    "unit": "adc"
+                },
+                {
+                    "channel_id": 20,
+                    "data_index": 20,
+                    "name": "raw_ch20",
+                    "role": "raw_channel",
+                    "unit": "adc"
+                },
+                {
+                    "channel_id": 21,
+                    "data_index": 21,
+                    "name": "raw_ch21",
+                    "role": "raw_channel",
+                    "unit": "adc"
+                },
+                {
+                    "channel_id": 22,
+                    "data_index": 22,
+                    "name": "raw_ch22",
+                    "role": "raw_channel",
+                    "unit": "adc"
+                },
+                {
+                    "channel_id": 23,
+                    "data_index": 23,
+                    "name": "raw_ch23",
+                    "role": "raw_channel",
+                    "unit": "adc"
+                },
+                {
+                    "channel_id": 24,
+                    "data_index": 24,
+                    "name": "raw_ch24",
+                    "role": "raw_channel",
+                    "unit": "adc"
+                },
+                {
+                    "channel_id": 25,
+                    "data_index": 25,
+                    "name": "raw_ch25",
+                    "role": "raw_channel",
+                    "unit": "adc"
+                },
+                {
+                    "channel_id": 26,
+                    "data_index": 26,
+                    "name": "raw_ch26",
+                    "role": "raw_channel",
+                    "unit": "adc"
+                },
+                {
+                    "channel_id": 27,
+                    "data_index": 27,
+                    "name": "raw_ch27",
+                    "role": "raw_channel",
+                    "unit": "adc"
+                },
+                {
+                    "channel_id": 28,
+                    "data_index": 28,
+                    "name": "raw_ch28",
+                    "role": "raw_channel",
+                    "unit": "adc"
+                },
+                {
+                    "channel_id": 29,
+                    "data_index": 29,
+                    "name": "raw_ch29",
+                    "role": "raw_channel",
+                    "unit": "adc"
+                },
+                {
+                    "channel_id": 30,
+                    "data_index": 30,
+                    "name": "raw_ch30",
+                    "role": "raw_channel",
+                    "unit": "adc"
+                },
+                {
+                    "channel_id": 31,
+                    "data_index": 31,
+                    "name": "raw_ch31",
+                    "role": "raw_channel",
+                    "unit": "adc"
+                },
+                {
+                    "channel_id": 32,
+                    "data_index": 32,
+                    "name": "raw_ch32",
+                    "role": "raw_channel",
+                    "unit": "adc"
+                },
+                {
+                    "channel_id": 33,
+                    "data_index": 33,
+                    "name": "raw_ch33",
+                    "role": "raw_channel",
+                    "unit": "adc"
+                },
+                {
+                    "channel_id": 34,
+                    "data_index": 34,
+                    "name": "raw_ch34",
+                    "role": "raw_channel",
+                    "unit": "adc"
+                },
+                {
+                    "channel_id": 35,
+                    "data_index": 35,
+                    "name": "raw_ch35",
+                    "role": "raw_channel",
+                    "unit": "adc"
+                },
+                {
+                    "channel_id": 36,
+                    "data_index": 36,
+                    "name": "raw_ch36",
+                    "role": "raw_channel",
+                    "unit": "adc"
+                },
+                {
+                    "channel_id": 37,
+                    "data_index": 37,
+                    "name": "raw_ch37",
+                    "role": "raw_channel",
+                    "unit": "adc"
+                },
+                {
+                    "channel_id": 38,
+                    "data_index": 38,
+                    "name": "raw_ch38",
+                    "role": "raw_channel",
+                    "unit": "adc"
+                },
+                {
+                    "channel_id": 39,
+                    "data_index": 39,
+                    "name": "raw_ch39",
+                    "role": "raw_channel",
+                    "unit": "adc"
+                },
+                {
+                    "channel_id": 40,
+                    "data_index": 40,
+                    "name": "raw_ch40",
+                    "role": "raw_channel",
+                    "unit": "adc"
+                },
+                {
+                    "channel_id": 41,
+                    "data_index": 41,
+                    "name": "raw_ch41",
+                    "role": "raw_channel",
+                    "unit": "adc"
+                },
+                {
+                    "channel_id": 42,
+                    "data_index": 42,
+                    "name": "raw_ch42",
+                    "role": "raw_channel",
+                    "unit": "adc"
+                },
+                {
+                    "channel_id": 43,
+                    "data_index": 43,
+                    "name": "raw_ch43",
+                    "role": "raw_channel",
+                    "unit": "adc"
+                },
+                {
+                    "channel_id": 44,
+                    "data_index": 44,
+                    "name": "raw_ch44",
+                    "role": "raw_channel",
+                    "unit": "adc"
+                },
+                {
+                    "channel_id": 45,
+                    "data_index": 45,
+                    "name": "raw_ch45",
+                    "role": "raw_channel",
+                    "unit": "adc"
+                },
+                {
+                    "channel_id": 46,
+                    "data_index": 46,
+                    "name": "raw_ch46",
+                    "role": "raw_channel",
+                    "unit": "adc"
+                },
+                {
+                    "channel_id": 47,
+                    "data_index": 47,
+                    "name": "raw_ch47",
+                    "role": "raw_channel",
+                    "unit": "adc"
+                },
+                {
+                    "channel_id": 48,
+                    "data_index": 48,
+                    "name": "raw_ch48",
+                    "role": "raw_channel",
+                    "unit": "adc"
+                },
+                {
+                    "channel_id": 49,
+                    "data_index": 49,
+                    "name": "raw_ch49",
+                    "role": "raw_channel",
+                    "unit": "adc"
+                },
+                {
+                    "channel_id": 50,
+                    "data_index": 50,
+                    "name": "raw_ch50",
+                    "role": "raw_channel",
+                    "unit": "adc"
+                },
+                {
+                    "channel_id": 51,
+                    "data_index": 51,
+                    "name": "raw_ch51",
+                    "role": "raw_channel",
+                    "unit": "adc"
+                },
+                {
+                    "channel_id": 52,
+                    "data_index": 52,
+                    "name": "raw_ch52",
+                    "role": "raw_channel",
+                    "unit": "adc"
+                },
+                {
+                    "channel_id": 53,
+                    "data_index": 53,
+                    "name": "raw_ch53",
+                    "role": "raw_channel",
+                    "unit": "adc"
+                },
+                {
+                    "channel_id": 54,
+                    "data_index": 54,
+                    "name": "raw_ch54",
+                    "role": "raw_channel",
+                    "unit": "adc"
+                },
+                {
+                    "channel_id": 55,
+                    "data_index": 55,
+                    "name": "raw_ch55",
+                    "role": "raw_channel",
+                    "unit": "adc"
+                },
+                {
+                    "channel_id": 56,
+                    "data_index": 56,
+                    "name": "raw_ch56",
+                    "role": "raw_channel",
+                    "unit": "adc"
+                },
+                {
+                    "channel_id": 57,
+                    "data_index": 57,
+                    "name": "raw_ch57",
+                    "role": "raw_channel",
+                    "unit": "adc"
+                },
+                {
+                    "channel_id": 58,
+                    "data_index": 58,
+                    "name": "raw_ch58",
+                    "role": "raw_channel",
+                    "unit": "adc"
+                },
+                {
+                    "channel_id": 59,
+                    "data_index": 59,
+                    "name": "raw_ch59",
+                    "role": "raw_channel",
+                    "unit": "adc"
+                },
+                {
+                    "channel_id": 60,
+                    "data_index": 60,
+                    "name": "raw_ch60",
+                    "role": "raw_channel",
+                    "unit": "adc"
+                },
+                {
+                    "channel_id": 61,
+                    "data_index": 61,
+                    "name": "raw_ch61",
+                    "role": "raw_channel",
+                    "unit": "adc"
+                },
+                {
+                    "channel_id": 62,
+                    "data_index": 62,
+                    "name": "raw_ch62",
+                    "role": "raw_channel",
+                    "unit": "adc"
+                },
+                {
+                    "channel_id": 63,
+                    "data_index": 63,
+                    "name": "raw_ch63",
+                    "role": "raw_channel",
+                    "unit": "adc"
+                },
+                {
+                    "channel_id": 64,
+                    "data_index": 64,
+                    "name": "raw_ch64",
+                    "role": "raw_channel",
+                    "unit": "adc"
+                },
+                {
+                    "channel_id": 65,
+                    "data_index": 65,
+                    "name": "raw_ch65",
+                    "role": "raw_channel",
+                    "unit": "adc"
+                },
+                {
+                    "channel_id": 66,
+                    "data_index": 66,
+                    "name": "raw_ch66",
+                    "role": "raw_channel",
+                    "unit": "adc"
+                },
+                {
+                    "channel_id": 67,
+                    "data_index": 67,
+                    "name": "raw_ch67",
+                    "role": "raw_channel",
+                    "unit": "adc"
+                },
+                {
+                    "channel_id": 68,
+                    "data_index": 68,
+                    "name": "raw_ch68",
+                    "role": "raw_channel",
+                    "unit": "adc"
+                },
+                {
+                    "channel_id": 69,
+                    "data_index": 69,
+                    "name": "raw_ch69",
+                    "role": "raw_channel",
+                    "unit": "adc"
+                },
+                {
+                    "channel_id": 70,
+                    "data_index": 70,
+                    "name": "raw_ch70",
+                    "role": "raw_channel",
+                    "unit": "adc"
+                }
+            ],
+            "raw_data_file": "device_001_raw_seg000.csv",
+            "rotation": 0,
+            "rows": 12,
+            "segments": [
+                {
+                    "algorithm_input_file": "device_001_pre_seg0.csv",
+                    "end_ts": 49467.379584,
+                    "file_name": "device_001_seg000.csv",
+                    "force_algorithm_adc_file": "device_001_algoadc_seg0.csv",
+                    "force_mapped_force_file": "device_001_mapforce_algo_seg0.csv",
+                    "force_mapped_raw_force_file": "device_001_mapforce_raw_seg0.csv",
+                    "force_total_force_file": "device_001_forcetotal_seg0.csv",
+                    "frame_count": 70526,
+                    "raw_file_name": "device_001_raw_seg000.csv",
+                    "start_ts": 0,
+                    "stream_stats": [
+                        {
+                            "file_name": "device_001_raw_seg000.csv",
+                            "first_frame_index": 0,
+                            "frames": 70526,
+                            "last_frame_index": 70525,
+                            "role": "device_raw_frame"
+                        },
+                        {
+                            "file_name": "device_001_pre_seg0.csv",
+                            "first_frame_index": 0,
+                            "frames": 70526,
+                            "last_frame_index": 70525,
+                            "role": "algorithm_input"
+                        },
+                        {
+                            "file_name": "device_001_algoadc_seg0.csv",
+                            "first_frame_index": 0,
+                            "frames": 70526,
+                            "last_frame_index": 70525,
+                            "role": "adc_domain_algorithm_output"
+                        },
+                        {
+                            "file_name": "device_001_mapforce_raw_seg0.csv",
+                            "first_frame_index": 0,
+                            "frames": 70526,
+                            "last_frame_index": 70525,
+                            "role": "host_mapped_force_before_algorithm"
+                        },
+                        {
+                            "file_name": "device_001_mapforce_algo_seg0.csv",
+                            "first_frame_index": 0,
+                            "frames": 70526,
+                            "last_frame_index": 70525,
+                            "role": "host_mapped_force_after_algorithm"
+                        },
+                        {
+                            "file_name": "device_001_forcetotal_seg0.csv",
+                            "first_frame_index": 0,
+                            "frames": 70526,
+                            "last_frame_index": 70525,
+                            "role": "host_mapped_total_force"
+                        }
+                    ]
+                }
+            ],
+            "serial_number": "",
+            "stream_stats": [
+                {
+                    "file_name": "device_001_raw_seg000.csv",
+                    "first_frame_index": 0,
+                    "frames": 70526,
+                    "last_frame_index": 70525,
+                    "role": "device_raw_frame"
+                },
+                {
+                    "file_name": "device_001_pre_seg0.csv",
+                    "first_frame_index": 0,
+                    "frames": 70526,
+                    "last_frame_index": 70525,
+                    "role": "algorithm_input"
+                },
+                {
+                    "file_name": "device_001_algoadc_seg0.csv",
+                    "first_frame_index": 0,
+                    "frames": 70526,
+                    "last_frame_index": 70525,
+                    "role": "adc_domain_algorithm_output"
+                },
+                {
+                    "file_name": "device_001_mapforce_raw_seg0.csv",
+                    "first_frame_index": 0,
+                    "frames": 70526,
+                    "last_frame_index": 70525,
+                    "role": "host_mapped_force_before_algorithm"
+                },
+                {
+                    "file_name": "device_001_mapforce_algo_seg0.csv",
+                    "first_frame_index": 0,
+                    "frames": 70526,
+                    "last_frame_index": 70525,
+                    "role": "host_mapped_force_after_algorithm"
+                },
+                {
+                    "file_name": "device_001_forcetotal_seg0.csv",
+                    "first_frame_index": 0,
+                    "frames": 70526,
+                    "last_frame_index": 70525,
+                    "role": "host_mapped_total_force"
+                }
+            ]
+        }
+    ],
+    "last_error": "",
+    "root_dir": "D:/workshop/Github/Tactile_Research/Research/时漂问题/data/report/右手掌-new_param/设备1-2026-10-15_15-58-21",
+    "schema_name": "tactile_recording_session",
+    "schema_version": 1,
+    "session_id": "设备1-2026-10-15_16-05-03",
+    "session_type": "single_device",
+    "status": "completed",
+    "stream_contract": {
+        "algorithm_enabled": true,
+        "note": "每条分流流承载什么：process = 加工阶段，algorithm_applied = 该流是否已施加 ADC 域算法，unit_converted / threshold_applied = 是否做过单位换算与阈值过滤。四路力值管线流（algoadc / mapforce_raw / mapforce_algo 与 raw 文件）都未换算、未过阈值，单位与值域逐项写在各自 CSV 表头里。抗十字串扰（空间域）只作用于显示链路，不进这几路分流——它们如实反映「ADC 域算法 + 本机映射」这条链路的取值。",
+        "note_algorithm_on": "本会话启用了 ADC 域抗时漂算法：raw 是算法输入（设备原值），algoadc 是算法输出，mapforce_raw 是算法输入经本机映射的逐点力，mapforce_algo 是算法输出经本机映射的逐点力。算法在映射之前只跑一次，四路可与主文件逐帧对齐。",
+        "streams": [
+            {
+                "algorithm_applied": "none",
+                "device_id": "device_001",
+                "file_name": "device_001_raw_seg000.csv",
+                "index_space": "device_channel_order",
+                "process": "raw_device_frame",
+                "role": "raw_adc",
+                "threshold_applied": false,
+                "unit": "raw",
+                "unit_converted": false,
+                "value_domain": "raw_adc"
+            },
+            {
+                "algorithm_applied": "adc_domain",
+                "device_id": "device_001",
+                "file_name": "device_001_algoadc_seg0.csv",
+                "index_space": "cell_index",
+                "process": "adc_domain_algorithm_output",
+                "role": "adc_domain_algorithm_output",
+                "threshold_applied": false,
+                "unit": "raw",
+                "unit_converted": false,
+                "value_domain": "raw_adc"
+            },
+            {
+                "algorithm_applied": "none",
+                "device_id": "device_001",
+                "file_name": "device_001_mapforce_raw_seg0.csv",
+                "index_space": "cell_index",
+                "process": "host_mapped_force_before_algorithm",
+                "role": "host_mapped_force_before_algorithm",
+                "threshold_applied": false,
+                "unit": "mN",
+                "unit_converted": false,
+                "value_domain": "force_mn"
+            },
+            {
+                "algorithm_applied": "adc_domain",
+                "device_id": "device_001",
+                "file_name": "device_001_mapforce_algo_seg0.csv",
+                "index_space": "cell_index",
+                "process": "host_mapped_force_after_algorithm",
+                "role": "host_mapped_force_after_algorithm",
+                "threshold_applied": false,
+                "unit": "mN",
+                "unit_converted": false,
+                "value_domain": "force_mn"
+            },
+            {
+                "algorithm_applied": "adc_domain",
+                "device_id": "device_001",
+                "file_name": "device_001_forcetotal_seg0.csv",
+                "index_space": "scalar_per_frame",
+                "process": "host_mapped_total_force",
+                "role": "host_mapped_total_force",
+                "threshold_applied": false,
+                "unit": "mN",
+                "unit_converted": false,
+                "value_domain": "force_mn"
+            },
+            {
+                "algorithm_applied": "none",
+                "device_id": "device_001",
+                "file_name": "device_001_pre_seg0.csv",
+                "index_space": "cell_index",
+                "process": "algorithm_input",
+                "role": "algorithm_input",
+                "threshold_applied": true,
+                "unit": "raw",
+                "unit_converted": true,
+                "value_domain": "adc_domain"
+            },
+            {
+                "algorithm_applied": "drift_k10_creep_observer",
+                "device_id": "device_001",
+                "file_name": "device_001_seg000.csv",
+                "index_space": "cell_index",
+                "process": "algorithm_result",
+                "role": "main_stream",
+                "threshold_applied": true,
+                "unit": "raw",
+                "unit_converted": true,
+                "value_domain": "raw_adc"
+            }
+        ]
+    },
+    "timebase": {
+        "default_playback_fps": 30,
+        "time_unit": "elapsed_seconds"
+    }
+}

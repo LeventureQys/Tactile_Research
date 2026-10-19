@@ -1,0 +1,414 @@
+{
+  "config": {
+    "enabled": true,
+    "window_s": 0.25,
+    "separation_s": 0.5,
+    "confirm_s": 0.25,
+    "hold_s": 2.0,
+    "threshold_adc": 25.0,
+    "noise_multiplier": 4.0,
+    "trend_tau_s": 8.0,
+    "cooldown_s": 1.5,
+    "large_step_adc": 2000.0,
+    "max_event_adc": 250.0,
+    "max_platform_adc": 800.0,
+    "max_platform_rate": 500.0,
+    "gap_s": 0.25,
+    "rollback_tolerance": 0.35
+  },
+  "params_override": {
+    "r_slow_max": 0.4
+  },
+  "samples": [
+    {
+      "id": "设备1/10g反复增减荷载-2026-10-13_17-07-18",
+      "kind": "10g",
+      "metrics": {
+        "net_change_adc": 130.06936007921104,
+        "max_abs_offset_adc": 182.87928598888902
+      },
+      "events": [
+        {
+          "time_s": 9.945876731959737,
+          "action": "lock",
+          "delta_total_adc": 82.2692307692308,
+          "platform_total_adc": 82.2692307692308
+        },
+        {
+          "time_s": 12.213536626846558,
+          "action": "lock",
+          "delta_total_adc": 69.05272838749266,
+          "platform_total_adc": 151.32195915672347
+        },
+        {
+          "time_s": 16.430588361197486,
+          "action": "lock",
+          "delta_total_adc": 67.23076923076927,
+          "platform_total_adc": 218.55272838749275
+        },
+        {
+          "time_s": 21.373689096981476,
+          "action": "lock",
+          "delta_total_adc": 71.19000494804558,
+          "platform_total_adc": 289.7427333355383
+        },
+        {
+          "time_s": 42.02132919252989,
+          "action": "lock",
+          "delta_total_adc": 64.23076923076945,
+          "platform_total_adc": 353.97350256630773
+        },
+        {
+          "time_s": 81.19813763971929,
+          "action": "rollback",
+          "delta_total_adc": -33.500000000000206,
+          "platform_total_adc": 320.4735025663075
+        },
+        {
+          "time_s": 82.13305005252352,
+          "action": "rollback",
+          "delta_total_adc": -36.80769230769278,
+          "platform_total_adc": 283.6658102586148
+        }
+      ]
+    },
+    {
+      "id": "设备1/测试1-2026-10-13_16-32-15",
+      "kind": "constant_load",
+      "metrics": {
+        "net_change_adc": -68.26092570000401,
+        "max_abs_offset_adc": 73.22911547837793
+      },
+      "events": [
+        {
+          "time_s": 10.664138745005918,
+          "action": "lock",
+          "delta_total_adc": 71.28216002261796,
+          "platform_total_adc": 71.28216002261796
+        },
+        {
+          "time_s": 12.924418385637425,
+          "action": "lock",
+          "delta_total_adc": 52.76923076923062,
+          "platform_total_adc": 124.05139079184856
+        },
+        {
+          "time_s": 15.184698026268931,
+          "action": "lock",
+          "delta_total_adc": 46.07692307692329,
+          "platform_total_adc": 170.12831386877187
+        },
+        {
+          "time_s": 18.739410941270904,
+          "action": "lock",
+          "delta_total_adc": 39.3846153846154,
+          "platform_total_adc": 209.51292925338728
+        },
+        {
+          "time_s": 129.9611007467948,
+          "action": "lock",
+          "delta_total_adc": 58.84615384615376,
+          "platform_total_adc": 268.359083099541
+        },
+        {
+          "time_s": 159.06593506206306,
+          "action": "rollback",
+          "delta_total_adc": -67.84615384615392,
+          "platform_total_adc": 200.5129292533871
+        },
+        {
+          "time_s": 230.71779538798518,
+          "action": "rollback",
+          "delta_total_adc": -26.57692307692313,
+          "platform_total_adc": 173.93600617646396
+        },
+        {
+          "time_s": 235.11886852084479,
+          "action": "rollback",
+          "delta_total_adc": -35.9615384615382,
+          "platform_total_adc": 137.9744677149258
+        },
+        {
+          "time_s": 665.0997307296128,
+          "action": "rollback",
+          "delta_total_adc": -53.88461538461519,
+          "platform_total_adc": 84.08985233031059
+        }
+      ]
+    },
+    {
+      "id": "设备1/测试2-2026-10-13_16-43-59",
+      "kind": "constant_load",
+      "metrics": {
+        "net_change_adc": -100.50763731148982,
+        "max_abs_offset_adc": 100.99155923871149
+      },
+      "events": [
+        {
+          "time_s": 11.97888726132501,
+          "action": "lock",
+          "delta_total_adc": 45.96153846153814,
+          "platform_total_adc": 45.96153846153814
+        },
+        {
+          "time_s": 14.23924254671219,
+          "action": "lock",
+          "delta_total_adc": 108.09009261857977,
+          "platform_total_adc": 154.05163108011794
+        },
+        {
+          "time_s": 37.41037359999839,
+          "action": "rollback",
+          "delta_total_adc": -37.26923076923115,
+          "platform_total_adc": 116.78240031088677
+        },
+        {
+          "time_s": 37.679226431299945,
+          "action": "rollback",
+          "delta_total_adc": -56.69230769230721,
+          "platform_total_adc": 60.09009261857956
+        },
+        {
+          "time_s": 54.29831441064445,
+          "action": "lock",
+          "delta_total_adc": 47.50000000000024,
+          "platform_total_adc": 107.59009261857979
+        },
+        {
+          "time_s": 54.86589261005886,
+          "action": "rollback",
+          "delta_total_adc": -35.653846153846146,
+          "platform_total_adc": 71.93624646473363
+        },
+        {
+          "time_s": 92.36588382049109,
+          "action": "rollback",
+          "delta_total_adc": -20.538461538461878,
+          "platform_total_adc": 51.39778492627179
+        },
+        {
+          "time_s": 105.92801553281417,
+          "action": "rollback",
+          "delta_total_adc": -34.307692307692456,
+          "platform_total_adc": 17.090092618579313
+        },
+        {
+          "time_s": 303.6344216621642,
+          "action": "rollback",
+          "delta_total_adc": -29.000000000000036,
+          "platform_total_adc": -11.90990738142072
+        }
+      ]
+    },
+    {
+      "id": "设备2/10g反复增减荷载-2026-10-13_17-05-32",
+      "kind": "10g",
+      "metrics": {
+        "net_change_adc": 74.04884700331604,
+        "max_abs_offset_adc": 114.40180191631953
+      },
+      "events": [
+        {
+          "time_s": 9.933942274878271,
+          "action": "lock",
+          "delta_total_adc": 85.91934948556266,
+          "platform_total_adc": 85.91934948556266
+        },
+        {
+          "time_s": 14.403220913576012,
+          "action": "lock",
+          "delta_total_adc": 78.26923076923067,
+          "platform_total_adc": 164.18858025479332
+        },
+        {
+          "time_s": 17.608360605470605,
+          "action": "lock",
+          "delta_total_adc": 68.26923076923079,
+          "platform_total_adc": 232.4578110240241
+        },
+        {
+          "time_s": 33.22595121597562,
+          "action": "lock",
+          "delta_total_adc": 103.79838890132025,
+          "platform_total_adc": 336.25619992534433
+        },
+        {
+          "time_s": 34.87829031179706,
+          "action": "rollback",
+          "delta_total_adc": -50.8461538461539,
+          "platform_total_adc": 285.41004607919047
+        },
+        {
+          "time_s": 51.30214277026314,
+          "action": "rollback",
+          "delta_total_adc": -21.115384615384713,
+          "platform_total_adc": 264.29466146380577
+        }
+      ]
+    },
+    {
+      "id": "设备2/测试1-2026-10-13_16-53-24",
+      "kind": "constant_load",
+      "metrics": {
+        "net_change_adc": 473.601185588519,
+        "max_abs_offset_adc": 473.6501077795401
+      },
+      "events": [
+        {
+          "time_s": 11.23005489155752,
+          "action": "lock",
+          "delta_total_adc": 39.76923076923055,
+          "platform_total_adc": 39.76923076923055
+        },
+        {
+          "time_s": 13.490003881259256,
+          "action": "lock",
+          "delta_total_adc": 57.307692307692434,
+          "platform_total_adc": 97.07692307692298
+        },
+        {
+          "time_s": 35.083965813695656,
+          "action": "lock",
+          "delta_total_adc": 46.538461538461604,
+          "platform_total_adc": 143.61538461538458
+        },
+        {
+          "time_s": 39.394793622245665,
+          "action": "lock",
+          "delta_total_adc": 38.41743119266036,
+          "platform_total_adc": 182.03281580804494
+        },
+        {
+          "time_s": 41.92354711733042,
+          "action": "lock",
+          "delta_total_adc": 37.38461538461536,
+          "platform_total_adc": 219.4174311926603
+        },
+        {
+          "time_s": 45.88592464112465,
+          "action": "rollback",
+          "delta_total_adc": -33.5000000000002,
+          "platform_total_adc": 185.9174311926601
+        },
+        {
+          "time_s": 217.0447045131609,
+          "action": "lock",
+          "delta_total_adc": 45.80769230769238,
+          "platform_total_adc": 231.72512350035248
+        },
+        {
+          "time_s": 238.0313673778801,
+          "action": "rollback",
+          "delta_total_adc": -46.61538461538502,
+          "platform_total_adc": 185.10973888496747
+        },
+        {
+          "time_s": 268.9837083866144,
+          "action": "lock",
+          "delta_total_adc": 25.615384615384336,
+          "platform_total_adc": 210.72512350035183
+        },
+        {
+          "time_s": 444.1048657824449,
+          "action": "lock",
+          "delta_total_adc": 31.15384615384582,
+          "platform_total_adc": 241.87896965419762
+        }
+      ]
+    },
+    {
+      "id": "设备2/测试2-2026-10-13_17-01-06",
+      "kind": "constant_load",
+      "metrics": {
+        "net_change_adc": -47.393866590300604,
+        "max_abs_offset_adc": 144.93355298891402
+      },
+      "events": [
+        {
+          "time_s": 10.263486328812462,
+          "action": "lock",
+          "delta_total_adc": 48.34615384615409,
+          "platform_total_adc": 48.34615384615409
+        },
+        {
+          "time_s": 114.80968751716209,
+          "action": "rollback",
+          "delta_total_adc": -30.65384615384599,
+          "platform_total_adc": 17.69230769230809
+        },
+        {
+          "time_s": 139.78649372374838,
+          "action": "lock",
+          "delta_total_adc": 32.84615384615391,
+          "platform_total_adc": 50.538461538461995
+        },
+        {
+          "time_s": 147.25265739650234,
+          "action": "rollback",
+          "delta_total_adc": -27.346153846153424,
+          "platform_total_adc": 23.19230769230859
+        },
+        {
+          "time_s": 181.25854420467246,
+          "action": "lock",
+          "delta_total_adc": 36.79906542056076,
+          "platform_total_adc": 59.99137311286934
+        },
+        {
+          "time_s": 183.14997233510346,
+          "action": "rollback",
+          "delta_total_adc": -46.192307692307715,
+          "platform_total_adc": 13.799065420561615
+        },
+        {
+          "time_s": 184.7527088035213,
+          "action": "rollback",
+          "delta_total_adc": -30.230769230768956,
+          "platform_total_adc": -16.43170381020735
+        },
+        {
+          "time_s": 185.25045304837158,
+          "action": "lock",
+          "delta_total_adc": 39.54313796869326,
+          "platform_total_adc": 23.11143415848592
+        },
+        {
+          "time_s": 202.49231368998474,
+          "action": "rollback",
+          "delta_total_adc": -37.4615384615383,
+          "platform_total_adc": -14.350104303052362
+        },
+        {
+          "time_s": 204.39369670531275,
+          "action": "lock",
+          "delta_total_adc": 36.076923076923435,
+          "platform_total_adc": 21.726818773871074
+        },
+        {
+          "time_s": 239.54439527663845,
+          "action": "rollback",
+          "delta_total_adc": -39.80769230769209,
+          "platform_total_adc": -18.080873533821006
+        },
+        {
+          "time_s": 249.32009224549768,
+          "action": "rollback",
+          "delta_total_adc": -81.42307692307706,
+          "platform_total_adc": -99.50395045689805
+        },
+        {
+          "time_s": 249.907430454421,
+          "action": "lock",
+          "delta_total_adc": 58.42307692307672,
+          "platform_total_adc": -41.08087353382135
+        },
+        {
+          "time_s": 251.17170083634065,
+          "action": "lock",
+          "delta_total_adc": 20.96153846153875,
+          "platform_total_adc": -20.119335072282595
+        }
+      ]
+    }
+  ]
+}

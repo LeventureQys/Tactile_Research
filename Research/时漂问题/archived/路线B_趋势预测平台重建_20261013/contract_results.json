@@ -1,0 +1,55 @@
+{
+  "config": {
+    "enabled": true,
+    "window_s": 0.25,
+    "separation_s": 0.5,
+    "confirm_s": 0.25,
+    "hold_s": 2.0,
+    "threshold_adc": 45.0,
+    "noise_multiplier": 4.0,
+    "trend_tau_s": 8.0,
+    "cooldown_s": 1.5,
+    "large_step_adc": 2000.0,
+    "max_event_adc": 250.0,
+    "max_platform_adc": 800.0,
+    "max_platform_rate": 500.0,
+    "gap_s": 0.25,
+    "rollback_tolerance": 0.35
+  },
+  "params": {
+    "r_fast": 0.03,
+    "tau_c_fast_s": 2,
+    "tau_r_fast_s": 0.1,
+    "r_slow_max": 0.4,
+    "slope_cap_frac": 0.02,
+    "slow_confirm_s": 3,
+    "soft_unfreeze_s": 2,
+    "tau_r_slow_idle_s": 0.2
+  },
+  "prefix_max_abs": 0.0,
+  "disabled_same_engine_max_abs": 0.0,
+  "duplicate_change": 0.0,
+  "nan_change": 0.0,
+  "ramps": [
+    {
+      "duration_s": 0.2,
+      "hold_adc": 100.00000028788997,
+      "event_count": 1
+    },
+    {
+      "duration_s": 1.0,
+      "hold_adc": 87.12589256223674,
+      "event_count": 1
+    },
+    {
+      "duration_s": 3.0,
+      "hold_adc": 0.0005449145628801944,
+      "event_count": 0
+    },
+    {
+      "duration_s": 5.0,
+      "hold_adc": 0.0005038174855656052,
+      "event_count": 0
+    }
+  ]
+}

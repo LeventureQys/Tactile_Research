@@ -1,0 +1,98 @@
+[
+  {
+    "separation_s": 1.0,
+    "ramps": [
+      {
+        "duration_s": 1.0,
+        "hold_adc": 83.99871072125867,
+        "events": 1
+      },
+      {
+        "duration_s": 3.0,
+        "hold_adc": 0.0005449145628801944,
+        "events": 0
+      },
+      {
+        "duration_s": 5.0,
+        "hold_adc": 0.0005038174855656052,
+        "events": 0
+      }
+    ],
+    "drift": [
+      {
+        "rate": 5.7,
+        "events": 0,
+        "ledger": 0.0
+      },
+      {
+        "rate": 20.0,
+        "events": 0,
+        "ledger": 0.0
+      }
+    ]
+  },
+  {
+    "separation_s": 2.0,
+    "ramps": [
+      {
+        "duration_s": 1.0,
+        "hold_adc": 83.99907191116503,
+        "events": 1
+      },
+      {
+        "duration_s": 3.0,
+        "hold_adc": 61.999982930185695,
+        "events": 1
+      },
+      {
+        "duration_s": 5.0,
+        "hold_adc": 0.0005038174855656052,
+        "events": 0
+      }
+    ],
+    "drift": [
+      {
+        "rate": 5.7,
+        "events": 0,
+        "ledger": 0.0
+      },
+      {
+        "rate": 20.0,
+        "events": 0,
+        "ledger": 0.0
+      }
+    ]
+  },
+  {
+    "separation_s": 3.0,
+    "ramps": [
+      {
+        "duration_s": 1.0,
+        "hold_adc": 58.829582023612716,
+        "events": 2
+      },
+      {
+        "duration_s": 3.0,
+        "hold_adc": 35.643386303552006,
+        "events": 2
+      },
+      {
+        "duration_s": 5.0,
+        "hold_adc": 32.20174426171994,
+        "events": 2
+      }
+    ],
+    "drift": [
+      {
+        "rate": 5.7,
+        "events": 0,
+        "ledger": 0.0
+      },
+      {
+        "rate": 20.0,
+        "events": 13,
+        "ledger": 800.0
+      }
+    ]
+  }
+]

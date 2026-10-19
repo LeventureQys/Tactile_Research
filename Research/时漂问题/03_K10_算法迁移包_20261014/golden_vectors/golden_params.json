@@ -1,0 +1,38 @@
+{
+  "note": "plan-v4 observer-k9 参数集（经会话实际参数覆盖）；时间轴首帧归零、单位秒；输入为算法输入显示值",
+  "params": {
+    "r_fast": 0.03,
+    "tau_c_fast_s": 2.0,
+    "tau_r_fast_s": 0.1,
+    "r_slow_max": 0.1,
+    "tau_r_slow_s": 150.0,
+    "slope_cap_frac": 0.02,
+    "slope_gate_frac": 0.05,
+    "tau_zero_s": 8.0,
+    "idle_frac": 0.05,
+    "y_max_tau_s": 600.0,
+    "tau_slope_s": 1.0,
+    "edge_slope_thres": 60.0,
+    "edge_refract_s": 2.0,
+    "edge_boost_s": 2.0,
+    "tau_c_fast_boost_s": 2.0,
+    "soft_unfreeze_s": 2.0,
+    "hold_eps": 2.0,
+    "hold_tau_s": 0.5,
+    "slow_confirm_s": 3.0,
+    "y_floor_tau_s": 300.0,
+    "tau_r_slow_idle_s": 0.2,
+    "bypass_release_frac": 1.15,
+    "bypass_engage_frac": 1.25,
+    "bypass_noise_sigma": 3.0,
+    "bypass_base_tau_s": 10.0,
+    "ramp_slope_min": 0.5,
+    "ramp_full_s": 4.0
+  },
+  "guard": {
+    "enabled": false
+  },
+  "frame_count": 3000,
+  "channels": 57,
+  "source": "D:\\workshop\\Github\\Tactile_Research\\Research\\时漂问题\\data\\右拇指指腹\\设备1\\测试2-2026-10-13_16-43-59"
+}

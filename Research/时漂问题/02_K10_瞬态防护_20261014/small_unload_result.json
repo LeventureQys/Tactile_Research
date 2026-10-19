@@ -1,0 +1,54 @@
+{
+  "config": {
+    "RUN_S": 1200.0,
+    "UNLOAD_AT": 1100.0,
+    "RAMP_S": 0.2,
+    "channels": 52,
+    "load_per_channel": 834.0
+  },
+  "control": {
+    "control_max_abs_diff": 0.0
+  },
+  "cases": [
+    {
+      "per_channel_drop_adc": 20.0,
+      "total_drop_adc": 1040.0,
+      "diff_0_1s": 0.0,
+      "diff_1_5s": 0.0,
+      "diff_5_30s": 0.0,
+      "diff_steady_30_90s": 0.0,
+      "off_shift": -925.24,
+      "on_shift": -925.24
+    },
+    {
+      "per_channel_drop_adc": 50.0,
+      "total_drop_adc": 2600.0,
+      "diff_0_1s": 9.1,
+      "diff_1_5s": 0.05,
+      "diff_5_30s": 0.0,
+      "diff_steady_30_90s": 0.0,
+      "off_shift": -1253.11,
+      "on_shift": -1253.11
+    },
+    {
+      "per_channel_drop_adc": 150.0,
+      "total_drop_adc": 7800.0,
+      "diff_0_1s": 16.62,
+      "diff_1_5s": 0.08,
+      "diff_5_30s": 0.0,
+      "diff_steady_30_90s": 0.0,
+      "off_shift": -6452.99,
+      "on_shift": -6452.99
+    },
+    {
+      "per_channel_drop_adc": 400.0,
+      "total_drop_adc": 20800.0,
+      "diff_0_1s": 17.34,
+      "diff_1_5s": 0.08,
+      "diff_5_30s": 0.0,
+      "diff_steady_30_90s": 0.0,
+      "off_shift": -19452.71,
+      "on_shift": -19452.71
+    }
+  ]
+}

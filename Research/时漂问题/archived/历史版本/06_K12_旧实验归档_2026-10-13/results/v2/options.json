@@ -1,0 +1,12 @@
+{
+  "enabled": true,
+  "window_s": 0.25,
+  "separation_s": 0.5,
+  "threshold_total_adc": 45.0,
+  "noise_multiplier": 4.0,
+  "drift_tau_s": 8.0,
+  "confirm_s": 0.35,
+  "large_step_adc": 2000.0,
+  "large_freeze_s": 8.0,
+  "refractory_s": 2.0
+}

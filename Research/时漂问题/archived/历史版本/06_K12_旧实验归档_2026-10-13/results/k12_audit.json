@@ -1,0 +1,132 @@
+{
+  "synthetic": [
+    {
+      "footprint_channels": 1,
+      "total_step_adc": 100,
+      "per_channel_step_adc": 100.0,
+      "guard_fraction_30_40s": 0.0,
+      "k9_response_31_33s": 98.1217647725507,
+      "k9_response_40_44s": 94.59896216455073,
+      "k12_response_40_44s": 94.598970959345
+    },
+    {
+      "footprint_channels": 57,
+      "total_step_adc": 100,
+      "per_channel_step_adc": 1.7543859649122806,
+      "guard_fraction_30_40s": 0.0,
+      "k9_response_31_33s": 13.33097764835756,
+      "k9_response_40_44s": 0.0005755159376690244,
+      "k12_response_40_44s": 0.0010115488390169958
+    }
+  ],
+  "recording_parity": [
+    {
+      "device": "设备1",
+      "session": "10g反复增减荷载-2026-10-13_17-07-18",
+      "time_mode": "frame_fps",
+      "channel_rmse_adc": 0.2925645057386964,
+      "channel_max_abs_adc": 1.3255020417232117,
+      "total_rmse_adc": 4.818498123928236,
+      "total_max_abs_adc": 12.334540935794115
+    },
+    {
+      "device": "设备1",
+      "session": "10g反复增减荷载-2026-10-13_17-07-18",
+      "time_mode": "timestamp",
+      "channel_rmse_adc": 0.4386134661310393,
+      "channel_max_abs_adc": 2.9971732094172694,
+      "total_rmse_adc": 4.106847302349348,
+      "total_max_abs_adc": 16.810028396853916
+    },
+    {
+      "device": "设备1",
+      "session": "测试1-2026-10-13_16-32-15",
+      "time_mode": "frame_fps",
+      "channel_rmse_adc": 1.6591037806238669,
+      "channel_max_abs_adc": 15.629041936072923,
+      "total_rmse_adc": 23.138671297998176,
+      "total_max_abs_adc": 42.98606430088018
+    },
+    {
+      "device": "设备1",
+      "session": "测试1-2026-10-13_16-32-15",
+      "time_mode": "timestamp",
+      "channel_rmse_adc": 1.7574539629862451,
+      "channel_max_abs_adc": 16.140571913957274,
+      "total_rmse_adc": 23.66486032969561,
+      "total_max_abs_adc": 45.87796517644418
+    },
+    {
+      "device": "设备1",
+      "session": "测试2-2026-10-13_16-43-59",
+      "time_mode": "frame_fps",
+      "channel_rmse_adc": 1.0169710166905033,
+      "channel_max_abs_adc": 7.17700889801894,
+      "total_rmse_adc": 19.19632817077045,
+      "total_max_abs_adc": 27.868586485155063
+    },
+    {
+      "device": "设备1",
+      "session": "测试2-2026-10-13_16-43-59",
+      "time_mode": "timestamp",
+      "channel_rmse_adc": 1.57607938913187,
+      "channel_max_abs_adc": 16.15670693180755,
+      "total_rmse_adc": 7.782297970963916,
+      "total_max_abs_adc": 35.54805776387955
+    },
+    {
+      "device": "设备2",
+      "session": "10g反复增减荷载-2026-10-13_17-05-32",
+      "time_mode": "frame_fps",
+      "channel_rmse_adc": 0.11249536495207382,
+      "channel_max_abs_adc": 0.8904621091967329,
+      "total_rmse_adc": 1.9653668953831451,
+      "total_max_abs_adc": 10.146970092122064
+    },
+    {
+      "device": "设备2",
+      "session": "10g反复增减荷载-2026-10-13_17-05-32",
+      "time_mode": "timestamp",
+      "channel_rmse_adc": 0.2726047124504792,
+      "channel_max_abs_adc": 2.266866986240643,
+      "total_rmse_adc": 4.03730777464115,
+      "total_max_abs_adc": 15.921850670513795
+    },
+    {
+      "device": "设备2",
+      "session": "测试1-2026-10-13_16-53-24",
+      "time_mode": "frame_fps",
+      "channel_rmse_adc": 0.18715876245614158,
+      "channel_max_abs_adc": 1.6217698495202058,
+      "total_rmse_adc": 3.0668481635260076,
+      "total_max_abs_adc": 8.869756734185623
+    },
+    {
+      "device": "设备2",
+      "session": "测试1-2026-10-13_16-53-24",
+      "time_mode": "timestamp",
+      "channel_rmse_adc": 1.41503237712076,
+      "channel_max_abs_adc": 30.195456960361525,
+      "total_rmse_adc": 14.787916757692816,
+      "total_max_abs_adc": 56.30285791857783
+    },
+    {
+      "device": "设备2",
+      "session": "测试2-2026-10-13_17-01-06",
+      "time_mode": "frame_fps",
+      "channel_rmse_adc": 0.15677008467123843,
+      "channel_max_abs_adc": 1.4260161042968775,
+      "total_rmse_adc": 2.3961749859342287,
+      "total_max_abs_adc": 9.03299349928458
+    },
+    {
+      "device": "设备2",
+      "session": "测试2-2026-10-13_17-01-06",
+      "time_mode": "timestamp",
+      "channel_rmse_adc": 1.7474717961239712,
+      "channel_max_abs_adc": 29.345578364558378,
+      "total_rmse_adc": 19.966913922306194,
+      "total_max_abs_adc": 55.650013870795306
+    }
+  ]
+}

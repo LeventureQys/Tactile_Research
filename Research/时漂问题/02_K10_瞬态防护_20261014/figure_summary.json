@@ -1,0 +1,14 @@
+{
+  "fps": 100.5645,
+  "frames": 119881,
+  "pre_shift_adc": 0.0,
+  "seg_shift_adc": 61.5,
+  "figures": [
+    "fig01_现象总览.png",
+    "fig02_局部放大.png",
+    "fig03_通道影响.png",
+    "fig04_受控复现.png",
+    "fig05_修复对比.png",
+    "fig06_出现次数.png"
+  ]
+}

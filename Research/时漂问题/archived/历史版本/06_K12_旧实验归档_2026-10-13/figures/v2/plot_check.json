@@ -1,0 +1,317 @@
+[
+  {
+    "file": "设备1_10g反复增减荷载-2026-10-13_17-07-18_absolute.png",
+    "kind": "absolute",
+    "curves": 4,
+    "bytes": 170224,
+    "dimensions": [
+      1650,
+      660
+    ],
+    "rgb_stddev": [
+      55.93835987912546,
+      62.0957520202838,
+      83.7893546994406
+    ],
+    "check": {
+      "axes": 1,
+      "empty": [],
+      "oob": 0,
+      "overlap": 0
+    }
+  },
+  {
+    "file": "设备1_10g反复增减荷载-2026-10-13_17-07-18_drift.png",
+    "kind": "drift",
+    "curves": 4,
+    "bytes": 148530,
+    "dimensions": [
+      1650,
+      660
+    ],
+    "rgb_stddev": [
+      55.51907734745788,
+      62.03034309288867,
+      81.04285679204878
+    ],
+    "check": {
+      "axes": 1,
+      "empty": [],
+      "oob": 0,
+      "overlap": 0
+    }
+  },
+  {
+    "file": "设备1_10g反复增减荷载-2026-10-13_17-07-18_candidate.png",
+    "kind": "unverified_candidate",
+    "curves": 4,
+    "bytes": 263014,
+    "dimensions": [
+      1650,
+      660
+    ],
+    "rgb_stddev": [
+      59.92774724124803,
+      64.15499311324832,
+      82.80184917063909
+    ],
+    "check": {
+      "axes": 1,
+      "empty": [],
+      "oob": 0,
+      "overlap": 0
+    }
+  },
+  {
+    "file": "设备1_测试1-2026-10-13_16-32-15_absolute.png",
+    "kind": "absolute",
+    "curves": 4,
+    "bytes": 152349,
+    "dimensions": [
+      1650,
+      660
+    ],
+    "rgb_stddev": [
+      52.157601427401914,
+      54.27409183350787,
+      67.7595217787638
+    ],
+    "check": {
+      "axes": 1,
+      "empty": [],
+      "oob": 0,
+      "overlap": 0
+    }
+  },
+  {
+    "file": "设备1_测试1-2026-10-13_16-32-15_drift.png",
+    "kind": "drift",
+    "curves": 4,
+    "bytes": 146512,
+    "dimensions": [
+      1650,
+      660
+    ],
+    "rgb_stddev": [
+      47.993004630155255,
+      54.91836267627022,
+      73.13094566945557
+    ],
+    "check": {
+      "axes": 1,
+      "empty": [],
+      "oob": 0,
+      "overlap": 0
+    }
+  },
+  {
+    "file": "设备1_测试2-2026-10-13_16-43-59_absolute.png",
+    "kind": "absolute",
+    "curves": 4,
+    "bytes": 165926,
+    "dimensions": [
+      1650,
+      660
+    ],
+    "rgb_stddev": [
+      60.64892731143262,
+      62.56283557313338,
+      77.52852453984856
+    ],
+    "check": {
+      "axes": 1,
+      "empty": [],
+      "oob": 0,
+      "overlap": 0
+    }
+  },
+  {
+    "file": "设备1_测试2-2026-10-13_16-43-59_drift.png",
+    "kind": "drift",
+    "curves": 4,
+    "bytes": 158861,
+    "dimensions": [
+      1650,
+      660
+    ],
+    "rgb_stddev": [
+      54.923459012445186,
+      63.7522472464602,
+      84.43130432674347
+    ],
+    "check": {
+      "axes": 1,
+      "empty": [],
+      "oob": 0,
+      "overlap": 0
+    }
+  },
+  {
+    "file": "设备2_10g反复增减荷载-2026-10-13_17-05-32_absolute.png",
+    "kind": "absolute",
+    "curves": 4,
+    "bytes": 157785,
+    "dimensions": [
+      1650,
+      660
+    ],
+    "rgb_stddev": [
+      55.76591284368351,
+      63.308279002242244,
+      85.58752971259995
+    ],
+    "check": {
+      "axes": 1,
+      "empty": [],
+      "oob": 0,
+      "overlap": 0
+    }
+  },
+  {
+    "file": "设备2_10g反复增减荷载-2026-10-13_17-05-32_drift.png",
+    "kind": "drift",
+    "curves": 4,
+    "bytes": 161253,
+    "dimensions": [
+      1650,
+      660
+    ],
+    "rgb_stddev": [
+      63.54147407082102,
+      71.79452955397036,
+      95.29915440890854
+    ],
+    "check": {
+      "axes": 1,
+      "empty": [],
+      "oob": 0,
+      "overlap": 0
+    }
+  },
+  {
+    "file": "设备2_10g反复增减荷载-2026-10-13_17-05-32_candidate.png",
+    "kind": "unverified_candidate",
+    "curves": 4,
+    "bytes": 341103,
+    "dimensions": [
+      1650,
+      660
+    ],
+    "rgb_stddev": [
+      57.370528333345675,
+      63.60891139659722,
+      83.36343441461591
+    ],
+    "check": {
+      "axes": 1,
+      "empty": [],
+      "oob": 0,
+      "overlap": 0
+    }
+  },
+  {
+    "file": "设备2_测试1-2026-10-13_16-53-24_absolute.png",
+    "kind": "absolute",
+    "curves": 4,
+    "bytes": 142977,
+    "dimensions": [
+      1650,
+      660
+    ],
+    "rgb_stddev": [
+      50.93319429123821,
+      55.37464892565418,
+      70.44774079973895
+    ],
+    "check": {
+      "axes": 1,
+      "empty": [],
+      "oob": 0,
+      "overlap": 0
+    }
+  },
+  {
+    "file": "设备2_测试1-2026-10-13_16-53-24_drift.png",
+    "kind": "drift",
+    "curves": 4,
+    "bytes": 138010,
+    "dimensions": [
+      1650,
+      660
+    ],
+    "rgb_stddev": [
+      50.12022240324488,
+      55.009031426663206,
+      70.24661727232055
+    ],
+    "check": {
+      "axes": 1,
+      "empty": [],
+      "oob": 0,
+      "overlap": 0
+    }
+  },
+  {
+    "file": "设备2_测试2-2026-10-13_17-01-06_absolute.png",
+    "kind": "absolute",
+    "curves": 4,
+    "bytes": 132473,
+    "dimensions": [
+      1650,
+      660
+    ],
+    "rgb_stddev": [
+      51.832903236257984,
+      57.04503403719422,
+      70.96878442348142
+    ],
+    "check": {
+      "axes": 1,
+      "empty": [],
+      "oob": 0,
+      "overlap": 0
+    }
+  },
+  {
+    "file": "设备2_测试2-2026-10-13_17-01-06_drift.png",
+    "kind": "drift",
+    "curves": 4,
+    "bytes": 124888,
+    "dimensions": [
+      1650,
+      660
+    ],
+    "rgb_stddev": [
+      50.738278965257805,
+      56.64686910122073,
+      70.56102374176692
+    ],
+    "check": {
+      "axes": 1,
+      "empty": [],
+      "oob": 0,
+      "overlap": 0
+    }
+  },
+  {
+    "file": "synthetic_100adc_steps.png",
+    "kind": "synthetic",
+    "curves": 4,
+    "bytes": 41199,
+    "dimensions": [
+      1650,
+      660
+    ],
+    "rgb_stddev": [
+      27.473201177055934,
+      27.216987942202618,
+      26.93087931544181
+    ],
+    "check": {
+      "axes": 1,
+      "empty": [],
+      "oob": 0,
+      "overlap": 0
+    }
+  }
+]

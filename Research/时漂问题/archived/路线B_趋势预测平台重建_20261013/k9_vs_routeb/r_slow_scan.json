@@ -1,0 +1,272 @@
+{
+  "grid": [
+    0.1,
+    0.2,
+    0.3,
+    0.4,
+    0.6,
+    1.0
+  ],
+  "sessions": {
+    "设备1/测试1": {
+      "load_time_s": 2.389722968068553,
+      "frames": 67551,
+      "out_rec": {
+        "net_change_adc": 726.3700792789459,
+        "max_abs_offset_adc": 725.819164276123,
+        "tail_window_adc": 725.819164276123
+      },
+      "0.10": {
+        "net_change_adc": 710.6923381023444,
+        "max_abs_offset_adc": 710.3439266380701,
+        "tail_window_adc": 710.3439266380701,
+        "step_retention": [
+          0.979
+        ]
+      },
+      "0.20": {
+        "net_change_adc": -64.2154885420714,
+        "max_abs_offset_adc": 94.8936089854542,
+        "tail_window_adc": -65.02061302492075,
+        "step_retention": [
+          0.979
+        ]
+      },
+      "0.30": {
+        "net_change_adc": -105.5631238375172,
+        "max_abs_offset_adc": 117.76704990068174,
+        "tail_window_adc": -105.92749649746474,
+        "step_retention": [
+          0.979
+        ]
+      },
+      "0.40": {
+        "net_change_adc": -111.43678045219713,
+        "max_abs_offset_adc": 121.49594215844263,
+        "tail_window_adc": -112.00887451449307,
+        "step_retention": [
+          0.979
+        ]
+      },
+      "0.60": {
+        "net_change_adc": -114.68201233215223,
+        "max_abs_offset_adc": 125.01387956408871,
+        "tail_window_adc": -115.48748246211835,
+        "step_retention": [
+          0.979
+        ]
+      },
+      "1.00": {
+        "net_change_adc": -119.21447775355045,
+        "max_abs_offset_adc": 129.45238261779377,
+        "tail_window_adc": -119.87365813064753,
+        "step_retention": [
+          0.979
+        ]
+      }
+    },
+    "设备1/测试2": {
+      "load_time_s": 3.7041945645992547,
+      "frames": 31417,
+      "out_rec": {
+        "net_change_adc": 555.2104420661926,
+        "max_abs_offset_adc": 555.8717951774597,
+        "tail_window_adc": 554.9451413154602
+      },
+      "0.10": {
+        "net_change_adc": 547.3977947440872,
+        "max_abs_offset_adc": 548.4675762939078,
+        "tail_window_adc": 547.2189960403848,
+        "step_retention": [
+          0.979
+        ]
+      },
+      "0.20": {
+        "net_change_adc": 99.20061854369487,
+        "max_abs_offset_adc": 110.39524948958206,
+        "tail_window_adc": 98.56158497623983,
+        "step_retention": [
+          0.979
+        ]
+      },
+      "0.30": {
+        "net_change_adc": 36.06797063911654,
+        "max_abs_offset_adc": 49.485413979389705,
+        "tail_window_adc": 35.60687752116428,
+        "step_retention": [
+          0.979
+        ]
+      },
+      "0.40": {
+        "net_change_adc": 14.751242178444954,
+        "max_abs_offset_adc": 32.06180226106517,
+        "tail_window_adc": 14.432032552293094,
+        "step_retention": [
+          0.979
+        ]
+      },
+      "0.60": {
+        "net_change_adc": 2.985066813256708,
+        "max_abs_offset_adc": 29.52557454037742,
+        "tail_window_adc": 2.77694241359859,
+        "step_retention": [
+          0.979
+        ]
+      },
+      "1.00": {
+        "net_change_adc": 0.7165049769027974,
+        "max_abs_offset_adc": 29.52557454037742,
+        "tail_window_adc": 0.7165049769027974,
+        "step_retention": [
+          0.979
+        ]
+      }
+    },
+    "设备2/测试1": {
+      "load_time_s": 1.9114987049459609,
+      "frames": 45532,
+      "out_rec": {
+        "net_change_adc": 988.939667224884,
+        "max_abs_offset_adc": 988.3736538887024,
+        "tail_window_adc": 988.3736538887024
+      },
+      "0.10": {
+        "net_change_adc": 992.6271491477128,
+        "max_abs_offset_adc": 991.626107267839,
+        "tail_window_adc": 991.626107267839,
+        "step_retention": [
+          0.979
+        ]
+      },
+      "0.20": {
+        "net_change_adc": 476.1000233549057,
+        "max_abs_offset_adc": 475.2494358971271,
+        "tail_window_adc": 475.2494358971271,
+        "step_retention": [
+          0.979
+        ]
+      },
+      "0.30": {
+        "net_change_adc": 347.2228191170507,
+        "max_abs_offset_adc": 346.6407131015694,
+        "tail_window_adc": 346.6407131015694,
+        "step_retention": [
+          0.979
+        ]
+      },
+      "0.40": {
+        "net_change_adc": 277.9881750520981,
+        "max_abs_offset_adc": 277.77621078818265,
+        "tail_window_adc": 277.4889507688604,
+        "step_retention": [
+          0.979
+        ]
+      },
+      "0.60": {
+        "net_change_adc": 187.16019837862768,
+        "max_abs_offset_adc": 188.2423438768492,
+        "tail_window_adc": 187.0895436157225,
+        "step_retention": [
+          0.979
+        ]
+      },
+      "1.00": {
+        "net_change_adc": 157.56109719484448,
+        "max_abs_offset_adc": 181.57598893759132,
+        "tail_window_adc": 157.5015903895146,
+        "step_retention": [
+          0.979
+        ]
+      }
+    },
+    "设备2/测试2": {
+      "load_time_s": 1.9909769794010594,
+      "frames": 25293,
+      "out_rec": {
+        "net_change_adc": 96.34929919242859,
+        "max_abs_offset_adc": 121.42736482620239,
+        "tail_window_adc": 97.98351812362671
+      },
+      "0.10": {
+        "net_change_adc": 96.20378347629958,
+        "max_abs_offset_adc": 120.60540896225939,
+        "tail_window_adc": 97.31656374276645,
+        "step_retention": [
+          0.979
+        ]
+      },
+      "0.20": {
+        "net_change_adc": -74.17486156096129,
+        "max_abs_offset_adc": 125.5970137457225,
+        "tail_window_adc": -71.24307067716654,
+        "step_retention": [
+          0.979
+        ]
+      },
+      "0.30": {
+        "net_change_adc": -119.14037554681636,
+        "max_abs_offset_adc": 168.79269927457426,
+        "tail_window_adc": -116.1933877690717,
+        "step_retention": [
+          0.979
+        ]
+      },
+      "0.40": {
+        "net_change_adc": -151.80919765110593,
+        "max_abs_offset_adc": 168.79269927457426,
+        "tail_window_adc": -148.85109829465,
+        "step_retention": [
+          0.979
+        ]
+      },
+      "0.60": {
+        "net_change_adc": -151.80919765110593,
+        "max_abs_offset_adc": 168.79269927457426,
+        "tail_window_adc": -148.85109829465,
+        "step_retention": [
+          0.979
+        ]
+      },
+      "1.00": {
+        "net_change_adc": -151.80919765110593,
+        "max_abs_offset_adc": 168.79269927457426,
+        "tail_window_adc": -148.85109829465,
+        "step_retention": [
+          0.979
+        ]
+      }
+    }
+  },
+  "injection_probe": {
+    "0.10": {
+      "hold_adc": 35.67035494012271,
+      "retention": 0.35670354940122706,
+      "first5s_after": 3.318523397483659
+    },
+    "0.20": {
+      "hold_adc": 23.285300443543747,
+      "retention": 0.23285300443543747,
+      "first5s_after": -5.827728828506224
+    },
+    "0.30": {
+      "hold_adc": 23.1238670609946,
+      "retention": 0.231238670609946,
+      "first5s_after": -6.014436829966144
+    },
+    "0.40": {
+      "hold_adc": 23.086395962722236,
+      "retention": 0.23086395962722236,
+      "first5s_after": -6.092394391809648
+    },
+    "0.60": {
+      "hold_adc": 23.086395962722236,
+      "retention": 0.23086395962722236,
+      "first5s_after": -6.131760608921468
+    },
+    "1.00": {
+      "hold_adc": 23.086395962722236,
+      "retention": 0.23086395962722236,
+      "first5s_after": -6.131760608921468
+    }
+  }
+}

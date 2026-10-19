@@ -1,0 +1,195 @@
+{
+  "config": {
+    "enabled": true,
+    "window_s": 0.25,
+    "separation_s": 0.5,
+    "confirm_s": 0.25,
+    "hold_s": 2.0,
+    "threshold_adc": 45.0,
+    "noise_multiplier": 4.0,
+    "trend_tau_s": 8.0,
+    "cooldown_s": 1.5,
+    "large_step_adc": 2000.0,
+    "max_event_adc": 250.0,
+    "max_platform_adc": 800.0,
+    "max_platform_rate": 500.0,
+    "gap_s": 0.25,
+    "rollback_tolerance": 0.35
+  },
+  "samples": [
+    {
+      "id": "设备1/10g反复增减荷载-2026-10-13_17-07-18",
+      "kind": "10g",
+      "load_time_s": 1.6410696607733568,
+      "metrics": {
+        "net_change_adc": 74.27379464863043,
+        "max_abs_offset_adc": 77.30396275060048
+      },
+      "events": [
+        {
+          "time_s": 19.096083325362695,
+          "action": "lock",
+          "delta_total_adc": -6.2307692307689635,
+          "platform_total_adc": -6.2307692307689635
+        },
+        {
+          "time_s": 23.86015827997141,
+          "action": "rollback",
+          "delta_total_adc": -18.384615384615042,
+          "platform_total_adc": -24.615384615384006
+        },
+        {
+          "time_s": 29.002176550394594,
+          "action": "rollback",
+          "delta_total_adc": -6.11538461538514,
+          "platform_total_adc": -30.73076923076915
+        }
+      ]
+    },
+    {
+      "id": "设备1/测试1-2026-10-13_16-32-15",
+      "kind": "constant_load",
+      "load_time_s": 2.3399370729004585,
+      "metrics": {
+        "net_change_adc": -132.78858587326977,
+        "max_abs_offset_adc": 135.04909042062718
+      },
+      "events": [
+        {
+          "time_s": 130.09054407423187,
+          "action": "lock",
+          "delta_total_adc": 58.07692307692326,
+          "platform_total_adc": 58.07692307692326
+        },
+        {
+          "time_s": 159.09580659916392,
+          "action": "rollback",
+          "delta_total_adc": -58.423076923076785,
+          "platform_total_adc": -0.3461538461535181
+        },
+        {
+          "time_s": 665.1594738038145,
+          "action": "rollback",
+          "delta_total_adc": -44.50000000000011,
+          "platform_total_adc": -44.846153846153626
+        }
+      ]
+    },
+    {
+      "id": "设备1/测试2-2026-10-13_16-43-59",
+      "kind": "constant_load",
+      "load_time_s": 3.6743220277879707,
+      "metrics": {
+        "net_change_adc": 130.95492162604205,
+        "max_abs_offset_adc": 146.83007431202714
+      },
+      "events": [
+        {
+          "time_s": 26.89524064242631,
+          "action": "lock",
+          "delta_total_adc": -7.461538461537793,
+          "platform_total_adc": -7.461538461537793
+        },
+        {
+          "time_s": 37.44024613680967,
+          "action": "rollback",
+          "delta_total_adc": -37.46153846153858,
+          "platform_total_adc": -44.92307692307637
+        },
+        {
+          "time_s": 54.935595195951855,
+          "action": "rollback",
+          "delta_total_adc": -39.03846153846113,
+          "platform_total_adc": -83.9615384615375
+        }
+      ]
+    },
+    {
+      "id": "设备2/10g反复增减荷载-2026-10-13_17-05-32",
+      "kind": "10g",
+      "load_time_s": 1.6423852458466082,
+      "metrics": {
+        "net_change_adc": 30.61476604282143,
+        "max_abs_offset_adc": 59.47025141845734
+      },
+      "events": [
+        {
+          "time_s": 10.003619224702067,
+          "action": "lock",
+          "delta_total_adc": 88.03893178893175,
+          "platform_total_adc": 88.03893178893175
+        },
+        {
+          "time_s": 33.275720465849766,
+          "action": "lock",
+          "delta_total_adc": 100.06881219563812,
+          "platform_total_adc": 188.10774398456988
+        },
+        {
+          "time_s": 34.898198011746715,
+          "action": "rollback",
+          "delta_total_adc": -51.23076923076937,
+          "platform_total_adc": 136.8769747538005
+        }
+      ]
+    },
+    {
+      "id": "设备2/测试1-2026-10-13_16-53-24",
+      "kind": "constant_load",
+      "load_time_s": 1.8816315376811803,
+      "metrics": {
+        "net_change_adc": 271.4542430938782,
+        "max_abs_offset_adc": 272.11207246438425
+      },
+      "events": [
+        {
+          "time_s": 18.547510871428777,
+          "action": "lock",
+          "delta_total_adc": -2.461538461538627,
+          "platform_total_adc": -2.461538461538627
+        },
+        {
+          "time_s": 24.610545826179248,
+          "action": "rollback",
+          "delta_total_adc": -5.230769230769219,
+          "platform_total_adc": -7.692307692307846
+        },
+        {
+          "time_s": 238.53910922138138,
+          "action": "lock",
+          "delta_total_adc": 43.67026496565235,
+          "platform_total_adc": 35.977957273344515
+        }
+      ]
+    },
+    {
+      "id": "设备2/测试2-2026-10-13_17-01-06",
+      "kind": "constant_load",
+      "load_time_s": 1.9611123247100435,
+      "metrics": {
+        "net_change_adc": -108.56844266595363,
+        "max_abs_offset_adc": 172.08146854824736
+      },
+      "events": [
+        {
+          "time_s": 183.2196565293825,
+          "action": "lock",
+          "delta_total_adc": -49.54954954954966,
+          "platform_total_adc": -49.54954954954966
+        },
+        {
+          "time_s": 185.25045304837158,
+          "action": "lock",
+          "delta_total_adc": 39.54313796869326,
+          "platform_total_adc": -10.006411580856422
+        },
+        {
+          "time_s": 249.3599117850857,
+          "action": "rollback",
+          "delta_total_adc": -61.53846153846128,
+          "platform_total_adc": -71.54487311931769
+        }
+      ]
+    }
+  ]
+}

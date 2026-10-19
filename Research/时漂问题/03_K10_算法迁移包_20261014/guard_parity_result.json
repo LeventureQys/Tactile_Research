@@ -1,0 +1,8 @@
+{
+  "frames": 3000,
+  "channels": 52,
+  "guard_enabled": true,
+  "max_abs_diff": 0.0,
+  "mean_abs_diff": 0.0,
+  "equivalent": true
+}

@@ -1,0 +1,998 @@
+{
+  "fig_palm1_full.png": {
+    "window_audit": [
+      {
+        "text": "补偿前漂移 +4.05 N",
+        "bbox": [
+          964.8,
+          160.9,
+          1101.5,
+          176.9
+        ],
+        "axes_bbox": [
+          51.8,
+          51.5,
+          1155.8,
+          243.0
+        ],
+        "inside_axes": true,
+        "inside_canvas": true
+      },
+      {
+        "text": "补偿后漂移 +0.60 N",
+        "bbox": [
+          964.8,
+          72.1,
+          1101.5,
+          88.1
+        ],
+        "axes_bbox": [
+          51.8,
+          51.5,
+          1155.8,
+          243.0
+        ],
+        "inside_axes": true,
+        "inside_canvas": true
+      },
+      {
+        "text": "LEGEND",
+        "bbox": [
+          313.7,
+          243.9,
+          893.9,
+          270.8
+        ],
+        "inside_axes": true,
+        "inside_canvas": true
+      }
+    ],
+    "border_ink": {
+      "top": 0,
+      "bottom": 0,
+      "left": 0,
+      "right": 0
+    },
+    "key": "palm1",
+    "part": "右手掌",
+    "ylim_n": [
+      13.5938,
+      21.6722
+    ],
+    "raw_drift_n": 4.045660033167496,
+    "algo_drift_n": 0.5979585406301813
+  },
+  "fig_palm2_full.png": {
+    "window_audit": [
+      {
+        "text": "补偿前漂移 +0.31 N",
+        "bbox": [
+          964.8,
+          136.5,
+          1101.7,
+          152.5
+        ],
+        "axes_bbox": [
+          51.9,
+          51.5,
+          1155.8,
+          243.0
+        ],
+        "inside_axes": true,
+        "inside_canvas": true
+      },
+      {
+        "text": "补偿后漂移 -0.07 N",
+        "bbox": [
+          964.8,
+          74.8,
+          1096.8,
+          90.8
+        ],
+        "axes_bbox": [
+          51.9,
+          51.5,
+          1155.8,
+          243.0
+        ],
+        "inside_axes": true,
+        "inside_canvas": true
+      },
+      {
+        "text": "LEGEND",
+        "bbox": [
+          313.8,
+          243.9,
+          894.0,
+          270.8
+        ],
+        "inside_axes": true,
+        "inside_canvas": true
+      }
+    ],
+    "border_ink": {
+      "top": 0,
+      "bottom": 0,
+      "left": 0,
+      "right": 0
+    },
+    "key": "palm2",
+    "part": "右手掌",
+    "ylim_n": [
+      10.6489,
+      13.9501
+    ],
+    "raw_drift_n": 0.3104843934596993,
+    "algo_drift_n": -0.0657136630895111
+  },
+  "fig_fing1_full.png": {
+    "window_audit": [
+      {
+        "text": "补偿前漂移 +0.45 N",
+        "bbox": [
+          965.3,
+          129.7,
+          1102.0,
+          145.7
+        ],
+        "axes_bbox": [
+          54.9,
+          51.5,
+          1155.8,
+          243.0
+        ],
+        "inside_axes": true,
+        "inside_canvas": true
+      },
+      {
+        "text": "补偿后漂移 +0.01 N",
+        "bbox": [
+          965.3,
+          59.4,
+          1102.0,
+          75.4
+        ],
+        "axes_bbox": [
+          54.9,
+          51.5,
+          1155.8,
+          243.0
+        ],
+        "inside_axes": true,
+        "inside_canvas": true
+      },
+      {
+        "text": "LEGEND",
+        "bbox": [
+          315.3,
+          243.9,
+          895.5,
+          270.8
+        ],
+        "inside_axes": true,
+        "inside_canvas": true
+      }
+    ],
+    "border_ink": {
+      "top": 0,
+      "bottom": 0,
+      "left": 0,
+      "right": 0
+    },
+    "key": "fing1",
+    "part": "右指腹",
+    "ylim_n": [
+      5.9218,
+      7.1122
+    ],
+    "raw_drift_n": 0.4545631229235887,
+    "algo_drift_n": 0.005247508305647898
+  },
+  "fig_fing2_full.png": {
+    "window_audit": [
+      {
+        "text": "补偿前漂移 +0.27 N",
+        "bbox": [
+          965.3,
+          157.4,
+          1102.0,
+          173.4
+        ],
+        "axes_bbox": [
+          54.9,
+          51.5,
+          1155.8,
+          243.0
+        ],
+        "inside_axes": true,
+        "inside_canvas": true
+      },
+      {
+        "text": "补偿后漂移 0.00 N",
+        "bbox": [
+          965.3,
+          100.4,
+          1090.8,
+          116.4
+        ],
+        "axes_bbox": [
+          54.9,
+          51.5,
+          1155.8,
+          243.0
+        ],
+        "inside_axes": true,
+        "inside_canvas": true
+      },
+      {
+        "text": "LEGEND",
+        "bbox": [
+          315.3,
+          243.9,
+          895.5,
+          270.8
+        ],
+        "inside_axes": true,
+        "inside_canvas": true
+      }
+    ],
+    "border_ink": {
+      "top": 0,
+      "bottom": 0,
+      "left": 0,
+      "right": 0
+    },
+    "key": "fing2",
+    "part": "右指腹",
+    "ylim_n": [
+      5.9218,
+      7.1122
+    ],
+    "raw_drift_n": 0.2727026578073092,
+    "algo_drift_n": -0.00025913621262407105
+  },
+  "fig_four1_full.png": {
+    "window_audit": [
+      {
+        "text": "补偿前漂移 +0.37 N",
+        "bbox": [
+          965.3,
+          148.0,
+          1102.2,
+          164.0
+        ],
+        "axes_bbox": [
+          54.9,
+          51.5,
+          1155.8,
+          243.0
+        ],
+        "inside_axes": true,
+        "inside_canvas": true
+      },
+      {
+        "text": "补偿后漂移 +0.02 N",
+        "bbox": [
+          965.3,
+          60.5,
+          1102.0,
+          76.5
+        ],
+        "axes_bbox": [
+          54.9,
+          51.5,
+          1155.8,
+          243.0
+        ],
+        "inside_axes": true,
+        "inside_canvas": true
+      },
+      {
+        "text": "LEGEND",
+        "bbox": [
+          315.3,
+          243.9,
+          895.5,
+          270.8
+        ],
+        "inside_axes": true,
+        "inside_canvas": true
+      }
+    ],
+    "border_ink": {
+      "top": 0,
+      "bottom": 0,
+      "left": 0,
+      "right": 0
+    },
+    "key": "four1",
+    "part": "四指指腹",
+    "ylim_n": [
+      6.2682,
+      7.2858
+    ],
+    "raw_drift_n": 0.3710016913226364,
+    "algo_drift_n": 0.017308984876939576
+  },
+  "fig_four2_full.png": {
+    "window_audit": [
+      {
+        "text": "补偿前漂移 +0.12 N",
+        "bbox": [
+          965.3,
+          177.6,
+          1102.0,
+          193.6
+        ],
+        "axes_bbox": [
+          54.9,
+          51.5,
+          1155.8,
+          243.0
+        ],
+        "inside_axes": true,
+        "inside_canvas": true
+      },
+      {
+        "text": "补偿后漂移 0.00 N",
+        "bbox": [
+          965.3,
+          120.1,
+          1090.8,
+          136.1
+        ],
+        "axes_bbox": [
+          54.9,
+          51.5,
+          1155.8,
+          243.0
+        ],
+        "inside_axes": true,
+        "inside_canvas": true
+      },
+      {
+        "text": "LEGEND",
+        "bbox": [
+          315.3,
+          243.9,
+          895.5,
+          270.8
+        ],
+        "inside_axes": true,
+        "inside_canvas": true
+      }
+    ],
+    "border_ink": {
+      "top": 0,
+      "bottom": 0,
+      "left": 0,
+      "right": 0
+    },
+    "key": "four2",
+    "part": "四指指腹",
+    "ylim_n": [
+      6.2682,
+      7.2858
+    ],
+    "raw_drift_n": 0.1164682283399925,
+    "algo_drift_n": 0.004410429095287327
+  },
+  "fig_all_drift.png": {
+    "window_audit": [
+      {
+        "text": "+4.05",
+        "bbox": [
+          97.7,
+          300.6,
+          140.2,
+          316.6
+        ],
+        "axes_bbox": [
+          56.3,
+          29.9,
+          376.8,
+          349.2
+        ],
+        "inside_axes": true,
+        "inside_canvas": true
+      },
+      {
+        "text": "+0.31",
+        "bbox": [
+          243.3,
+          84.4,
+          286.0,
+          100.4
+        ],
+        "axes_bbox": [
+          56.3,
+          29.9,
+          376.8,
+          349.2
+        ],
+        "inside_axes": true,
+        "inside_canvas": true
+      },
+      {
+        "text": "+0.60",
+        "bbox": [
+          147.2,
+          101.0,
+          189.7,
+          117.0
+        ],
+        "axes_bbox": [
+          56.3,
+          29.9,
+          376.8,
+          349.2
+        ],
+        "inside_axes": true,
+        "inside_canvas": true
+      },
+      {
+        "text": "-0.07",
+        "bbox": [
+          295.3,
+          36.2,
+          333.1,
+          52.2
+        ],
+        "axes_bbox": [
+          56.3,
+          29.9,
+          376.8,
+          349.2
+        ],
+        "inside_axes": true,
+        "inside_canvas": true
+      },
+      {
+        "text": "+0.45",
+        "bbox": [
+          487.2,
+          301.5,
+          529.7,
+          317.5
+        ],
+        "axes_bbox": [
+          445.8,
+          29.9,
+          766.3,
+          349.2
+        ],
+        "inside_axes": true,
+        "inside_canvas": true
+      },
+      {
+        "text": "+0.27",
+        "bbox": [
+          632.9,
+          209.4,
+          675.4,
+          225.4
+        ],
+        "axes_bbox": [
+          445.8,
+          29.9,
+          766.3,
+          349.2
+        ],
+        "inside_axes": true,
+        "inside_canvas": true
+      },
+      {
+        "text": "+0.01",
+        "bbox": [
+          536.7,
+          73.9,
+          579.2,
+          89.9
+        ],
+        "axes_bbox": [
+          445.8,
+          29.9,
+          766.3,
+          349.2
+        ],
+        "inside_axes": true,
+        "inside_canvas": true
+      },
+      {
+        "text": "0.00",
+        "bbox": [
+          688.1,
+          44.7,
+          719.3,
+          60.7
+        ],
+        "axes_bbox": [
+          445.8,
+          29.9,
+          766.3,
+          349.2
+        ],
+        "inside_axes": true,
+        "inside_canvas": true
+      },
+      {
+        "text": "+0.37",
+        "bbox": [
+          876.7,
+          301.8,
+          919.3,
+          317.8
+        ],
+        "axes_bbox": [
+          835.3,
+          29.9,
+          1155.8,
+          349.2
+        ],
+        "inside_axes": true,
+        "inside_canvas": true
+      },
+      {
+        "text": "+0.12",
+        "bbox": [
+          1022.4,
+          144.9,
+          1064.9,
+          160.9
+        ],
+        "axes_bbox": [
+          835.3,
+          29.9,
+          1155.8,
+          349.2
+        ],
+        "inside_axes": true,
+        "inside_canvas": true
+      },
+      {
+        "text": "+0.02",
+        "bbox": [
+          926.2,
+          83.7,
+          968.7,
+          99.7
+        ],
+        "axes_bbox": [
+          835.3,
+          29.9,
+          1155.8,
+          349.2
+        ],
+        "inside_axes": true,
+        "inside_canvas": true
+      },
+      {
+        "text": "0.00",
+        "bbox": [
+          1077.6,
+          75.8,
+          1108.8,
+          91.8
+        ],
+        "axes_bbox": [
+          835.3,
+          29.9,
+          1155.8,
+          349.2
+        ],
+        "inside_axes": true,
+        "inside_canvas": true
+      },
+      {
+        "text": "FIG_LEGEND",
+        "bbox": [
+          464.9,
+          382.2,
+          695.1,
+          412.0
+        ],
+        "inside_axes": true,
+        "inside_canvas": true
+      }
+    ],
+    "border_ink": {
+      "top": 0,
+      "bottom": 0,
+      "left": 0,
+      "right": 0
+    },
+    "raw_drift_n": [
+      4.045660033167496,
+      0.3104843934596993,
+      0.4545631229235887,
+      0.2727026578073092,
+      0.3710016913226364,
+      0.1164682283399925
+    ],
+    "algo_drift_n": [
+      0.5979585406301813,
+      -0.0657136630895111,
+      0.005247508305647898,
+      -0.00025913621262407105,
+      0.017308984876939576,
+      0.004410429095287327
+    ],
+    "rel_raw_pct": [
+      24.18962625624217,
+      2.5613203299053153,
+      7.096831248910771,
+      4.055697250761649,
+      5.492236863800881,
+      1.646703781112524
+    ],
+    "rel_algo_pct": [
+      4.109374841511619,
+      -0.5851445122661361,
+      0.08672793537272654,
+      -0.0040544776247334255,
+      0.27175570761087414,
+      0.0652536601306984
+    ],
+    "panels": [
+      "右手掌",
+      "右指腹",
+      "四指指腹"
+    ]
+  },
+  "fig_all_stability.png": {
+    "window_audit": [
+      {
+        "text": "118",
+        "bbox": [
+          110.6,
+          294.6,
+          137.6,
+          310.6
+        ],
+        "axes_bbox": [
+          61.2,
+          29.9,
+          383.0,
+          349.2
+        ],
+        "inside_axes": true,
+        "inside_canvas": true
+      },
+      {
+        "text": "86",
+        "bbox": [
+          261.3,
+          224.1,
+          279.3,
+          240.1
+        ],
+        "axes_bbox": [
+          61.2,
+          29.9,
+          383.0,
+          349.2
+        ],
+        "inside_axes": true,
+        "inside_canvas": true
+      },
+      {
+        "text": "72",
+        "bbox": [
+          164.8,
+          194.0,
+          182.8,
+          210.0
+        ],
+        "axes_bbox": [
+          61.2,
+          29.9,
+          383.0,
+          349.2
+        ],
+        "inside_axes": true,
+        "inside_canvas": true
+      },
+      {
+        "text": "85",
+        "bbox": [
+          311.1,
+          221.1,
+          329.1,
+          237.1
+        ],
+        "axes_bbox": [
+          61.2,
+          29.9,
+          383.0,
+          349.2
+        ],
+        "inside_axes": true,
+        "inside_canvas": true
+      },
+      {
+        "text": "8",
+        "bbox": [
+          510.2,
+          294.6,
+          519.2,
+          310.6
+        ],
+        "axes_bbox": [
+          451.8,
+          29.9,
+          773.6,
+          349.2
+        ],
+        "inside_axes": true,
+        "inside_canvas": true
+      },
+      {
+        "text": "8",
+        "bbox": [
+          656.5,
+          293.4,
+          665.5,
+          309.4
+        ],
+        "axes_bbox": [
+          451.8,
+          29.9,
+          773.6,
+          349.2
+        ],
+        "inside_axes": true,
+        "inside_canvas": true
+      },
+      {
+        "text": "8",
+        "bbox": [
+          559.9,
+          292.7,
+          568.9,
+          308.7
+        ],
+        "axes_bbox": [
+          451.8,
+          29.9,
+          773.6,
+          349.2
+        ],
+        "inside_axes": true,
+        "inside_canvas": true
+      },
+      {
+        "text": "8",
+        "bbox": [
+          706.2,
+          295.8,
+          715.2,
+          311.8
+        ],
+        "axes_bbox": [
+          451.8,
+          29.9,
+          773.6,
+          349.2
+        ],
+        "inside_axes": true,
+        "inside_canvas": true
+      },
+      {
+        "text": "5",
+        "bbox": [
+          892.5,
+          294.6,
+          901.5,
+          310.6
+        ],
+        "axes_bbox": [
+          834.1,
+          29.9,
+          1155.8,
+          349.2
+        ],
+        "inside_axes": true,
+        "inside_canvas": true
+      },
+      {
+        "text": "5",
+        "bbox": [
+          1038.7,
+          275.3,
+          1047.7,
+          291.3
+        ],
+        "axes_bbox": [
+          834.1,
+          29.9,
+          1155.8,
+          349.2
+        ],
+        "inside_axes": true,
+        "inside_canvas": true
+      },
+      {
+        "text": "5",
+        "bbox": [
+          942.2,
+          268.6,
+          951.2,
+          284.6
+        ],
+        "axes_bbox": [
+          834.1,
+          29.9,
+          1155.8,
+          349.2
+        ],
+        "inside_axes": true,
+        "inside_canvas": true
+      },
+      {
+        "text": "4",
+        "bbox": [
+          1088.4,
+          233.5,
+          1097.4,
+          249.5
+        ],
+        "axes_bbox": [
+          834.1,
+          29.9,
+          1155.8,
+          349.2
+        ],
+        "inside_axes": true,
+        "inside_canvas": true
+      },
+      {
+        "text": "FIG_LEGEND",
+        "bbox": [
+          464.9,
+          382.2,
+          695.1,
+          412.0
+        ],
+        "inside_axes": true,
+        "inside_canvas": true
+      }
+    ],
+    "border_ink": {
+      "top": 0,
+      "bottom": 0,
+      "left": 0,
+      "right": 0
+    },
+    "std_raw_mN": [
+      117.69765966916796,
+      86.02171028813241,
+      8.378230282681166,
+      8.3413821869696,
+      5.314747219912024,
+      4.923045707284799
+    ],
+    "std_algo_mN": [
+      72.48652400546548,
+      84.64415892097072,
+      8.317575627259929,
+      8.415793887264655,
+      4.786474797128815,
+      4.074396324719206
+    ],
+    "event_raw_mN": [
+      823.6499999817788,
+      171.48484847321743,
+      28.41176470575192,
+      29.62499999656484,
+      28.864516128915966,
+      14.666666667001664
+    ],
+    "event_algo_mN": [
+      486.36249998899075,
+      165.9090909016777,
+      25.47368420955263,
+      21.999999996766746,
+      18.490322580537395,
+      11.6181818185687
+    ]
+  },
+  "fig_palm1_event.png": {
+    "window_audit": [
+      {
+        "text": "61.5 s：原始读数阶跃 +0.49 N",
+        "bbox": [
+          338.1,
+          273.0,
+          590.3,
+          308.9
+        ],
+        "axes_bbox": [
+          62.7,
+          51.4,
+          1155.8,
+          440.8
+        ],
+        "inside_axes": true,
+        "inside_canvas": true
+      },
+      {
+        "text": "同一瞬间：补偿后仅 +0.30 N",
+        "bbox": [
+          354.4,
+          146.5,
+          613.3,
+          205.6
+        ],
+        "axes_bbox": [
+          62.7,
+          51.4,
+          1155.8,
+          440.8
+        ],
+        "inside_axes": true,
+        "inside_canvas": true
+      },
+      {
+        "text": "事件后 30 s：原始读数累计抬升 +0.89 N，基线被永久抬高\n补偿",
+        "bbox": [
+          534.7,
+          221.1,
+          972.9,
+          322.6
+        ],
+        "axes_bbox": [
+          62.7,
+          51.4,
+          1155.8,
+          440.8
+        ],
+        "inside_axes": true,
+        "inside_canvas": true
+      },
+      {
+        "text": "纵轴为相对 61.5 s 前稳定读数（58–61.4 s 均值）的变化量",
+        "bbox": [
+          71.5,
+          415.0,
+          454.2,
+          431.1
+        ],
+        "axes_bbox": [
+          62.7,
+          51.4,
+          1155.8,
+          440.8
+        ],
+        "inside_axes": true,
+        "inside_canvas": true
+      },
+      {
+        "text": "LEGEND",
+        "bbox": [
+          379.8,
+          442.8,
+          838.8,
+          470.8
+        ],
+        "inside_axes": true,
+        "inside_canvas": true
+      }
+    ],
+    "border_ink": {
+      "top": 0,
+      "bottom": 0,
+      "left": 0,
+      "right": 0
+    },
+    "window_s": [
+      52.0,
+      92.0
+    ],
+    "base_raw_n": 17.654460410557185,
+    "base_algo_n": 14.502859237536658,
+    "step_raw_n": 0.49345863223338166,
+    "step_algo_n": 0.29868244858919024,
+    "after_raw_n": 0.8893272437638007,
+    "after_algo_n": 0.3570197748090213
+  }
+}

@@ -1,0 +1,632 @@
+{
+  "method": {
+    "toolbox": "D:\\workshop\\Processing\\multi-device-cascade-host-cpp\\toolbox\\数据解析工具",
+    "algorithm": "plugins.k9_creep_observer._compensate",
+    "numpy_channel_vectorized": true,
+    "session_params": "每会话读取 session.json algorithm.params，候选仅覆盖列明字段",
+    "fps": "session devices[0].observed_fps",
+    "time": "frame_index/fps",
+    "ten_g_note": "只输出候选脉冲，不作为实际10g验收"
+  },
+  "injection": {
+    "host": "设备1/测试2-2026-10-13_16-43-59",
+    "start_s": 33.67432202778797,
+    "rise_s": 2.5,
+    "hold_s": 15.0,
+    "total_adc_each": 100.0
+  },
+  "candidates": [
+    {
+      "name": "原参",
+      "overrides": {},
+      "sessions": {
+        "设备1/测试1": {
+          "load_start_s": 2.3399370729004585,
+          "first5_adc": 28107.357281380202,
+          "last5_adc": 28818.48121482063,
+          "net_change_adc": 711.1239334404272,
+          "max_abs_offset_5s_adc": 710.9513667320243,
+          "max_offset_5s_adc": 710.9513667320243,
+          "tail_slope_adc_s": 0.5552529191021583,
+          "n_windows": 651
+        },
+        "设备1/测试2": {
+          "load_start_s": 3.6743220277879707,
+          "first5_adc": 28267.16290402166,
+          "last5_adc": 28814.72793396994,
+          "net_change_adc": 547.5650299482804,
+          "max_abs_offset_5s_adc": 548.9448733193785,
+          "max_offset_5s_adc": 548.9448733193785,
+          "tail_slope_adc_s": 5.723682282654782,
+          "n_windows": 290
+        },
+        "设备2/测试1": {
+          "load_start_s": 1.8816315376811803,
+          "first5_adc": 25808.562994872293,
+          "last5_adc": 26801.89672096876,
+          "net_change_adc": 993.333726096469,
+          "max_abs_offset_5s_adc": 992.3320294526638,
+          "max_offset_5s_adc": 992.3320294526638,
+          "tail_slope_adc_s": 0.7586900255877663,
+          "n_windows": 432
+        },
+        "设备2/测试2": {
+          "load_start_s": 1.9611123247100435,
+          "first5_adc": 27282.44398756704,
+          "last5_adc": 27378.64557398746,
+          "net_change_adc": 96.20158642041861,
+          "max_abs_offset_5s_adc": 120.18017686154053,
+          "max_offset_5s_adc": 120.18017686154053,
+          "tail_slope_adc_s": -9.39831066310448,
+          "n_windows": 230
+        }
+      },
+      "injections": {
+        "分散57通道": {
+          "hold_last5_adc": 35.690073675473776,
+          "retention": 0.35690073675473777,
+          "release_7_12_adc": 7.768949849531193,
+          "event_start_s": 33.67432202778797,
+          "rise_s": 2.5,
+          "hold_end_s": 48.67432202778797,
+          "injected_total_adc": 100.0,
+          "shape": "分散57通道"
+        },
+        "集中1通道": {
+          "hold_last5_adc": 87.30790692710785,
+          "retention": 0.8730790692710785,
+          "release_7_12_adc": -2.59835299495343,
+          "event_start_s": 33.67432202778797,
+          "rise_s": 2.5,
+          "hold_end_s": 48.67432202778797,
+          "injected_total_adc": 100.0,
+          "shape": "集中1通道"
+        }
+      },
+      "constant_summary": {
+        "worst_abs_net": 993.333726096469,
+        "worst_abs_offset": 992.3320294526638,
+        "worst_abs_tail_slope": 9.39831066310448
+      },
+      "elapsed_s": 29.86
+    },
+    {
+      "name": "rslow_0.6",
+      "overrides": {
+        "r_slow_max": 0.6
+      },
+      "sessions": {
+        "设备1/测试1": {
+          "load_start_s": 2.3399370729004585,
+          "first5_adc": 28104.57369430802,
+          "last5_adc": 27990.02415741218,
+          "net_change_adc": -114.54953689583999,
+          "max_abs_offset_5s_adc": 124.8307718481883,
+          "max_offset_5s_adc": -124.8307718481883,
+          "tail_slope_adc_s": -1.8681027417993155,
+          "n_windows": 651
+        },
+        "设备1/测试2": {
+          "load_start_s": 3.6743220277879707,
+          "first5_adc": 28263.321766371497,
+          "last5_adc": 28266.838643598137,
+          "net_change_adc": 3.516877226640645,
+          "max_abs_offset_5s_adc": 29.13380351021624,
+          "max_offset_5s_adc": -29.13380351021624,
+          "tail_slope_adc_s": 4.039785389201563,
+          "n_windows": 290
+        },
+        "设备2/测试1": {
+          "load_start_s": 1.8816315376811803,
+          "first5_adc": 25775.21406695673,
+          "last5_adc": 25962.317897779078,
+          "net_change_adc": 187.10383082234694,
+          "max_abs_offset_5s_adc": 188.14391217554657,
+          "max_offset_5s_adc": 188.14391217554657,
+          "tail_slope_adc_s": -0.6785388359241689,
+          "n_windows": 432
+        },
+        "设备2/测试2": {
+          "load_start_s": 1.9611123247100435,
+          "first5_adc": 27260.909430730735,
+          "last5_adc": 27109.086713384662,
+          "net_change_adc": -151.82271734607275,
+          "max_abs_offset_5s_adc": 168.83924990262312,
+          "max_offset_5s_adc": -168.83924990262312,
+          "tail_slope_adc_s": -13.295995947622014,
+          "n_windows": 230
+        }
+      },
+      "injections": {
+        "分散57通道": {
+          "hold_last5_adc": 21.382720603314212,
+          "retention": 0.21382720603314212,
+          "release_7_12_adc": -0.9889946307586119,
+          "event_start_s": 33.67432202778797,
+          "rise_s": 2.5,
+          "hold_end_s": 48.67432202778797,
+          "injected_total_adc": 100.0,
+          "shape": "分散57通道"
+        },
+        "集中1通道": {
+          "hold_last5_adc": 87.30790692710785,
+          "retention": 0.8730790692710785,
+          "release_7_12_adc": -7.776000904060808,
+          "event_start_s": 33.67432202778797,
+          "rise_s": 2.5,
+          "hold_end_s": 48.67432202778797,
+          "injected_total_adc": 100.0,
+          "shape": "集中1通道"
+        }
+      },
+      "constant_summary": {
+        "worst_abs_net": 187.10383082234694,
+        "worst_abs_offset": 188.14391217554657,
+        "worst_abs_tail_slope": 13.295995947622014
+      },
+      "elapsed_s": 30.62
+    },
+    {
+      "name": "rslow_0.6_cap_0.002",
+      "overrides": {
+        "r_slow_max": 0.6,
+        "slope_cap_frac": 0.002
+      },
+      "sessions": {
+        "设备1/测试1": {
+          "load_start_s": 2.3399370729004585,
+          "first5_adc": 28704.915603852307,
+          "last5_adc": 28928.917827265283,
+          "net_change_adc": 224.00222341297558,
+          "max_abs_offset_5s_adc": 353.7573351652172,
+          "max_offset_5s_adc": 353.7573351652172,
+          "tail_slope_adc_s": -0.9216455502833929,
+          "n_windows": 651
+        },
+        "设备1/测试2": {
+          "load_start_s": 3.6743220277879707,
+          "first5_adc": 28980.250650284317,
+          "last5_adc": 29310.406935639727,
+          "net_change_adc": 330.15628535540964,
+          "max_abs_offset_5s_adc": 364.19684466756735,
+          "max_offset_5s_adc": 364.19684466756735,
+          "tail_slope_adc_s": 1.9971821780087584,
+          "n_windows": 290
+        },
+        "设备2/测试1": {
+          "load_start_s": 1.8816315376811803,
+          "first5_adc": 26240.244435050365,
+          "last5_adc": 27117.709435243192,
+          "net_change_adc": 877.4650001928276,
+          "max_abs_offset_5s_adc": 876.5616743512655,
+          "max_offset_5s_adc": 876.5616743512655,
+          "tail_slope_adc_s": 0.32020787938752837,
+          "n_windows": 432
+        },
+        "设备2/测试2": {
+          "load_start_s": 1.9611123247100435,
+          "first5_adc": 27628.921393732708,
+          "last5_adc": 27790.785608500948,
+          "net_change_adc": 161.86421476824034,
+          "max_abs_offset_5s_adc": 212.0869740573762,
+          "max_offset_5s_adc": 212.0869740573762,
+          "tail_slope_adc_s": -12.208815880277157,
+          "n_windows": 230
+        }
+      },
+      "injections": {
+        "分散57通道": {
+          "hold_last5_adc": 46.5028242810029,
+          "retention": 0.465028242810029,
+          "release_7_12_adc": -1.7885808494110211,
+          "event_start_s": 33.67432202778797,
+          "rise_s": 2.5,
+          "hold_end_s": 48.67432202778797,
+          "injected_total_adc": 100.0,
+          "shape": "分散57通道"
+        },
+        "集中1通道": {
+          "hold_last5_adc": 94.99594345475994,
+          "retention": 0.9499594345475993,
+          "release_7_12_adc": -1.8851400389770419,
+          "event_start_s": 33.67432202778797,
+          "rise_s": 2.5,
+          "hold_end_s": 48.67432202778797,
+          "injected_total_adc": 100.0,
+          "shape": "集中1通道"
+        }
+      },
+      "constant_summary": {
+        "worst_abs_net": 877.4650001928276,
+        "worst_abs_offset": 876.5616743512655,
+        "worst_abs_tail_slope": 12.208815880277157
+      },
+      "elapsed_s": 30.9
+    },
+    {
+      "name": "rslow_0.6_cap_0.0005",
+      "overrides": {
+        "r_slow_max": 0.6,
+        "slope_cap_frac": 0.0005
+      },
+      "sessions": {
+        "设备1/测试1": {
+          "load_start_s": 2.3399370729004585,
+          "first5_adc": 28941.489473348036,
+          "last5_adc": 30152.377216238732,
+          "net_change_adc": 1210.8877428906962,
+          "max_abs_offset_5s_adc": 1232.9850499953936,
+          "max_offset_5s_adc": 1232.9850499953936,
+          "tail_slope_adc_s": 1.37882930588969,
+          "n_windows": 651
+        },
+        "设备1/测试2": {
+          "load_start_s": 3.6743220277879707,
+          "first5_adc": 29209.54688941846,
+          "last5_adc": 30054.91305464048,
+          "net_change_adc": 845.3661652220217,
+          "max_abs_offset_5s_adc": 874.2778000472972,
+          "max_offset_5s_adc": 874.2778000472972,
+          "tail_slope_adc_s": 2.4930734847796523,
+          "n_windows": 290
+        },
+        "设备2/测试1": {
+          "load_start_s": 1.8816315376811803,
+          "first5_adc": 26408.451291548117,
+          "last5_adc": 27995.629607283623,
+          "net_change_adc": 1587.1783157355057,
+          "max_abs_offset_5s_adc": 1585.4640986169143,
+          "max_offset_5s_adc": 1585.4640986169143,
+          "tail_slope_adc_s": 1.4873872514630324,
+          "n_windows": 432
+        },
+        "设备2/测试2": {
+          "load_start_s": 1.9611123247100435,
+          "first5_adc": 27789.169748138604,
+          "last5_adc": 28425.888201892558,
+          "net_change_adc": 636.7184537539542,
+          "max_abs_offset_5s_adc": 646.762824118643,
+          "max_offset_5s_adc": 646.762824118643,
+          "tail_slope_adc_s": -8.373890290136504,
+          "n_windows": 230
+        }
+      },
+      "injections": {
+        "分散57通道": {
+          "hold_last5_adc": 81.49049765292855,
+          "retention": 0.8149049765292855,
+          "release_7_12_adc": -2.0464007215523004,
+          "event_start_s": 33.67432202778797,
+          "rise_s": 2.5,
+          "hold_end_s": 48.67432202778797,
+          "injected_total_adc": 100.0,
+          "shape": "分散57通道"
+        },
+        "集中1通道": {
+          "hold_last5_adc": 96.4872503396097,
+          "retention": 0.964872503396097,
+          "release_7_12_adc": -0.6045297834444625,
+          "event_start_s": 33.67432202778797,
+          "rise_s": 2.5,
+          "hold_end_s": 48.67432202778797,
+          "injected_total_adc": 100.0,
+          "shape": "集中1通道"
+        }
+      },
+      "constant_summary": {
+        "worst_abs_net": 1587.1783157355057,
+        "worst_abs_offset": 1585.4640986169143,
+        "worst_abs_tail_slope": 8.373890290136504
+      },
+      "elapsed_s": 31.37
+    },
+    {
+      "name": "rslow_0.6_gate_0.001",
+      "overrides": {
+        "r_slow_max": 0.6,
+        "slope_gate_frac": 0.001
+      },
+      "sessions": {
+        "设备1/测试1": {
+          "load_start_s": 2.3399370729004585,
+          "first5_adc": 29021.629788653103,
+          "last5_adc": 30509.310898849617,
+          "net_change_adc": 1487.681110196514,
+          "max_abs_offset_5s_adc": 1512.3076733803791,
+          "max_offset_5s_adc": 1512.3076733803791,
+          "tail_slope_adc_s": 2.267734296635119,
+          "n_windows": 651
+        },
+        "设备1/测试2": {
+          "load_start_s": 3.6743220277879707,
+          "first5_adc": 29286.46412329821,
+          "last5_adc": 30268.78329612304,
+          "net_change_adc": 982.3191728248312,
+          "max_abs_offset_5s_adc": 1010.4977989755062,
+          "max_offset_5s_adc": 1010.4977989755062,
+          "tail_slope_adc_s": 2.569150454779917,
+          "n_windows": 290
+        },
+        "设备2/测试1": {
+          "load_start_s": 1.8816315376811803,
+          "first5_adc": 26462.755167670417,
+          "last5_adc": 28262.702214952576,
+          "net_change_adc": 1799.9470472821595,
+          "max_abs_offset_5s_adc": 1798.3622848108098,
+          "max_offset_5s_adc": 1798.3622848108098,
+          "tail_slope_adc_s": 1.3368162488669344,
+          "n_windows": 432
+        },
+        "设备2/测试2": {
+          "load_start_s": 1.9611123247100435,
+          "first5_adc": 27845.188891400965,
+          "last5_adc": 28616.97838822551,
+          "net_change_adc": 771.7894968245455,
+          "max_abs_offset_5s_adc": 779.7700316784212,
+          "max_offset_5s_adc": 779.7700316784212,
+          "tail_slope_adc_s": -7.202020975795707,
+          "n_windows": 230
+        }
+      },
+      "injections": {
+        "分散57通道": {
+          "hold_last5_adc": 94.6937798847297,
+          "retention": 0.9469377988472969,
+          "release_7_12_adc": -1.4722260749457154,
+          "event_start_s": 33.67432202778797,
+          "rise_s": 2.5,
+          "hold_end_s": 48.67432202778797,
+          "injected_total_adc": 100.0,
+          "shape": "分散57通道"
+        },
+        "集中1通道": {
+          "hold_last5_adc": 96.96796555489533,
+          "retention": 0.9696796555489533,
+          "release_7_12_adc": -0.21084466060879947,
+          "event_start_s": 33.67432202778797,
+          "rise_s": 2.5,
+          "hold_end_s": 48.67432202778797,
+          "injected_total_adc": 100.0,
+          "shape": "集中1通道"
+        }
+      },
+      "constant_summary": {
+        "worst_abs_net": 1799.9470472821595,
+        "worst_abs_offset": 1798.3622848108098,
+        "worst_abs_tail_slope": 7.202020975795707
+      },
+      "elapsed_s": 32.05
+    },
+    {
+      "name": "rslow_0.6_gate_0.005",
+      "overrides": {
+        "r_slow_max": 0.6,
+        "slope_gate_frac": 0.005
+      },
+      "sessions": {
+        "设备1/测试1": {
+          "load_start_s": 2.3399370729004585,
+          "first5_adc": 28751.843749115946,
+          "last5_adc": 28850.340201148178,
+          "net_change_adc": 98.4964520322319,
+          "max_abs_offset_5s_adc": 269.8477499965338,
+          "max_offset_5s_adc": 269.8477499965338,
+          "tail_slope_adc_s": -1.3494202895785339,
+          "n_windows": 651
+        },
+        "设备1/测试2": {
+          "load_start_s": 3.6743220277879707,
+          "first5_adc": 29064.038853414382,
+          "last5_adc": 29337.649411867133,
+          "net_change_adc": 273.6105584527504,
+          "max_abs_offset_5s_adc": 311.9725346703599,
+          "max_offset_5s_adc": 311.9725346703599,
+          "tail_slope_adc_s": 1.7227875691478827,
+          "n_windows": 290
+        },
+        "设备2/测试1": {
+          "load_start_s": 1.8816315376811803,
+          "first5_adc": 26281.043567053697,
+          "last5_adc": 27084.255087339374,
+          "net_change_adc": 803.2115202856767,
+          "max_abs_offset_5s_adc": 802.5129469452149,
+          "max_offset_5s_adc": 802.5129469452149,
+          "tail_slope_adc_s": 0.2998964204678,
+          "n_windows": 432
+        },
+        "设备2/测试2": {
+          "load_start_s": 1.9611123247100435,
+          "first5_adc": 27650.243409498657,
+          "last5_adc": 27702.991537450216,
+          "net_change_adc": 52.74812795155958,
+          "max_abs_offset_5s_adc": 116.82194220643942,
+          "max_offset_5s_adc": 116.82194220643942,
+          "tail_slope_adc_s": -13.430602396090272,
+          "n_windows": 230
+        }
+      },
+      "injections": {
+        "分散57通道": {
+          "hold_last5_adc": 34.41820639797447,
+          "retention": 0.3441820639797447,
+          "release_7_12_adc": -3.0449865758993373,
+          "event_start_s": 33.67432202778797,
+          "rise_s": 2.5,
+          "hold_end_s": 48.67432202778797,
+          "injected_total_adc": 100.0,
+          "shape": "分散57通道"
+        },
+        "集中1通道": {
+          "hold_last5_adc": 96.70750411368951,
+          "retention": 0.9670750411368951,
+          "release_7_12_adc": -0.5966475927550334,
+          "event_start_s": 33.67432202778797,
+          "rise_s": 2.5,
+          "hold_end_s": 48.67432202778797,
+          "injected_total_adc": 100.0,
+          "shape": "集中1通道"
+        }
+      },
+      "constant_summary": {
+        "worst_abs_net": 803.2115202856767,
+        "worst_abs_offset": 802.5129469452149,
+        "worst_abs_tail_slope": 13.430602396090272
+      },
+      "elapsed_s": 34.12
+    },
+    {
+      "name": "rslow_0.6_rfast_0",
+      "overrides": {
+        "r_slow_max": 0.6,
+        "r_fast": 0.0
+      },
+      "sessions": {
+        "设备1/测试1": {
+          "load_start_s": 2.3399370729004585,
+          "first5_adc": 28881.139923393854,
+          "last5_adc": 28765.8394516446,
+          "net_change_adc": -115.30047174925494,
+          "max_abs_offset_5s_adc": 125.42815667543255,
+          "max_offset_5s_adc": -125.42815667543255,
+          "tail_slope_adc_s": -1.84917928391296,
+          "n_windows": 651
+        },
+        "设备1/测试2": {
+          "load_start_s": 3.6743220277879707,
+          "first5_adc": 29041.186173231,
+          "last5_adc": 29048.324244411328,
+          "net_change_adc": 7.138071180328552,
+          "max_abs_offset_5s_adc": 32.01722307194723,
+          "max_offset_5s_adc": 32.01722307194723,
+          "tail_slope_adc_s": 4.033261949319869,
+          "n_windows": 290
+        },
+        "设备2/测试1": {
+          "load_start_s": 1.8816315376811803,
+          "first5_adc": 26478.410242328944,
+          "last5_adc": 26674.794609718814,
+          "net_change_adc": 196.38436738987002,
+          "max_abs_offset_5s_adc": 197.39830971205447,
+          "max_offset_5s_adc": 197.39830971205447,
+          "tail_slope_adc_s": -0.6789725897980481,
+          "n_windows": 432
+        },
+        "设备2/测试2": {
+          "load_start_s": 1.9611123247100435,
+          "first5_adc": 28015.146510116385,
+          "last5_adc": 27864.128214078348,
+          "net_change_adc": -151.01829603803708,
+          "max_abs_offset_5s_adc": 170.4799901362967,
+          "max_offset_5s_adc": -170.4799901362967,
+          "tail_slope_adc_s": -13.519198614048552,
+          "n_windows": 230
+        }
+      },
+      "injections": {
+        "分散57通道": {
+          "hold_last5_adc": 21.926035050542488,
+          "retention": 0.2192603505054249,
+          "release_7_12_adc": -0.9599920823202779,
+          "event_start_s": 33.67432202778797,
+          "rise_s": 2.5,
+          "hold_end_s": 48.67432202778797,
+          "injected_total_adc": 100.0,
+          "shape": "分散57通道"
+        },
+        "集中1通道": {
+          "hold_last5_adc": 89.34230746155299,
+          "retention": 0.8934230746155299,
+          "release_7_12_adc": -8.198663359235908,
+          "event_start_s": 33.67432202778797,
+          "rise_s": 2.5,
+          "hold_end_s": 48.67432202778797,
+          "injected_total_adc": 100.0,
+          "shape": "集中1通道"
+        }
+      },
+      "constant_summary": {
+        "worst_abs_net": 196.38436738987002,
+        "worst_abs_offset": 197.39830971205447,
+        "worst_abs_tail_slope": 13.519198614048552
+      },
+      "elapsed_s": 34.59
+    },
+    {
+      "name": "rslow_0.6_confirm_10",
+      "overrides": {
+        "r_slow_max": 0.6,
+        "slow_confirm_s": 10.0
+      },
+      "sessions": {
+        "设备1/测试1": {
+          "load_start_s": 2.3399370729004585,
+          "first5_adc": 28834.637386488586,
+          "last5_adc": 28718.914503202283,
+          "net_change_adc": -115.72288328630384,
+          "max_abs_offset_5s_adc": 122.6823946683835,
+          "max_offset_5s_adc": -122.6823946683835,
+          "tail_slope_adc_s": -1.9078074479531968,
+          "n_windows": 651
+        },
+        "设备1/测试2": {
+          "load_start_s": 3.6743220277879707,
+          "first5_adc": 29120.567852501234,
+          "last5_adc": 29094.80728899684,
+          "net_change_adc": -25.760563504394668,
+          "max_abs_offset_5s_adc": 57.70835787240503,
+          "max_offset_5s_adc": -57.70835787240503,
+          "tail_slope_adc_s": 4.031034145455692,
+          "n_windows": 290
+        },
+        "设备2/测试1": {
+          "load_start_s": 1.8816315376811803,
+          "first5_adc": 26263.869635379022,
+          "last5_adc": 26413.15974533391,
+          "net_change_adc": 149.29010995488716,
+          "max_abs_offset_5s_adc": 149.77845186902414,
+          "max_offset_5s_adc": 149.77845186902414,
+          "tail_slope_adc_s": -0.6632113998982869,
+          "n_windows": 432
+        },
+        "设备2/测试2": {
+          "load_start_s": 1.9611123247100435,
+          "first5_adc": 27684.91509093866,
+          "last5_adc": 27527.582346375686,
+          "net_change_adc": -157.33274456297295,
+          "max_abs_offset_5s_adc": 193.4034610300987,
+          "max_offset_5s_adc": -193.4034610300987,
+          "tail_slope_adc_s": -13.723499070206746,
+          "n_windows": 230
+        }
+      },
+      "injections": {
+        "分散57通道": {
+          "hold_last5_adc": 23.68321969666662,
+          "retention": 0.2368321969666662,
+          "release_7_12_adc": 0.9733699971783687,
+          "event_start_s": 33.67432202778797,
+          "rise_s": 2.5,
+          "hold_end_s": 48.67432202778797,
+          "injected_total_adc": 100.0,
+          "shape": "分散57通道"
+        },
+        "集中1通道": {
+          "hold_last5_adc": 87.14012124955497,
+          "retention": 0.8714012124955497,
+          "release_7_12_adc": -11.8367907751623,
+          "event_start_s": 33.67432202778797,
+          "rise_s": 2.5,
+          "hold_end_s": 48.67432202778797,
+          "injected_total_adc": 100.0,
+          "shape": "集中1通道"
+        }
+      },
+      "constant_summary": {
+        "worst_abs_net": 157.33274456297295,
+        "worst_abs_offset": 193.4034610300987,
+        "worst_abs_tail_slope": 13.723499070206746
+      },
+      "elapsed_s": 31.6
+    }
+  ]
+}

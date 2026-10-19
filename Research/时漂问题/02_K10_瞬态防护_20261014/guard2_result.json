@@ -1,0 +1,34 @@
+{
+  "config": {
+    "WIN_S": 1.0,
+    "ABS_MIN": 30.0,
+    "SIGMA_MULT": 6.0,
+    "MAX_RUN_S": 2.0,
+    "SETTLE_S": 0.15,
+    "CHECK_S": 0.5,
+    "RECOVER_TOL_ADC": 25.0
+  },
+  "dip_injection": {
+    "dip_frames": 30,
+    "clean_shift": -0.71,
+    "dirty_shift": 23.29,
+    "guarded_shift": 7.09,
+    "dirty_vs_clean": 23.99,
+    "guarded_vs_clean": 7.79,
+    "suppressed_segments": 88,
+    "kept_segments": 120,
+    "flagged_channels_at_event": 6
+  },
+  "sustained_step": {
+    "max_abs_output_diff": 264.101,
+    "suppressed_segments": 82,
+    "kept_segments": 224,
+    "dirty_shift": -30.13,
+    "guarded_shift": -30.13
+  },
+  "real_unload": {
+    "max_abs_output_diff": 264.101,
+    "suppressed_segments": 82,
+    "kept_segments": 160
+  }
+}

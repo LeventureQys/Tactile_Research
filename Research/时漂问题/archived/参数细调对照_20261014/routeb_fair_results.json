@@ -1,0 +1,303 @@
+{
+  "params": {
+    "bypass_base_tau_s": 10,
+    "bypass_engage_frac": 1.25,
+    "bypass_noise_sigma": 3,
+    "bypass_release_frac": 1.15,
+    "edge_boost_s": 2,
+    "edge_refract_s": 2,
+    "edge_slope_thres": 60,
+    "hold_eps": 2,
+    "hold_tau_s": 0.5,
+    "idle_frac": 0.05,
+    "param_set": "plan-v4 observer-k9",
+    "r_fast": 0.03,
+    "r_slow_max": 0.6,
+    "ramp_full_s": 4,
+    "ramp_slope_min": 0.5,
+    "slope_cap_frac": 0.02,
+    "slope_gate_frac": 0.05,
+    "slow_confirm_s": 3,
+    "soft_unfreeze_s": 2,
+    "tau_c_fast_boost_s": 2,
+    "tau_c_fast_s": 2,
+    "tau_r_fast_s": 0.1,
+    "tau_r_slow_idle_s": 0.2,
+    "tau_r_slow_s": 150,
+    "tau_slope_s": 1,
+    "tau_zero_s": 8,
+    "y_floor_tau_s": 300,
+    "y_max_tau_s": 600
+  },
+  "config": {
+    "enabled": true,
+    "window_s": 0.25,
+    "separation_s": 0.5,
+    "confirm_s": 0.25,
+    "hold_s": 2.0,
+    "threshold_adc": 45.0,
+    "noise_multiplier": 4.0,
+    "trend_tau_s": 8.0,
+    "cooldown_s": 1.5,
+    "large_step_adc": 2000.0,
+    "max_event_adc": 250.0,
+    "max_platform_adc": 800.0,
+    "max_platform_rate": 500.0,
+    "gap_s": 0.25,
+    "rollback_tolerance": 0.35
+  },
+  "probes": [
+    {
+      "start_s": 30.0,
+      "rise_s": 0.0,
+      "arms": {
+        "k9": {
+          "hold_adc": 23.086395962720523,
+          "release_adc": 0.3293747405914127,
+          "events": null
+        },
+        "route_b": {
+          "hold_adc": 50.69305236538716,
+          "release_adc": -15.413195177212874,
+          "events": [
+            {
+              "time_s": 26.89524064242631,
+              "action": "lock",
+              "delta_total_adc": -7.461538461537793,
+              "platform_total_adc": -7.461538461537793
+            },
+            {
+              "time_s": 30.469987547509998,
+              "action": "lock",
+              "delta_total_adc": 109.15887972097198,
+              "platform_total_adc": 101.6973412594342
+            },
+            {
+              "time_s": 37.430288624539244,
+              "action": "rollback",
+              "delta_total_adc": -40.00000000000042,
+              "platform_total_adc": 61.697341259433784
+            },
+            {
+              "time_s": 45.356468391800014,
+              "action": "rollback",
+              "delta_total_adc": -93.92307692307894,
+              "platform_total_adc": -32.225735663645146
+            },
+            {
+              "time_s": 54.935595195951855,
+              "action": "rollback",
+              "delta_total_adc": -39.03846153846113,
+              "platform_total_adc": -71.26419720210625
+            }
+          ]
+        }
+      }
+    },
+    {
+      "start_s": 30.0,
+      "rise_s": 2.5,
+      "arms": {
+        "k9": {
+          "hold_adc": 22.177524574608213,
+          "release_adc": -0.7463277155417947,
+          "events": null
+        },
+        "route_b": {
+          "hold_adc": -76.97179165669183,
+          "release_adc": -143.95722866013722,
+          "events": [
+            {
+              "time_s": 26.89524064242631,
+              "action": "lock",
+              "delta_total_adc": -7.461538461537793,
+              "platform_total_adc": -7.461538461537793
+            },
+            {
+              "time_s": 37.41037359999839,
+              "action": "rollback",
+              "delta_total_adc": -37.26923076923058,
+              "platform_total_adc": -44.73076923076838
+            },
+            {
+              "time_s": 45.34651087952959,
+              "action": "rollback",
+              "delta_total_adc": -94.1923076923095,
+              "platform_total_adc": -138.92307692307784
+            },
+            {
+              "time_s": 54.92563768368142,
+              "action": "rollback",
+              "delta_total_adc": -39.15384615384595,
+              "platform_total_adc": -178.0769230769238
+            }
+          ]
+        }
+      }
+    },
+    {
+      "start_s": 33.67432202778797,
+      "rise_s": 0.0,
+      "arms": {
+        "k9": {
+          "hold_adc": 21.741586040543183,
+          "release_adc": -0.541700316967975,
+          "events": null
+        },
+        "route_b": {
+          "hold_adc": 114.01283122045459,
+          "release_adc": 16.607164136182703,
+          "events": [
+            {
+              "time_s": 26.89524064242631,
+              "action": "lock",
+              "delta_total_adc": -7.461538461537793,
+              "platform_total_adc": -7.461538461537793
+            },
+            {
+              "time_s": 34.14430957529797,
+              "action": "lock",
+              "delta_total_adc": 100.26923076923269,
+              "platform_total_adc": 92.8076923076949
+            },
+            {
+              "time_s": 49.070620468669695,
+              "action": "rollback",
+              "delta_total_adc": -86.42307692307912,
+              "platform_total_adc": 6.384615384615779
+            },
+            {
+              "time_s": 54.935595195951855,
+              "action": "rollback",
+              "delta_total_adc": -39.03846153846113,
+              "platform_total_adc": -32.65384615384535
+            }
+          ]
+        }
+      }
+    },
+    {
+      "start_s": 33.67432202778797,
+      "rise_s": 2.5,
+      "arms": {
+        "k9": {
+          "hold_adc": 21.382720595428736,
+          "release_adc": -0.9889946307586688,
+          "events": null
+        },
+        "route_b": {
+          "hold_adc": -61.151775500908386,
+          "release_adc": -150.45716791951799,
+          "events": [
+            {
+              "time_s": 26.89524064242631,
+              "action": "lock",
+              "delta_total_adc": -7.461538461537793,
+              "platform_total_adc": -7.461538461537793
+            },
+            {
+              "time_s": 37.41037359999839,
+              "action": "rollback",
+              "delta_total_adc": -37.26923076923058,
+              "platform_total_adc": -44.73076923076838
+            },
+            {
+              "time_s": 49.06066295639927,
+              "action": "rollback",
+              "delta_total_adc": -86.53846153846382,
+              "platform_total_adc": -131.2692307692322
+            },
+            {
+              "time_s": 54.92563768368142,
+              "action": "rollback",
+              "delta_total_adc": -39.15384615384595,
+              "platform_total_adc": -170.42307692307816
+            }
+          ]
+        }
+      }
+    },
+    {
+      "start_s": 40.0,
+      "rise_s": 0.0,
+      "arms": {
+        "k9": {
+          "hold_adc": 21.536973205081285,
+          "release_adc": -0.21029518308277595,
+          "events": null
+        },
+        "route_b": {
+          "hold_adc": 102.66261986679402,
+          "release_adc": -11.836855414573025,
+          "events": [
+            {
+              "time_s": 26.89524064242631,
+              "action": "lock",
+              "delta_total_adc": -7.461538461537793,
+              "platform_total_adc": -7.461538461537793
+            },
+            {
+              "time_s": 37.44024613680967,
+              "action": "rollback",
+              "delta_total_adc": -37.46153846153858,
+              "platform_total_adc": -44.92307692307637
+            },
+            {
+              "time_s": 40.40758479339725,
+              "action": "lock",
+              "delta_total_adc": 120.42307692307872,
+              "platform_total_adc": 75.50000000000236
+            },
+            {
+              "time_s": 54.92563768368142,
+              "action": "rollback",
+              "delta_total_adc": -39.1538461538465,
+              "platform_total_adc": 36.346153846155865
+            },
+            {
+              "time_s": 55.19449051498298,
+              "action": "rollback",
+              "delta_total_adc": -111.03846153846412,
+              "platform_total_adc": -74.69230769230825
+            }
+          ]
+        }
+      }
+    },
+    {
+      "start_s": 40.0,
+      "rise_s": 2.5,
+      "arms": {
+        "k9": {
+          "hold_adc": 21.65748947083589,
+          "release_adc": -0.18951260298586625,
+          "events": null
+        },
+        "route_b": {
+          "hold_adc": 22.100492168137812,
+          "release_adc": -48.77536149871524,
+          "events": [
+            {
+              "time_s": 26.89524064242631,
+              "action": "lock",
+              "delta_total_adc": -7.461538461537793,
+              "platform_total_adc": -7.461538461537793
+            },
+            {
+              "time_s": 37.44024613680967,
+              "action": "rollback",
+              "delta_total_adc": -37.46153846153858,
+              "platform_total_adc": -44.92307692307637
+            },
+            {
+              "time_s": 54.92563768368142,
+              "action": "rollback",
+              "delta_total_adc": -39.1538461538465,
+              "platform_total_adc": -84.07692307692285
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

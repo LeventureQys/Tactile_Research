@@ -1,0 +1,333 @@
+{
+  "rise_s": 2.5,
+  "inject_start_base": 33.704194564599256,
+  "configs": [
+    {
+      "name": "r=1.0 cap=0.002",
+      "override": {
+        "r_slow_max": 1.0,
+        "slope_cap_frac": 0.002
+      },
+      "worst_abs_net": 877.3,
+      "worst_abs_offset": 876.4,
+      "per_home": {
+        "设备1/测试1": {
+          "net": 223.1,
+          "off": 352.7
+        },
+        "设备1/测试2": {
+          "net": 329.5,
+          "off": 363.6
+        },
+        "设备2/测试1": {
+          "net": 877.3,
+          "off": 876.4
+        },
+        "设备2/测试2": {
+          "net": 161.9,
+          "off": 211.9
+        }
+      },
+      "injects": {
+        "分散57×100": {
+          "hold_adc": 46.5,
+          "retention": 0.465,
+          "release_7_12": -1.9
+        },
+        "集中1×300": {
+          "hold_adc": 289.6,
+          "retention": 0.965,
+          "release_7_12": -1.6
+        }
+      },
+      "elapsed_s": 128.1
+    },
+    {
+      "name": "r=0.6 cap=0.005 gate=0.1",
+      "override": {
+        "r_slow_max": 0.6,
+        "slope_cap_frac": 0.005,
+        "slope_gate_frac": 0.1
+      },
+      "worst_abs_net": 464.2,
+      "worst_abs_offset": 467.6,
+      "per_home": {
+        "设备1/测试1": {
+          "net": -22.8,
+          "off": 117.7
+        },
+        "设备1/测试2": {
+          "net": 151.5,
+          "off": 183.7
+        },
+        "设备2/测试1": {
+          "net": 464.2,
+          "off": 467.6
+        },
+        "设备2/测试2": {
+          "net": -87.3,
+          "off": 83.8
+        }
+      },
+      "injects": {
+        "分散57×100": {
+          "hold_adc": 27.1,
+          "retention": 0.271,
+          "release_7_12": -1.2
+        },
+        "集中1×300": {
+          "hold_adc": 288.9,
+          "retention": 0.963,
+          "release_7_12": -1.9
+        }
+      },
+      "elapsed_s": 125.0
+    },
+    {
+      "name": "r=0.6 cap=0.005 gate=0.2",
+      "override": {
+        "r_slow_max": 0.6,
+        "slope_cap_frac": 0.005,
+        "slope_gate_frac": 0.2
+      },
+      "worst_abs_net": 464.4,
+      "worst_abs_offset": 467.7,
+      "per_home": {
+        "设备1/测试1": {
+          "net": -22.9,
+          "off": 117.8
+        },
+        "设备1/测试2": {
+          "net": 150.7,
+          "off": 182.8
+        },
+        "设备2/测试1": {
+          "net": 464.4,
+          "off": 467.7
+        },
+        "设备2/测试2": {
+          "net": -87.3,
+          "off": 83.9
+        }
+      },
+      "injects": {
+        "分散57×100": {
+          "hold_adc": 26.9,
+          "retention": 0.269,
+          "release_7_12": -1.2
+        },
+        "集中1×300": {
+          "hold_adc": 288.7,
+          "retention": 0.962,
+          "release_7_12": -2.2
+        }
+      },
+      "elapsed_s": 124.9
+    },
+    {
+      "name": "r=0.6 cap=0.005 confirm=8",
+      "override": {
+        "r_slow_max": 0.6,
+        "slope_cap_frac": 0.005,
+        "slow_confirm_s": 8.0
+      },
+      "worst_abs_net": 462.8,
+      "worst_abs_offset": 462.2,
+      "per_home": {
+        "设备1/测试1": {
+          "net": -9.1,
+          "off": 96.2
+        },
+        "设备1/测试2": {
+          "net": 131.6,
+          "off": 163.6
+        },
+        "设备2/测试1": {
+          "net": 462.8,
+          "off": 462.2
+        },
+        "设备2/测试2": {
+          "net": -91.3,
+          "off": 92.3
+        }
+      },
+      "injects": {
+        "分散57×100": {
+          "hold_adc": 28.8,
+          "retention": 0.288,
+          "release_7_12": 0.3
+        },
+        "集中1×300": {
+          "hold_adc": 291.5,
+          "retention": 0.972,
+          "release_7_12": -1.1
+        }
+      },
+      "elapsed_s": 117.1
+    },
+    {
+      "name": "r=0.6 cap=0.005 unfreeze=8",
+      "override": {
+        "r_slow_max": 0.6,
+        "slope_cap_frac": 0.005,
+        "soft_unfreeze_s": 8.0
+      },
+      "worst_abs_net": 448.7,
+      "worst_abs_offset": 452.5,
+      "per_home": {
+        "设备1/测试1": {
+          "net": -32.1,
+          "off": 109.3
+        },
+        "设备1/测试2": {
+          "net": 142.2,
+          "off": 174.2
+        },
+        "设备2/测试1": {
+          "net": 448.7,
+          "off": 452.5
+        },
+        "设备2/测试2": {
+          "net": -90.8,
+          "off": 87.5
+        }
+      },
+      "injects": {
+        "分散57×100": {
+          "hold_adc": 27.5,
+          "retention": 0.275,
+          "release_7_12": -0.9
+        },
+        "集中1×300": {
+          "hold_adc": 291.0,
+          "retention": 0.97,
+          "release_7_12": 0.2
+        }
+      },
+      "elapsed_s": 117.6
+    },
+    {
+      "name": "r=0.6 cap=0.005 ramp_full=60",
+      "override": {
+        "r_slow_max": 0.6,
+        "slope_cap_frac": 0.005,
+        "ramp_full_s": 60.0
+      },
+      "worst_abs_net": 463.5,
+      "worst_abs_offset": 467.3,
+      "per_home": {
+        "设备1/测试1": {
+          "net": -23.6,
+          "off": 117.5
+        },
+        "设备1/测试2": {
+          "net": 153.7,
+          "off": 185.7
+        },
+        "设备2/测试1": {
+          "net": 463.5,
+          "off": 467.3
+        },
+        "设备2/测试2": {
+          "net": -88.9,
+          "off": 85.6
+        }
+      },
+      "injects": {
+        "分散57×100": {
+          "hold_adc": 27.4,
+          "retention": 0.274,
+          "release_7_12": -1.1
+        },
+        "集中1×300": {
+          "hold_adc": 289.0,
+          "retention": 0.963,
+          "release_7_12": -1.8
+        }
+      },
+      "elapsed_s": 131.1
+    },
+    {
+      "name": "r=0.6 cap=0.005 ramp_min=5",
+      "override": {
+        "r_slow_max": 0.6,
+        "slope_cap_frac": 0.005,
+        "ramp_slope_min": 5.0
+      },
+      "worst_abs_net": 463.5,
+      "worst_abs_offset": 467.3,
+      "per_home": {
+        "设备1/测试1": {
+          "net": -23.6,
+          "off": 117.5
+        },
+        "设备1/测试2": {
+          "net": 153.7,
+          "off": 185.7
+        },
+        "设备2/测试1": {
+          "net": 463.5,
+          "off": 467.3
+        },
+        "设备2/测试2": {
+          "net": -88.9,
+          "off": 85.6
+        }
+      },
+      "injects": {
+        "分散57×100": {
+          "hold_adc": 27.4,
+          "retention": 0.274,
+          "release_7_12": -1.1
+        },
+        "集中1×300": {
+          "hold_adc": 289.0,
+          "retention": 0.963,
+          "release_7_12": -1.8
+        }
+      },
+      "elapsed_s": 123.2
+    },
+    {
+      "name": "r=0.6 cap=0.005 hold_eps=0",
+      "override": {
+        "r_slow_max": 0.6,
+        "slope_cap_frac": 0.005,
+        "hold_eps": 0.0
+      },
+      "worst_abs_net": 463.5,
+      "worst_abs_offset": 467.3,
+      "per_home": {
+        "设备1/测试1": {
+          "net": -23.6,
+          "off": 117.5
+        },
+        "设备1/测试2": {
+          "net": 153.7,
+          "off": 185.7
+        },
+        "设备2/测试1": {
+          "net": 463.5,
+          "off": 467.3
+        },
+        "设备2/测试2": {
+          "net": -88.9,
+          "off": 85.6
+        }
+      },
+      "injects": {
+        "分散57×100": {
+          "hold_adc": 27.4,
+          "retention": 0.274,
+          "release_7_12": -1.1
+        },
+        "集中1×300": {
+          "hold_adc": 289.0,
+          "retention": 0.963,
+          "release_7_12": -1.8
+        }
+      },
+      "elapsed_s": 120.2
+    }
+  ]
+}

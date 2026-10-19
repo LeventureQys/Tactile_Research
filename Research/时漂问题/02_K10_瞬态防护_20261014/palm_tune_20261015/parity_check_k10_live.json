@@ -1,0 +1,25 @@
+{
+  "source": "D:\\$RECYCLE.BIN\\S-1-5-21-3129820652-4156655561-3743858824-1001\\$R3DWW9D.009\\设备1-2026-10-15_15-43-38",
+  "frames": 137,
+  "channels": 71,
+  "fps": 98.67350399645801,
+  "algorithm_id": "drift_k10_creep_observer",
+  "param_set": "plan-v4 observer-k9 + K10 transient guard",
+  "guard": {
+    "enabled": true,
+    "floor_confirm_s": 0.5,
+    "idle_confirm_s": 0.3,
+    "floor_deep_adc": 200.0,
+    "floor_guard": true,
+    "idle_guard": true,
+    "spike_guard": false
+  },
+  "max_abs_diff": 0.0,
+  "mean_abs_diff": 0.0,
+  "max_abs_total_diff": 0.0,
+  "equivalent": true,
+  "guard_info": {
+    "guard_frames": 0,
+    "fast_release_frames": 46
+  }
+}
