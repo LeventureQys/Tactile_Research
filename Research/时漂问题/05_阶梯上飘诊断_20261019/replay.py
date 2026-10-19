@@ -253,7 +253,7 @@ def main():
         k9_idle_count=L["idle"].sum(1), k10_idle_count=L10["idle"].sum(1),
         k9_dwell_max=L["dwell"].max(1),
         k9_total_baseline=Ls["total_baseline"], k9_total=Ls["total"],
-        **{f"k9_{k}_c{c}": L[k][:, c] for k in ("applied", "x_slow", "y_floor", "y_max", "zero", "slope", "dwell") for c in keep},
+        **{f"k9_{k}_c{c}": L[k][:, c] for k in ("applied", "x_slow", "x_fast", "y_floor", "y_max", "zero", "slope", "dwell", "idle") for c in keep},
         **{f"k10_{k}_c{c}": L10[k][:, c] for k in ("applied", "x_slow", "y_floor", "zero") for c in keep},
         **{f"pre_c{c}": pre[:, c] for c in keep},
     )
