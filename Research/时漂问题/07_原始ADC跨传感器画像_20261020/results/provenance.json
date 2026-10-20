@@ -1,0 +1,1046 @@
+[
+  {
+    "id": "P01",
+    "raw_path": "D:\\workshop\\Github\\Tactile_Research\\Research\\时漂问题\\data\\archived\\手掌数据\\20260926_223756_single_device_1d925c\\device_001_raw_seg000.csv",
+    "sha256": "7634978070e1bc5ac4d5019b587c5aef34375b4f28e2291d25809bf4cd678589",
+    "bytes": 811964,
+    "header_explicit_raw_adc": true,
+    "header": [
+      "##Session",
+      "方案名, tactile_recording_session",
+      "方案版本, 1",
+      "会话ID, 20260926_223756_single_device_1d925c",
+      "会话类型, single_device",
+      "设备ID, device_001",
+      "数据阶段, raw_adc",
+      "列版本, 3",
+      "##Data"
+    ],
+    "identity": [
+      {
+        "device_id": "device_001",
+        "alias": "",
+        "serial_number": "",
+        "observed_fps": 100.58876235592041,
+        "first_timestamp": 1060879.78413,
+        "last_timestamp": 1060912.7301562,
+        "frame_count": 3314
+      }
+    ],
+    "columns": 71,
+    "high_runs": [],
+    "metadata_note": "Session algorithm results/parameters are not used as numerical evidence."
+  },
+  {
+    "id": "P02",
+    "raw_path": "D:\\workshop\\Github\\Tactile_Research\\Research\\时漂问题\\data\\archived\\手掌数据\\20260927_101043_single_device_43da6f\\device_001_raw_seg000.csv",
+    "sha256": "a9e62571d524bd4ebca42dce9beb0bf0cf4e65cba16f24e7f43fc0ee108833ff",
+    "bytes": 374028,
+    "header_explicit_raw_adc": true,
+    "header": [
+      "##Session",
+      "方案名, tactile_recording_session",
+      "方案版本, 1",
+      "会话ID, 20260927_101043_single_device_43da6f",
+      "会话类型, single_device",
+      "设备ID, device_001",
+      "数据阶段, raw_adc",
+      "列版本, 3",
+      "##Data"
+    ],
+    "identity": [
+      {
+        "device_id": "device_001",
+        "alias": "",
+        "serial_number": "",
+        "observed_fps": 98.45580858836097,
+        "first_timestamp": 2492.801955,
+        "last_timestamp": 2506.5035336,
+        "frame_count": 1349
+      }
+    ],
+    "columns": 71,
+    "high_runs": [],
+    "metadata_note": "Session algorithm results/parameters are not used as numerical evidence."
+  },
+  {
+    "id": "P03",
+    "raw_path": "D:\\workshop\\Github\\Tactile_Research\\Research\\时漂问题\\data\\archived\\手掌数据\\20260927_102924_single_device_ebfaca\\device_001_raw_seg000.csv",
+    "sha256": "7406bb312e60cac09ccb25fdf95864d8dacb7a6e54ab805e081989442f0a93b0",
+    "bytes": 380336,
+    "header_explicit_raw_adc": true,
+    "header": [
+      "##Session",
+      "方案名, tactile_recording_session",
+      "方案版本, 1",
+      "会话ID, 20260927_102924_single_device_ebfaca",
+      "会话类型, single_device",
+      "设备ID, device_001",
+      "数据阶段, raw_adc",
+      "列版本, 3",
+      "##Data"
+    ],
+    "identity": [
+      {
+        "device_id": "device_001",
+        "alias": "",
+        "serial_number": "",
+        "observed_fps": 100.66013849787683,
+        "first_timestamp": 3613.2857608,
+        "last_timestamp": 3628.7536513,
+        "frame_count": 1557
+      }
+    ],
+    "columns": 71,
+    "high_runs": [],
+    "metadata_note": "Session algorithm results/parameters are not used as numerical evidence."
+  },
+  {
+    "id": "P04",
+    "raw_path": "D:\\workshop\\Github\\Tactile_Research\\Research\\时漂问题\\data\\archived\\手掌数据\\20260927_110446_single_device_c25fce\\device_001_raw_seg000.csv",
+    "sha256": "1b7b12d75748b3bfec9a4f7e59f6d45b98d74d59d5bbf838f80e12d9d1fa2ead",
+    "bytes": 881565,
+    "header_explicit_raw_adc": true,
+    "header": [
+      "##Session",
+      "方案名, tactile_recording_session",
+      "方案版本, 1",
+      "会话ID, 20260927_110446_single_device_c25fce",
+      "会话类型, single_device",
+      "设备ID, device_001",
+      "数据阶段, raw_adc",
+      "列版本, 3",
+      "##Data"
+    ],
+    "identity": [
+      {
+        "device_id": "device_001",
+        "alias": "",
+        "serial_number": "",
+        "observed_fps": 100.60528915266771,
+        "first_timestamp": 5735.1539654,
+        "last_timestamp": 5766.8719797,
+        "frame_count": 3191
+      }
+    ],
+    "columns": 71,
+    "high_runs": [
+      {
+        "start_s": 7.0,
+        "end_s": 32.0,
+        "duration_s": 25,
+        "delta_adc": 45.0,
+        "slope_adc_min": 139.13076923076923,
+        "early_slope_adc_min": 275.3571428571429,
+        "late_slope_adc_min": 58.214285714285715,
+        "cancellation_ratio": 0.12852664576802508,
+        "channel_positive": 29,
+        "channel_negative": 16,
+        "channel_load_slope_corr": 0.289164022941633
+      }
+    ],
+    "metadata_note": "Session algorithm results/parameters are not used as numerical evidence."
+  },
+  {
+    "id": "P05",
+    "raw_path": "D:\\workshop\\Github\\Tactile_Research\\Research\\时漂问题\\data\\archived\\手掌数据\\20260927_111205_single_device_03225d\\device_001_raw_seg000.csv",
+    "sha256": "90fd34f8e75f948184a1cb3f8dbdff46a8dc0d15777ad2a5ee8590dad10d1509",
+    "bytes": 884589,
+    "header_explicit_raw_adc": true,
+    "header": [
+      "##Session",
+      "方案名, tactile_recording_session",
+      "方案版本, 1",
+      "会话ID, 20260927_111205_single_device_03225d",
+      "会话类型, single_device",
+      "设备ID, device_001",
+      "数据阶段, raw_adc",
+      "列版本, 3",
+      "##Data"
+    ],
+    "identity": [
+      {
+        "device_id": "device_001",
+        "alias": "",
+        "serial_number": "",
+        "observed_fps": 100.63820128160279,
+        "first_timestamp": 6174.0717237,
+        "last_timestamp": 6209.9229209,
+        "frame_count": 3608
+      }
+    ],
+    "columns": 71,
+    "high_runs": [
+      {
+        "start_s": 7.0,
+        "end_s": 35.0,
+        "duration_s": 28,
+        "delta_adc": 1196.5,
+        "slope_adc_min": 3085.213464696223,
+        "early_slope_adc_min": 5279.5,
+        "late_slope_adc_min": 2118.5,
+        "cancellation_ratio": 1.0,
+        "channel_positive": 42,
+        "channel_negative": 0,
+        "channel_load_slope_corr": 0.0572369705142519
+      }
+    ],
+    "metadata_note": "Session algorithm results/parameters are not used as numerical evidence."
+  },
+  {
+    "id": "F01",
+    "raw_path": "D:\\workshop\\Github\\Tactile_Research\\Research\\时漂问题\\data\\archived\\四指指腹（小指腹）\\单设备录制-2026-09-29_09-54-31\\device_001_raw_seg000.csv",
+    "sha256": "22363d0f96e5db53fdad92ec90720cc6e32ae036f1a2f280569b40090c60a4c7",
+    "bytes": 287801,
+    "header_explicit_raw_adc": true,
+    "header": [
+      "##Session",
+      "方案名, tactile_recording_session",
+      "方案版本, 1",
+      "会话ID, 单设备录制-2026-09-29_09-54-31",
+      "会话类型, single_device",
+      "设备ID, device_001",
+      "数据阶段, raw_adc",
+      "列版本, 3",
+      "##Data"
+    ],
+    "identity": [
+      {
+        "device_id": "device_001",
+        "alias": "",
+        "serial_number": "",
+        "observed_fps": 100.28869108297481,
+        "first_timestamp": 174312.76355,
+        "last_timestamp": 174330.3627427,
+        "frame_count": 1765
+      }
+    ],
+    "columns": 52,
+    "high_runs": [],
+    "metadata_note": "Session algorithm results/parameters are not used as numerical evidence."
+  },
+  {
+    "id": "T11",
+    "raw_path": "D:\\workshop\\Github\\Tactile_Research\\Research\\时漂问题\\data\\archived\\右拇指指腹\\设备1\\测试1-2026-10-13_16-32-15\\device_001_raw_seg000.csv",
+    "sha256": "d256ae73d6fa9e51157a96a94d3157f8584c71b5b5c3992a2ec252ee464c5fc2",
+    "bytes": 16612061,
+    "header_explicit_raw_adc": true,
+    "header": [
+      "##Session",
+      "方案名, tactile_recording_session",
+      "方案版本, 1",
+      "会话ID, 测试1-2026-10-13_16-32-15",
+      "会话类型, single_device",
+      "设备ID, device_001",
+      "数据阶段, raw_adc",
+      "列版本, 4",
+      "行数, 14",
+      "列数, 8",
+      "布局掩码, 1111100011111000111110001111100011111000111110001111100011111000011100000110000000000111000001110000011100000111",
+      "##Data"
+    ],
+    "identity": [
+      {
+        "device_id": "device_001",
+        "alias": "",
+        "serial_number": "",
+        "observed_fps": 100.43005118454182,
+        "first_timestamp": 1040692.8884383,
+        "last_timestamp": 1041365.5058392,
+        "frame_count": 67551
+      }
+    ],
+    "columns": 57,
+    "high_runs": [
+      {
+        "start_s": 166.0,
+        "end_s": 673.0,
+        "duration_s": 507,
+        "delta_adc": 645.5,
+        "slope_adc_min": 70.56319644856237,
+        "early_slope_adc_min": 147.81507632638855,
+        "late_slope_adc_min": 38.33558748943364,
+        "cancellation_ratio": 0.807909604519774,
+        "channel_positive": 39,
+        "channel_negative": 6,
+        "channel_load_slope_corr": 0.4851913360330494
+      }
+    ],
+    "metadata_note": "Session algorithm results/parameters are not used as numerical evidence."
+  },
+  {
+    "id": "T12",
+    "raw_path": "D:\\workshop\\Github\\Tactile_Research\\Research\\时漂问题\\data\\archived\\右拇指指腹\\设备1\\测试2-2026-10-13_16-43-59\\device_001_raw_seg000.csv",
+    "sha256": "2f5719f5fa1d84d4376f8b84dca9bee2dc9543de8a849a60fb23e869327268c4",
+    "bytes": 7671902,
+    "header_explicit_raw_adc": true,
+    "header": [
+      "##Session",
+      "方案名, tactile_recording_session",
+      "方案版本, 1",
+      "会话ID, 测试2-2026-10-13_16-43-59",
+      "会话类型, single_device",
+      "设备ID, device_001",
+      "数据阶段, raw_adc",
+      "列版本, 4",
+      "行数, 14",
+      "列数, 8",
+      "布局掩码, 1111100011111000111110001111100011111000111110001111100011111000011100000110000000000111000001110000011100000111",
+      "##Data"
+    ],
+    "identity": [
+      {
+        "device_id": "device_001",
+        "alias": "",
+        "serial_number": "",
+        "observed_fps": 100.42669020552529,
+        "first_timestamp": 1041396.1748109,
+        "last_timestamp": 1041709.0099739,
+        "frame_count": 31417
+      }
+    ],
+    "columns": 57,
+    "high_runs": [
+      {
+        "start_s": 73.0,
+        "end_s": 313.0,
+        "duration_s": 240,
+        "delta_adc": 563.0,
+        "slope_adc_min": 114.6106876855501,
+        "early_slope_adc_min": 336.5400843881857,
+        "late_slope_adc_min": 73.72398030942334,
+        "cancellation_ratio": 0.7235142118863049,
+        "channel_positive": 34,
+        "channel_negative": 10,
+        "channel_load_slope_corr": -0.13996688311189764
+      }
+    ],
+    "metadata_note": "Session algorithm results/parameters are not used as numerical evidence."
+  },
+  {
+    "id": "T21",
+    "raw_path": "D:\\workshop\\Github\\Tactile_Research\\Research\\时漂问题\\data\\archived\\右拇指指腹\\设备2\\测试1-2026-10-13_16-53-24\\device_001_raw_seg000.csv",
+    "sha256": "c15a0352fe4dd17c9ca9a2481d7fd5f4cd73e2541a8bad9f45c4ab9a44bf6599",
+    "bytes": 11246562,
+    "header_explicit_raw_adc": true,
+    "header": [
+      "##Session",
+      "方案名, tactile_recording_session",
+      "方案版本, 1",
+      "会话ID, 测试1-2026-10-13_16-53-24",
+      "会话类型, single_device",
+      "设备ID, device_001",
+      "数据阶段, raw_adc",
+      "列版本, 4",
+      "行数, 14",
+      "列数, 8",
+      "布局掩码, 1111100011111000111110001111100011111000111110001111100011111000011100000110000000000111000001110000011100000111",
+      "##Data"
+    ],
+    "identity": [
+      {
+        "device_id": "device_001",
+        "alias": "",
+        "serial_number": "",
+        "observed_fps": 100.44474500725751,
+        "first_timestamp": 1041961.6199334,
+        "last_timestamp": 1042414.9238867,
+        "frame_count": 45532
+      }
+    ],
+    "columns": 57,
+    "high_runs": [
+      {
+        "start_s": 122.0,
+        "end_s": 453.0,
+        "duration_s": 331,
+        "delta_adc": 844.0,
+        "slope_adc_min": 133.63327630764752,
+        "early_slope_adc_min": 256.44816626468,
+        "late_slope_adc_min": 95.64781462029168,
+        "cancellation_ratio": 0.7649170031404217,
+        "channel_positive": 31,
+        "channel_negative": 14,
+        "channel_load_slope_corr": 0.43845989740841534
+      }
+    ],
+    "metadata_note": "Session algorithm results/parameters are not used as numerical evidence."
+  },
+  {
+    "id": "T22",
+    "raw_path": "D:\\workshop\\Github\\Tactile_Research\\Research\\时漂问题\\data\\archived\\右拇指指腹\\设备2\\测试2-2026-10-13_17-01-06\\device_001_raw_seg000.csv",
+    "sha256": "c3ea2b59a1206dbf2679a3f1b6fc48b5d5372b50b5ed5a700a4691443241deda",
+    "bytes": 6216615,
+    "header_explicit_raw_adc": true,
+    "header": [
+      "##Session",
+      "方案名, tactile_recording_session",
+      "方案版本, 1",
+      "会话ID, 测试2-2026-10-13_17-01-06",
+      "会话类型, single_device",
+      "设备ID, device_001",
+      "数据阶段, raw_adc",
+      "列版本, 4",
+      "行数, 14",
+      "列数, 8",
+      "布局掩码, 1111100011111000111110001111100011111000111110001111100011111000011100000110000000000111000001110000011100000111",
+      "##Data"
+    ],
+    "identity": [
+      {
+        "device_id": "device_001",
+        "alias": "",
+        "serial_number": "",
+        "observed_fps": 100.45319562668449,
+        "first_timestamp": 1042423.1085698,
+        "last_timestamp": 1042674.8974735,
+        "frame_count": 25293
+      }
+    ],
+    "columns": 57,
+    "high_runs": [
+      {
+        "start_s": 95.0,
+        "end_s": 252.0,
+        "duration_s": 157,
+        "delta_adc": 455.0,
+        "slope_adc_min": 183.6068506998927,
+        "early_slope_adc_min": 189.35883206693418,
+        "late_slope_adc_min": 78.90975838811576,
+        "cancellation_ratio": 0.817717206132879,
+        "channel_positive": 35,
+        "channel_negative": 10,
+        "channel_load_slope_corr": 0.49994981293555374
+      }
+    ],
+    "metadata_note": "Session algorithm results/parameters are not used as numerical evidence."
+  },
+  {
+    "id": "G21",
+    "raw_path": "D:\\workshop\\Github\\Tactile_Research\\Research\\时漂问题\\data\\archived\\右拇指指腹\\设备2\\10g反复增减荷载-2026-10-13_17-05-32\\device_001_raw_seg000.csv",
+    "sha256": "240e6ef39389c1e89efa298b83a7573186ac990036df1e7a9d3172d7442a7da2",
+    "bytes": 1440666,
+    "header_explicit_raw_adc": true,
+    "header": [
+      "##Session",
+      "方案名, tactile_recording_session",
+      "方案版本, 1",
+      "会话ID, 10g反复增减荷载-2026-10-13_17-05-32",
+      "会话类型, single_device",
+      "设备ID, device_001",
+      "数据阶段, raw_adc",
+      "列版本, 4",
+      "行数, 14",
+      "列数, 8",
+      "布局掩码, 1111100011111000111110001111100011111000111110001111100011111000011100000110000000000111000001110000011100000111",
+      "##Data"
+    ],
+    "identity": [
+      {
+        "device_id": "device_001",
+        "alias": "",
+        "serial_number": "",
+        "observed_fps": 100.46363995126288,
+        "first_timestamp": 1042689.1284009,
+        "last_timestamp": 1042748.4433929,
+        "frame_count": 5959
+      }
+    ],
+    "columns": 57,
+    "high_runs": [
+      {
+        "start_s": 15.0,
+        "end_s": 59.0,
+        "duration_s": 44,
+        "delta_adc": 409.0,
+        "slope_adc_min": 665.7801268498943,
+        "early_slope_adc_min": 1154.043956043956,
+        "late_slope_adc_min": 213.2967032967033,
+        "cancellation_ratio": 0.8980044345898004,
+        "channel_positive": 37,
+        "channel_negative": 5,
+        "channel_load_slope_corr": -0.10673535801932284
+      }
+    ],
+    "metadata_note": "Session algorithm results/parameters are not used as numerical evidence."
+  },
+  {
+    "id": "G11",
+    "raw_path": "D:\\workshop\\Github\\Tactile_Research\\Research\\时漂问题\\data\\archived\\右拇指指腹\\设备1\\10g反复增减荷载-2026-10-13_17-07-18\\device_001_raw_seg000.csv",
+    "sha256": "aeb379a3938c10ad529474ff3492380189722ac368adea127bcd7084b74dafa6",
+    "bytes": 2293398,
+    "header_explicit_raw_adc": true,
+    "header": [
+      "##Session",
+      "方案名, tactile_recording_session",
+      "方案版本, 1",
+      "会话ID, 10g反复增减荷载-2026-10-13_17-07-18",
+      "会话类型, single_device",
+      "设备ID, device_001",
+      "数据阶段, raw_adc",
+      "列版本, 4",
+      "行数, 14",
+      "列数, 8",
+      "布局掩码, 1111100011111000111110001111100011111000111110001111100011111000011100000110000000000111000001110000011100000111",
+      "##Data"
+    ],
+    "identity": [
+      {
+        "device_id": "device_001",
+        "alias": "",
+        "serial_number": "",
+        "observed_fps": 100.5441779493038,
+        "first_timestamp": 1042795.1617338,
+        "last_timestamp": 1042891.6367381,
+        "frame_count": 9700
+      }
+    ],
+    "columns": 57,
+    "high_runs": [
+      {
+        "start_s": 21.0,
+        "end_s": 96.0,
+        "duration_s": 75,
+        "delta_adc": 1001.0,
+        "slope_adc_min": 843.6486486486486,
+        "early_slope_adc_min": 1484.8153846153848,
+        "late_slope_adc_min": 343.7076923076923,
+        "cancellation_ratio": 0.9658605974395448,
+        "channel_positive": 41,
+        "channel_negative": 3,
+        "channel_load_slope_corr": 0.1373520665529281
+      }
+    ],
+    "metadata_note": "Session algorithm results/parameters are not used as numerical evidence."
+  },
+  {
+    "id": "TL",
+    "raw_path": "D:\\workshop\\Github\\Tactile_Research\\Research\\时漂问题\\data\\archived\\左拇指指腹 r_slow_max=0.6\\测试1-2026-10-14_10-18-40\\device_001_raw_seg000.csv",
+    "sha256": "8d69fa26f4285d65943b6299a7629297e820d3408e524ea908e1ab53a84954d0",
+    "bytes": 28023733,
+    "header_explicit_raw_adc": true,
+    "header": [
+      "##Session",
+      "方案名, tactile_recording_session",
+      "方案版本, 1",
+      "会话ID, 测试1-2026-10-14_10-18-40",
+      "会话类型, single_device",
+      "设备ID, device_001",
+      "数据阶段, raw_adc",
+      "列版本, 4",
+      "行数, 13",
+      "列数, 8",
+      "布局掩码, 01001000011110000111100011111000111110001111100011111000111110001111100000000111000001110000011100000111",
+      "##Data"
+    ],
+    "identity": [
+      {
+        "device_id": "device_001",
+        "alias": "",
+        "serial_number": "",
+        "observed_fps": 100.56450858988195,
+        "first_timestamp": 177201.2934573,
+        "last_timestamp": 178393.3740599,
+        "frame_count": 119881
+      }
+    ],
+    "columns": 52,
+    "high_runs": [
+      {
+        "start_s": 6.0,
+        "end_s": 1099.0,
+        "duration_s": 1093,
+        "delta_adc": 1928.0,
+        "slope_adc_min": 48.634631499488634,
+        "early_slope_adc_min": 149.52111773655983,
+        "late_slope_adc_min": 22.960349737435664,
+        "cancellation_ratio": 0.959415986142044,
+        "channel_positive": 37,
+        "channel_negative": 3,
+        "channel_load_slope_corr": 0.3660753002565864
+      }
+    ],
+    "metadata_note": "Session algorithm results/parameters are not used as numerical evidence."
+  },
+  {
+    "id": "TR",
+    "raw_path": "D:\\workshop\\Github\\Tactile_Research\\Research\\时漂问题\\data\\archived\\右拇指指腹 r_slow_max=0.6\\测试1-2026-10-14_11-06-29\\device_001_raw_seg000.csv",
+    "sha256": "66ed225daea81e215124d9bf58975e8eeda86a6736c757f83495b7cf44ba249b",
+    "bytes": 10682387,
+    "header_explicit_raw_adc": true,
+    "header": [
+      "##Session",
+      "方案名, tactile_recording_session",
+      "方案版本, 1",
+      "会话ID, 测试1-2026-10-14_11-06-29",
+      "会话类型, single_device",
+      "设备ID, device_001",
+      "数据阶段, raw_adc",
+      "列版本, 4",
+      "行数, 14",
+      "列数, 8",
+      "布局掩码, 1111100011111000111110001111100011111000111110001111100011111000011100000110000000000111000001110000011100000111",
+      "##Data"
+    ],
+    "identity": [
+      {
+        "device_id": "device_001",
+        "alias": "",
+        "serial_number": "",
+        "observed_fps": 99.62898377274416,
+        "first_timestamp": 180070.6712712,
+        "last_timestamp": 180516.5254626,
+        "frame_count": 44420
+      }
+    ],
+    "columns": 57,
+    "high_runs": [
+      {
+        "start_s": 161.0,
+        "end_s": 411.0,
+        "duration_s": 250,
+        "delta_adc": 351.5,
+        "slope_adc_min": 78.79458167330677,
+        "early_slope_adc_min": 115.38117627303639,
+        "late_slope_adc_min": 57.42768985349061,
+        "cancellation_ratio": 0.9219380888290714,
+        "channel_positive": 21,
+        "channel_negative": 4,
+        "channel_load_slope_corr": 0.39874275160454664
+      }
+    ],
+    "metadata_note": "Session algorithm results/parameters are not used as numerical evidence."
+  },
+  {
+    "id": "F02",
+    "raw_path": "D:\\workshop\\Github\\Tactile_Research\\Research\\时漂问题\\data\\archived\\四指指腹-r_slow_max-0.6\\测试1-2026-10-14_18-20-05\\device_001_raw_seg000.csv",
+    "sha256": "67672ab523a084b522136d4e937329aa1fb64e99c2fa07d6a3b0820bfc233b6f",
+    "bytes": 18937726,
+    "header_explicit_raw_adc": true,
+    "header": [
+      "##Session",
+      "方案名, tactile_recording_session",
+      "方案版本, 1",
+      "会话ID, 测试1-2026-10-14_18-20-05",
+      "会话类型, single_device",
+      "设备ID, device_001",
+      "数据阶段, raw_adc",
+      "列版本, 4",
+      "行数, 13",
+      "列数, 8",
+      "布局掩码, 01001000011110000111100011111000111110001111100011111000111110001111100000000111000001110000011100000111",
+      "值域, raw_adc",
+      "##Data"
+    ],
+    "identity": [
+      {
+        "device_id": "device_001",
+        "alias": "",
+        "serial_number": "",
+        "observed_fps": 100.54560185962612,
+        "first_timestamp": 206085.1451459,
+        "last_timestamp": 206884.6828533,
+        "frame_count": 80390
+      }
+    ],
+    "columns": 52,
+    "high_runs": [
+      {
+        "start_s": 423.0,
+        "end_s": 800.0,
+        "duration_s": 377,
+        "delta_adc": 168.0,
+        "slope_adc_min": 28.44384827693705,
+        "early_slope_adc_min": 26.633364055299538,
+        "late_slope_adc_min": 27.6547465437788,
+        "cancellation_ratio": 0.9111111111111111,
+        "channel_positive": 9,
+        "channel_negative": 0,
+        "channel_load_slope_corr": 0.24363984326518093
+      }
+    ],
+    "metadata_note": "Session algorithm results/parameters are not used as numerical evidence."
+  },
+  {
+    "id": "NP1",
+    "raw_path": "D:\\workshop\\Github\\Tactile_Research\\Research\\时漂问题\\data\\report\\report\\右手掌-new_param\\设备1-2026-10-15_15-58-21-61s左右数据剧烈上抬\\device_001_raw_seg000.csv",
+    "sha256": "47b1c726f043849763923f0e3f711436e42ebefc81ef1997f42077a4d0347b68",
+    "bytes": 20191057,
+    "header_explicit_raw_adc": true,
+    "header": [
+      "##Session",
+      "方案名, tactile_recording_session",
+      "方案版本, 1",
+      "会话ID, 设备1-2026-10-15_16-05-03",
+      "会话类型, single_device",
+      "设备ID, device_001",
+      "数据阶段, raw_adc",
+      "列版本, 4",
+      "行数, 12",
+      "列数, 8",
+      "布局掩码, 011100001111000011110000111100001111000011110000111111111111111111111111111111111111111111111111",
+      "值域, raw_adc",
+      "处理阶段, raw_device_frame",
+      "单位, raw",
+      "算法施加, none",
+      "值序, device_channel_order",
+      "阈值已施加, false",
+      "##Data"
+    ],
+    "identity": [
+      {
+        "device_id": "device_001",
+        "alias": "",
+        "serial_number": "",
+        "observed_fps": 100.40923893429044,
+        "first_timestamp": 48764.9940192,
+        "last_timestamp": 49467.379584,
+        "frame_count": 70526
+      }
+    ],
+    "columns": 71,
+    "high_runs": [
+      {
+        "start_s": 157.0,
+        "end_s": 702.0,
+        "duration_s": 545,
+        "delta_adc": 536.0,
+        "slope_adc_min": 63.74481609863423,
+        "early_slope_adc_min": 75.64458745674216,
+        "late_slope_adc_min": 21.927266104061687,
+        "cancellation_ratio": 0.8615136876006442,
+        "channel_positive": 41,
+        "channel_negative": 13,
+        "channel_load_slope_corr": 0.35086228772221817
+      }
+    ],
+    "metadata_note": "Session algorithm results/parameters are not used as numerical evidence."
+  },
+  {
+    "id": "NP2",
+    "raw_path": "D:\\workshop\\Github\\Tactile_Research\\Research\\时漂问题\\data\\report\\report\\右手掌-new_param\\设备2-2026-10-15_16-31-43\\device_001_raw_seg000.csv",
+    "sha256": "48153f58633f8095e74e3622713b54847fe5a53cf2576acae3b1490a488578ca",
+    "bytes": 18398090,
+    "header_explicit_raw_adc": true,
+    "header": [
+      "##Session",
+      "方案名, tactile_recording_session",
+      "方案版本, 1",
+      "会话ID, 设备2-2026-10-15_16-31-43",
+      "会话类型, single_device",
+      "设备ID, device_001",
+      "数据阶段, raw_adc",
+      "列版本, 4",
+      "行数, 12",
+      "列数, 8",
+      "布局掩码, 011100001111000011110000111100001111000011110000111111111111111111111111111111111111111111111111",
+      "值域, raw_adc",
+      "处理阶段, raw_device_frame",
+      "单位, raw",
+      "算法施加, none",
+      "值序, device_channel_order",
+      "阈值已施加, false",
+      "##Data"
+    ],
+    "identity": [
+      {
+        "device_id": "device_001",
+        "alias": "",
+        "serial_number": "",
+        "observed_fps": 100.48957187036963,
+        "first_timestamp": 50364.5462262,
+        "last_timestamp": 50998.9006056,
+        "frame_count": 63746
+      }
+    ],
+    "columns": 71,
+    "high_runs": [
+      {
+        "start_s": 160.0,
+        "end_s": 199.0,
+        "duration_s": 39,
+        "delta_adc": -3.5,
+        "slope_adc_min": -5.605263157894737,
+        "early_slope_adc_min": 33.62637362637363,
+        "late_slope_adc_min": -110.43956043956044,
+        "cancellation_ratio": 0.12605042016806722,
+        "channel_positive": 3,
+        "channel_negative": 7,
+        "channel_load_slope_corr": 0.13385635655136624
+      },
+      {
+        "start_s": 304.0,
+        "end_s": 354.0,
+        "duration_s": 50,
+        "delta_adc": -12.5,
+        "slope_adc_min": -0.020168067226890758,
+        "early_slope_adc_min": 46.279411764705884,
+        "late_slope_adc_min": -195.0,
+        "cancellation_ratio": 0.0,
+        "channel_positive": 9,
+        "channel_negative": 7,
+        "channel_load_slope_corr": -0.15604107287369381
+      },
+      {
+        "start_s": 386.0,
+        "end_s": 429.0,
+        "duration_s": 43,
+        "delta_adc": -11.0,
+        "slope_adc_min": -21.424041075203867,
+        "early_slope_adc_min": 82.28571428571429,
+        "late_slope_adc_min": -15.626373626373628,
+        "cancellation_ratio": 0.24705882352941178,
+        "channel_positive": 2,
+        "channel_negative": 4,
+        "channel_load_slope_corr": 0.2716371244880209
+      },
+      {
+        "start_s": 525.0,
+        "end_s": 634.0,
+        "duration_s": 109,
+        "delta_adc": 24.5,
+        "slope_adc_min": -2.419238254100639,
+        "early_slope_adc_min": -52.173745173745175,
+        "late_slope_adc_min": 56.142857142857146,
+        "cancellation_ratio": 0.34054054054054056,
+        "channel_positive": 11,
+        "channel_negative": 7,
+        "channel_load_slope_corr": 0.3243400864095624
+      }
+    ],
+    "metadata_note": "Session algorithm results/parameters are not used as numerical evidence."
+  },
+  {
+    "id": "NT1",
+    "raw_path": "D:\\workshop\\Github\\Tactile_Research\\Research\\时漂问题\\data\\report\\report\\右指腹-new_param\\设备1-2026-10-15_16-55-27\\device_001_raw_seg000.csv",
+    "sha256": "7261a5368fea86c1e8da2efc4ee9c001291ffd9a0f3d32075995faca8ab22684",
+    "bytes": 14490704,
+    "header_explicit_raw_adc": true,
+    "header": [
+      "##Session",
+      "方案名, tactile_recording_session",
+      "方案版本, 1",
+      "会话ID, 设备1-2026-10-15_16-55-27",
+      "会话类型, single_device",
+      "设备ID, device_001",
+      "数据阶段, raw_adc",
+      "列版本, 4",
+      "行数, 14",
+      "列数, 8",
+      "布局掩码, 1111100011111000111110001111100011111000111110001111100011111000011100000110000000000111000001110000011100000111",
+      "值域, raw_adc",
+      "处理阶段, raw_device_frame",
+      "单位, raw",
+      "算法施加, none",
+      "值序, device_channel_order",
+      "阈值已施加, false",
+      "##Data"
+    ],
+    "identity": [
+      {
+        "device_id": "device_001",
+        "alias": "",
+        "serial_number": "",
+        "observed_fps": 99.89614415205273,
+        "first_timestamp": 51789.1350099,
+        "last_timestamp": 52396.1854673,
+        "frame_count": 60642
+      }
+    ],
+    "columns": 57,
+    "high_runs": [
+      {
+        "start_s": 131.0,
+        "end_s": 214.0,
+        "duration_s": 83,
+        "delta_adc": 265.5,
+        "slope_adc_min": 204.2577977414886,
+        "early_slope_adc_min": 263.4981684981685,
+        "late_slope_adc_min": 175.86080586080584,
+        "cancellation_ratio": 0.8250377073906485,
+        "channel_positive": 30,
+        "channel_negative": 2,
+        "channel_load_slope_corr": -0.023063076713304483
+      },
+      {
+        "start_s": 221.0,
+        "end_s": 607.0,
+        "duration_s": 386,
+        "delta_adc": 663.5,
+        "slope_adc_min": 96.99281872483462,
+        "early_slope_adc_min": 159.81267739425016,
+        "late_slope_adc_min": 70.83429660318623,
+        "cancellation_ratio": 0.7972238986119493,
+        "channel_positive": 35,
+        "channel_negative": 7,
+        "channel_load_slope_corr": -0.00013397319716447858
+      }
+    ],
+    "metadata_note": "Session algorithm results/parameters are not used as numerical evidence."
+  },
+  {
+    "id": "NT2",
+    "raw_path": "D:\\workshop\\Github\\Tactile_Research\\Research\\时漂问题\\data\\report\\report\\右指腹-new_param\\设备2-2026-10-15_17-05-47\\device_001_raw_seg000.csv",
+    "sha256": "419f4f7bbe1cf9e04789aef80011e122feac53441a8ec4e18cf2901960312f91",
+    "bytes": 16186221,
+    "header_explicit_raw_adc": true,
+    "header": [
+      "##Session",
+      "方案名, tactile_recording_session",
+      "方案版本, 1",
+      "会话ID, 设备2-2026-10-15_17-05-47",
+      "会话类型, single_device",
+      "设备ID, device_001",
+      "数据阶段, raw_adc",
+      "列版本, 4",
+      "行数, 14",
+      "列数, 8",
+      "布局掩码, 1111100011111000111110001111100011111000111110001111100011111000011100000110000000000111000001110000011100000111",
+      "值域, raw_adc",
+      "处理阶段, raw_device_frame",
+      "单位, raw",
+      "算法施加, none",
+      "值序, device_channel_order",
+      "阈值已施加, false",
+      "##Data"
+    ],
+    "identity": [
+      {
+        "device_id": "device_001",
+        "alias": "",
+        "serial_number": "",
+        "observed_fps": 100.30796289434367,
+        "first_timestamp": 52408.8002555,
+        "last_timestamp": 53074.7693179,
+        "frame_count": 66802
+      }
+    ],
+    "columns": 57,
+    "high_runs": [
+      {
+        "start_s": 265.0,
+        "end_s": 666.0,
+        "duration_s": 401,
+        "delta_adc": 411.5,
+        "slope_adc_min": 51.332208657460825,
+        "early_slope_adc_min": 85.76386692647493,
+        "late_slope_adc_min": 88.45762642699013,
+        "cancellation_ratio": 0.9171332586786114,
+        "channel_positive": 36,
+        "channel_negative": 3,
+        "channel_load_slope_corr": 0.005255202357061495
+      }
+    ],
+    "metadata_note": "Session algorithm results/parameters are not used as numerical evidence."
+  },
+  {
+    "id": "NF1",
+    "raw_path": "D:\\workshop\\Github\\Tactile_Research\\Research\\时漂问题\\data\\report\\report\\四指指腹-new_param\\设备1-2026-10-15_17-19-21\\device_001_raw_seg000.csv",
+    "sha256": "24bceba9bf0162a5c2e3c70807c927e162f42c598162c527d97ca93ac350021f",
+    "bytes": 9251926,
+    "header_explicit_raw_adc": true,
+    "header": [
+      "##Session",
+      "方案名, tactile_recording_session",
+      "方案版本, 1",
+      "会话ID, 设备1-2026-10-15_17-19-21",
+      "会话类型, single_device",
+      "设备ID, device_001",
+      "数据阶段, raw_adc",
+      "列版本, 4",
+      "行数, 13",
+      "列数, 8",
+      "布局掩码, 01001000011110000111100011111000111110001111100011111000111110001111100000000111000001110000011100000111",
+      "值域, raw_adc",
+      "处理阶段, raw_device_frame",
+      "单位, raw",
+      "算法施加, none",
+      "值序, device_channel_order",
+      "阈值已施加, false",
+      "##Data"
+    ],
+    "identity": [
+      {
+        "device_id": "device_001",
+        "alias": "",
+        "serial_number": "",
+        "observed_fps": 100.58148590074738,
+        "first_timestamp": 53222.6201377,
+        "last_timestamp": 53607.7705424,
+        "frame_count": 38739
+      }
+    ],
+    "columns": 52,
+    "high_runs": [
+      {
+        "start_s": 81.0,
+        "end_s": 385.0,
+        "duration_s": 304,
+        "delta_adc": 794.5,
+        "slope_adc_min": 156.8121994037195,
+        "early_slope_adc_min": 199.9838089691322,
+        "late_slope_adc_min": 111.59196272568434,
+        "cancellation_ratio": 0.9664871334530222,
+        "channel_positive": 32,
+        "channel_negative": 3,
+        "channel_load_slope_corr": 0.34617400660420466
+      }
+    ],
+    "metadata_note": "Session algorithm results/parameters are not used as numerical evidence."
+  },
+  {
+    "id": "NF2",
+    "raw_path": "D:\\workshop\\Github\\Tactile_Research\\Research\\时漂问题\\data\\report\\report\\四指指腹-new_param\\设备2-2026-10-15_17-25-50\\device_001_raw_seg000.csv",
+    "sha256": "d387acdeee45156f56c83778c1926625ab7e544de8cd8c2c0ba7d64d4de0e803",
+    "bytes": 3151093,
+    "header_explicit_raw_adc": true,
+    "header": [
+      "##Session",
+      "方案名, tactile_recording_session",
+      "方案版本, 1",
+      "会话ID, 设备2-2026-10-15_17-25-50",
+      "会话类型, single_device",
+      "设备ID, device_001",
+      "数据阶段, raw_adc",
+      "列版本, 4",
+      "行数, 13",
+      "列数, 8",
+      "布局掩码, 01001000011110000111100011111000111110001111100011111000111110001111100000000111000001110000011100000111",
+      "值域, raw_adc",
+      "处理阶段, raw_device_frame",
+      "单位, raw",
+      "算法施加, none",
+      "值序, device_channel_order",
+      "阈值已施加, false",
+      "##Data"
+    ],
+    "identity": [
+      {
+        "device_id": "device_001",
+        "alias": "",
+        "serial_number": "",
+        "observed_fps": 100.58582184269194,
+        "first_timestamp": 53612.1179062,
+        "last_timestamp": 53744.5023691,
+        "frame_count": 13316
+      }
+    ],
+    "columns": 52,
+    "high_runs": [
+      {
+        "start_s": 39.0,
+        "end_s": 132.0,
+        "duration_s": 93,
+        "delta_adc": 386.5,
+        "slope_adc_min": 247.11930410909852,
+        "early_slope_adc_min": 499.89919354838713,
+        "late_slope_adc_min": 134.1290322580645,
+        "cancellation_ratio": 0.9747474747474747,
+        "channel_positive": 36,
+        "channel_negative": 1,
+        "channel_load_slope_corr": 0.33489243889709486
+      }
+    ],
+    "metadata_note": "Session algorithm results/parameters are not used as numerical evidence."
+  }
+]

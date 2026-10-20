@@ -21,7 +21,8 @@
  * 语义权威：与 src/domain/drift_v6/creep_observer.cpp 逐帧等价。
  *           等价性由 golden_vectors/ 的逐帧向量核验（见迁移文档第 8 节）。
  *
- * 版本：portable-1.0（对应固定版 K9 + 可选瞬态防护研究层）
+ * 版本：portable-1.1（K9 固定版 + 可选瞬态防护研究层 + 可选 y_floor 抬升门；
+ *       两个可选参数默认关闭，关闭时与 portable-1.0 逐帧一致，见 §20x 两段注释）
  * ========================================================================== */
 
 #ifndef DV6_CREEP_OBSERVER_PORTABLE_H
@@ -77,6 +78,28 @@ typedef struct dv6_params {
     double guard_floor_confirm_s; /* y_floor 下行跟随需持续确认的时长            */
     double guard_idle_confirm_s;  /* 快速泄放需 idle 持续确认的时长              */
     double guard_floor_deep;      /* 深跌破该值立即跟随（真实卸载不延迟）        */
+    /* ── 可选硬化 1.1：y_floor 抬升门（默认 0 = 与原实现逐帧一致）────────────
+     * 原实现里 y_floor 的**抬升**分支无条件执行（以 y_floor_tau_s 慢爬向 y0），
+     * 只有**下行**分支受限。长恒载（>20 min、约 4τ）下 y_floor 会追平 y0，
+     * 把载荷本身吸收进基线：随后 (y0 − y_floor) 只剩噪声量级，idle 判据
+     * (y0 − y_floor) < idle_frac·span 被单帧噪声下沿击穿 → zero 以 τ_zero 吞掉
+     * 整个载荷 → e≡0、x_slow 按 tau_r_slow_idle_s 泄放 → 补偿永久归零。
+     * 2026-10-19 拇指指腹 48 min 恒载实测：输入只漂 +314 ADC，输出漂 +3431 ADC，
+     * 26.7 min 起逐通道接续崩塌（阶梯上飘）。置 1 后同一数据漂移 −74 ADC。
+     * 置 1 时抬升仅在**当前帧被判为空载（近零带）**时允许；受载期间冻结 y_floor，
+     * 与需求文档 §5.1「零点只在高置信度空载/近零状态下更新，受载时冻结」一致。 */
+    int    floor_rise_idle_only;
+    /* ── 可选硬化 1.2：下探回抬锚（默认 0 = 关闭，与 1.1 逐帧一致）──────────
+     * 抬升门堵住"吸载荷"的同时也堵住了自愈：y_floor 一旦被真实下探拉低就永不回抬。
+     * 2026-10-19 48 min 实录实测：两档的 y_floor 末值都等于最小值（-758.9 / -654.2），
+     * 之后 span 长期偏大 → idle 判据变钝 → 空载期 zero 跟踪随之失效。
+     * 置 >0 时启用"锚"：记录每次下探起点的 y_floor 作为 anchor，若 y0 回到 anchor 以上
+     * （说明不是真实卸载），则以该 τ 把 y_floor 回抬到 anchor；y0 不回到 anchor 以上
+     * 则原地不动。开启时会同时把首帧 y_floor 由 v 修正为 y0（= v − zero = 0），
+     * 否则首帧伪下探会把 anchor 记成整个载荷。
+     * 实测（同数据，gate=1 两档）：y_floor 末值 -666 → -249，漂移/p2p/applied 不变。
+     * **收益尚未被证实**——需要"长恒载 → 卸载 → 空载 → 再加载"的录制才能定档，故默认 0。 */
+    double guard_floor_recover_s;
 } dv6_params;
 
 /* 观测器实例。所有数组指针指向调用方提供的内存（见 dv6_buffer_bytes）。 */
@@ -105,6 +128,8 @@ typedef struct dv6_observer {
     double *ramp_dwell;     /* 缓坡计时 */
     double *below_elapsed;  /* 防护：y_floor 跌破计时 */
     double *idle_elapsed;   /* 防护：idle 持续计时 */
+    double *floor_anchor;   /* 回抬锚：本次下探起点的 y_floor */
+    double *in_drop;        /* 回抬锚：是否正处在一次下探中（0/1） */
 
     /* 工作区（各 n 个 double，调用方无需关心内容） */
     double *scratch_y;
@@ -194,6 +219,8 @@ void dv6_params_default(dv6_params *p)
     p->guard_floor_confirm_s = 0.5;
     p->guard_idle_confirm_s = 0.3;
     p->guard_floor_deep = 200.0;
+    p->floor_rise_idle_only = 0;
+    p->guard_floor_recover_s = 0.0;
 }
 
 void dv6_params_plan_v4_observer_k9(dv6_params *p)
@@ -213,8 +240,8 @@ void dv6_params_plan_v4_observer_k9(dv6_params *p)
 size_t dv6_buffer_bytes(int n_channels)
 {
     if (n_channels <= 0) return 0;
-    /* 13 个状态数组 + 3 个工作数组 = 16n doubles */
-    return (size_t)n_channels * 16u * sizeof(double);
+    /* 15 个状态数组 + 3 个工作数组 = 18n doubles */
+    return (size_t)n_channels * 18u * sizeof(double);
 }
 
 void dv6_reset(dv6_observer *o)
@@ -251,6 +278,8 @@ int dv6_init(dv6_observer *o, int n_channels, const dv6_params *p,
     o->ramp_dwell    = cursor; cursor += n_channels;
     o->below_elapsed = cursor; cursor += n_channels;
     o->idle_elapsed  = cursor; cursor += n_channels;
+    o->floor_anchor  = cursor; cursor += n_channels;
+    o->in_drop       = cursor; cursor += n_channels;
     o->scratch_y     = cursor; cursor += n_channels;
     o->scratch_slope = cursor; cursor += n_channels;
     o->scratch_e     = cursor; cursor += n_channels;
@@ -293,6 +322,12 @@ void dv6_process(dv6_observer *o, double timestamp_s, double *v)
             o->x_slow[k] = 0.0;
             o->below_elapsed[k] = 0.0;
             o->idle_elapsed[k] = 0.0;
+            /* 回抬锚：anchor 与 in_drop 从 0 起步。开启回抬时把 y_floor 的首帧值改为
+             * y0（= v − zero = 0），否则首帧那次"伪下探"会把 anchor 记成整个载荷电平，
+             * 之后 y0 一旦高过它就会把载荷重新抬进基线。关闭时保持原值 v，逐帧一致。 */
+            o->floor_anchor[k] = 0.0;
+            o->in_drop[k] = 0.0;
+            if (p->guard_floor_recover_s > 0.0) o->y_floor[k] = v[k] - o->zero[k];
             total += v[k];
         }
         o->total_baseline = total;
@@ -335,8 +370,15 @@ void dv6_process(dv6_observer *o, double timestamp_s, double *v)
         for (int k = 0; k < n; ++k) {
             const double y0 = v[k] - o->zero[k];
 
+            int floor_down = 0;
             if (y0 < o->y_floor[k]) {
+                /* 记录本次下探的起点：只有"从非下探转入下探"那一帧才更新锚，
+                 * 阶梯式连续下探不会把锚一路拽下去。 */
+                if (p->guard_floor_recover_s > 0.0 && o->in_drop[k] < 0.5) {
+                    o->floor_anchor[k] = o->y_floor[k];
+                }
                 /* 下行：原实现瞬时跟随；防护开启时需持续确认（深度跌破除外） */
+                floor_down = 1;
                 if (guard_on) {
                     o->below_elapsed[k] += dt;
                     const double deep = (o->y_floor[k] - y0) > p->guard_floor_deep;
@@ -346,12 +388,33 @@ void dv6_process(dv6_observer *o, double timestamp_s, double *v)
                 } else {
                     o->y_floor[k] = y0;
                 }
-            } else {
-                if (guard_on) o->below_elapsed[k] = 0.0;
-                o->y_floor[k] += (dt / p->y_floor_tau_s) * (y0 - o->y_floor[k]);
+            } else if (guard_on) {
+                o->below_elapsed[k] = 0.0;
             }
+            o->in_drop[k] = floor_down ? 1.0 : 0.0;
 
             o->y_max[k] = DV6_MAX(o->y_max[k] * y_decay, DV6_MAX(y0, 0.0));
+
+            if (!floor_down) {
+                /* 抬升：原实现无条件慢爬；floor_rise_idle_only=1 时仅在当前帧被判为
+                 * 空载（近零带）时允许，受载期间冻结——防长恒载把载荷吸进基线。 */
+                int allow_rise = 1;
+                if (p->floor_rise_idle_only) {
+                    const double span0 = DV6_MAX(o->y_max[k] - o->y_floor[k], 1.0);
+                    allow_rise = (y0 - o->y_floor[k]) < p->idle_frac * span0;
+                }
+                if (allow_rise) {
+                    o->y_floor[k] += (dt / p->y_floor_tau_s) * (y0 - o->y_floor[k]);
+                } else if (p->guard_floor_recover_s > 0.0) {
+                    /* 回抬锚：受载期被冻结，但若 y0 已回到本次下探起点之上（说明那次
+                     * 下探不是真实卸载），就允许 y_floor 以 guard_floor_recover_s 为 τ
+                     * 回抬到锚（不是回抬到 y0，所以不会把载荷吸进基线）。 */
+                    if (y0 > o->floor_anchor[k] && o->floor_anchor[k] > o->y_floor[k]) {
+                        o->y_floor[k] += (dt / p->guard_floor_recover_s)
+                                       * (o->floor_anchor[k] - o->y_floor[k]);
+                    }
+                }
+            }
 
             const double span = DV6_MAX(o->y_max[k] - o->y_floor[k], 1.0);
             const int idle = (y0 - o->y_floor[k]) < p->idle_frac * span;

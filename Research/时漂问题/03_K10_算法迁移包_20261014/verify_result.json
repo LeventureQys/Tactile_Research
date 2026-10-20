@@ -1,8 +1,18 @@
 {
   "frames": 3000,
   "channels": 57,
+  "params_bytes": {
+    "dll": 264,
+    "ctypes": 264
+  },
   "max_abs_diff": 0.0,
   "mean_abs_diff": 0.0,
   "max_abs_total_diff": 2.1827872842550278e-11,
-  "equivalent": true
+  "equivalent": true,
+  "floor_rise_gate": {
+    "max_abs_diff_vs_gate_off": 0.052327287179818605,
+    "mean_abs_diff_vs_gate_off": 0.0009721273216790565,
+    "max_abs_total_diff": 0.07828298812091816,
+    "note": "gate=1 是新增档，工具箱参考实现不含该逻辑，故只给与关闭档的差异量级；其正确性由 golden_expected_output_gate1.csv 契约 + 产品侧逐帧对拍保证。"
+  }
 }

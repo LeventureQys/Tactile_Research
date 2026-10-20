@@ -1,0 +1,124 @@
+{
+  "hours": 4.0,
+  "frames": 1585761,
+  "span_s": 15809.9,
+  "input_drift_total": 4780.4,
+  "arms": {
+    "gate r=0.6": [
+      {
+        "window": "0-30min",
+        "inp": 32456.3,
+        "out": 29019.7,
+        "applied": 3464.1,
+        "drift": 0.0
+      },
+      {
+        "window": "30-60min",
+        "inp": 32821.9,
+        "out": 28789.4,
+        "applied": 4076.3,
+        "drift": -230.3
+      },
+      {
+        "window": "60-90min",
+        "inp": 33188.6,
+        "out": 28633.2,
+        "applied": 4590.6,
+        "drift": -386.5
+      },
+      {
+        "window": "90-120min",
+        "inp": 33555.2,
+        "out": 28537.3,
+        "applied": 5029.1,
+        "drift": -482.3
+      },
+      {
+        "window": "120-150min",
+        "inp": 33922.8,
+        "out": 28498.0,
+        "applied": 5432.4,
+        "drift": -521.7
+      },
+      {
+        "window": "150-180min",
+        "inp": 34292.1,
+        "out": 28414.5,
+        "applied": 5884.2,
+        "drift": -605.2
+      },
+      {
+        "window": "180-210min",
+        "inp": 34661.1,
+        "out": 28312.3,
+        "applied": 6343.3,
+        "drift": -707.4
+      },
+      {
+        "window": "210-240min",
+        "inp": 35028.7,
+        "out": 28248.1,
+        "applied": 6790.1,
+        "drift": -771.6
+      }
+    ],
+    "gate r=0.25": [
+      {
+        "window": "0-30min",
+        "inp": 32456.3,
+        "out": 29246.2,
+        "applied": 3227.7,
+        "drift": 0.0
+      },
+      {
+        "window": "30-60min",
+        "inp": 32821.9,
+        "out": 29187.0,
+        "applied": 3665.9,
+        "drift": -59.2
+      },
+      {
+        "window": "60-90min",
+        "inp": 33188.6,
+        "out": 29170.2,
+        "applied": 4039.8,
+        "drift": -76.0
+      },
+      {
+        "window": "90-120min",
+        "inp": 33555.2,
+        "out": 29193.4,
+        "applied": 4370.2,
+        "drift": -52.8
+      },
+      {
+        "window": "120-150min",
+        "inp": 33922.8,
+        "out": 29230.4,
+        "applied": 4698.9,
+        "drift": -15.8
+      },
+      {
+        "window": "150-180min",
+        "inp": 34292.1,
+        "out": 29284.7,
+        "applied": 5002.5,
+        "drift": 38.4
+      },
+      {
+        "window": "180-210min",
+        "inp": 34661.1,
+        "out": 29398.2,
+        "applied": 5249.7,
+        "drift": 152.0
+      },
+      {
+        "window": "210-240min",
+        "inp": 35028.7,
+        "out": 29552.5,
+        "applied": 5463.7,
+        "drift": 306.3
+      }
+    ]
+  }
+}

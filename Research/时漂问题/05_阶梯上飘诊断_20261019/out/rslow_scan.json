@@ -1,0 +1,72 @@
+{
+  "window": [
+    1100.0,
+    2850.0
+  ],
+  "cases": {
+    "K9（gate=0）": {
+      "drift": 3497.2,
+      "p2p": 3826.0,
+      "applied_start": 3825.0,
+      "applied_end": 641.8,
+      "applied_min": 599.5,
+      "steps": 30
+    },
+    "gate r=0.6（现状）": {
+      "drift": -74.4,
+      "p2p": 1041.1,
+      "applied_start": 3962.1,
+      "applied_end": 4350.5,
+      "applied_min": 3931.7,
+      "steps": 3
+    },
+    "gate r=0.35": {
+      "drift": 121.9,
+      "p2p": 1056.3,
+      "applied_start": 3807.4,
+      "applied_end": 3999.6,
+      "applied_min": 3746.6,
+      "steps": 4
+    },
+    "gate r=0.25": {
+      "drift": 109.1,
+      "p2p": 1026.9,
+      "applied_start": 3605.9,
+      "applied_end": 3810.8,
+      "applied_min": 3572.5,
+      "steps": 4
+    },
+    "gate r=0.15": {
+      "drift": 101.8,
+      "p2p": 1012.0,
+      "applied_start": 3196.9,
+      "applied_end": 3409.1,
+      "applied_min": 3162.2,
+      "steps": 2
+    },
+    "gate r=0.6 leak=1800": {
+      "drift": 926.3,
+      "p2p": 1531.4,
+      "applied_start": 2801.5,
+      "applied_end": 2189.1,
+      "applied_min": 2139.8,
+      "steps": 3
+    },
+    "gate r=0.6 leak=3600": {
+      "drift": 592.0,
+      "p2p": 1373.6,
+      "applied_start": 3304.2,
+      "applied_end": 3026.2,
+      "applied_min": 2976.7,
+      "steps": 3
+    },
+    "gate r=0.25 leak=3600": {
+      "drift": 832.8,
+      "p2p": 1373.3,
+      "applied_start": 3170.5,
+      "applied_end": 2651.7,
+      "applied_min": 2605.5,
+      "steps": 4
+    }
+  }
+}

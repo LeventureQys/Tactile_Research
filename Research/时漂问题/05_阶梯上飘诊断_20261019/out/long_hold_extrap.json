@@ -1,0 +1,111 @@
+{
+  "hours": 2.0,
+  "frames": 883653,
+  "block_s": 1749.9861500000115,
+  "reps": 5,
+  "input_drift_total": 3345.8,
+  "windows": {
+    "GATE r_slow_max=0.6": [
+      {
+        "window": "0-30min",
+        "input_med": 32456.3,
+        "out_med": 29019.7,
+        "applied_med": 3464.1,
+        "cover_med": 0.074,
+        "drift_vs_first": 0.0
+      },
+      {
+        "window": "30-60min",
+        "input_med": 32821.9,
+        "out_med": 28789.4,
+        "applied_med": 4076.3,
+        "cover_med": 0.088,
+        "drift_vs_first": -230.3
+      },
+      {
+        "window": "60-90min",
+        "input_med": 33188.6,
+        "out_med": 28633.2,
+        "applied_med": 4590.6,
+        "cover_med": 0.104,
+        "drift_vs_first": -386.5
+      },
+      {
+        "window": "90-120min",
+        "input_med": 33555.2,
+        "out_med": 28537.3,
+        "applied_med": 5029.1,
+        "cover_med": 0.118,
+        "drift_vs_first": -482.3
+      }
+    ],
+    "GATE r_slow_max=0.35": [
+      {
+        "window": "0-30min",
+        "input_med": 32456.3,
+        "out_med": 29159.0,
+        "applied_med": 3331.0,
+        "cover_med": 0.074,
+        "drift_vs_first": 0.0
+      },
+      {
+        "window": "30-60min",
+        "input_med": 32821.9,
+        "out_med": 29014.6,
+        "applied_med": 3847.5,
+        "cover_med": 0.088,
+        "drift_vs_first": -144.3
+      },
+      {
+        "window": "60-90min",
+        "input_med": 33188.6,
+        "out_med": 28945.6,
+        "applied_med": 4267.5,
+        "cover_med": 0.104,
+        "drift_vs_first": -213.3
+      },
+      {
+        "window": "90-120min",
+        "input_med": 33555.2,
+        "out_med": 28927.4,
+        "applied_med": 4640.1,
+        "cover_med": 0.117,
+        "drift_vs_first": -231.5
+      }
+    ],
+    "GATE r_slow_max=0.25": [
+      {
+        "window": "0-30min",
+        "input_med": 32456.3,
+        "out_med": 29246.2,
+        "applied_med": 3227.7,
+        "cover_med": 0.074,
+        "drift_vs_first": 0.0
+      },
+      {
+        "window": "30-60min",
+        "input_med": 32821.9,
+        "out_med": 29187.0,
+        "applied_med": 3665.9,
+        "cover_med": 0.088,
+        "drift_vs_first": -59.2
+      },
+      {
+        "window": "60-90min",
+        "input_med": 33188.6,
+        "out_med": 29170.2,
+        "applied_med": 4039.8,
+        "cover_med": 0.102,
+        "drift_vs_first": -76.0
+      },
+      {
+        "window": "90-120min",
+        "input_med": 33555.2,
+        "out_med": 29193.4,
+        "applied_med": 4370.2,
+        "cover_med": 0.116,
+        "drift_vs_first": -52.8
+      }
+    ]
+  }
+}

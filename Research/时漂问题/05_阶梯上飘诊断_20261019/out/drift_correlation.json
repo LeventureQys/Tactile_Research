@@ -1,0 +1,12 @@
+{
+  "channels_used": 45,
+  "corr_slope_vs_load": 0.172,
+  "slope_per_min_median": 0.1967,
+  "slope_per_min_std": 0.9684,
+  "load_median": 625.0,
+  "load_std": 276.4,
+  "ratio_per_100adc_median": 0.0232,
+  "ratio_p25": -0.0056,
+  "ratio_p75": 0.0698,
+  "ratio_cv": 2.788
+}

@@ -1,0 +1,17 @@
+{
+  "session_count": 21,
+  "frame_count": 758698,
+  "channel_counts": [
+    52,
+    57,
+    71
+  ],
+  "total_duration_s": 7558.386150999988,
+  "raw_sha256_count": 21,
+  "timestamp_nonpositive_total": 165,
+  "frame_missing_total": 0,
+  "max_gap_s": 2.3446699999985867,
+  "burst_fraction_min": 0.394576012223071,
+  "burst_fraction_max": 0.4605461626781332,
+  "analysis_scope": "21 independent raw files; no pre/seg/algoadc/mapforce/forcetotal or prior algorithm reports"
+}

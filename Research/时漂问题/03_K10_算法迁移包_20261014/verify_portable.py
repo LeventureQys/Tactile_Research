@@ -2,6 +2,9 @@
 """验证 creep_observer_portable.h（编译为 DLL）与工具箱 Python 参考实现逐帧等价，
 并导出黄金向量（输入 / 期望输出）供任何新实现自检。
 
+portable-1.1 起同时导出**抬升门**（floor_rise_idle_only=1）的期望输出：
+两个开关默认关闭，关闭档与 portable-1.0 的契约完全相同。
+
 运行：
     python verify_portable.py            # 验证 + 生成黄金向量
 """
@@ -17,7 +20,8 @@ import pandas as pd
 
 HERE = Path(__file__).resolve().parent
 TOOLBOX = Path(r"D:\workshop\Processing\multi-device-cascade-host-cpp\toolbox\数据解析工具")
-DATA = Path(r"D:\workshop\Github\Tactile_Research\Research\时漂问题\data\右拇指指腹\设备1\测试2-2026-10-13_16-43-59")
+DATA = Path(r"D:\workshop\Github\Tactile_Research\Research\时漂问题\data\archived"
+            r"\右拇指指腹\设备1\测试2-2026-10-13_16-43-59")
 GOLDEN = HERE / "golden_vectors"
 FRAMES = 3000
 
@@ -36,11 +40,17 @@ PARAM_FIELDS = [
 
 
 class Dv6Params(ctypes.Structure):
-    _fields_ = ([(name, ctypes.c_double) for name in PARAM_FIELDS]
-                + [("guard_enable", ctypes.c_int)]
-                + [("guard_floor_confirm_s", ctypes.c_double),
-                   ("guard_idle_confirm_s", ctypes.c_double),
-                   ("guard_floor_deep", ctypes.c_double)])
+    """必须与 creep_observer_portable.h 的 dv6_params 逐字段、逐顺序一致。"""
+
+    _fields_ = (
+        [(name, ctypes.c_double) for name in PARAM_FIELDS]
+        + [("guard_enable", ctypes.c_int),
+           ("guard_floor_confirm_s", ctypes.c_double),
+           ("guard_idle_confirm_s", ctypes.c_double),
+           ("guard_floor_deep", ctypes.c_double),
+           ("floor_rise_idle_only", ctypes.c_int),
+           ("guard_floor_recover_s", ctypes.c_double)]
+    )
 
 
 def load_stream(folder: Path, name: str) -> pd.DataFrame:
@@ -55,6 +65,25 @@ def load_stream(folder: Path, name: str) -> pd.DataFrame:
     return pd.read_csv(path, skiprows=skip, header=0, engine="c")
 
 
+def run_dll(dll, values: np.ndarray, time: np.ndarray, params: Dv6Params,
+            floor_gate: int) -> np.ndarray:
+    params.floor_rise_idle_only = floor_gate
+    n_ch = values.shape[1]
+    handle = dll.dv6_portable_new(n_ch, ctypes.byref(params), 2)
+    if not handle:
+        raise SystemExit("dv6_portable_new failed")
+    buffer = (ctypes.c_double * n_ch)()
+    produced = np.empty_like(values)
+    for index in range(values.shape[0]):
+        for k in range(n_ch):
+            buffer[k] = float(values[index, k])
+        dll.dv6_portable_process(handle, float(time[index]), buffer, n_ch)
+        for k in range(n_ch):
+            produced[index, k] = buffer[k]
+    dll.dv6_portable_free(handle)
+    return produced
+
+
 def main() -> None:
     dll_path = HERE / "dv6_portable.dll"
     if not dll_path.exists():
@@ -65,6 +94,14 @@ def main() -> None:
     dll.dv6_portable_process.argtypes = [ctypes.c_void_p, ctypes.c_double,
                                          ctypes.POINTER(ctypes.c_double), ctypes.c_int]
     dll.dv6_portable_free.argtypes = [ctypes.c_void_p]
+    dll.dv6_portable_params_bytes.restype = ctypes.c_int
+
+    # 结构体失配是静默错误：C 侧会读到缓冲区外的 4 字节，参数值随机。必须先卡死。
+    c_bytes = int(dll.dv6_portable_params_bytes())
+    py_bytes = int(ctypes.sizeof(Dv6Params))
+    if c_bytes != py_bytes:
+        raise SystemExit(f"dv6_params 结构体失配：DLL={c_bytes} bytes，ctypes={py_bytes} bytes。"
+                         f"请核对本文件 Dv6Params 的字段与 creep_observer_portable.h。")
 
     session = json.loads((DATA / "session.json").read_text(encoding="utf-8"))
     raw_params = session["algorithm"]["params"]
@@ -96,6 +133,8 @@ def main() -> None:
     p.guard_floor_confirm_s = 0.5
     p.guard_idle_confirm_s = 0.3
     p.guard_floor_deep = 200.0
+    p.floor_rise_idle_only = 0
+    p.guard_floor_recover_s = 0.0
 
     pre = load_stream(DATA, "device_001_pre_seg0.csv")
     frame = np.asarray(pre.iloc[:, 2], dtype=float)
@@ -104,29 +143,29 @@ def main() -> None:
     time = time[:FRAMES]
     n_ch = values.shape[1]
 
-    # 工具箱插件（按 cpp 口径转写）作为等价性基准
+    # 工具箱插件（按 cpp 口径转写）作为等价性基准；它只实现关闭档
     reference, _ = _compensate(values, time, dict(values_map))
     reference = np.asarray(reference, dtype=float)
 
-    handle = dll.dv6_portable_new(n_ch, ctypes.byref(p), 2)
-    if not handle:
-        raise SystemExit("dv6_portable_new failed")
-    buffer = (ctypes.c_double * n_ch)()
-    produced = np.empty_like(values)
-    for index in range(values.shape[0]):
-        for k in range(n_ch):
-            buffer[k] = float(values[index, k])
-        dll.dv6_portable_process(handle, float(time[index]), buffer, n_ch)
-        for k in range(n_ch):
-            produced[index, k] = buffer[k]
-    dll.dv6_portable_free(handle)
+    produced = run_dll(dll, values, time, p, floor_gate=0)
+    produced_gate = run_dll(dll, values, time, p, floor_gate=1)
 
     diff = np.abs(produced - reference)
+    diff_gate = np.abs(produced_gate - produced)
     report = dict(
         frames=int(values.shape[0]), channels=int(n_ch),
+        params_bytes=dict(dll=c_bytes, ctypes=py_bytes),
         max_abs_diff=float(diff.max()), mean_abs_diff=float(diff.mean()),
         max_abs_total_diff=float(np.abs(produced.sum(axis=1) - reference.sum(axis=1)).max()),
         equivalent=bool(diff.max() < 1e-6),
+        floor_rise_gate=dict(
+            max_abs_diff_vs_gate_off=float(diff_gate.max()),
+            mean_abs_diff_vs_gate_off=float(diff_gate.mean()),
+            max_abs_total_diff=float(np.abs(produced_gate.sum(axis=1)
+                                            - produced.sum(axis=1)).max()),
+            note="gate=1 是新增档，工具箱参考实现不含该逻辑，故只给与关闭档的差异量级；"
+                 "其正确性由 golden_expected_output_gate1.csv 契约 + 产品侧逐帧对拍保证。",
+        ),
     )
 
     GOLDEN.mkdir(exist_ok=True)
@@ -135,10 +174,19 @@ def main() -> None:
     np.savetxt(GOLDEN / "golden_input.csv", values, fmt="%.6f", delimiter=",", comments="")
     np.savetxt(GOLDEN / "golden_expected_output.csv", reference, fmt="%.6f",
                delimiter=",", comments="")
+    np.savetxt(GOLDEN / "golden_expected_output_gate1.csv", produced_gate, fmt="%.6f",
+               delimiter=",", comments="")
     (GOLDEN / "golden_params.json").write_text(json.dumps({
-        "note": "plan-v4 observer-k9 参数集（经会话实际参数覆盖）；时间轴首帧归零、单位秒；输入为算法输入显示值",
+        "note": "plan-v4 observer-k9 参数集（经会话实际参数覆盖）；时间轴首帧归零、单位秒；"
+                "输入为算法输入显示值。guard_enable / floor_rise_idle_only 均取 0（关闭档）。",
         "params": {key: float(value) for key, value in values_map.items()},
         "guard": {"enabled": False},
+        "floor_rise_idle_only": 0,
+        "floor_rise_gate_vector": {
+            "expected_output_file": "golden_expected_output_gate1.csv",
+            "params_delta": {"floor_rise_idle_only": 1},
+            "note": "同一份输入与参数，仅把抬升门打开；用于校验迁移实现的 portable-1.1 路径。",
+        },
         "frame_count": int(values.shape[0]), "channels": int(n_ch),
         "source": str(DATA),
     }, ensure_ascii=False, indent=2), encoding="utf-8")

@@ -13,7 +13,8 @@ import pandas as pd
 HERE = Path(__file__).resolve().parent
 PREV = HERE.parent / "02_K10_瞬态防护_20261014"
 TOOLBOX = Path(r"D:\workshop\Processing\multi-device-cascade-host-cpp\toolbox\数据解析工具")
-DATA = Path(r"D:\workshop\Github\Tactile_Research\Research\时漂问题\data\左拇指指腹 r_slow_max=0.6\测试1-2026-10-14_10-18-40")
+DATA = Path(r"D:\workshop\Github\Tactile_Research\Research\时漂问题\data\archived"
+            r"\左拇指指腹 r_slow_max=0.6\测试1-2026-10-14_10-18-40")
 FRAMES = 3000
 
 sys.path.insert(0, str(HERE))
@@ -42,6 +43,13 @@ def main() -> None:
     dll.dv6_portable_process.argtypes = [ctypes.c_void_p, ctypes.c_double,
                                          ctypes.POINTER(ctypes.c_double), ctypes.c_int]
     dll.dv6_portable_free.argtypes = [ctypes.c_void_p]
+    dll.dv6_portable_params_bytes.restype = ctypes.c_int
+
+    # 结构体失配会让 C 侧读到缓冲区外的字节，参数随机但不报错——必须显式卡死。
+    c_bytes = int(dll.dv6_portable_params_bytes())
+    py_bytes = int(ctypes.sizeof(Dv6Params))
+    if c_bytes != py_bytes:
+        raise SystemExit(f"dv6_params 结构体失配：DLL={c_bytes} bytes，ctypes={py_bytes} bytes")
 
     session = json.loads((DATA / "session.json").read_text(encoding="utf-8"))
     params = {k: float(v) for k, v in session["algorithm"]["params"].items()
@@ -62,6 +70,10 @@ def main() -> None:
     p.guard_floor_confirm_s = 0.5
     p.guard_idle_confirm_s = 0.3
     p.guard_floor_deep = 200.0
+    # 抬升门在本脚本里保持关闭：参照实现 guarded_k9.py 只实现了防护层。
+    # 抬升门的正确性由 verify_portable.py 的 gate=1 黄金向量与产品侧逐帧对拍覆盖。
+    p.floor_rise_idle_only = 0
+    p.guard_floor_recover_s = 0.0
 
     reference = np.asarray(py_compensate(values, time, dict(params), dict(enabled=True))[0],
                            dtype=float)
