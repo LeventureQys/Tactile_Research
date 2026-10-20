@@ -1,0 +1,128 @@
+[
+  {
+    "id": "P01",
+    "path": "data\\archived\\手掌数据\\20260926_223756_single_device_1d925c\\device_001_raw_seg000.csv",
+    "sha256": "7634978070e1bc5ac4d5019b587c5aef34375b4f28e2291d25809bf4cd678589",
+    "matched_previous": true
+  },
+  {
+    "id": "P02",
+    "path": "data\\archived\\手掌数据\\20260927_101043_single_device_43da6f\\device_001_raw_seg000.csv",
+    "sha256": "a9e62571d524bd4ebca42dce9beb0bf0cf4e65cba16f24e7f43fc0ee108833ff",
+    "matched_previous": true
+  },
+  {
+    "id": "P03",
+    "path": "data\\archived\\手掌数据\\20260927_102924_single_device_ebfaca\\device_001_raw_seg000.csv",
+    "sha256": "7406bb312e60cac09ccb25fdf95864d8dacb7a6e54ab805e081989442f0a93b0",
+    "matched_previous": true
+  },
+  {
+    "id": "P04",
+    "path": "data\\archived\\手掌数据\\20260927_110446_single_device_c25fce\\device_001_raw_seg000.csv",
+    "sha256": "1b7b12d75748b3bfec9a4f7e59f6d45b98d74d59d5bbf838f80e12d9d1fa2ead",
+    "matched_previous": true
+  },
+  {
+    "id": "P05",
+    "path": "data\\archived\\手掌数据\\20260927_111205_single_device_03225d\\device_001_raw_seg000.csv",
+    "sha256": "90fd34f8e75f948184a1cb3f8dbdff46a8dc0d15777ad2a5ee8590dad10d1509",
+    "matched_previous": true
+  },
+  {
+    "id": "F01",
+    "path": "data\\archived\\四指指腹（小指腹）\\单设备录制-2026-09-29_09-54-31\\device_001_raw_seg000.csv",
+    "sha256": "22363d0f96e5db53fdad92ec90720cc6e32ae036f1a2f280569b40090c60a4c7",
+    "matched_previous": true
+  },
+  {
+    "id": "T11",
+    "path": "data\\archived\\右拇指指腹\\设备1\\测试1-2026-10-13_16-32-15\\device_001_raw_seg000.csv",
+    "sha256": "d256ae73d6fa9e51157a96a94d3157f8584c71b5b5c3992a2ec252ee464c5fc2",
+    "matched_previous": true
+  },
+  {
+    "id": "T12",
+    "path": "data\\archived\\右拇指指腹\\设备1\\测试2-2026-10-13_16-43-59\\device_001_raw_seg000.csv",
+    "sha256": "2f5719f5fa1d84d4376f8b84dca9bee2dc9543de8a849a60fb23e869327268c4",
+    "matched_previous": true
+  },
+  {
+    "id": "T21",
+    "path": "data\\archived\\右拇指指腹\\设备2\\测试1-2026-10-13_16-53-24\\device_001_raw_seg000.csv",
+    "sha256": "c15a0352fe4dd17c9ca9a2481d7fd5f4cd73e2541a8bad9f45c4ab9a44bf6599",
+    "matched_previous": true
+  },
+  {
+    "id": "T22",
+    "path": "data\\archived\\右拇指指腹\\设备2\\测试2-2026-10-13_17-01-06\\device_001_raw_seg000.csv",
+    "sha256": "c3ea2b59a1206dbf2679a3f1b6fc48b5d5372b50b5ed5a700a4691443241deda",
+    "matched_previous": true
+  },
+  {
+    "id": "G21",
+    "path": "data\\archived\\右拇指指腹\\设备2\\10g反复增减荷载-2026-10-13_17-05-32\\device_001_raw_seg000.csv",
+    "sha256": "240e6ef39389c1e89efa298b83a7573186ac990036df1e7a9d3172d7442a7da2",
+    "matched_previous": true
+  },
+  {
+    "id": "G11",
+    "path": "data\\archived\\右拇指指腹\\设备1\\10g反复增减荷载-2026-10-13_17-07-18\\device_001_raw_seg000.csv",
+    "sha256": "aeb379a3938c10ad529474ff3492380189722ac368adea127bcd7084b74dafa6",
+    "matched_previous": true
+  },
+  {
+    "id": "TL",
+    "path": "data\\archived\\左拇指指腹 r_slow_max=0.6\\测试1-2026-10-14_10-18-40\\device_001_raw_seg000.csv",
+    "sha256": "8d69fa26f4285d65943b6299a7629297e820d3408e524ea908e1ab53a84954d0",
+    "matched_previous": true
+  },
+  {
+    "id": "TR",
+    "path": "data\\archived\\右拇指指腹 r_slow_max=0.6\\测试1-2026-10-14_11-06-29\\device_001_raw_seg000.csv",
+    "sha256": "66ed225daea81e215124d9bf58975e8eeda86a6736c757f83495b7cf44ba249b",
+    "matched_previous": true
+  },
+  {
+    "id": "F02",
+    "path": "data\\archived\\四指指腹-r_slow_max-0.6\\测试1-2026-10-14_18-20-05\\device_001_raw_seg000.csv",
+    "sha256": "67672ab523a084b522136d4e937329aa1fb64e99c2fa07d6a3b0820bfc233b6f",
+    "matched_previous": true
+  },
+  {
+    "id": "NP1",
+    "path": "data\\report\\report\\右手掌-new_param\\设备1-2026-10-15_15-58-21-61s左右数据剧烈上抬\\device_001_raw_seg000.csv",
+    "sha256": "47b1c726f043849763923f0e3f711436e42ebefc81ef1997f42077a4d0347b68",
+    "matched_previous": true
+  },
+  {
+    "id": "NP2",
+    "path": "data\\report\\report\\右手掌-new_param\\设备2-2026-10-15_16-31-43\\device_001_raw_seg000.csv",
+    "sha256": "48153f58633f8095e74e3622713b54847fe5a53cf2576acae3b1490a488578ca",
+    "matched_previous": true
+  },
+  {
+    "id": "NT1",
+    "path": "data\\report\\report\\右指腹-new_param\\设备1-2026-10-15_16-55-27\\device_001_raw_seg000.csv",
+    "sha256": "7261a5368fea86c1e8da2efc4ee9c001291ffd9a0f3d32075995faca8ab22684",
+    "matched_previous": true
+  },
+  {
+    "id": "NT2",
+    "path": "data\\report\\report\\右指腹-new_param\\设备2-2026-10-15_17-05-47\\device_001_raw_seg000.csv",
+    "sha256": "419f4f7bbe1cf9e04789aef80011e122feac53441a8ec4e18cf2901960312f91",
+    "matched_previous": true
+  },
+  {
+    "id": "NF1",
+    "path": "data\\report\\report\\四指指腹-new_param\\设备1-2026-10-15_17-19-21\\device_001_raw_seg000.csv",
+    "sha256": "24bceba9bf0162a5c2e3c70807c927e162f42c598162c527d97ca93ac350021f",
+    "matched_previous": true
+  },
+  {
+    "id": "NF2",
+    "path": "data\\report\\report\\四指指腹-new_param\\设备2-2026-10-15_17-25-50\\device_001_raw_seg000.csv",
+    "sha256": "d387acdeee45156f56c83778c1926625ab7e544de8cd8c2c0ba7d64d4de0e803",
+    "matched_previous": true
+  }
+]
