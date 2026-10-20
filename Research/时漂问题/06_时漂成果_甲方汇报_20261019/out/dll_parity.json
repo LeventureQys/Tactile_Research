@@ -1,0 +1,78 @@
+{
+  "thumb": {
+    "SITE": {
+      "dll_metrics": {
+        "out_drift": 3472.7224703171014,
+        "out_p2p": 3765.533101193265,
+        "steps": 30
+      },
+      "vs_algoadc_max": 235.35242140330206,
+      "vs_algoadc_mean": 0.37029896838903464,
+      "vs_algoadc_max_in_window": 27.400219148242684,
+      "py_curve_max_abs_diff": 663.9255776524005,
+      "run_s": 1.2
+    },
+    "FIX": {
+      "dll_metrics": {
+        "out_drift": 19.209178543176677,
+        "out_p2p": 515.5720148499022,
+        "steps": 19
+      },
+      "vs_algoadc_max": 347.77465368822357,
+      "vs_algoadc_mean": 30.980491756519314,
+      "vs_algoadc_max_in_window": 347.77465368822357,
+      "py_curve_max_abs_diff": 0.0,
+      "run_s": 1.1
+    },
+    "FIXG": {
+      "dll_metrics": {
+        "out_drift": 16.12931278042379,
+        "out_p2p": 515.6762074396647,
+        "steps": 19
+      },
+      "vs_algoadc_max": 347.71913090502073,
+      "vs_algoadc_mean": 30.99774060446857,
+      "vs_algoadc_max_in_window": 347.71913090502073,
+      "py_curve_max_abs_diff": 0.007292122343642404,
+      "run_s": 1.1
+    }
+  },
+  "palm": {
+    "SITE": {
+      "dll_metrics": {
+        "out_drift": 3991.6132773909303,
+        "out_p2p": 4337.914513031843,
+        "steps": 49
+      },
+      "vs_algoadc_max": 257.06317284508236,
+      "vs_algoadc_mean": 12.84638065122652,
+      "vs_algoadc_max_in_window": 257.06317284508236,
+      "py_curve_max_abs_diff": 2855.393588694016,
+      "run_s": 2.7
+    },
+    "FIX": {
+      "dll_metrics": {
+        "out_drift": -635.3988594822804,
+        "out_p2p": 929.9717054602552,
+        "steps": 146
+      },
+      "vs_algoadc_max": 291.176111860668,
+      "vs_algoadc_mean": 68.06919700867337,
+      "vs_algoadc_max_in_window": 289.7632400223913,
+      "py_curve_max_abs_diff": 0.0,
+      "run_s": 2.1
+    },
+    "FIXG": {
+      "dll_metrics": {
+        "out_drift": -635.192159695911,
+        "out_p2p": 929.7648773030996,
+        "steps": 146
+      },
+      "vs_algoadc_max": 291.16976416134844,
+      "vs_algoadc_mean": 68.06973225754076,
+      "vs_algoadc_max_in_window": 289.75693343002877,
+      "py_curve_max_abs_diff": 0.0,
+      "run_s": 2.2
+    }
+  }
+}

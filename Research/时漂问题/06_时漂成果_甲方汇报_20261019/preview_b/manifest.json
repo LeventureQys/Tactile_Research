@@ -1,0 +1,139 @@
+{
+  "schemaVersion": 1,
+  "backend": "native",
+  "rasterEngine": "libreoffice",
+  "source": "saved",
+  "inputPath": "D:\\workshop\\Github\\Tactile_Research\\Research\\时漂问题\\06_时漂成果_甲方汇报_20261019\\deliverables\\时漂成果_修复后力值对比_20261019.pptx",
+  "sourceSha256": "328db543f8093c124f093c9293e848c257224ad0e337744163e2f0d4c34d1c3b",
+  "dpi": 110,
+  "pageCount": 9,
+  "images": [
+    {
+      "index": 1,
+      "page": 1,
+      "path": "D:\\workshop\\Github\\Tactile_Research\\Research\\时漂问题\\06_时漂成果_甲方汇报_20261019\\preview_b\\page-0001.png",
+      "width": 1467,
+      "height": 826,
+      "rectangle": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720.0666666666667
+      },
+      "byteLength": 75758
+    },
+    {
+      "index": 2,
+      "page": 2,
+      "path": "D:\\workshop\\Github\\Tactile_Research\\Research\\时漂问题\\06_时漂成果_甲方汇报_20261019\\preview_b\\page-0002.png",
+      "width": 1467,
+      "height": 826,
+      "rectangle": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720.0666666666667
+      },
+      "byteLength": 105090
+    },
+    {
+      "index": 3,
+      "page": 3,
+      "path": "D:\\workshop\\Github\\Tactile_Research\\Research\\时漂问题\\06_时漂成果_甲方汇报_20261019\\preview_b\\page-0003.png",
+      "width": 1467,
+      "height": 826,
+      "rectangle": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720.0666666666667
+      },
+      "byteLength": 84410
+    },
+    {
+      "index": 4,
+      "page": 4,
+      "path": "D:\\workshop\\Github\\Tactile_Research\\Research\\时漂问题\\06_时漂成果_甲方汇报_20261019\\preview_b\\page-0004.png",
+      "width": 1467,
+      "height": 826,
+      "rectangle": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720.0666666666667
+      },
+      "byteLength": 84400
+    },
+    {
+      "index": 5,
+      "page": 5,
+      "path": "D:\\workshop\\Github\\Tactile_Research\\Research\\时漂问题\\06_时漂成果_甲方汇报_20261019\\preview_b\\page-0005.png",
+      "width": 1467,
+      "height": 826,
+      "rectangle": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720.0666666666667
+      },
+      "byteLength": 87781
+    },
+    {
+      "index": 6,
+      "page": 6,
+      "path": "D:\\workshop\\Github\\Tactile_Research\\Research\\时漂问题\\06_时漂成果_甲方汇报_20261019\\preview_b\\page-0006.png",
+      "width": 1467,
+      "height": 826,
+      "rectangle": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720.0666666666667
+      },
+      "byteLength": 135463
+    },
+    {
+      "index": 7,
+      "page": 7,
+      "path": "D:\\workshop\\Github\\Tactile_Research\\Research\\时漂问题\\06_时漂成果_甲方汇报_20261019\\preview_b\\page-0007.png",
+      "width": 1467,
+      "height": 826,
+      "rectangle": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720.0666666666667
+      },
+      "byteLength": 93812
+    },
+    {
+      "index": 8,
+      "page": 8,
+      "path": "D:\\workshop\\Github\\Tactile_Research\\Research\\时漂问题\\06_时漂成果_甲方汇报_20261019\\preview_b\\page-0008.png",
+      "width": 1467,
+      "height": 826,
+      "rectangle": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720.0666666666667
+      },
+      "byteLength": 72799
+    },
+    {
+      "index": 9,
+      "page": 9,
+      "path": "D:\\workshop\\Github\\Tactile_Research\\Research\\时漂问题\\06_时漂成果_甲方汇报_20261019\\preview_b\\page-0009.png",
+      "width": 1467,
+      "height": 826,
+      "rectangle": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720.0666666666667
+      },
+      "byteLength": 88744
+    }
+  ],
+  "missingFonts": []
+}

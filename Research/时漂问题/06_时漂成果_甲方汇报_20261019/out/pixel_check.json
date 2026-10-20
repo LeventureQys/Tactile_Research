@@ -1,0 +1,248 @@
+{
+  "preview_a": [
+    {
+      "page": "page-0001.png",
+      "size": [
+        1467,
+        826
+      ],
+      "ink_pct": 6.54,
+      "blue_px": 35394,
+      "title_ink": 0,
+      "edge_ink": 5002
+    },
+    {
+      "page": "page-0002.png",
+      "size": [
+        1467,
+        826
+      ],
+      "ink_pct": 13.53,
+      "blue_px": 42634,
+      "title_ink": 2623,
+      "edge_ink": 6831
+    },
+    {
+      "page": "page-0003.png",
+      "size": [
+        1467,
+        826
+      ],
+      "ink_pct": 13.2,
+      "blue_px": 39122,
+      "title_ink": 3172,
+      "edge_ink": 6831
+    },
+    {
+      "page": "page-0004.png",
+      "size": [
+        1467,
+        826
+      ],
+      "ink_pct": 7.34,
+      "blue_px": 30442,
+      "title_ink": 10651,
+      "edge_ink": 6831
+    },
+    {
+      "page": "page-0005.png",
+      "size": [
+        1467,
+        826
+      ],
+      "ink_pct": 6.4,
+      "blue_px": 30254,
+      "title_ink": 8708,
+      "edge_ink": 6831
+    },
+    {
+      "page": "page-0006.png",
+      "size": [
+        1467,
+        826
+      ],
+      "ink_pct": 7.11,
+      "blue_px": 30306,
+      "title_ink": 8248,
+      "edge_ink": 6831
+    },
+    {
+      "page": "page-0007.png",
+      "size": [
+        1467,
+        826
+      ],
+      "ink_pct": 6.76,
+      "blue_px": 31358,
+      "title_ink": 6305,
+      "edge_ink": 6831
+    },
+    {
+      "page": "page-0008.png",
+      "size": [
+        1467,
+        826
+      ],
+      "ink_pct": 7.35,
+      "blue_px": 30424,
+      "title_ink": 10595,
+      "edge_ink": 6831
+    },
+    {
+      "page": "page-0009.png",
+      "size": [
+        1467,
+        826
+      ],
+      "ink_pct": 6.92,
+      "blue_px": 31064,
+      "title_ink": 8652,
+      "edge_ink": 6831
+    },
+    {
+      "page": "page-0010.png",
+      "size": [
+        1467,
+        826
+      ],
+      "ink_pct": 13.01,
+      "blue_px": 31841,
+      "title_ink": 2790,
+      "edge_ink": 6831
+    },
+    {
+      "page": "page-0011.png",
+      "size": [
+        1467,
+        826
+      ],
+      "ink_pct": 12.95,
+      "blue_px": 41668,
+      "title_ink": 10945,
+      "edge_ink": 6831
+    },
+    {
+      "page": "page-0012.png",
+      "size": [
+        1467,
+        826
+      ],
+      "ink_pct": 11.84,
+      "blue_px": 32620,
+      "title_ink": 3001,
+      "edge_ink": 6831
+    },
+    {
+      "page": "page-0013.png",
+      "size": [
+        1467,
+        826
+      ],
+      "ink_pct": 8.32,
+      "blue_px": 34093,
+      "title_ink": 3661,
+      "edge_ink": 6831
+    }
+  ],
+  "preview_b": [
+    {
+      "page": "page-0001.png",
+      "size": [
+        1467,
+        826
+      ],
+      "ink_pct": 6.18,
+      "blue_px": 35085,
+      "title_ink": 0,
+      "edge_ink": 5002
+    },
+    {
+      "page": "page-0002.png",
+      "size": [
+        1467,
+        826
+      ],
+      "ink_pct": 12.63,
+      "blue_px": 37780,
+      "title_ink": 3239,
+      "edge_ink": 6831
+    },
+    {
+      "page": "page-0003.png",
+      "size": [
+        1467,
+        826
+      ],
+      "ink_pct": 6.47,
+      "blue_px": 29494,
+      "title_ink": 9569,
+      "edge_ink": 6831
+    },
+    {
+      "page": "page-0004.png",
+      "size": [
+        1467,
+        826
+      ],
+      "ink_pct": 6.31,
+      "blue_px": 29453,
+      "title_ink": 7204,
+      "edge_ink": 6831
+    },
+    {
+      "page": "page-0005.png",
+      "size": [
+        1467,
+        826
+      ],
+      "ink_pct": 6.53,
+      "blue_px": 29509,
+      "title_ink": 9326,
+      "edge_ink": 6831
+    },
+    {
+      "page": "page-0006.png",
+      "size": [
+        1467,
+        826
+      ],
+      "ink_pct": 7.44,
+      "blue_px": 37841,
+      "title_ink": 4455,
+      "edge_ink": 6831
+    },
+    {
+      "page": "page-0007.png",
+      "size": [
+        1467,
+        826
+      ],
+      "ink_pct": 12.41,
+      "blue_px": 37761,
+      "title_ink": 6672,
+      "edge_ink": 6831
+    },
+    {
+      "page": "page-0008.png",
+      "size": [
+        1467,
+        826
+      ],
+      "ink_pct": 11.19,
+      "blue_px": 28369,
+      "title_ink": 3001,
+      "edge_ink": 6831
+    },
+    {
+      "page": "page-0009.png",
+      "size": [
+        1467,
+        826
+      ],
+      "ink_pct": 7.39,
+      "blue_px": 31226,
+      "title_ink": 1372,
+      "edge_ink": 6831
+    }
+  ]
+}
