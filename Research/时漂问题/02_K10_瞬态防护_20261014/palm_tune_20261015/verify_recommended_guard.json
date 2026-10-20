@@ -1,0 +1,60 @@
+{
+  "palm_152201": {
+    "live_cap009_guard_on": {
+      "rise_adc": 309.2,
+      "landing_adc": 730.0,
+      "tail_slope_adc_s": 0.2512,
+      "offset30_adc": 245.5,
+      "guard_frames": 0
+    },
+    "recommended_guard_on": {
+      "rise_adc": 242.9,
+      "landing_adc": 137.2,
+      "tail_slope_adc_s": 0.1497,
+      "offset30_adc": 230.2,
+      "guard_frames": 0
+    },
+    "recommended_guard_off": {
+      "rise_adc": 243.0,
+      "landing_adc": 137.6,
+      "tail_slope_adc_s": 0.1314,
+      "offset30_adc": 230.6,
+      "guard_frames": 0
+    },
+    "guard_switch_delta": {
+      "rise_adc": -0.1,
+      "offset30_adc": -0.4,
+      "tail_slope_adc_s": 0.0183,
+      "landing_adc": -0.4
+    }
+  },
+  "b2d896": {
+    "live_cap009_guard_on": {
+      "rise_adc": -34.0,
+      "landing_adc": 191.4,
+      "tail_slope_adc_s": -0.2404,
+      "offset30_adc": 59.4,
+      "guard_frames": 0
+    },
+    "recommended_guard_on": {
+      "rise_adc": -32.2,
+      "landing_adc": -246.7,
+      "tail_slope_adc_s": -0.1282,
+      "offset30_adc": 30.1,
+      "guard_frames": 0
+    },
+    "recommended_guard_off": {
+      "rise_adc": -32.4,
+      "landing_adc": -246.6,
+      "tail_slope_adc_s": -0.1288,
+      "offset30_adc": 29.9,
+      "guard_frames": 0
+    },
+    "guard_switch_delta": {
+      "rise_adc": 0.2,
+      "offset30_adc": 0.2,
+      "tail_slope_adc_s": 0.0006,
+      "landing_adc": -0.1
+    }
+  }
+}

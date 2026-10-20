@@ -1,0 +1,125 @@
+{
+  "schemaVersion": 1,
+  "backend": "native",
+  "rasterEngine": "libreoffice",
+  "source": "saved",
+  "inputPath": "D:\\workshop\\Github\\Tactile_Research\\Research\\时漂问题\\data\\report\\右手掌-new_param_补偿效果前后对比与综合评价.pptx",
+  "sourceSha256": "76a65a8c3a0288f1d66aad382be9d408e63c7f6e4bab389b417401eeee520559",
+  "dpi": 130,
+  "pageCount": 8,
+  "images": [
+    {
+      "index": 1,
+      "page": 1,
+      "path": "D:\\workshop\\Github\\Tactile_Research\\Research\\时漂问题\\data\\report\\_ppt_build\\preview-v2\\page-0001.png",
+      "width": 1734,
+      "height": 976,
+      "rectangle": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720.0666666666667
+      },
+      "byteLength": 105416
+    },
+    {
+      "index": 2,
+      "page": 2,
+      "path": "D:\\workshop\\Github\\Tactile_Research\\Research\\时漂问题\\data\\report\\_ppt_build\\preview-v2\\page-0002.png",
+      "width": 1734,
+      "height": 976,
+      "rectangle": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720.0666666666667
+      },
+      "byteLength": 137594
+    },
+    {
+      "index": 3,
+      "page": 3,
+      "path": "D:\\workshop\\Github\\Tactile_Research\\Research\\时漂问题\\data\\report\\_ppt_build\\preview-v2\\page-0003.png",
+      "width": 1734,
+      "height": 976,
+      "rectangle": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720.0666666666667
+      },
+      "byteLength": 157341
+    },
+    {
+      "index": 4,
+      "page": 4,
+      "path": "D:\\workshop\\Github\\Tactile_Research\\Research\\时漂问题\\data\\report\\_ppt_build\\preview-v2\\page-0004.png",
+      "width": 1734,
+      "height": 976,
+      "rectangle": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720.0666666666667
+      },
+      "byteLength": 254997
+    },
+    {
+      "index": 5,
+      "page": 5,
+      "path": "D:\\workshop\\Github\\Tactile_Research\\Research\\时漂问题\\data\\report\\_ppt_build\\preview-v2\\page-0005.png",
+      "width": 1734,
+      "height": 976,
+      "rectangle": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720.0666666666667
+      },
+      "byteLength": 186856
+    },
+    {
+      "index": 6,
+      "page": 6,
+      "path": "D:\\workshop\\Github\\Tactile_Research\\Research\\时漂问题\\data\\report\\_ppt_build\\preview-v2\\page-0006.png",
+      "width": 1734,
+      "height": 976,
+      "rectangle": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720.0666666666667
+      },
+      "byteLength": 118961
+    },
+    {
+      "index": 7,
+      "page": 7,
+      "path": "D:\\workshop\\Github\\Tactile_Research\\Research\\时漂问题\\data\\report\\_ppt_build\\preview-v2\\page-0007.png",
+      "width": 1734,
+      "height": 976,
+      "rectangle": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720.0666666666667
+      },
+      "byteLength": 110098
+    },
+    {
+      "index": 8,
+      "page": 8,
+      "path": "D:\\workshop\\Github\\Tactile_Research\\Research\\时漂问题\\data\\report\\_ppt_build\\preview-v2\\page-0008.png",
+      "width": 1734,
+      "height": 976,
+      "rectangle": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720.0666666666667
+      },
+      "byteLength": 175354
+    }
+  ],
+  "missingFonts": []
+}

@@ -1,0 +1,4 @@
+﻿kind,decrease,n,reverse_misjudge,other,reverse_rate_pct_pm2,reverse_rate_pct_pm1,no_event_rate_pct_pm1
+decrement_small,2,2,0,0,0.0,0.0,0.0
+partial_unload,1,1,0,0,0.0,0.0,0.0
+unload,16,16,0,0,0.0,0.0,0.0

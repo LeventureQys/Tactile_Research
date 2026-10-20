@@ -1,0 +1,440 @@
+{
+  "schema": "strict-route-b-v1",
+  "mode": "synthetic",
+  "fps": 100,
+  "channels": 57,
+  "baseline_adc_per_channel": 8.0,
+  "background_500_adc_per_channel_after_2s": true,
+  "params": {
+    "r_fast": 0.03,
+    "tau_c_fast_s": 2,
+    "tau_r_fast_s": 0.1,
+    "r_slow_max": 0.4,
+    "slope_cap_frac": 0.02,
+    "slow_confirm_s": 3,
+    "soft_unfreeze_s": 2,
+    "tau_r_slow_idle_s": 0.2
+  },
+  "config": {
+    "enabled": true,
+    "window_s": 0.25,
+    "separation_s": 0.5,
+    "confirm_s": 0.25,
+    "hold_s": 2.0,
+    "threshold_adc": 45.0,
+    "noise_multiplier": 4.0,
+    "trend_tau_s": 8.0,
+    "cooldown_s": 1.5,
+    "large_step_adc": 2000.0,
+    "max_event_adc": 250.0,
+    "max_platform_adc": 800.0,
+    "max_platform_rate": 500.0,
+    "gap_s": 0.25,
+    "rollback_tolerance": 0.35
+  },
+  "results": [
+    {
+      "name": "positive_100adc_distributed57_square",
+      "kind": "positive_square",
+      "event_count": 2,
+      "events": [
+        {
+          "time_s": 30.36,
+          "action": "lock",
+          "delta_total_adc": 99.9999999999996,
+          "platform_total_adc": 99.9999999999996
+        },
+        {
+          "time_s": 45.36,
+          "action": "rollback",
+          "delta_total_adc": -99.9999999999996,
+          "platform_total_adc": 0.0
+        }
+      ],
+      "metrics": {
+        "hold_delta_adc": 100.000000319209,
+        "truth_hold_adc": 99.99999999999999,
+        "hold_retention": 1.0000000031920901,
+        "withdrawal_residual_7_12s_adc": 1.6043486539274454e-09,
+        "first5s_residual_adc": 5.938272806815803e-08,
+        "prefix_max_abs_adc": 0.0,
+        "disabled_vs_direct_k9_max_abs_adc": 0.0,
+        "direct_k9_pair_max_abs_adc": 316.9090957764165,
+        "route_vs_direct_k9_max_abs_adc": 5.559808697831784
+      },
+      "pair_definition": "injection_output - matched_no_injection_background_output"
+    },
+    {
+      "name": "negative_100adc_distributed57_square",
+      "kind": "negative_square",
+      "event_count": 2,
+      "events": [
+        {
+          "time_s": 30.36,
+          "action": "lock",
+          "delta_total_adc": -99.9999999999996,
+          "platform_total_adc": -99.9999999999996
+        },
+        {
+          "time_s": 45.36,
+          "action": "lock",
+          "delta_total_adc": 99.9999999999996,
+          "platform_total_adc": 0.0
+        }
+      ],
+      "metrics": {
+        "hold_delta_adc": -99.999999680791,
+        "truth_hold_adc": -99.99999999999999,
+        "hold_retention": 0.9999999968079102,
+        "withdrawal_residual_7_12s_adc": 1.6043486539274454e-09,
+        "first5s_residual_adc": 4.9560185289010406e-08,
+        "prefix_max_abs_adc": 0.0,
+        "disabled_vs_direct_k9_max_abs_adc": 0.0,
+        "direct_k9_pair_max_abs_adc": 316.9090957764165,
+        "route_vs_direct_k9_max_abs_adc": 5.559808697831784
+      },
+      "pair_definition": "injection_output - matched_no_injection_background_output"
+    },
+    {
+      "name": "positive_100adc_concentrated1_square",
+      "kind": "positive_square",
+      "event_count": 2,
+      "events": [
+        {
+          "time_s": 30.36,
+          "action": "lock",
+          "delta_total_adc": 100.0,
+          "platform_total_adc": 100.0
+        },
+        {
+          "time_s": 45.36,
+          "action": "rollback",
+          "delta_total_adc": -100.0,
+          "platform_total_adc": 0.0
+        }
+      ],
+      "metrics": {
+        "hold_delta_adc": 100.00000031921263,
+        "truth_hold_adc": 100.0,
+        "hold_retention": 1.0000000031921263,
+        "withdrawal_residual_7_12s_adc": 1.6043486539274454e-09,
+        "first5s_residual_adc": 5.938272806815803e-08,
+        "prefix_max_abs_adc": 0.0,
+        "disabled_vs_direct_k9_max_abs_adc": 0.0,
+        "direct_k9_pair_max_abs_adc": 316.9090957764165,
+        "route_vs_direct_k9_max_abs_adc": 7.326619056437778
+      },
+      "pair_definition": "injection_output - matched_no_injection_background_output"
+    },
+    {
+      "name": "negative_100adc_concentrated1_square",
+      "kind": "negative_square",
+      "event_count": 2,
+      "events": [
+        {
+          "time_s": 30.36,
+          "action": "lock",
+          "delta_total_adc": -100.0,
+          "platform_total_adc": -100.0
+        },
+        {
+          "time_s": 45.36,
+          "action": "lock",
+          "delta_total_adc": 100.0,
+          "platform_total_adc": 0.0
+        }
+      ],
+      "metrics": {
+        "hold_delta_adc": -99.99999968078737,
+        "truth_hold_adc": -100.0,
+        "hold_retention": 0.9999999968078737,
+        "withdrawal_residual_7_12s_adc": 1.6043486539274454e-09,
+        "first5s_residual_adc": 4.9560185289010406e-08,
+        "prefix_max_abs_adc": 0.0,
+        "disabled_vs_direct_k9_max_abs_adc": 0.0,
+        "direct_k9_pair_max_abs_adc": 316.9090957764165,
+        "route_vs_direct_k9_max_abs_adc": 5.559808697831784
+      },
+      "pair_definition": "injection_output - matched_no_injection_background_output"
+    },
+    {
+      "name": "positive_100adc_distributed19_square",
+      "kind": "positive_square",
+      "event_count": 2,
+      "events": [
+        {
+          "time_s": 30.36,
+          "action": "lock",
+          "delta_total_adc": 99.99999999999852,
+          "platform_total_adc": 99.99999999999852
+        },
+        {
+          "time_s": 45.36,
+          "action": "rollback",
+          "delta_total_adc": -99.99999999999852,
+          "platform_total_adc": 0.0
+        }
+      ],
+      "metrics": {
+        "hold_delta_adc": 100.00000031921081,
+        "truth_hold_adc": 100.0,
+        "hold_retention": 1.0000000031921081,
+        "withdrawal_residual_7_12s_adc": 1.6043486539274454e-09,
+        "first5s_residual_adc": 5.938272806815803e-08,
+        "prefix_max_abs_adc": 0.0,
+        "disabled_vs_direct_k9_max_abs_adc": 0.0,
+        "direct_k9_pair_max_abs_adc": 316.9090957764165,
+        "route_vs_direct_k9_max_abs_adc": 7.188027788975205
+      },
+      "pair_definition": "injection_output - matched_no_injection_background_output"
+    },
+    {
+      "name": "negative_100adc_distributed19_square",
+      "kind": "negative_square",
+      "event_count": 2,
+      "events": [
+        {
+          "time_s": 30.36,
+          "action": "lock",
+          "delta_total_adc": -99.99999999999744,
+          "platform_total_adc": -99.99999999999744
+        },
+        {
+          "time_s": 45.36,
+          "action": "lock",
+          "delta_total_adc": 99.99999999999744,
+          "platform_total_adc": 0.0
+        }
+      ],
+      "metrics": {
+        "hold_delta_adc": -99.99999968078919,
+        "truth_hold_adc": -100.0,
+        "hold_retention": 0.9999999968078919,
+        "withdrawal_residual_7_12s_adc": 1.6043486539274454e-09,
+        "first5s_residual_adc": 4.9560185289010406e-08,
+        "prefix_max_abs_adc": 0.0,
+        "disabled_vs_direct_k9_max_abs_adc": 0.0,
+        "direct_k9_pair_max_abs_adc": 316.9090957764165,
+        "route_vs_direct_k9_max_abs_adc": 5.559808697831784
+      },
+      "pair_definition": "injection_output - matched_no_injection_background_output"
+    },
+    {
+      "name": "positive_three_add_then_sequential_remove",
+      "kind": "positive_repeated",
+      "event_count": 6,
+      "events": [
+        {
+          "time_s": 30.36,
+          "action": "lock",
+          "delta_total_adc": 100.0,
+          "platform_total_adc": 100.0
+        },
+        {
+          "time_s": 35.36,
+          "action": "lock",
+          "delta_total_adc": 100.0,
+          "platform_total_adc": 200.0
+        },
+        {
+          "time_s": 40.36,
+          "action": "lock",
+          "delta_total_adc": 100.0,
+          "platform_total_adc": 300.0
+        },
+        {
+          "time_s": 42.36,
+          "action": "rollback",
+          "delta_total_adc": -100.0,
+          "platform_total_adc": 200.0
+        },
+        {
+          "time_s": 42.62,
+          "action": "rollback",
+          "delta_total_adc": -100.0,
+          "platform_total_adc": 100.0
+        },
+        {
+          "time_s": 43.36,
+          "action": "rollback",
+          "delta_total_adc": -100.0,
+          "platform_total_adc": 0.0
+        }
+      ],
+      "metrics": {
+        "hold_delta_adc": 200.00000247671596,
+        "truth_hold_adc": 200.0,
+        "hold_retention": 1.0000000123835797,
+        "withdrawal_residual_7_12s_adc": -0.0036138762388873147,
+        "first5s_residual_adc": -0.13382203656146885,
+        "prefix_max_abs_adc": 0.0,
+        "disabled_vs_direct_k9_max_abs_adc": 0.0,
+        "direct_k9_pair_max_abs_adc": 316.9090957764165,
+        "route_vs_direct_k9_max_abs_adc": 13.743957661958575
+      },
+      "pair_definition": "injection_output - matched_no_injection_background_output"
+    },
+    {
+      "name": "positive_ramp_0.2s",
+      "kind": "positive_ramp",
+      "event_count": 1,
+      "events": [
+        {
+          "time_s": 30.47,
+          "action": "lock",
+          "delta_total_adc": 99.99999999999852,
+          "platform_total_adc": 99.99999999999852
+        }
+      ],
+      "metrics": {
+        "hold_delta_adc": 100.00004387288936,
+        "truth_hold_adc": 100.0,
+        "hold_retention": 1.0000004387288937,
+        "withdrawal_residual_7_12s_adc": null,
+        "first5s_residual_adc": 100.00000379577614,
+        "prefix_max_abs_adc": 0.0,
+        "disabled_vs_direct_k9_max_abs_adc": 0.0,
+        "direct_k9_pair_max_abs_adc": 316.9090957764165,
+        "route_vs_direct_k9_max_abs_adc": 7.188029277049566
+      },
+      "pair_definition": "injection_output - matched_no_injection_background_output"
+    },
+    {
+      "name": "positive_ramp_1s",
+      "kind": "positive_ramp",
+      "event_count": 1,
+      "events": [
+        {
+          "time_s": 30.88,
+          "action": "lock",
+          "delta_total_adc": 71.9999999999988,
+          "platform_total_adc": 71.9999999999988
+        }
+      ],
+      "metrics": {
+        "hold_delta_adc": 88.04190460085374,
+        "truth_hold_adc": 100.0,
+        "hold_retention": 0.8804190460085374,
+        "withdrawal_residual_7_12s_adc": null,
+        "first5s_residual_adc": 87.13155405305952,
+        "prefix_max_abs_adc": 0.0,
+        "disabled_vs_direct_k9_max_abs_adc": 0.0,
+        "direct_k9_pair_max_abs_adc": 316.9090957764165,
+        "route_vs_direct_k9_max_abs_adc": 6.510427362267649
+      },
+      "pair_definition": "injection_output - matched_no_injection_background_output"
+    },
+    {
+      "name": "positive_ramp_3s",
+      "kind": "positive_ramp",
+      "event_count": 0,
+      "events": [],
+      "metrics": {
+        "hold_delta_adc": 2.5567336534131755,
+        "truth_hold_adc": 100.0,
+        "hold_retention": 0.025567336534131756,
+        "withdrawal_residual_7_12s_adc": null,
+        "first5s_residual_adc": 0.016857922135386616,
+        "prefix_max_abs_adc": 0.0,
+        "disabled_vs_direct_k9_max_abs_adc": 0.0,
+        "direct_k9_pair_max_abs_adc": 316.9090957764165,
+        "route_vs_direct_k9_max_abs_adc": 5.559808697831784
+      },
+      "pair_definition": "injection_output - matched_no_injection_background_output"
+    },
+    {
+      "name": "positive_ramp_5s",
+      "kind": "positive_ramp",
+      "event_count": 0,
+      "events": [],
+      "metrics": {
+        "hold_delta_adc": 1.6026077325386723,
+        "truth_hold_adc": 100.0,
+        "hold_retention": 0.016026077325386724,
+        "withdrawal_residual_7_12s_adc": null,
+        "first5s_residual_adc": 0.010620733544783434,
+        "prefix_max_abs_adc": 0.0,
+        "disabled_vs_direct_k9_max_abs_adc": 0.0,
+        "direct_k9_pair_max_abs_adc": 316.9090957764165,
+        "route_vs_direct_k9_max_abs_adc": 5.559808697831784
+      },
+      "pair_definition": "injection_output - matched_no_injection_background_output"
+    },
+    {
+      "name": "negative_linear_5.7_adc_s_after15",
+      "kind": "negative_linear",
+      "event_count": 0,
+      "events": [],
+      "metrics": {
+        "hold_delta_adc": 27677.23884587606,
+        "truth_hold_adc": 28514.2215,
+        "hold_retention": 0.9706468348040315,
+        "withdrawal_residual_7_12s_adc": null,
+        "first5s_residual_adc": null,
+        "prefix_max_abs_adc": 0.0,
+        "disabled_vs_direct_k9_max_abs_adc": 0.0,
+        "direct_k9_pair_max_abs_adc": 28492.590000000004,
+        "route_vs_direct_k9_max_abs_adc": 17.43802799460559
+      },
+      "pair_definition": "injection_output - matched_no_injection_background_output"
+    },
+    {
+      "name": "negative_linear_20_adc_s_after15",
+      "kind": "negative_linear",
+      "event_count": 0,
+      "events": [],
+      "metrics": {
+        "hold_delta_adc": 27691.182476982583,
+        "truth_hold_adc": 28549.9,
+        "hold_retention": 0.9699222230894883,
+        "withdrawal_residual_7_12s_adc": null,
+        "first5s_residual_adc": null,
+        "prefix_max_abs_adc": 0.0,
+        "disabled_vs_direct_k9_max_abs_adc": 0.0,
+        "direct_k9_pair_max_abs_adc": 28492.590000000004,
+        "route_vs_direct_k9_max_abs_adc": 17.43802799460559
+      },
+      "pair_definition": "injection_output - matched_no_injection_background_output"
+    },
+    {
+      "name": "negative_exponential_1000_tau20_after15",
+      "kind": "negative_exponential",
+      "event_count": 0,
+      "events": [],
+      "metrics": {
+        "hold_delta_adc": 27713.68404336076,
+        "truth_hold_adc": 28617.282418024508,
+        "hold_retention": 0.9684247315498198,
+        "withdrawal_residual_7_12s_adc": null,
+        "first5s_residual_adc": null,
+        "prefix_max_abs_adc": 0.0,
+        "disabled_vs_direct_k9_max_abs_adc": 0.0,
+        "direct_k9_pair_max_abs_adc": 28492.590000000004,
+        "route_vs_direct_k9_max_abs_adc": 17.43802799460559
+      },
+      "pair_definition": "injection_output - matched_no_injection_background_output"
+    },
+    {
+      "name": "negative_exponential_1000_tau80_after15",
+      "kind": "negative_exponential",
+      "event_count": 0,
+      "events": [],
+      "metrics": {
+        "hold_delta_adc": 27683.438421857027,
+        "truth_hold_adc": 28530.706184660274,
+        "hold_retention": 0.9703033020872514,
+        "withdrawal_residual_7_12s_adc": null,
+        "first5s_residual_adc": null,
+        "prefix_max_abs_adc": 0.0,
+        "disabled_vs_direct_k9_max_abs_adc": 0.0,
+        "direct_k9_pair_max_abs_adc": 28492.590000000004,
+        "route_vs_direct_k9_max_abs_adc": 17.43802799460559
+      },
+      "pair_definition": "injection_output - matched_no_injection_background_output"
+    }
+  ],
+  "notes": [
+    "所有保持率、撤载残差和前5s残差均为注入输出减匹配无注入背景输出。",
+    "合成结果不等同真实10g验收。"
+  ]
+}

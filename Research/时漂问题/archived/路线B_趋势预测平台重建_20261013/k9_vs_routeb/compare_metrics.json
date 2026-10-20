@@ -1,0 +1,744 @@
+{
+  "sessions": [
+    {
+      "id": "设备1/测试1-2026-10-13_16-32-15",
+      "fps": 100.43005118454182,
+      "frames": 67551,
+      "duration_s": 672.6074437209616,
+      "load_time_s": 2.389722968068553,
+      "steps": [
+        {
+          "i": 240,
+          "t": 2.389722968068553,
+          "adc": 3122.0,
+          "peak_delta": 12805.0
+        }
+      ],
+      "frame_match": true,
+      "k9_python_vs_recording": {
+        "max_abs_adc": 15.629041936069825,
+        "mean_abs_adc": 0.5537993396321269
+      },
+      "routeb_events": [
+        {
+          "time_s": 130.09054407423187,
+          "action": "lock",
+          "delta_total_adc": 58.07692307692326,
+          "platform_total_adc": 58.07692307692326
+        },
+        {
+          "time_s": 159.09580659916392,
+          "action": "rollback",
+          "delta_total_adc": -58.423076923076785,
+          "platform_total_adc": -0.3461538461535181
+        },
+        {
+          "time_s": 665.1594738038145,
+          "action": "rollback",
+          "delta_total_adc": -44.50000000000011,
+          "platform_total_adc": -44.846153846153626
+        }
+      ],
+      "methods": {
+        "pre": {
+          "net_change_adc": 1866.0,
+          "max_abs_offset_adc": 1876.0,
+          "tail_window_adc": 1865.0,
+          "post_load_first5_adc": 29877.0,
+          "load_step_adc": null,
+          "step_retention": [
+            {
+              "t": 2.39,
+              "ref_step_adc": 27804.0,
+              "out_step_adc": 27804.0,
+              "retention": 1.0
+            }
+          ]
+        },
+        "out_rec": {
+          "net_change_adc": 726.3700792789459,
+          "max_abs_offset_adc": 725.819164276123,
+          "tail_window_adc": 725.819164276123,
+          "post_load_first5_adc": 28080.746305942535,
+          "load_step_adc": null,
+          "step_retention": [
+            {
+              "t": 2.39,
+              "ref_step_adc": 27804.0,
+              "out_step_adc": 27219.80606007576,
+              "retention": 0.9789888526857919
+            }
+          ]
+        },
+        "k9_rec": {
+          "net_change_adc": 710.6923381023444,
+          "max_abs_offset_adc": 710.3439266380701,
+          "tail_window_adc": 710.3439266380701,
+          "post_load_first5_adc": 28107.75348853976,
+          "load_step_adc": null,
+          "step_retention": [
+            {
+              "t": 2.39,
+              "ref_step_adc": 27804.0,
+              "out_step_adc": 27219.054637034104,
+              "retention": 0.9789618269685694
+            }
+          ]
+        },
+        "k9_0p4": {
+          "net_change_adc": -111.43678045219713,
+          "max_abs_offset_adc": 121.49594215844263,
+          "tail_window_adc": -112.00887451449307,
+          "post_load_first5_adc": 28104.75680197437,
+          "load_step_adc": null,
+          "step_retention": [
+            {
+              "t": 2.39,
+              "ref_step_adc": 27804.0,
+              "out_step_adc": 27219.054637034104,
+              "retention": 0.9789618269685694
+            }
+          ]
+        },
+        "routeb": {
+          "net_change_adc": -133.18407588821356,
+          "max_abs_offset_adc": 134.71572405386178,
+          "tail_window_adc": -133.84602535192244,
+          "post_load_first5_adc": 27834.56774905251,
+          "load_step_adc": null,
+          "step_retention": [
+            {
+              "t": 2.39,
+              "ref_step_adc": 27804.0,
+              "out_step_adc": 27228.855374539617,
+              "retention": 0.9793143207646244
+            }
+          ]
+        }
+      },
+      "load_step_ref_adc": null,
+      "label": "设备1/测试1",
+      "elapsed_s": 103.85
+    },
+    {
+      "id": "设备1/测试2-2026-10-13_16-43-59",
+      "fps": 100.42669020552529,
+      "frames": 31417,
+      "duration_s": 312.8252054877693,
+      "load_time_s": 3.7041945645992547,
+      "steps": [
+        {
+          "i": 372,
+          "t": 3.7041945645992547,
+          "adc": 6876.0,
+          "peak_delta": 11668.0
+        }
+      ],
+      "frame_match": true,
+      "k9_python_vs_recording": {
+        "max_abs_adc": 7.17700889801894,
+        "mean_abs_adc": 0.38878425279210665
+      },
+      "routeb_events": [
+        {
+          "time_s": 26.89524064242631,
+          "action": "lock",
+          "delta_total_adc": -7.461538461537793,
+          "platform_total_adc": -7.461538461537793
+        },
+        {
+          "time_s": 37.44024613680967,
+          "action": "rollback",
+          "delta_total_adc": -37.46153846153858,
+          "platform_total_adc": -44.92307692307637
+        },
+        {
+          "time_s": 54.935595195951855,
+          "action": "rollback",
+          "delta_total_adc": -39.03846153846113,
+          "platform_total_adc": -83.9615384615375
+        }
+      ],
+      "methods": {
+        "pre": {
+          "net_change_adc": 1164.0,
+          "max_abs_offset_adc": 1191.5,
+          "tail_window_adc": 1164.0,
+          "post_load_first5_adc": 30144.0,
+          "load_step_adc": null,
+          "step_retention": [
+            {
+              "t": 3.7,
+              "ref_step_adc": 27830.0,
+              "out_step_adc": 27830.0,
+              "retention": 1.0
+            }
+          ]
+        },
+        "out_rec": {
+          "net_change_adc": 555.2104420661926,
+          "max_abs_offset_adc": 555.8717951774597,
+          "tail_window_adc": 554.9451413154602,
+          "post_load_first5_adc": 28244.399369478226,
+          "load_step_adc": null,
+          "step_retention": [
+            {
+              "t": 3.7,
+              "ref_step_adc": 27830.0,
+              "out_step_adc": 27240.415415763855,
+              "retention": 0.9788147831751295
+            }
+          ]
+        },
+        "k9_rec": {
+          "net_change_adc": 547.3977947440872,
+          "max_abs_offset_adc": 548.4675762939078,
+          "tail_window_adc": 547.2189960403848,
+          "post_load_first5_adc": 28267.258765311104,
+          "load_step_adc": null,
+          "step_retention": [
+            {
+              "t": 3.7,
+              "ref_step_adc": 27830.0,
+              "out_step_adc": 27241.71004366072,
+              "retention": 0.978861302323418
+            }
+          ]
+        },
+        "k9_0p4": {
+          "net_change_adc": 14.751242178444954,
+          "max_abs_offset_adc": 32.06180226106517,
+          "tail_window_adc": 14.432032552293094,
+          "post_load_first5_adc": 28263.713537401658,
+          "load_step_adc": null,
+          "step_retention": [
+            {
+              "t": 3.7,
+              "ref_step_adc": 27830.0,
+              "out_step_adc": 27241.71004366072,
+              "retention": 0.978861302323418
+            }
+          ]
+        },
+        "routeb": {
+          "net_change_adc": 130.70133291156162,
+          "max_abs_offset_adc": 146.6624849372929,
+          "tail_window_adc": 130.38202525276938,
+          "post_load_first5_adc": 27900.105308120164,
+          "load_step_adc": null,
+          "step_retention": [
+            {
+              "t": 3.7,
+              "ref_step_adc": 27830.0,
+              "out_step_adc": 27293.98304830785,
+              "retention": 0.980739599292413
+            }
+          ]
+        }
+      },
+      "load_step_ref_adc": null,
+      "label": "设备1/测试2",
+      "elapsed_s": 48.35
+    },
+    {
+      "id": "设备1/10g反复增减荷载-2026-10-13_17-07-18",
+      "fps": 100.5441779493038,
+      "frames": 9700,
+      "duration_s": 96.4650584232775,
+      "load_time_s": 1.670907290969236,
+      "steps": [
+        {
+          "i": 168,
+          "t": 1.670907290969236,
+          "adc": 11298.0,
+          "peak_delta": 19957.0
+        }
+      ],
+      "frame_match": true,
+      "k9_python_vs_recording": {
+        "max_abs_adc": 1.3255020417232117,
+        "mean_abs_adc": 0.1904745014707592
+      },
+      "routeb_events": [
+        {
+          "time_s": 19.096083325362695,
+          "action": "lock",
+          "delta_total_adc": -6.2307692307689635,
+          "platform_total_adc": -6.2307692307689635
+        },
+        {
+          "time_s": 23.86015827997141,
+          "action": "rollback",
+          "delta_total_adc": -18.384615384615042,
+          "platform_total_adc": -24.615384615384006
+        },
+        {
+          "time_s": 29.002176550394594,
+          "action": "rollback",
+          "delta_total_adc": -6.11538461538514,
+          "platform_total_adc": -30.73076923076915
+        }
+      ],
+      "methods": {
+        "pre": {
+          "net_change_adc": 1186.0,
+          "max_abs_offset_adc": 1179.0,
+          "tail_window_adc": 1179.0,
+          "post_load_first5_adc": 28863.0,
+          "load_step_adc": null,
+          "step_retention": [
+            {
+              "t": 1.67,
+              "ref_step_adc": 26606.5,
+              "out_step_adc": 26606.5,
+              "retention": 1.0
+            }
+          ]
+        },
+        "out_rec": {
+          "net_change_adc": 566.866405248642,
+          "max_abs_offset_adc": 561.3990924358368,
+          "tail_window_adc": 561.3990924358368,
+          "post_load_first5_adc": 26881.226260900497,
+          "load_step_adc": null,
+          "step_retention": [
+            {
+              "t": 1.67,
+              "ref_step_adc": 26606.5,
+              "out_step_adc": 26047.823913812637,
+              "retention": 0.9790022706411079
+            }
+          ]
+        },
+        "k9_rec": {
+          "net_change_adc": 575.0350600565544,
+          "max_abs_offset_adc": 570.0930069996975,
+          "tail_window_adc": 570.0930069996975,
+          "post_load_first5_adc": 26880.796615920364,
+          "load_step_adc": null,
+          "step_retention": [
+            {
+              "t": 1.67,
+              "ref_step_adc": 26606.5,
+              "out_step_adc": 26050.765930817746,
+              "retention": 0.9791128457639203
+            }
+          ]
+        },
+        "k9_0p4": {
+          "net_change_adc": 84.79880818465972,
+          "max_abs_offset_adc": 87.80918312375434,
+          "tail_window_adc": 87.12062533048811,
+          "post_load_first5_adc": 26866.580755612784,
+          "load_step_adc": null,
+          "step_retention": [
+            {
+              "t": 1.67,
+              "ref_step_adc": 26606.5,
+              "out_step_adc": 26050.765930817746,
+              "retention": 0.9791128457639203
+            }
+          ]
+        },
+        "routeb": {
+          "net_change_adc": 74.27506028036441,
+          "max_abs_offset_adc": 77.3734116076339,
+          "tail_window_adc": 76.64046086819508,
+          "post_load_first5_adc": 26575.890542622903,
+          "load_step_adc": null,
+          "step_retention": [
+            {
+              "t": 1.67,
+              "ref_step_adc": 26606.5,
+              "out_step_adc": 26098.126372627878,
+              "retention": 0.9808928785307304
+            }
+          ]
+        }
+      },
+      "load_step_ref_adc": null,
+      "label": "设备1/10g反复增减",
+      "elapsed_s": 16.49
+    },
+    {
+      "id": "设备2/测试1-2026-10-13_16-53-24",
+      "fps": 100.44474500725751,
+      "frames": 45532,
+      "duration_s": 453.29399757757574,
+      "load_time_s": 1.9114987049459609,
+      "steps": [
+        {
+          "i": 192,
+          "t": 1.9114987049459609,
+          "adc": 2106.0,
+          "peak_delta": 13120.0
+        }
+      ],
+      "frame_match": true,
+      "k9_python_vs_recording": {
+        "max_abs_adc": 1.6217698495111108,
+        "mean_abs_adc": 0.09638419298265524
+      },
+      "routeb_events": [
+        {
+          "time_s": 18.547510871428777,
+          "action": "lock",
+          "delta_total_adc": -2.461538461538627,
+          "platform_total_adc": -2.461538461538627
+        },
+        {
+          "time_s": 24.610545826179248,
+          "action": "rollback",
+          "delta_total_adc": -5.230769230769219,
+          "platform_total_adc": -7.692307692307846
+        },
+        {
+          "time_s": 238.53910922138138,
+          "action": "lock",
+          "delta_total_adc": 43.67026496565235,
+          "platform_total_adc": 35.977957273344515
+        }
+      ],
+      "methods": {
+        "pre": {
+          "net_change_adc": 1973.0,
+          "max_abs_offset_adc": 1971.0,
+          "tail_window_adc": 1971.0,
+          "post_load_first5_adc": 27234.0,
+          "load_step_adc": null,
+          "step_retention": [
+            {
+              "t": 1.91,
+              "ref_step_adc": 25059.5,
+              "out_step_adc": 25059.5,
+              "retention": 1.0
+            }
+          ]
+        },
+        "out_rec": {
+          "net_change_adc": 988.939667224884,
+          "max_abs_offset_adc": 988.3736538887024,
+          "tail_window_adc": 988.3736538887024,
+          "post_load_first5_adc": 25806.985148191452,
+          "load_step_adc": null,
+          "step_retention": [
+            {
+              "t": 1.91,
+              "ref_step_adc": 25059.5,
+              "out_step_adc": 24536.30771446228,
+              "retention": 0.9791219982227212
+            }
+          ]
+        },
+        "k9_rec": {
+          "net_change_adc": 992.6271491477128,
+          "max_abs_offset_adc": 991.626107267839,
+          "tail_window_adc": 991.626107267839,
+          "post_load_first5_adc": 25809.270565303566,
+          "load_step_adc": null,
+          "step_retention": [
+            {
+              "t": 1.91,
+              "ref_step_adc": 25059.5,
+              "out_step_adc": 24538.875816659245,
+              "retention": 0.9792244784077594
+            }
+          ]
+        },
+        "k9_0p4": {
+          "net_change_adc": 277.9881750520981,
+          "max_abs_offset_adc": 277.77621078818265,
+          "tail_window_adc": 277.4889507688604,
+          "post_load_first5_adc": 25775.21406682803,
+          "load_step_adc": null,
+          "step_retention": [
+            {
+              "t": 1.91,
+              "ref_step_adc": 25059.5,
+              "out_step_adc": 24538.875816659245,
+              "retention": 0.9792244784077594
+            }
+          ]
+        },
+        "routeb": {
+          "net_change_adc": 271.5135037419677,
+          "max_abs_offset_adc": 272.24316259473926,
+          "tail_window_adc": 271.39885145402513,
+          "post_load_first5_adc": 25653.092404350893,
+          "load_step_adc": null,
+          "step_retention": [
+            {
+              "t": 1.91,
+              "ref_step_adc": 25059.5,
+              "out_step_adc": 24676.52316732457,
+              "retention": 0.9847172995201249
+            }
+          ]
+        }
+      },
+      "load_step_ref_adc": null,
+      "label": "设备2/测试1",
+      "elapsed_s": 67.96
+    },
+    {
+      "id": "设备2/测试2-2026-10-13_17-01-06",
+      "fps": 100.45319562668449,
+      "frames": 25293,
+      "duration_s": 251.778948815058,
+      "load_time_s": 1.9909769794010594,
+      "steps": [
+        {
+          "i": 200,
+          "t": 1.9909769794010594,
+          "adc": 21786.0,
+          "peak_delta": 19434.0
+        }
+      ],
+      "frame_match": true,
+      "k9_python_vs_recording": {
+        "max_abs_adc": 1.4260161042968775,
+        "mean_abs_adc": 0.09221561246735216
+      },
+      "routeb_events": [
+        {
+          "time_s": 183.2196565293825,
+          "action": "lock",
+          "delta_total_adc": -49.54954954954966,
+          "platform_total_adc": -49.54954954954966
+        },
+        {
+          "time_s": 185.25045304837158,
+          "action": "lock",
+          "delta_total_adc": 39.54313796869326,
+          "platform_total_adc": -10.006411580856422
+        },
+        {
+          "time_s": 249.3599117850857,
+          "action": "rollback",
+          "delta_total_adc": -61.53846153846128,
+          "platform_total_adc": -71.54487311931769
+        }
+      ],
+      "methods": {
+        "pre": {
+          "net_change_adc": 892.0,
+          "max_abs_offset_adc": 896.5,
+          "tail_window_adc": 891.0,
+          "post_load_first5_adc": 28659.0,
+          "load_step_adc": null,
+          "step_retention": [
+            {
+              "t": 1.99,
+              "ref_step_adc": 26998.0,
+              "out_step_adc": 26998.0,
+              "retention": 1.0
+            }
+          ]
+        },
+        "out_rec": {
+          "net_change_adc": 96.34929919242859,
+          "max_abs_offset_adc": 121.42736482620239,
+          "tail_window_adc": 97.98351812362671,
+          "post_load_first5_adc": 27284.71164083481,
+          "load_step_adc": null,
+          "step_retention": [
+            {
+              "t": 1.99,
+              "ref_step_adc": 26998.0,
+              "out_step_adc": 26420.607704639435,
+              "retention": 0.97861351598783
+            }
+          ]
+        },
+        "k9_rec": {
+          "net_change_adc": 96.20378347629958,
+          "max_abs_offset_adc": 120.60540896225939,
+          "tail_window_adc": 97.31656374276645,
+          "post_load_first5_adc": 27282.44398756633,
+          "load_step_adc": null,
+          "step_retention": [
+            {
+              "t": 1.99,
+              "ref_step_adc": 26998.0,
+              "out_step_adc": 26420.93697212675,
+              "retention": 0.9786257119833599
+            }
+          ]
+        },
+        "k9_0p4": {
+          "net_change_adc": -151.80919765110593,
+          "max_abs_offset_adc": 168.79269927457426,
+          "tail_window_adc": -148.85109829465,
+          "post_load_first5_adc": 27260.909430729964,
+          "load_step_adc": null,
+          "step_retention": [
+            {
+              "t": 1.99,
+              "ref_step_adc": 26998.0,
+              "out_step_adc": 26420.93697212675,
+              "retention": 0.9786257119833599
+            }
+          ]
+        },
+        "routeb": {
+          "net_change_adc": -108.52134761471461,
+          "max_abs_offset_adc": 172.0349179191544,
+          "tail_window_adc": -105.3443088326676,
+          "post_load_first5_adc": 27135.331360866116,
+          "load_step_adc": null,
+          "step_retention": [
+            {
+              "t": 1.99,
+              "ref_step_adc": 26998.0,
+              "out_step_adc": 26577.546039503304,
+              "retention": 0.9844264774984556
+            }
+          ]
+        }
+      },
+      "load_step_ref_adc": null,
+      "label": "设备2/测试2",
+      "elapsed_s": 38.59
+    },
+    {
+      "id": "设备2/10g反复增减荷载-2026-10-13_17-05-32",
+      "fps": 100.46363995126288,
+      "frames": 5959,
+      "duration_s": 59.30503815002479,
+      "load_time_s": 1.6622929457962639,
+      "steps": [
+        {
+          "i": 167,
+          "t": 1.6622929457962639,
+          "adc": -390.0,
+          "peak_delta": 25094.0
+        }
+      ],
+      "frame_match": true,
+      "k9_python_vs_recording": {
+        "max_abs_adc": 0.8904621091967329,
+        "mean_abs_adc": 0.07775986363030475
+      },
+      "routeb_events": [
+        {
+          "time_s": 10.003619224702067,
+          "action": "lock",
+          "delta_total_adc": 88.03893178893175,
+          "platform_total_adc": 88.03893178893175
+        },
+        {
+          "time_s": 33.275720465849766,
+          "action": "lock",
+          "delta_total_adc": 100.06881219563812,
+          "platform_total_adc": 188.10774398456988
+        },
+        {
+          "time_s": 34.898198011746715,
+          "action": "rollback",
+          "delta_total_adc": -51.23076923076937,
+          "platform_total_adc": 136.8769747538005
+        }
+      ],
+      "methods": {
+        "pre": {
+          "net_change_adc": 385.0,
+          "max_abs_offset_adc": 385.0,
+          "tail_window_adc": 383.0,
+          "post_load_first5_adc": 28460.0,
+          "load_step_adc": null,
+          "step_retention": [
+            {
+              "t": 1.66,
+              "ref_step_adc": 26505.0,
+              "out_step_adc": 26505.0,
+              "retention": 1.0
+            }
+          ]
+        },
+        "out_rec": {
+          "net_change_adc": 31.036235094070435,
+          "max_abs_offset_adc": 39.81746172904968,
+          "tail_window_adc": 29.841182947158813,
+          "post_load_first5_adc": 26939.18841123581,
+          "load_step_adc": null,
+          "step_retention": [
+            {
+              "t": 1.66,
+              "ref_step_adc": 26505.0,
+              "out_step_adc": 25952.91869688034,
+              "retention": 0.9791706733401374
+            }
+          ]
+        },
+        "k9_rec": {
+          "net_change_adc": 29.54787754654535,
+          "max_abs_offset_adc": 39.26906379347929,
+          "tail_window_adc": 28.318703799592186,
+          "post_load_first5_adc": 26938.69704879235,
+          "load_step_adc": null,
+          "step_retention": [
+            {
+              "t": 1.66,
+              "ref_step_adc": 26505.0,
+              "out_step_adc": 25952.242745592033,
+              "retention": 0.9791451705561982
+            }
+          ]
+        },
+        "k9_0p4": {
+          "net_change_adc": -37.70914113499748,
+          "max_abs_offset_adc": 37.03244382214325,
+          "tail_window_adc": -37.03244382214325,
+          "post_load_first5_adc": 26903.234330645064,
+          "load_step_adc": null,
+          "step_retention": [
+            {
+              "t": 1.66,
+              "ref_step_adc": 26505.0,
+              "out_step_adc": 25952.242745592033,
+              "retention": 0.9791451705561982
+            }
+          ]
+        },
+        "routeb": {
+          "net_change_adc": 30.64655786581352,
+          "max_abs_offset_adc": 59.63898159001474,
+          "tail_window_adc": 30.968501517210825,
+          "post_load_first5_adc": 26987.688726602948,
+          "load_step_adc": null,
+          "step_retention": [
+            {
+              "t": 1.66,
+              "ref_step_adc": 26505.0,
+              "out_step_adc": 26071.51656192841,
+              "retention": 0.9836452202198984
+            }
+          ]
+        }
+      },
+      "load_step_ref_adc": null,
+      "label": "设备2/10g反复增减",
+      "elapsed_s": 10.91
+    }
+  ],
+  "jump_adc": 2000.0,
+  "config": {
+    "route_b": {
+      "enabled": true,
+      "window_s": 0.25,
+      "separation_s": 0.5,
+      "confirm_s": 0.25,
+      "hold_s": 2.0,
+      "threshold_adc": 45.0,
+      "noise_multiplier": 4.0,
+      "trend_tau_s": 8.0,
+      "cooldown_s": 1.5,
+      "large_step_adc": 2000.0,
+      "max_event_adc": 250.0,
+      "max_platform_adc": 800.0,
+      "max_platform_rate": 500.0,
+      "gap_s": 0.25,
+      "rollback_tolerance": 0.35
+    }
+  }
+}

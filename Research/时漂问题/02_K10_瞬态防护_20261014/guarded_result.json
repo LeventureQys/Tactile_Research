@@ -1,0 +1,20 @@
+{
+  "parity_vs_toolbox_max_abs": 0.0,
+  "dip_injection": {
+    "dip_frames": 30,
+    "clean_shift": -0.71,
+    "dirty_shift": 23.29,
+    "guarded_shift": -0.75,
+    "dirty_vs_clean": 23.99,
+    "guarded_vs_clean": -0.05,
+    "guard_frames": 0
+  },
+  "sustained_step": {
+    "dirty_shift": -30.13,
+    "guarded_shift": -30.11,
+    "max_instant_diff": 643.51
+  },
+  "real_unload": {
+    "max_instant_diff": 1633.53
+  }
+}

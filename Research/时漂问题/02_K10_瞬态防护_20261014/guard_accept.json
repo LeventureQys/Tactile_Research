@@ -1,0 +1,44 @@
+{
+  "parity_vs_toolbox_max_abs": 0.0,
+  "guard_config": {
+    "enabled": true
+  },
+  "scenarios": [
+    {
+      "tag": "dip_injection",
+      "dirty_shift": 23.29,
+      "guarded_shift": -0.75,
+      "peak_instant_diff": 642.89,
+      "peak_at_s": 1099.38,
+      "steady_diff_60_300s": 0.0,
+      "steady_diff_last100s": 0.0
+    },
+    {
+      "tag": "sustained_step_20s",
+      "dirty_shift": -30.13,
+      "guarded_shift": -30.11,
+      "peak_instant_diff": 643.51,
+      "peak_at_s": 1099.38,
+      "steady_diff_60_300s": 0.0,
+      "steady_diff_last100s": 0.0
+    },
+    {
+      "tag": "real_unload_90pct",
+      "dirty_shift": -23169.29,
+      "guarded_shift": -23169.28,
+      "peak_instant_diff": 1633.53,
+      "peak_at_s": 1000.28,
+      "steady_diff_60_300s": 0.0,
+      "steady_diff_last100s": 0.0
+    },
+    {
+      "tag": "no_injection_control",
+      "dirty_shift": -0.71,
+      "guarded_shift": -0.71,
+      "peak_instant_diff": 629.62,
+      "peak_at_s": 1099.38,
+      "steady_diff_60_300s": 0.0,
+      "steady_diff_last100s": 0.0
+    }
+  ]
+}

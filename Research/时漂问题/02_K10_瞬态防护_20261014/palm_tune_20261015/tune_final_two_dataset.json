@@ -1,0 +1,250 @@
+{
+  "presets": {
+    "palm_152201": "D:\\$RECYCLE.BIN\\S-1-5-21-3129820652-4156655561-3743858824-1001\\$RKJ92E8",
+    "b2d896": "D:\\workshop\\Github\\Tactile_Research\\Research\\时漂问题\\data\\archived\\手掌数据\\20260927_161747_single_device_b2d896"
+  },
+  "results": {
+    "palm_152201": [
+      {
+        "tag": "INPUT",
+        "rise_adc": 1525.5,
+        "landing_adc": 3031.0,
+        "tail_slope_adc_s": 0.7791,
+        "offset30_adc": 1104.0,
+        "end_adc": 26499.0,
+        "ratio": 1.0
+      },
+      {
+        "tag": "F00_live_cap009_base",
+        "params": "{\"r_fast\": 0.02, \"tau_c_fast_s\": 1.0, \"slow_confirm_s\": 1.5, \"soft_unfreeze_s\": 1.5, \"slope_cap_frac\": 0.009, \"r_slow_max\": 0.2, \"tau_r_fast_s\": 2.0, \"tau_r_slow_idle_s\": 0.5}",
+        "rise_adc": 309.2,
+        "landing_adc": 730.0,
+        "tail_slope_adc_s": 0.2512,
+        "offset30_adc": 245.5,
+        "end_adc": 24198.0,
+        "ratio": 0.9132,
+        "seconds": 7.61
+      },
+      {
+        "tag": "F_cap0.020_rsm0.35_rf0.02",
+        "params": "{\"r_fast\": 0.02, \"tau_c_fast_s\": 1.0, \"slow_confirm_s\": 1.5, \"soft_unfreeze_s\": 1.5, \"slope_cap_frac\": 0.02, \"r_slow_max\": 0.35, \"tau_r_fast_s\": 2.0, \"tau_r_slow_idle_s\": 0.5}",
+        "rise_adc": 249.8,
+        "landing_adc": 407.5,
+        "tail_slope_adc_s": 0.1568,
+        "offset30_adc": 226.7,
+        "end_adc": 23875.5,
+        "ratio": 0.901,
+        "seconds": 8.7
+      },
+      {
+        "tag": "F_cap0.020_rsm0.35_rf0.03",
+        "params": "{\"r_fast\": 0.03, \"tau_c_fast_s\": 1.0, \"slow_confirm_s\": 1.5, \"soft_unfreeze_s\": 1.5, \"slope_cap_frac\": 0.02, \"r_slow_max\": 0.35, \"tau_r_fast_s\": 2.0, \"tau_r_slow_idle_s\": 0.5}",
+        "rise_adc": 249.5,
+        "landing_adc": 229.2,
+        "tail_slope_adc_s": 0.1546,
+        "offset30_adc": 226.8,
+        "end_adc": 23697.2,
+        "ratio": 0.8943,
+        "seconds": 7.79
+      },
+      {
+        "tag": "F_cap0.020_rsm0.35_rf0.04",
+        "params": "{\"r_fast\": 0.04, \"tau_c_fast_s\": 1.0, \"slow_confirm_s\": 1.5, \"soft_unfreeze_s\": 1.5, \"slope_cap_frac\": 0.02, \"r_slow_max\": 0.35, \"tau_r_fast_s\": 2.0, \"tau_r_slow_idle_s\": 0.5}",
+        "rise_adc": 249.0,
+        "landing_adc": 53.9,
+        "tail_slope_adc_s": 0.1531,
+        "offset30_adc": 226.9,
+        "end_adc": 23521.9,
+        "ratio": 0.8877,
+        "seconds": 7.33
+      },
+      {
+        "tag": "F_cap0.020_rsm0.35_rf0.05",
+        "params": "{\"r_fast\": 0.05, \"tau_c_fast_s\": 1.0, \"slow_confirm_s\": 1.5, \"soft_unfreeze_s\": 1.5, \"slope_cap_frac\": 0.02, \"r_slow_max\": 0.35, \"tau_r_fast_s\": 2.0, \"tau_r_slow_idle_s\": 0.5}",
+        "rise_adc": 248.1,
+        "landing_adc": -119.1,
+        "tail_slope_adc_s": 0.1518,
+        "offset30_adc": 227.0,
+        "end_adc": 23348.9,
+        "ratio": 0.8811,
+        "seconds": 7.61
+      },
+      {
+        "tag": "F_cap0.035_rsm0.35_rf0.02",
+        "params": "{\"r_fast\": 0.02, \"tau_c_fast_s\": 1.0, \"slow_confirm_s\": 1.5, \"soft_unfreeze_s\": 1.5, \"slope_cap_frac\": 0.035, \"r_slow_max\": 0.35, \"tau_r_fast_s\": 2.0, \"tau_r_slow_idle_s\": 0.5}",
+        "rise_adc": 243.1,
+        "landing_adc": 311.2,
+        "tail_slope_adc_s": 0.149,
+        "offset30_adc": 230.1,
+        "end_adc": 23779.2,
+        "ratio": 0.8974,
+        "seconds": 8.29
+      },
+      {
+        "tag": "F_cap0.035_rsm0.35_rf0.03",
+        "params": "{\"r_fast\": 0.03, \"tau_c_fast_s\": 1.0, \"slow_confirm_s\": 1.5, \"soft_unfreeze_s\": 1.5, \"slope_cap_frac\": 0.035, \"r_slow_max\": 0.35, \"tau_r_fast_s\": 2.0, \"tau_r_slow_idle_s\": 0.5}",
+        "rise_adc": 242.9,
+        "landing_adc": 137.2,
+        "tail_slope_adc_s": 0.1497,
+        "offset30_adc": 230.2,
+        "end_adc": 23605.2,
+        "ratio": 0.8908,
+        "seconds": 8.71
+      },
+      {
+        "tag": "F_cap0.035_rsm0.35_rf0.04",
+        "params": "{\"r_fast\": 0.04, \"tau_c_fast_s\": 1.0, \"slow_confirm_s\": 1.5, \"soft_unfreeze_s\": 1.5, \"slope_cap_frac\": 0.035, \"r_slow_max\": 0.35, \"tau_r_fast_s\": 2.0, \"tau_r_slow_idle_s\": 0.5}",
+        "rise_adc": 243.2,
+        "landing_adc": -34.3,
+        "tail_slope_adc_s": 0.1509,
+        "offset30_adc": 230.0,
+        "end_adc": 23433.7,
+        "ratio": 0.8843,
+        "seconds": 8.77
+      },
+      {
+        "tag": "F_cap0.035_rsm0.35_rf0.05",
+        "params": "{\"r_fast\": 0.05, \"tau_c_fast_s\": 1.0, \"slow_confirm_s\": 1.5, \"soft_unfreeze_s\": 1.5, \"slope_cap_frac\": 0.035, \"r_slow_max\": 0.35, \"tau_r_fast_s\": 2.0, \"tau_r_slow_idle_s\": 0.5}",
+        "rise_adc": 242.8,
+        "landing_adc": -204.0,
+        "tail_slope_adc_s": 0.1516,
+        "offset30_adc": 229.7,
+        "end_adc": 23264.0,
+        "ratio": 0.8779,
+        "seconds": 7.3
+      },
+      {
+        "tag": "F_161747_struct_cap035_rsm35",
+        "params": "{\"r_fast\": 0.06, \"tau_c_fast_s\": 2.0, \"slow_confirm_s\": 2.0, \"soft_unfreeze_s\": 1.5, \"slope_cap_frac\": 0.035, \"r_slow_max\": 0.35, \"tau_r_fast_s\": 6.0, \"tau_r_slow_idle_s\": 0.5}",
+        "rise_adc": 233.4,
+        "landing_adc": -194.2,
+        "tail_slope_adc_s": 0.1544,
+        "offset30_adc": 225.0,
+        "end_adc": 23273.8,
+        "ratio": 0.8783,
+        "seconds": 7.44
+      }
+    ],
+    "b2d896": [
+      {
+        "tag": "INPUT",
+        "rise_adc": 580.0,
+        "landing_adc": 1634.0,
+        "tail_slope_adc_s": 0.2986,
+        "offset30_adc": 388.0,
+        "end_adc": 19043.0,
+        "ratio": 1.0
+      },
+      {
+        "tag": "F00_live_cap009_base",
+        "params": "{\"r_fast\": 0.02, \"tau_c_fast_s\": 1.0, \"slow_confirm_s\": 1.5, \"soft_unfreeze_s\": 1.5, \"slope_cap_frac\": 0.009, \"r_slow_max\": 0.2, \"tau_r_fast_s\": 2.0, \"tau_r_slow_idle_s\": 0.5}",
+        "rise_adc": -34.0,
+        "landing_adc": 191.4,
+        "tail_slope_adc_s": -0.2404,
+        "offset30_adc": 59.4,
+        "end_adc": 17600.4,
+        "ratio": 0.9242,
+        "seconds": 4.87
+      },
+      {
+        "tag": "F_cap0.020_rsm0.35_rf0.02",
+        "params": "{\"r_fast\": 0.02, \"tau_c_fast_s\": 1.0, \"slow_confirm_s\": 1.5, \"soft_unfreeze_s\": 1.5, \"slope_cap_frac\": 0.02, \"r_slow_max\": 0.35, \"tau_r_fast_s\": 2.0, \"tau_r_slow_idle_s\": 0.5}",
+        "rise_adc": -35.7,
+        "landing_adc": -30.2,
+        "tail_slope_adc_s": -0.1755,
+        "offset30_adc": 42.7,
+        "end_adc": 17378.8,
+        "ratio": 0.9126,
+        "seconds": 4.84
+      },
+      {
+        "tag": "F_cap0.020_rsm0.35_rf0.03",
+        "params": "{\"r_fast\": 0.03, \"tau_c_fast_s\": 1.0, \"slow_confirm_s\": 1.5, \"soft_unfreeze_s\": 1.5, \"slope_cap_frac\": 0.02, \"r_slow_max\": 0.35, \"tau_r_fast_s\": 2.0, \"tau_r_slow_idle_s\": 0.5}",
+        "rise_adc": -35.5,
+        "landing_adc": -160.4,
+        "tail_slope_adc_s": -0.1707,
+        "offset30_adc": 42.2,
+        "end_adc": 17248.6,
+        "ratio": 0.9058,
+        "seconds": 5.0
+      },
+      {
+        "tag": "F_cap0.020_rsm0.35_rf0.04",
+        "params": "{\"r_fast\": 0.04, \"tau_c_fast_s\": 1.0, \"slow_confirm_s\": 1.5, \"soft_unfreeze_s\": 1.5, \"slope_cap_frac\": 0.02, \"r_slow_max\": 0.35, \"tau_r_fast_s\": 2.0, \"tau_r_slow_idle_s\": 0.5}",
+        "rise_adc": -34.8,
+        "landing_adc": -288.4,
+        "tail_slope_adc_s": -0.1623,
+        "offset30_adc": 41.6,
+        "end_adc": 17120.6,
+        "ratio": 0.899,
+        "seconds": 5.5
+      },
+      {
+        "tag": "F_cap0.020_rsm0.35_rf0.05",
+        "params": "{\"r_fast\": 0.05, \"tau_c_fast_s\": 1.0, \"slow_confirm_s\": 1.5, \"soft_unfreeze_s\": 1.5, \"slope_cap_frac\": 0.02, \"r_slow_max\": 0.35, \"tau_r_fast_s\": 2.0, \"tau_r_slow_idle_s\": 0.5}",
+        "rise_adc": -34.8,
+        "landing_adc": -414.9,
+        "tail_slope_adc_s": -0.1556,
+        "offset30_adc": 41.4,
+        "end_adc": 16994.1,
+        "ratio": 0.8924,
+        "seconds": 5.46
+      },
+      {
+        "tag": "F_cap0.035_rsm0.35_rf0.02",
+        "params": "{\"r_fast\": 0.02, \"tau_c_fast_s\": 1.0, \"slow_confirm_s\": 1.5, \"soft_unfreeze_s\": 1.5, \"slope_cap_frac\": 0.035, \"r_slow_max\": 0.35, \"tau_r_fast_s\": 2.0, \"tau_r_slow_idle_s\": 0.5}",
+        "rise_adc": -32.9,
+        "landing_adc": -120.8,
+        "tail_slope_adc_s": -0.129,
+        "offset30_adc": 30.5,
+        "end_adc": 17288.2,
+        "ratio": 0.9079,
+        "seconds": 5.84
+      },
+      {
+        "tag": "F_cap0.035_rsm0.35_rf0.03",
+        "params": "{\"r_fast\": 0.03, \"tau_c_fast_s\": 1.0, \"slow_confirm_s\": 1.5, \"soft_unfreeze_s\": 1.5, \"slope_cap_frac\": 0.035, \"r_slow_max\": 0.35, \"tau_r_fast_s\": 2.0, \"tau_r_slow_idle_s\": 0.5}",
+        "rise_adc": -32.2,
+        "landing_adc": -246.7,
+        "tail_slope_adc_s": -0.1282,
+        "offset30_adc": 30.1,
+        "end_adc": 17162.3,
+        "ratio": 0.9012,
+        "seconds": 5.0
+      },
+      {
+        "tag": "F_cap0.035_rsm0.35_rf0.04",
+        "params": "{\"r_fast\": 0.04, \"tau_c_fast_s\": 1.0, \"slow_confirm_s\": 1.5, \"soft_unfreeze_s\": 1.5, \"slope_cap_frac\": 0.035, \"r_slow_max\": 0.35, \"tau_r_fast_s\": 2.0, \"tau_r_slow_idle_s\": 0.5}",
+        "rise_adc": -32.0,
+        "landing_adc": -371.2,
+        "tail_slope_adc_s": -0.1258,
+        "offset30_adc": 29.8,
+        "end_adc": 17037.8,
+        "ratio": 0.8947,
+        "seconds": 5.04
+      },
+      {
+        "tag": "F_cap0.035_rsm0.35_rf0.05",
+        "params": "{\"r_fast\": 0.05, \"tau_c_fast_s\": 1.0, \"slow_confirm_s\": 1.5, \"soft_unfreeze_s\": 1.5, \"slope_cap_frac\": 0.035, \"r_slow_max\": 0.35, \"tau_r_fast_s\": 2.0, \"tau_r_slow_idle_s\": 0.5}",
+        "rise_adc": -32.1,
+        "landing_adc": -493.8,
+        "tail_slope_adc_s": -0.1225,
+        "offset30_adc": 29.7,
+        "end_adc": 16915.2,
+        "ratio": 0.8883,
+        "seconds": 5.64
+      },
+      {
+        "tag": "F_161747_struct_cap035_rsm35",
+        "params": "{\"r_fast\": 0.06, \"tau_c_fast_s\": 2.0, \"slow_confirm_s\": 2.0, \"soft_unfreeze_s\": 1.5, \"slope_cap_frac\": 0.035, \"r_slow_max\": 0.35, \"tau_r_fast_s\": 6.0, \"tau_r_slow_idle_s\": 0.5}",
+        "rise_adc": -36.3,
+        "landing_adc": -436.7,
+        "tail_slope_adc_s": -0.1195,
+        "offset30_adc": 35.0,
+        "end_adc": 16972.3,
+        "ratio": 0.8913,
+        "seconds": 5.33
+      }
+    ]
+  }
+}

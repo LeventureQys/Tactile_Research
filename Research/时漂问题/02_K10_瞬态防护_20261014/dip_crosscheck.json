@@ -1,0 +1,450 @@
+{
+  "左拇指0.6/测试1": {
+    "frames": 119881,
+    "duration_s": 1192.1,
+    "fps": 100.565,
+    "transient_dips": 2,
+    "events": [
+      {
+        "t": 194.5,
+        "drop_adc": 476.0,
+        "recovery": 0.91,
+        "pre_change": 76.0,
+        "seg_change": 54.5,
+        "applied_shift": -21.5
+      },
+      {
+        "t": 214.88,
+        "drop_adc": 221.0,
+        "recovery": 0.982,
+        "pre_change": 69.0,
+        "seg_change": -4.2,
+        "applied_shift": -73.2
+      }
+    ]
+  },
+  "右拇指0.6/测试1": {
+    "frames": 44420,
+    "duration_s": 445.8,
+    "fps": 99.629,
+    "transient_dips": 22,
+    "events": [
+      {
+        "t": 2.25,
+        "drop_adc": 1574.0,
+        "recovery": 1.304,
+        "pre_change": 26137.0,
+        "seg_change": 25306.5,
+        "applied_shift": -830.5
+      },
+      {
+        "t": 2.59,
+        "drop_adc": 184.0,
+        "recovery": 3.413,
+        "pre_change": 26112.0,
+        "seg_change": 25279.5,
+        "applied_shift": -832.5
+      },
+      {
+        "t": 32.68,
+        "drop_adc": 179.0,
+        "recovery": 0.559,
+        "pre_change": 173.0,
+        "seg_change": 0.3,
+        "applied_shift": -172.7
+      },
+      {
+        "t": 34.52,
+        "drop_adc": 168.0,
+        "recovery": 0.759,
+        "pre_change": 187.0,
+        "seg_change": 5.4,
+        "applied_shift": -181.6
+      },
+      {
+        "t": 35.48,
+        "drop_adc": 196.0,
+        "recovery": 0.63,
+        "pre_change": 189.0,
+        "seg_change": 6.5,
+        "applied_shift": -182.5
+      },
+      {
+        "t": 42.69,
+        "drop_adc": 157.0,
+        "recovery": 0.561,
+        "pre_change": 195.0,
+        "seg_change": 1.1,
+        "applied_shift": -193.9
+      },
+      {
+        "t": 45.51,
+        "drop_adc": 160.0,
+        "recovery": 0.597,
+        "pre_change": 188.0,
+        "seg_change": -0.0,
+        "applied_shift": -188.0
+      },
+      {
+        "t": 45.81,
+        "drop_adc": 159.0,
+        "recovery": 0.686,
+        "pre_change": 189.0,
+        "seg_change": -1.3,
+        "applied_shift": -190.3
+      },
+      {
+        "t": 46.11,
+        "drop_adc": 155.0,
+        "recovery": 0.681,
+        "pre_change": 189.0,
+        "seg_change": -2.3,
+        "applied_shift": -191.3
+      },
+      {
+        "t": 46.57,
+        "drop_adc": 154.0,
+        "recovery": 0.601,
+        "pre_change": 187.0,
+        "seg_change": -2.7,
+        "applied_shift": -189.7
+      },
+      {
+        "t": 98.89,
+        "drop_adc": 153.0,
+        "recovery": 0.627,
+        "pre_change": 171.0,
+        "seg_change": -13.2,
+        "applied_shift": -184.2
+      },
+      {
+        "t": 108.99,
+        "drop_adc": 151.0,
+        "recovery": 0.596,
+        "pre_change": 168.0,
+        "seg_change": -15.8,
+        "applied_shift": -183.8
+      },
+      {
+        "t": 154.86,
+        "drop_adc": 153.0,
+        "recovery": 0.503,
+        "pre_change": 142.0,
+        "seg_change": -7.9,
+        "applied_shift": -149.9
+      },
+      {
+        "t": 174.1,
+        "drop_adc": 163.0,
+        "recovery": 0.577,
+        "pre_change": 118.0,
+        "seg_change": -6.9,
+        "applied_shift": -124.9
+      },
+      {
+        "t": 176.74,
+        "drop_adc": 168.0,
+        "recovery": 0.643,
+        "pre_change": 113.0,
+        "seg_change": -8.7,
+        "applied_shift": -121.7
+      },
+      {
+        "t": 177.34,
+        "drop_adc": 169.0,
+        "recovery": 0.527,
+        "pre_change": 111.0,
+        "seg_change": -8.7,
+        "applied_shift": -119.7
+      },
+      {
+        "t": 179.05,
+        "drop_adc": 155.0,
+        "recovery": 0.665,
+        "pre_change": 105.0,
+        "seg_change": -8.9,
+        "applied_shift": -113.9
+      },
+      {
+        "t": 179.36,
+        "drop_adc": 170.0,
+        "recovery": 0.694,
+        "pre_change": 105.0,
+        "seg_change": -8.4,
+        "applied_shift": -113.4
+      },
+      {
+        "t": 181.65,
+        "drop_adc": 167.0,
+        "recovery": 0.605,
+        "pre_change": 98.0,
+        "seg_change": -7.8,
+        "applied_shift": -105.8
+      },
+      {
+        "t": 182.02,
+        "drop_adc": 160.0,
+        "recovery": 0.559,
+        "pre_change": 98.0,
+        "seg_change": -7.8,
+        "applied_shift": -105.8
+      },
+      {
+        "t": 189.71,
+        "drop_adc": 157.0,
+        "recovery": 0.525,
+        "pre_change": 82.0,
+        "seg_change": -12.9,
+        "applied_shift": -94.9
+      },
+      {
+        "t": 195.01,
+        "drop_adc": 155.0,
+        "recovery": 0.642,
+        "pre_change": 69.0,
+        "seg_change": -12.4,
+        "applied_shift": -81.4
+      }
+    ]
+  },
+  "右拇指/设备1-10g": {
+    "frames": 9700,
+    "duration_s": 96.5,
+    "fps": 100.544,
+    "transient_dips": 1,
+    "events": [
+      {
+        "t": 10.8,
+        "drop_adc": 856.0,
+        "recovery": 0.954,
+        "pre_change": 2257.0,
+        "seg_change": 457.6,
+        "applied_shift": -1799.4
+      }
+    ]
+  },
+  "右拇指/设备2-10g": {
+    "frames": 5959,
+    "duration_s": 59.3,
+    "fps": 100.464,
+    "transient_dips": 1,
+    "events": [
+      {
+        "t": 2.91,
+        "drop_adc": 179.0,
+        "recovery": 2.83,
+        "pre_change": 27841.0,
+        "seg_change": 26079.2,
+        "applied_shift": -1761.8
+      }
+    ]
+  },
+  "右拇指/设备1-测试1": {
+    "frames": 67551,
+    "duration_s": 672.6,
+    "fps": 100.43,
+    "transient_dips": 11,
+    "events": [
+      {
+        "t": 2.36,
+        "drop_adc": 3219.0,
+        "recovery": 1.765,
+        "pre_change": 29466.0,
+        "seg_change": 27392.4,
+        "applied_shift": -2073.6
+      },
+      {
+        "t": 158.74,
+        "drop_adc": 407.0,
+        "recovery": 0.909,
+        "pre_change": 129.0,
+        "seg_change": 108.5,
+        "applied_shift": -20.5
+      },
+      {
+        "t": 159.4,
+        "drop_adc": 257.0,
+        "recovery": 0.93,
+        "pre_change": 127.0,
+        "seg_change": 106.5,
+        "applied_shift": -20.5
+      },
+      {
+        "t": 171.07,
+        "drop_adc": 189.0,
+        "recovery": 0.913,
+        "pre_change": 114.0,
+        "seg_change": 64.7,
+        "applied_shift": -49.3
+      },
+      {
+        "t": 172.31,
+        "drop_adc": 239.0,
+        "recovery": 1.059,
+        "pre_change": 113.5,
+        "seg_change": 60.2,
+        "applied_shift": -53.3
+      },
+      {
+        "t": 175.39,
+        "drop_adc": 200.0,
+        "recovery": 0.743,
+        "pre_change": 111.0,
+        "seg_change": 49.8,
+        "applied_shift": -61.2
+      },
+      {
+        "t": 230.41,
+        "drop_adc": 375.0,
+        "recovery": 0.753,
+        "pre_change": 114.0,
+        "seg_change": 74.0,
+        "applied_shift": -40.0
+      },
+      {
+        "t": 234.81,
+        "drop_adc": 529.0,
+        "recovery": 0.828,
+        "pre_change": 115.0,
+        "seg_change": 71.3,
+        "applied_shift": -43.7
+      },
+      {
+        "t": 235.41,
+        "drop_adc": 165.0,
+        "recovery": 1.024,
+        "pre_change": 115.0,
+        "seg_change": 70.4,
+        "applied_shift": -44.6
+      },
+      {
+        "t": 249.63,
+        "drop_adc": 364.0,
+        "recovery": 0.728,
+        "pre_change": 119.0,
+        "seg_change": 49.9,
+        "applied_shift": -69.1
+      },
+      {
+        "t": 270.19,
+        "drop_adc": 286.0,
+        "recovery": 0.586,
+        "pre_change": 97.0,
+        "seg_change": 58.9,
+        "applied_shift": -38.1
+      }
+    ]
+  },
+  "右拇指/设备2-测试1": {
+    "frames": 45532,
+    "duration_s": 453.3,
+    "fps": 100.445,
+    "transient_dips": 13,
+    "events": [
+      {
+        "t": 9.08,
+        "drop_adc": 422.0,
+        "recovery": 1.017,
+        "pre_change": 1929.5,
+        "seg_change": 574.0,
+        "applied_shift": -1355.5
+      },
+      {
+        "t": 45.48,
+        "drop_adc": 216.0,
+        "recovery": 0.956,
+        "pre_change": 539.0,
+        "seg_change": 222.8,
+        "applied_shift": -316.2
+      },
+      {
+        "t": 46.96,
+        "drop_adc": 160.0,
+        "recovery": 0.981,
+        "pre_change": 516.0,
+        "seg_change": 222.3,
+        "applied_shift": -293.7
+      },
+      {
+        "t": 47.66,
+        "drop_adc": 153.0,
+        "recovery": 0.938,
+        "pre_change": 511.0,
+        "seg_change": 220.8,
+        "applied_shift": -290.2
+      },
+      {
+        "t": 164.73,
+        "drop_adc": 232.0,
+        "recovery": 0.948,
+        "pre_change": 163.0,
+        "seg_change": 126.9,
+        "applied_shift": -36.1
+      },
+      {
+        "t": 198.36,
+        "drop_adc": 300.0,
+        "recovery": 0.942,
+        "pre_change": 153.0,
+        "seg_change": 68.7,
+        "applied_shift": -84.3
+      },
+      {
+        "t": 216.25,
+        "drop_adc": 367.0,
+        "recovery": 0.76,
+        "pre_change": 111.0,
+        "seg_change": 110.5,
+        "applied_shift": -0.5
+      },
+      {
+        "t": 234.98,
+        "drop_adc": 185.0,
+        "recovery": 1.173,
+        "pre_change": 101.0,
+        "seg_change": 121.7,
+        "applied_shift": 20.7
+      },
+      {
+        "t": 237.74,
+        "drop_adc": 255.0,
+        "recovery": 1.308,
+        "pre_change": 101.0,
+        "seg_change": 125.1,
+        "applied_shift": 24.1
+      },
+      {
+        "t": 261.61,
+        "drop_adc": 337.0,
+        "recovery": 0.815,
+        "pre_change": 94.0,
+        "seg_change": 36.2,
+        "applied_shift": -57.8
+      },
+      {
+        "t": 268.21,
+        "drop_adc": 287.0,
+        "recovery": 1.019,
+        "pre_change": 85.0,
+        "seg_change": 32.3,
+        "applied_shift": -52.7
+      },
+      {
+        "t": 376.42,
+        "drop_adc": 297.0,
+        "recovery": 1.044,
+        "pre_change": 84.0,
+        "seg_change": 86.0,
+        "applied_shift": 2.0
+      },
+      {
+        "t": 410.76,
+        "drop_adc": 235.0,
+        "recovery": 0.715,
+        "pre_change": 47.0,
+        "seg_change": 18.5,
+        "applied_shift": -28.5
+      }
+    ]
+  }
+}

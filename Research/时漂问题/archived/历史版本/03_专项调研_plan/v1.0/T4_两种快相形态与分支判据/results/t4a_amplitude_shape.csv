@@ -1,0 +1,4 @@
+﻿group,n,corr_logT_absJ,corr_logT_pre_over_peak,corr_z02_absJ,corr_z02_pre_over_peak
+onset,22,0.4036,0.4711,-0.1077,-0.7161
+restep,18,0.295,-0.0586,0.2295,0.0903
+all_load,40,0.0778,0.4307,0.1736,-0.2838

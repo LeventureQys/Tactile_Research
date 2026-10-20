@@ -1,0 +1,6402 @@
+{
+  "info": {
+    "fps": 100.3892,
+    "frames": 67239,
+    "channels": 71,
+    "duration_s": 669.77,
+    "analysis_start_s": 10.0,
+    "ref_total_adc": 24973.5,
+    "end_total_adc": 26499.0,
+    "endpoint_drift_adc": 1525.5,
+    "max_abs_offset_10s_adc": 1520.5,
+    "tail_slope_adc_s": 0.78,
+    "creep_rate_adc_s": {
+      "early_0_60": {
+        "median": 23.408,
+        "min": 8.118,
+        "max": 346.863,
+        "n": 5
+      },
+      "mid_60_300": {
+        "median": 1.179,
+        "min": -0.685,
+        "max": 5.726,
+        "n": 24
+      },
+      "late_300_670": {
+        "median": 0.901,
+        "min": -0.048,
+        "max": 2.282,
+        "n": 36
+      },
+      "all": {
+        "median": 1.069,
+        "min": -0.685,
+        "max": 346.863,
+        "n": 65
+      }
+    },
+    "noise_total_sigma_adc": 40.48,
+    "noise_per_channel_median": 1.103,
+    "noise_per_channel_p95": 1.617,
+    "dip_events": {
+      "threshold_adc": 60.0,
+      "count": 515,
+      "transient_count": 511,
+      "real_unload_count": 4
+    }
+  },
+  "head_0_20s": [
+    {
+      "t": 0.0,
+      "med": 3955.0
+    },
+    {
+      "t": 0.5,
+      "med": 4021.5
+    },
+    {
+      "t": 1.0,
+      "med": 23260.5
+    },
+    {
+      "t": 1.5,
+      "med": 23752.0
+    },
+    {
+      "t": 2.0,
+      "med": 24000.0
+    },
+    {
+      "t": 2.5,
+      "med": 24109.0
+    },
+    {
+      "t": 3.0,
+      "med": 24233.0
+    },
+    {
+      "t": 3.5,
+      "med": 24367.5
+    },
+    {
+      "t": 4.0,
+      "med": 24449.5
+    },
+    {
+      "t": 4.5,
+      "med": 24471.0
+    },
+    {
+      "t": 5.0,
+      "med": 24578.0
+    },
+    {
+      "t": 5.5,
+      "med": 24659.5
+    },
+    {
+      "t": 6.0,
+      "med": 24695.0
+    },
+    {
+      "t": 6.5,
+      "med": 24733.5
+    },
+    {
+      "t": 7.0,
+      "med": 24796.0
+    },
+    {
+      "t": 7.5,
+      "med": 24616.0
+    },
+    {
+      "t": 8.0,
+      "med": 24606.5
+    },
+    {
+      "t": 8.5,
+      "med": 24716.0
+    },
+    {
+      "t": 9.0,
+      "med": 24710.0
+    },
+    {
+      "t": 9.5,
+      "med": 24702.5
+    },
+    {
+      "t": 10.0,
+      "med": 24823.0
+    },
+    {
+      "t": 10.5,
+      "med": 24879.0
+    },
+    {
+      "t": 11.0,
+      "med": 24930.0
+    },
+    {
+      "t": 11.5,
+      "med": 24959.0
+    },
+    {
+      "t": 12.0,
+      "med": 24972.0
+    },
+    {
+      "t": 12.5,
+      "med": 25006.0
+    },
+    {
+      "t": 13.0,
+      "med": 25004.0
+    },
+    {
+      "t": 13.5,
+      "med": 25001.0
+    },
+    {
+      "t": 14.0,
+      "med": 24996.5
+    },
+    {
+      "t": 14.5,
+      "med": 24937.0
+    },
+    {
+      "t": 15.0,
+      "med": 24959.0
+    },
+    {
+      "t": 15.5,
+      "med": 24920.0
+    },
+    {
+      "t": 16.0,
+      "med": 24928.0
+    },
+    {
+      "t": 16.5,
+      "med": 24938.0
+    },
+    {
+      "t": 17.0,
+      "med": 24939.5
+    },
+    {
+      "t": 17.5,
+      "med": 25042.0
+    },
+    {
+      "t": 18.0,
+      "med": 25088.5
+    },
+    {
+      "t": 18.5,
+      "med": 25096.5
+    },
+    {
+      "t": 19.0,
+      "med": 25124.5
+    },
+    {
+      "t": 19.5,
+      "med": 25131.0
+    }
+  ],
+  "rate_series": [
+    [
+      10.0,
+      346.863
+    ],
+    [
+      20.0,
+      24.323
+    ],
+    [
+      30.0,
+      13.03
+    ],
+    [
+      40.0,
+      23.408
+    ],
+    [
+      50.0,
+      8.118
+    ],
+    [
+      60.0,
+      0.766
+    ],
+    [
+      70.0,
+      5.607
+    ],
+    [
+      80.0,
+      5.726
+    ],
+    [
+      90.0,
+      3.779
+    ],
+    [
+      100.0,
+      1.798
+    ],
+    [
+      110.0,
+      2.043
+    ],
+    [
+      120.0,
+      0.141
+    ],
+    [
+      130.0,
+      1.234
+    ],
+    [
+      140.0,
+      2.653
+    ],
+    [
+      150.0,
+      2.897
+    ],
+    [
+      160.0,
+      1.757
+    ],
+    [
+      170.0,
+      2.885
+    ],
+    [
+      180.0,
+      -0.221
+    ],
+    [
+      190.0,
+      0.72
+    ],
+    [
+      200.0,
+      -0.685
+    ],
+    [
+      210.0,
+      0.588
+    ],
+    [
+      220.0,
+      0.73
+    ],
+    [
+      230.0,
+      1.655
+    ],
+    [
+      240.0,
+      0.776
+    ],
+    [
+      250.0,
+      1.455
+    ],
+    [
+      260.0,
+      -0.204
+    ],
+    [
+      270.0,
+      1.123
+    ],
+    [
+      280.0,
+      -0.267
+    ],
+    [
+      290.0,
+      0.02
+    ],
+    [
+      300.0,
+      1.636
+    ],
+    [
+      310.0,
+      1.653
+    ],
+    [
+      320.0,
+      2.282
+    ],
+    [
+      330.0,
+      0.689
+    ],
+    [
+      340.0,
+      1.714
+    ],
+    [
+      350.0,
+      1.565
+    ],
+    [
+      360.0,
+      1.19
+    ],
+    [
+      370.0,
+      1.296
+    ],
+    [
+      380.0,
+      0.832
+    ],
+    [
+      390.0,
+      1.427
+    ],
+    [
+      400.0,
+      1.189
+    ],
+    [
+      410.0,
+      0.889
+    ],
+    [
+      420.0,
+      1.723
+    ],
+    [
+      430.0,
+      1.067
+    ],
+    [
+      440.0,
+      0.674
+    ],
+    [
+      450.0,
+      -0.048
+    ],
+    [
+      460.0,
+      0.694
+    ],
+    [
+      470.0,
+      0.697
+    ],
+    [
+      480.0,
+      1.102
+    ],
+    [
+      490.0,
+      0.073
+    ],
+    [
+      500.0,
+      1.069
+    ],
+    [
+      510.0,
+      0.887
+    ],
+    [
+      520.0,
+      0.725
+    ],
+    [
+      530.0,
+      0.108
+    ],
+    [
+      540.0,
+      0.844
+    ],
+    [
+      550.0,
+      0.621
+    ],
+    [
+      560.0,
+      0.913
+    ],
+    [
+      570.0,
+      1.215
+    ],
+    [
+      580.0,
+      0.742
+    ],
+    [
+      590.0,
+      0.389
+    ],
+    [
+      600.0,
+      0.827
+    ],
+    [
+      610.0,
+      0.478
+    ],
+    [
+      620.0,
+      0.47
+    ],
+    [
+      630.0,
+      0.967
+    ],
+    [
+      640.0,
+      1.392
+    ],
+    [
+      650.0,
+      1.774
+    ]
+  ],
+  "dip_events": [
+    {
+      "t_drop": 0.33,
+      "depth_total_adc": 19.0,
+      "recovered_fraction": 1068.474,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 122.0,
+      "chan_depth_p95": 79.0,
+      "chan_over_deep_100": 0.0282,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 0.89,
+      "depth_total_adc": 17.0,
+      "recovered_fraction": 1202.824,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 122.0,
+      "chan_depth_p95": 79.0,
+      "chan_over_deep_100": 0.0282,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 1.91,
+      "depth_total_adc": -19828.5,
+      "recovered_fraction": 644000000000.0,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 120.0,
+      "chan_depth_p95": 68.5,
+      "chan_over_deep_100": 0.0282,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 2.79,
+      "depth_total_adc": -493.0,
+      "recovered_fraction": 665000000000.0,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 15.0,
+      "chan_depth_p95": 12.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 3.31,
+      "depth_total_adc": -559.5,
+      "recovered_fraction": 466000000000.0,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 17.0,
+      "chan_depth_p95": 10.5,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 3.99,
+      "depth_total_adc": -487.0,
+      "recovered_fraction": 324000000000.0,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 29.0,
+      "chan_depth_p95": 13.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 4.73,
+      "depth_total_adc": -323.0,
+      "recovered_fraction": 344000000000.0,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 34.0,
+      "chan_depth_p95": 11.5,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 5.25,
+      "depth_total_adc": -444.0,
+      "recovered_fraction": 162000000000.0,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 12.0,
+      "chan_depth_p95": 7.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 6.28,
+      "depth_total_adc": -454.0,
+      "recovered_fraction": 46000000000.0,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 12.0,
+      "chan_depth_p95": 7.5,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 6.89,
+      "depth_total_adc": -438.0,
+      "recovered_fraction": 66000000000.0,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 48.0,
+      "chan_depth_p95": 28.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 7.59,
+      "depth_total_adc": -232.0,
+      "recovered_fraction": 250000000000.0,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 51.0,
+      "chan_depth_p95": 28.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 8.44,
+      "depth_total_adc": -160.0,
+      "recovered_fraction": 352000000000.0,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 48.0,
+      "chan_depth_p95": 25.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 9.19,
+      "depth_total_adc": -155.0,
+      "recovered_fraction": 337000000000.0,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 51.0,
+      "chan_depth_p95": 27.5,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 10.4,
+      "depth_total_adc": -236.0,
+      "recovered_fraction": 172000000000.0,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 11.0,
+      "chan_depth_p95": 4.5,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 10.92,
+      "depth_total_adc": -230.0,
+      "recovered_fraction": 153000000000.0,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 11.0,
+      "chan_depth_p95": 6.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 11.46,
+      "depth_total_adc": -257.0,
+      "recovered_fraction": 87000000000.0,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 11.0,
+      "chan_depth_p95": 5.5,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 13.0,
+      "depth_total_adc": -235.0,
+      "recovered_fraction": -9000000000.0,
+      "duration_s": 0.01,
+      "transient": false,
+      "chan_depth_max": 15.0,
+      "chan_depth_p95": 6.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 13.52,
+      "depth_total_adc": -252.0,
+      "recovered_fraction": -47000000000.0,
+      "duration_s": 0.01,
+      "transient": false,
+      "chan_depth_max": 17.0,
+      "chan_depth_p95": 7.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 14.76,
+      "depth_total_adc": -44.0,
+      "recovered_fraction": 207000000000.0,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 40.0,
+      "chan_depth_p95": 16.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 15.28,
+      "depth_total_adc": -17.0,
+      "recovered_fraction": 212000000000.0,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 42.0,
+      "chan_depth_p95": 11.5,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 17.2,
+      "depth_total_adc": 48.0,
+      "recovered_fraction": 5.854,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 16.0,
+      "chan_depth_p95": 5.5,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 18.57,
+      "depth_total_adc": -98.0,
+      "recovered_fraction": 160000000000.0,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 13.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 19.15,
+      "depth_total_adc": -94.0,
+      "recovered_fraction": 159000000000.0,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 16.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 19.76,
+      "depth_total_adc": -112.0,
+      "recovered_fraction": 132000000000.0,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 15.0,
+      "chan_depth_p95": 5.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 20.57,
+      "depth_total_adc": -121.0,
+      "recovered_fraction": 148000000000.0,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 14.0,
+      "chan_depth_p95": 4.5,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 21.35,
+      "depth_total_adc": -139.0,
+      "recovered_fraction": 119000000000.0,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 12.0,
+      "chan_depth_p95": 4.5,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 22.85,
+      "depth_total_adc": -117.0,
+      "recovered_fraction": 67000000000.0,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 6.0,
+      "chan_depth_p95": 4.5,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 23.53,
+      "depth_total_adc": -114.0,
+      "recovered_fraction": 47000000000.0,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 10.0,
+      "chan_depth_p95": 4.5,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 25.55,
+      "depth_total_adc": -7.0,
+      "recovered_fraction": 127000000000.0,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 32.0,
+      "chan_depth_p95": 10.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 27.21,
+      "depth_total_adc": 16.0,
+      "recovered_fraction": 11.688,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 32.0,
+      "chan_depth_p95": 7.5,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 27.73,
+      "depth_total_adc": -3.0,
+      "recovered_fraction": 165000000000.0,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 11.0,
+      "chan_depth_p95": 5.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 29.16,
+      "depth_total_adc": -16.0,
+      "recovered_fraction": 135000000000.0,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 6.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 29.71,
+      "depth_total_adc": -19.0,
+      "recovered_fraction": 124000000000.0,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 31.5,
+      "depth_total_adc": -34.0,
+      "recovered_fraction": 99000000000.0,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 10.0,
+      "chan_depth_p95": 5.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 32.08,
+      "depth_total_adc": -51.0,
+      "recovered_fraction": 71000000000.0,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 8.0,
+      "chan_depth_p95": 5.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 34.0,
+      "depth_total_adc": -4.0,
+      "recovered_fraction": 73000000000.0,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 6.0,
+      "chan_depth_p95": 4.5,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 36.22,
+      "depth_total_adc": 29.0,
+      "recovered_fraction": 3.0,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 12.0,
+      "chan_depth_p95": 6.5,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 38.04,
+      "depth_total_adc": 39.0,
+      "recovered_fraction": 6.872,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 4.5,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 38.56,
+      "depth_total_adc": 22.0,
+      "recovered_fraction": 12.364,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 40.1,
+      "depth_total_adc": 41.0,
+      "recovered_fraction": 8.049,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 8.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 40.68,
+      "depth_total_adc": 26.0,
+      "recovered_fraction": 11.885,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 8.0,
+      "chan_depth_p95": 4.5,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 42.64,
+      "depth_total_adc": -191.0,
+      "recovered_fraction": 92000000000.0,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 17.0,
+      "chan_depth_p95": 5.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 43.18,
+      "depth_total_adc": -217.0,
+      "recovered_fraction": 58000000000.0,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 18.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 44.73,
+      "depth_total_adc": -171.0,
+      "recovered_fraction": 94000000000.0,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 17.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 45.24,
+      "depth_total_adc": -185.0,
+      "recovered_fraction": 68000000000.0,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 17.0,
+      "chan_depth_p95": 4.5,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 47.09,
+      "depth_total_adc": 9.0,
+      "recovered_fraction": 11.778,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 6.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 47.6,
+      "depth_total_adc": -26.0,
+      "recovered_fraction": 62000000000.0,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 6.0,
+      "chan_depth_p95": 5.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 49.15,
+      "depth_total_adc": 33.0,
+      "recovered_fraction": 2.788,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 7.0,
+      "chan_depth_p95": 5.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 49.71,
+      "depth_total_adc": 0.0,
+      "recovered_fraction": 53000000000.0,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 7.0,
+      "chan_depth_p95": 5.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 51.43,
+      "depth_total_adc": 43.0,
+      "recovered_fraction": 1.791,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 11.0,
+      "chan_depth_p95": 6.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 51.95,
+      "depth_total_adc": 5.0,
+      "recovered_fraction": 6.8,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 11.0,
+      "chan_depth_p95": 6.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 53.09,
+      "depth_total_adc": 48.0,
+      "recovered_fraction": 1.708,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 9.0,
+      "chan_depth_p95": 5.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 53.65,
+      "depth_total_adc": 52.0,
+      "recovered_fraction": 1.577,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 8.0,
+      "chan_depth_p95": 5.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 55.83,
+      "depth_total_adc": 54.0,
+      "recovered_fraction": 1.593,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 57.87,
+      "depth_total_adc": 46.0,
+      "recovered_fraction": 1.348,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 8.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 58.47,
+      "depth_total_adc": 20.0,
+      "recovered_fraction": 1.7,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 9.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 60.16,
+      "depth_total_adc": 44.0,
+      "recovered_fraction": 1.455,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 8.0,
+      "chan_depth_p95": 4.5,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 62.24,
+      "depth_total_adc": 67.0,
+      "recovered_fraction": 1.507,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 7.0,
+      "chan_depth_p95": 4.5,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 64.38,
+      "depth_total_adc": 42.0,
+      "recovered_fraction": 0.119,
+      "duration_s": 0.01,
+      "transient": false,
+      "chan_depth_max": 6.0,
+      "chan_depth_p95": 5.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 66.74,
+      "depth_total_adc": 127.0,
+      "recovered_fraction": 0.843,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 31.0,
+      "chan_depth_p95": 9.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 68.56,
+      "depth_total_adc": 84.0,
+      "recovered_fraction": 1.357,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 25.0,
+      "chan_depth_p95": 6.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 69.08,
+      "depth_total_adc": 46.0,
+      "recovered_fraction": 1.696,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 22.0,
+      "chan_depth_p95": 5.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 70.55,
+      "depth_total_adc": 67.0,
+      "recovered_fraction": 2.0,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 3.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 71.08,
+      "depth_total_adc": 29.0,
+      "recovered_fraction": 3.31,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 3.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 72.71,
+      "depth_total_adc": 26.0,
+      "recovered_fraction": 3.731,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 3.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 73.22,
+      "depth_total_adc": -7.0,
+      "recovered_fraction": 64000000000.0,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 74.75,
+      "depth_total_adc": 20.0,
+      "recovered_fraction": 4.95,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 75.37,
+      "depth_total_adc": 3.0,
+      "recovered_fraction": 27.333,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 3.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 76.93,
+      "depth_total_adc": 9.0,
+      "recovered_fraction": 9.444,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 3.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 77.45,
+      "depth_total_adc": -6.0,
+      "recovered_fraction": 65000000000.0,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 79.45,
+      "depth_total_adc": 26.0,
+      "recovered_fraction": 3.423,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 80.03,
+      "depth_total_adc": -13.0,
+      "recovered_fraction": 45000000000.0,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 81.79,
+      "depth_total_adc": 46.0,
+      "recovered_fraction": 1.63,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 82.31,
+      "depth_total_adc": 7.0,
+      "recovered_fraction": 4.714,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 84.01,
+      "depth_total_adc": 53.0,
+      "recovered_fraction": 1.34,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 84.53,
+      "depth_total_adc": 14.0,
+      "recovered_fraction": 2.214,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 85.82,
+      "depth_total_adc": 49.0,
+      "recovered_fraction": 1.714,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 86.43,
+      "depth_total_adc": 52.0,
+      "recovered_fraction": 1.615,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 88.77,
+      "depth_total_adc": 55.0,
+      "recovered_fraction": 1.691,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 3.5,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 89.29,
+      "depth_total_adc": 18.0,
+      "recovered_fraction": 3.111,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 3.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 90.88,
+      "depth_total_adc": 41.0,
+      "recovered_fraction": 2.122,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 3.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 91.43,
+      "depth_total_adc": 18.0,
+      "recovered_fraction": 3.556,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 3.5,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 93.34,
+      "depth_total_adc": 34.0,
+      "recovered_fraction": 1.912,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 93.85,
+      "depth_total_adc": 7.0,
+      "recovered_fraction": 5.429,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 95.52,
+      "depth_total_adc": 48.0,
+      "recovered_fraction": 1.542,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 3.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 96.04,
+      "depth_total_adc": 15.0,
+      "recovered_fraction": 2.733,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 97.8,
+      "depth_total_adc": 65.0,
+      "recovered_fraction": 1.354,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 6.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 98.42,
+      "depth_total_adc": 35.0,
+      "recovered_fraction": 1.6,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 100.28,
+      "depth_total_adc": 59.0,
+      "recovered_fraction": 1.169,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 3.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 102.64,
+      "depth_total_adc": 62.0,
+      "recovered_fraction": 1.129,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 103.16,
+      "depth_total_adc": 30.0,
+      "recovered_fraction": 1.267,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 104.9,
+      "depth_total_adc": 62.0,
+      "recovered_fraction": 1.339,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 105.42,
+      "depth_total_adc": 31.0,
+      "recovered_fraction": 1.677,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 107.26,
+      "depth_total_adc": 69.0,
+      "recovered_fraction": 1.232,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 3.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 109.46,
+      "depth_total_adc": 66.0,
+      "recovered_fraction": 1.318,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 110.0,
+      "depth_total_adc": 33.0,
+      "recovered_fraction": 1.636,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 111.71,
+      "depth_total_adc": 66.0,
+      "recovered_fraction": 1.242,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 10.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 112.3,
+      "depth_total_adc": 37.0,
+      "recovered_fraction": 1.432,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 10.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 114.09,
+      "depth_total_adc": 63.0,
+      "recovered_fraction": 1.381,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 8.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 114.66,
+      "depth_total_adc": 34.0,
+      "recovered_fraction": 1.706,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 3.5,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 116.35,
+      "depth_total_adc": 73.0,
+      "recovered_fraction": 1.219,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 3.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 116.89,
+      "depth_total_adc": 38.0,
+      "recovered_fraction": 1.421,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 3.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 118.69,
+      "depth_total_adc": 58.0,
+      "recovered_fraction": 1.034,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 3.5,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 119.21,
+      "depth_total_adc": 22.0,
+      "recovered_fraction": 1.091,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 121.19,
+      "depth_total_adc": 68.0,
+      "recovered_fraction": 0.926,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 123.05,
+      "depth_total_adc": 68.0,
+      "recovered_fraction": 0.868,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 123.63,
+      "depth_total_adc": 36.0,
+      "recovered_fraction": 0.75,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 125.41,
+      "depth_total_adc": 79.0,
+      "recovered_fraction": 0.924,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 6.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 125.93,
+      "depth_total_adc": 45.0,
+      "recovered_fraction": 0.867,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 6.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 127.61,
+      "depth_total_adc": 83.0,
+      "recovered_fraction": 0.976,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 128.17,
+      "depth_total_adc": 44.0,
+      "recovered_fraction": 0.955,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 129.77,
+      "depth_total_adc": 65.0,
+      "recovered_fraction": 1.138,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 131.8,
+      "depth_total_adc": 53.0,
+      "recovered_fraction": 1.415,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 3.5,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 132.33,
+      "depth_total_adc": 30.0,
+      "recovered_fraction": 1.767,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 134.02,
+      "depth_total_adc": 52.0,
+      "recovered_fraction": 1.231,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 3.5,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 134.54,
+      "depth_total_adc": 16.0,
+      "recovered_fraction": 1.75,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 136.18,
+      "depth_total_adc": 58.0,
+      "recovered_fraction": 1.241,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 138.1,
+      "depth_total_adc": 61.0,
+      "recovered_fraction": 1.246,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 6.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 138.62,
+      "depth_total_adc": 23.0,
+      "recovered_fraction": 1.565,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 140.14,
+      "depth_total_adc": 66.0,
+      "recovered_fraction": 1.409,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 7.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 140.66,
+      "depth_total_adc": 19.0,
+      "recovered_fraction": 2.263,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 7.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 142.13,
+      "depth_total_adc": 54.0,
+      "recovered_fraction": 1.556,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 142.64,
+      "depth_total_adc": 32.0,
+      "recovered_fraction": 1.938,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 144.39,
+      "depth_total_adc": 55.0,
+      "recovered_fraction": 1.491,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 144.91,
+      "depth_total_adc": 12.0,
+      "recovered_fraction": 3.25,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 146.53,
+      "depth_total_adc": 44.0,
+      "recovered_fraction": 1.5,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 3.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 148.57,
+      "depth_total_adc": 57.0,
+      "recovered_fraction": 1.509,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 149.15,
+      "depth_total_adc": 20.0,
+      "recovered_fraction": 2.35,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 150.69,
+      "depth_total_adc": 48.0,
+      "recovered_fraction": 1.729,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 3.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 151.25,
+      "depth_total_adc": 21.0,
+      "recovered_fraction": 2.429,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 17.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 152.91,
+      "depth_total_adc": 47.0,
+      "recovered_fraction": 1.638,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 3.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 154.96,
+      "depth_total_adc": 57.0,
+      "recovered_fraction": 1.211,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 16.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 155.49,
+      "depth_total_adc": 16.0,
+      "recovered_fraction": 1.562,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 17.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 157.3,
+      "depth_total_adc": 60.0,
+      "recovered_fraction": 1.083,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 157.82,
+      "depth_total_adc": 33.0,
+      "recovered_fraction": 1.091,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 6.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 159.56,
+      "depth_total_adc": 75.0,
+      "recovered_fraction": 1.04,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 7.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 160.08,
+      "depth_total_adc": 47.0,
+      "recovered_fraction": 1.043,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 161.86,
+      "depth_total_adc": 71.0,
+      "recovered_fraction": 1.127,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 6.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 162.44,
+      "depth_total_adc": 42.0,
+      "recovered_fraction": 1.214,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 6.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 164.44,
+      "depth_total_adc": 67.0,
+      "recovered_fraction": 1.478,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 3.5,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 166.7,
+      "depth_total_adc": 50.0,
+      "recovered_fraction": 1.8,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 3.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 167.28,
+      "depth_total_adc": 20.0,
+      "recovered_fraction": 3.0,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 3.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 169.24,
+      "depth_total_adc": 54.0,
+      "recovered_fraction": 1.685,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 3.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 169.76,
+      "depth_total_adc": 14.0,
+      "recovered_fraction": 3.643,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 3.5,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 171.46,
+      "depth_total_adc": 32.0,
+      "recovered_fraction": 1.344,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 3.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 172.04,
+      "depth_total_adc": 27.0,
+      "recovered_fraction": 1.852,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 3.5,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 174.22,
+      "depth_total_adc": 61.0,
+      "recovered_fraction": 0.934,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 174.74,
+      "depth_total_adc": 49.0,
+      "recovered_fraction": 1.184,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 176.98,
+      "depth_total_adc": 65.0,
+      "recovered_fraction": 0.892,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 177.56,
+      "depth_total_adc": 62.0,
+      "recovered_fraction": 1.145,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 178.2,
+      "depth_total_adc": 34.0,
+      "recovered_fraction": 1.147,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 180.26,
+      "depth_total_adc": 77.0,
+      "recovered_fraction": 0.896,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 3.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 180.8,
+      "depth_total_adc": 47.0,
+      "recovered_fraction": 1.085,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 3.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 183.18,
+      "depth_total_adc": 62.0,
+      "recovered_fraction": 0.435,
+      "duration_s": 0.01,
+      "transient": false,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 183.69,
+      "depth_total_adc": 40.0,
+      "recovered_fraction": 0.7,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 186.27,
+      "depth_total_adc": 76.0,
+      "recovered_fraction": 1.053,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 6.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 186.83,
+      "depth_total_adc": 58.0,
+      "recovered_fraction": 1.121,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 189.49,
+      "depth_total_adc": 66.0,
+      "recovered_fraction": 1.212,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 3.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 190.05,
+      "depth_total_adc": 26.0,
+      "recovered_fraction": 1.577,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 3.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 192.09,
+      "depth_total_adc": 68.0,
+      "recovered_fraction": 1.132,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 6.0,
+      "chan_depth_p95": 3.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 192.61,
+      "depth_total_adc": 42.0,
+      "recovered_fraction": 1.238,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 6.0,
+      "chan_depth_p95": 3.5,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 194.87,
+      "depth_total_adc": 56.0,
+      "recovered_fraction": 1.179,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 6.0,
+      "chan_depth_p95": 3.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 195.43,
+      "depth_total_adc": 43.0,
+      "recovered_fraction": 1.279,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 6.0,
+      "chan_depth_p95": 3.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 197.65,
+      "depth_total_adc": 77.0,
+      "recovered_fraction": 1.065,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 198.19,
+      "depth_total_adc": 66.0,
+      "recovered_fraction": 1.061,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 200.45,
+      "depth_total_adc": 70.0,
+      "recovered_fraction": 0.857,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 200.97,
+      "depth_total_adc": 37.0,
+      "recovered_fraction": 0.703,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 3.5,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 203.03,
+      "depth_total_adc": 80.0,
+      "recovered_fraction": 0.887,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 203.57,
+      "depth_total_adc": 48.0,
+      "recovered_fraction": 0.792,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 205.31,
+      "depth_total_adc": 82.0,
+      "recovered_fraction": 0.854,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 205.87,
+      "depth_total_adc": 43.0,
+      "recovered_fraction": 0.721,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 6.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 207.79,
+      "depth_total_adc": 88.0,
+      "recovered_fraction": 0.909,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 209.91,
+      "depth_total_adc": 82.0,
+      "recovered_fraction": 1.122,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 212.05,
+      "depth_total_adc": 73.0,
+      "recovered_fraction": 1.233,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 214.0,
+      "depth_total_adc": 61.0,
+      "recovered_fraction": 1.066,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 214.55,
+      "depth_total_adc": 17.0,
+      "recovered_fraction": 1.235,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 215.98,
+      "depth_total_adc": 73.0,
+      "recovered_fraction": 0.986,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 216.52,
+      "depth_total_adc": 30.0,
+      "recovered_fraction": 0.933,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 218.08,
+      "depth_total_adc": 65.0,
+      "recovered_fraction": 1.0,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 220.12,
+      "depth_total_adc": 76.0,
+      "recovered_fraction": 0.974,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 220.64,
+      "depth_total_adc": 35.0,
+      "recovered_fraction": 0.943,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 222.36,
+      "depth_total_adc": 73.0,
+      "recovered_fraction": 1.11,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 224.37,
+      "depth_total_adc": 69.0,
+      "recovered_fraction": 1.13,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 224.88,
+      "depth_total_adc": 31.0,
+      "recovered_fraction": 1.355,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 3.5,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 226.41,
+      "depth_total_adc": 63.0,
+      "recovered_fraction": 1.206,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 3.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 226.95,
+      "depth_total_adc": 30.0,
+      "recovered_fraction": 1.4,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 228.71,
+      "depth_total_adc": 60.0,
+      "recovered_fraction": 1.233,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 3.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 230.35,
+      "depth_total_adc": 60.0,
+      "recovered_fraction": 1.267,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 230.89,
+      "depth_total_adc": 54.0,
+      "recovered_fraction": 1.296,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 3.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 232.36,
+      "depth_total_adc": 54.0,
+      "recovered_fraction": 1.167,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 6.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 232.93,
+      "depth_total_adc": 50.0,
+      "recovered_fraction": 1.18,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 3.5,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 235.07,
+      "depth_total_adc": 69.0,
+      "recovered_fraction": 1.203,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 235.59,
+      "depth_total_adc": 26.0,
+      "recovered_fraction": 1.5,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 237.24,
+      "depth_total_adc": 62.0,
+      "recovered_fraction": 1.161,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 3.5,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 237.79,
+      "depth_total_adc": 38.0,
+      "recovered_fraction": 1.211,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 3.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 239.38,
+      "depth_total_adc": 63.0,
+      "recovered_fraction": 1.19,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 3.5,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 239.98,
+      "depth_total_adc": 44.0,
+      "recovered_fraction": 1.25,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 241.78,
+      "depth_total_adc": 70.0,
+      "recovered_fraction": 1.071,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 242.3,
+      "depth_total_adc": 33.0,
+      "recovered_fraction": 1.152,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 243.84,
+      "depth_total_adc": 51.0,
+      "recovered_fraction": 0.882,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 244.44,
+      "depth_total_adc": 31.0,
+      "recovered_fraction": 0.806,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 246.34,
+      "depth_total_adc": 81.0,
+      "recovered_fraction": 1.148,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 248.62,
+      "depth_total_adc": 73.0,
+      "recovered_fraction": 1.178,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 3.5,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 249.16,
+      "depth_total_adc": 24.0,
+      "recovered_fraction": 1.542,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 3.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 251.12,
+      "depth_total_adc": 64.0,
+      "recovered_fraction": 1.578,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 251.66,
+      "depth_total_adc": 29.0,
+      "recovered_fraction": 2.276,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 252.89,
+      "depth_total_adc": 49.0,
+      "recovered_fraction": 1.143,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 3.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 253.66,
+      "depth_total_adc": 42.0,
+      "recovered_fraction": 1.31,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 256.3,
+      "depth_total_adc": 60.0,
+      "recovered_fraction": 1.05,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 3.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 258.56,
+      "depth_total_adc": 76.0,
+      "recovered_fraction": 0.987,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 259.14,
+      "depth_total_adc": 35.0,
+      "recovered_fraction": 0.971,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 3.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 260.94,
+      "depth_total_adc": 78.0,
+      "recovered_fraction": 0.795,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 261.46,
+      "depth_total_adc": 49.0,
+      "recovered_fraction": 0.918,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 3.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 263.9,
+      "depth_total_adc": 71.0,
+      "recovered_fraction": 0.972,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 6.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 264.42,
+      "depth_total_adc": 55.0,
+      "recovered_fraction": 0.964,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 267.18,
+      "depth_total_adc": 72.0,
+      "recovered_fraction": 1.292,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 3.5,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 269.96,
+      "depth_total_adc": 77.0,
+      "recovered_fraction": 1.156,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 3.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 270.54,
+      "depth_total_adc": 31.0,
+      "recovered_fraction": 1.613,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 3.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 272.68,
+      "depth_total_adc": 60.0,
+      "recovered_fraction": 1.233,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 273.2,
+      "depth_total_adc": 45.0,
+      "recovered_fraction": 1.244,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 275.18,
+      "depth_total_adc": 62.0,
+      "recovered_fraction": 1.0,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 275.86,
+      "depth_total_adc": 56.0,
+      "recovered_fraction": 1.036,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 3.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 278.4,
+      "depth_total_adc": 77.0,
+      "recovered_fraction": 1.026,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 278.99,
+      "depth_total_adc": 48.0,
+      "recovered_fraction": 1.0,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 281.3,
+      "depth_total_adc": 64.0,
+      "recovered_fraction": 1.094,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 3.5,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 281.83,
+      "depth_total_adc": 29.0,
+      "recovered_fraction": 1.207,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 283.74,
+      "depth_total_adc": 82.0,
+      "recovered_fraction": 0.939,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 3.5,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 284.25,
+      "depth_total_adc": 38.0,
+      "recovered_fraction": 0.868,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 3.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 286.51,
+      "depth_total_adc": 82.0,
+      "recovered_fraction": 0.841,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 287.05,
+      "depth_total_adc": 40.0,
+      "recovered_fraction": 0.675,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 288.92,
+      "depth_total_adc": 83.0,
+      "recovered_fraction": 0.916,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 3.5,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 289.49,
+      "depth_total_adc": 53.0,
+      "recovered_fraction": 0.887,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 3.5,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 291.32,
+      "depth_total_adc": 74.0,
+      "recovered_fraction": 0.973,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 3.5,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 291.87,
+      "depth_total_adc": 43.0,
+      "recovered_fraction": 0.953,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 293.56,
+      "depth_total_adc": 75.0,
+      "recovered_fraction": 1.053,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 295.54,
+      "depth_total_adc": 66.0,
+      "recovered_fraction": 1.197,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 3.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 296.06,
+      "depth_total_adc": 28.0,
+      "recovered_fraction": 1.464,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 3.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 297.68,
+      "depth_total_adc": 66.0,
+      "recovered_fraction": 1.152,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 3.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 299.72,
+      "depth_total_adc": 60.0,
+      "recovered_fraction": 1.25,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 301.63,
+      "depth_total_adc": 61.0,
+      "recovered_fraction": 1.246,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 3.5,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 302.2,
+      "depth_total_adc": 29.0,
+      "recovered_fraction": 1.483,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 303.73,
+      "depth_total_adc": 63.0,
+      "recovered_fraction": 1.206,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 305.59,
+      "depth_total_adc": 60.0,
+      "recovered_fraction": 1.233,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 306.11,
+      "depth_total_adc": 24.0,
+      "recovered_fraction": 1.583,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 307.71,
+      "depth_total_adc": 60.0,
+      "recovered_fraction": 1.167,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 309.73,
+      "depth_total_adc": 62.0,
+      "recovered_fraction": 1.065,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 311.8,
+      "depth_total_adc": 63.0,
+      "recovered_fraction": 1.159,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 27.0,
+      "chan_depth_p95": 3.5,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 313.58,
+      "depth_total_adc": 64.0,
+      "recovered_fraction": 1.234,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 22.0,
+      "chan_depth_p95": 3.5,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 314.12,
+      "depth_total_adc": 37.0,
+      "recovered_fraction": 1.405,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 21.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 315.98,
+      "depth_total_adc": 56.0,
+      "recovered_fraction": 1.214,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 6.0,
+      "chan_depth_p95": 4.5,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 317.62,
+      "depth_total_adc": 61.0,
+      "recovered_fraction": 1.393,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 7.0,
+      "chan_depth_p95": 4.5,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 318.18,
+      "depth_total_adc": 38.0,
+      "recovered_fraction": 1.632,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 7.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 319.9,
+      "depth_total_adc": 53.0,
+      "recovered_fraction": 1.509,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 4.5,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 321.61,
+      "depth_total_adc": 46.0,
+      "recovered_fraction": 1.435,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 8.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 322.15,
+      "depth_total_adc": 45.0,
+      "recovered_fraction": 1.444,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 8.0,
+      "chan_depth_p95": 3.5,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 324.03,
+      "depth_total_adc": 51.0,
+      "recovered_fraction": 1.412,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 3.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 325.75,
+      "depth_total_adc": 58.0,
+      "recovered_fraction": 1.31,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 7.0,
+      "chan_depth_p95": 3.5,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 326.37,
+      "depth_total_adc": 52.0,
+      "recovered_fraction": 1.346,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 328.11,
+      "depth_total_adc": 56.0,
+      "recovered_fraction": 1.214,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 3.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 328.63,
+      "depth_total_adc": 28.0,
+      "recovered_fraction": 1.429,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 6.0,
+      "chan_depth_p95": 3.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 329.88,
+      "depth_total_adc": 62.0,
+      "recovered_fraction": 1.048,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 3.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 330.47,
+      "depth_total_adc": 39.0,
+      "recovered_fraction": 1.077,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 332.18,
+      "depth_total_adc": 68.0,
+      "recovered_fraction": 0.956,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 7.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 333.96,
+      "depth_total_adc": 66.0,
+      "recovered_fraction": 1.03,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 334.48,
+      "depth_total_adc": 37.0,
+      "recovered_fraction": 1.054,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 7.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 335.96,
+      "depth_total_adc": 69.0,
+      "recovered_fraction": 1.072,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 337.92,
+      "depth_total_adc": 72.0,
+      "recovered_fraction": 1.167,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 338.5,
+      "depth_total_adc": 27.0,
+      "recovered_fraction": 1.444,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 339.91,
+      "depth_total_adc": 67.0,
+      "recovered_fraction": 1.224,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 340.42,
+      "depth_total_adc": 19.0,
+      "recovered_fraction": 1.789,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 341.93,
+      "depth_total_adc": 67.0,
+      "recovered_fraction": 1.299,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 3.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 344.01,
+      "depth_total_adc": 50.0,
+      "recovered_fraction": 1.3,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 3.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 344.53,
+      "depth_total_adc": 13.0,
+      "recovered_fraction": 2.154,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 3.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 346.01,
+      "depth_total_adc": 56.0,
+      "recovered_fraction": 1.304,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 3.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 346.59,
+      "depth_total_adc": 19.0,
+      "recovered_fraction": 1.895,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 3.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 348.21,
+      "depth_total_adc": 63.0,
+      "recovered_fraction": 1.19,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 3.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 350.4,
+      "depth_total_adc": 64.0,
+      "recovered_fraction": 1.203,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 352.52,
+      "depth_total_adc": 65.0,
+      "recovered_fraction": 1.185,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 353.06,
+      "depth_total_adc": 30.0,
+      "recovered_fraction": 1.367,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 354.62,
+      "depth_total_adc": 52.0,
+      "recovered_fraction": 1.269,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 6.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 355.22,
+      "depth_total_adc": 36.0,
+      "recovered_fraction": 1.361,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 6.0,
+      "chan_depth_p95": 3.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 357.14,
+      "depth_total_adc": 60.0,
+      "recovered_fraction": 1.133,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 3.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 357.66,
+      "depth_total_adc": 28.0,
+      "recovered_fraction": 1.286,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 359.66,
+      "depth_total_adc": 62.0,
+      "recovered_fraction": 1.177,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 360.24,
+      "depth_total_adc": 36.0,
+      "recovered_fraction": 1.306,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 362.08,
+      "depth_total_adc": 63.0,
+      "recovered_fraction": 1.175,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 3.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 362.6,
+      "depth_total_adc": 44.0,
+      "recovered_fraction": 1.295,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 365.04,
+      "depth_total_adc": 65.0,
+      "recovered_fraction": 1.077,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 3.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 365.56,
+      "depth_total_adc": 41.0,
+      "recovered_fraction": 1.512,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 3.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 367.82,
+      "depth_total_adc": 66.0,
+      "recovered_fraction": 0.939,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 3.5,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 368.5,
+      "depth_total_adc": 51.0,
+      "recovered_fraction": 1.275,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 3.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 370.84,
+      "depth_total_adc": 71.0,
+      "recovered_fraction": 1.141,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 3.5,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 371.41,
+      "depth_total_adc": 48.0,
+      "recovered_fraction": 1.104,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 3.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 373.76,
+      "depth_total_adc": 71.0,
+      "recovered_fraction": 1.127,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 3.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 374.31,
+      "depth_total_adc": 47.0,
+      "recovered_fraction": 1.128,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 3.5,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 376.39,
+      "depth_total_adc": 62.0,
+      "recovered_fraction": 1.048,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 3.5,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 376.99,
+      "depth_total_adc": 51.0,
+      "recovered_fraction": 1.039,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 3.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 379.27,
+      "depth_total_adc": 66.0,
+      "recovered_fraction": 1.121,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 379.79,
+      "depth_total_adc": 47.0,
+      "recovered_fraction": 1.17,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 3.5,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 382.29,
+      "depth_total_adc": 62.0,
+      "recovered_fraction": 1.306,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 3.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 384.57,
+      "depth_total_adc": 53.0,
+      "recovered_fraction": 1.038,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 3.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 385.17,
+      "depth_total_adc": 28.0,
+      "recovered_fraction": 0.929,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 3.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 386.62,
+      "depth_total_adc": 50.0,
+      "recovered_fraction": 0.92,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 387.21,
+      "depth_total_adc": 37.0,
+      "recovered_fraction": 0.892,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 49.0,
+      "chan_depth_p95": 37.5,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 387.93,
+      "depth_total_adc": 85.0,
+      "recovered_fraction": 0.929,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 49.0,
+      "chan_depth_p95": 38.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 388.6,
+      "depth_total_adc": 86.0,
+      "recovered_fraction": 1.209,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 42.0,
+      "chan_depth_p95": 26.5,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 389.2,
+      "depth_total_adc": 170.0,
+      "recovered_fraction": 1.118,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 41.0,
+      "chan_depth_p95": 27.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 389.81,
+      "depth_total_adc": 50.0,
+      "recovered_fraction": 1.4,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 38.0,
+      "chan_depth_p95": 12.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 391.58,
+      "depth_total_adc": 68.0,
+      "recovered_fraction": 1.294,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 6.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 392.09,
+      "depth_total_adc": 15.0,
+      "recovered_fraction": 2.333,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 393.56,
+      "depth_total_adc": 57.0,
+      "recovered_fraction": 1.351,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 3.5,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 394.1,
+      "depth_total_adc": 41.0,
+      "recovered_fraction": 1.488,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 3.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 396.0,
+      "depth_total_adc": 53.0,
+      "recovered_fraction": 1.377,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 3.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 398.0,
+      "depth_total_adc": 65.0,
+      "recovered_fraction": 1.262,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 6.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 400.14,
+      "depth_total_adc": 64.0,
+      "recovered_fraction": 1.219,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 7.0,
+      "chan_depth_p95": 3.5,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 400.66,
+      "depth_total_adc": 35.0,
+      "recovered_fraction": 1.314,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 402.12,
+      "depth_total_adc": 51.0,
+      "recovered_fraction": 1.02,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 3.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 402.64,
+      "depth_total_adc": 27.0,
+      "recovered_fraction": 1.0,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 404.39,
+      "depth_total_adc": 68.0,
+      "recovered_fraction": 0.926,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 3.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 406.59,
+      "depth_total_adc": 77.0,
+      "recovered_fraction": 1.039,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 8.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 408.75,
+      "depth_total_adc": 61.0,
+      "recovered_fraction": 1.115,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 6.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 410.83,
+      "depth_total_adc": 65.0,
+      "recovered_fraction": 1.215,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 6.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 413.01,
+      "depth_total_adc": 71.0,
+      "recovered_fraction": 1.169,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 8.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 415.11,
+      "depth_total_adc": 65.0,
+      "recovered_fraction": 1.185,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 3.5,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 417.1,
+      "depth_total_adc": 67.0,
+      "recovered_fraction": 1.194,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 3.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 417.69,
+      "depth_total_adc": 33.0,
+      "recovered_fraction": 1.303,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 419.36,
+      "depth_total_adc": 56.0,
+      "recovered_fraction": 1.161,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 3.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 421.6,
+      "depth_total_adc": 71.0,
+      "recovered_fraction": 1.225,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 8.0,
+      "chan_depth_p95": 5.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 422.12,
+      "depth_total_adc": 32.0,
+      "recovered_fraction": 1.438,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 423.62,
+      "depth_total_adc": 55.0,
+      "recovered_fraction": 1.273,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 3.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 424.18,
+      "depth_total_adc": 40.0,
+      "recovered_fraction": 1.375,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 3.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 425.92,
+      "depth_total_adc": 56.0,
+      "recovered_fraction": 1.196,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 3.5,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 426.46,
+      "depth_total_adc": 26.0,
+      "recovered_fraction": 1.423,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 428.16,
+      "depth_total_adc": 57.0,
+      "recovered_fraction": 1.228,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 3.5,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 428.7,
+      "depth_total_adc": 32.0,
+      "recovered_fraction": 1.406,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 430.44,
+      "depth_total_adc": 64.0,
+      "recovered_fraction": 1.172,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 3.5,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 432.63,
+      "depth_total_adc": 66.0,
+      "recovered_fraction": 1.045,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 3.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 433.14,
+      "depth_total_adc": 28.0,
+      "recovered_fraction": 1.107,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 3.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 434.73,
+      "depth_total_adc": 68.0,
+      "recovered_fraction": 1.029,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 3.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 435.29,
+      "depth_total_adc": 48.0,
+      "recovered_fraction": 1.042,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 3.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 437.19,
+      "depth_total_adc": 60.0,
+      "recovered_fraction": 1.067,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 3.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 437.73,
+      "depth_total_adc": 42.0,
+      "recovered_fraction": 1.095,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 3.5,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 439.71,
+      "depth_total_adc": 72.0,
+      "recovered_fraction": 1.097,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 3.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 440.27,
+      "depth_total_adc": 39.0,
+      "recovered_fraction": 1.179,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 3.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 441.87,
+      "depth_total_adc": 65.0,
+      "recovered_fraction": 1.077,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 3.5,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 442.43,
+      "depth_total_adc": 51.0,
+      "recovered_fraction": 1.098,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 444.63,
+      "depth_total_adc": 66.0,
+      "recovered_fraction": 1.121,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 3.5,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 445.29,
+      "depth_total_adc": 36.0,
+      "recovered_fraction": 1.222,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 3.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 446.95,
+      "depth_total_adc": 63.0,
+      "recovered_fraction": 1.063,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 3.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 447.47,
+      "depth_total_adc": 46.0,
+      "recovered_fraction": 1.087,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 3.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 449.65,
+      "depth_total_adc": 60.0,
+      "recovered_fraction": 0.967,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 450.21,
+      "depth_total_adc": 33.0,
+      "recovered_fraction": 0.939,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 451.49,
+      "depth_total_adc": 76.0,
+      "recovered_fraction": 0.855,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 452.03,
+      "depth_total_adc": 76.0,
+      "recovered_fraction": 0.855,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 3.5,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 454.15,
+      "depth_total_adc": 69.0,
+      "recovered_fraction": 0.928,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 3.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 454.67,
+      "depth_total_adc": 51.0,
+      "recovered_fraction": 0.902,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 3.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 456.65,
+      "depth_total_adc": 69.0,
+      "recovered_fraction": 1.13,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 457.17,
+      "depth_total_adc": 33.0,
+      "recovered_fraction": 1.273,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 3.5,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 458.95,
+      "depth_total_adc": 65.0,
+      "recovered_fraction": 1.123,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 6.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 459.47,
+      "depth_total_adc": 33.0,
+      "recovered_fraction": 1.242,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 3.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 461.27,
+      "depth_total_adc": 62.0,
+      "recovered_fraction": 1.097,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 461.87,
+      "depth_total_adc": 35.0,
+      "recovered_fraction": 1.171,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 3.5,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 463.77,
+      "depth_total_adc": 70.0,
+      "recovered_fraction": 1.071,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 464.33,
+      "depth_total_adc": 23.0,
+      "recovered_fraction": 1.217,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 3.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 466.06,
+      "depth_total_adc": 73.0,
+      "recovered_fraction": 0.945,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 3.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 468.38,
+      "depth_total_adc": 79.0,
+      "recovered_fraction": 1.0,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 470.64,
+      "depth_total_adc": 70.0,
+      "recovered_fraction": 1.086,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 6.0,
+      "chan_depth_p95": 3.5,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 471.16,
+      "depth_total_adc": 27.0,
+      "recovered_fraction": 1.222,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 3.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 472.78,
+      "depth_total_adc": 71.0,
+      "recovered_fraction": 1.127,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 7.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 473.34,
+      "depth_total_adc": 42.0,
+      "recovered_fraction": 1.214,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 3.5,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 474.82,
+      "depth_total_adc": 64.0,
+      "recovered_fraction": 1.234,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 3.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 475.36,
+      "depth_total_adc": 42.0,
+      "recovered_fraction": 1.357,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 3.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 477.44,
+      "depth_total_adc": 60.0,
+      "recovered_fraction": 1.25,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 479.74,
+      "depth_total_adc": 68.0,
+      "recovered_fraction": 1.279,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 6.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 481.9,
+      "depth_total_adc": 56.0,
+      "recovered_fraction": 1.089,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 482.44,
+      "depth_total_adc": 19.0,
+      "recovered_fraction": 1.263,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 3.5,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 484.19,
+      "depth_total_adc": 62.0,
+      "recovered_fraction": 1.097,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 486.47,
+      "depth_total_adc": 80.0,
+      "recovered_fraction": 1.05,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 7.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 488.45,
+      "depth_total_adc": 64.0,
+      "recovered_fraction": 1.047,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 488.97,
+      "depth_total_adc": 28.0,
+      "recovered_fraction": 1.071,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 3.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 490.57,
+      "depth_total_adc": 75.0,
+      "recovered_fraction": 0.893,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 491.11,
+      "depth_total_adc": 36.0,
+      "recovered_fraction": 0.75,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 492.81,
+      "depth_total_adc": 72.0,
+      "recovered_fraction": 0.903,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 494.69,
+      "depth_total_adc": 70.0,
+      "recovered_fraction": 1.043,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 495.21,
+      "depth_total_adc": 34.0,
+      "recovered_fraction": 1.088,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 496.92,
+      "depth_total_adc": 69.0,
+      "recovered_fraction": 0.971,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 6.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 498.8,
+      "depth_total_adc": 59.0,
+      "recovered_fraction": 1.085,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 7.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 499.32,
+      "depth_total_adc": 41.0,
+      "recovered_fraction": 1.122,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 3.5,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 501.06,
+      "depth_total_adc": 63.0,
+      "recovered_fraction": 1.159,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 3.5,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 503.14,
+      "depth_total_adc": 62.0,
+      "recovered_fraction": 1.226,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 3.5,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 505.18,
+      "depth_total_adc": 60.0,
+      "recovered_fraction": 1.117,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 7.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 505.74,
+      "depth_total_adc": 26.0,
+      "recovered_fraction": 1.231,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 3.5,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 507.31,
+      "depth_total_adc": 59.0,
+      "recovered_fraction": 1.153,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 507.84,
+      "depth_total_adc": 30.0,
+      "recovered_fraction": 1.3,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 509.33,
+      "depth_total_adc": 53.0,
+      "recovered_fraction": 1.17,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 3.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 509.85,
+      "depth_total_adc": 39.0,
+      "recovered_fraction": 1.179,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 3.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 511.45,
+      "depth_total_adc": 62.0,
+      "recovered_fraction": 1.258,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 3.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 512.01,
+      "depth_total_adc": 56.0,
+      "recovered_fraction": 1.286,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 3.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 514.21,
+      "depth_total_adc": 59.0,
+      "recovered_fraction": 1.119,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 3.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 516.21,
+      "depth_total_adc": 66.0,
+      "recovered_fraction": 1.045,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 12.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 516.75,
+      "depth_total_adc": 45.0,
+      "recovered_fraction": 1.067,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 14.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 518.65,
+      "depth_total_adc": 77.0,
+      "recovered_fraction": 0.987,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 12.0,
+      "chan_depth_p95": 3.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 519.17,
+      "depth_total_adc": 35.0,
+      "recovered_fraction": 0.971,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 9.0,
+      "chan_depth_p95": 3.5,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 520.97,
+      "depth_total_adc": 76.0,
+      "recovered_fraction": 1.039,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 7.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 521.49,
+      "depth_total_adc": 37.0,
+      "recovered_fraction": 1.081,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 7.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 523.43,
+      "depth_total_adc": 63.0,
+      "recovered_fraction": 1.079,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 6.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 523.95,
+      "depth_total_adc": 36.0,
+      "recovered_fraction": 1.139,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 525.89,
+      "depth_total_adc": 61.0,
+      "recovered_fraction": 1.262,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 6.0,
+      "chan_depth_p95": 3.5,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 526.51,
+      "depth_total_adc": 30.0,
+      "recovered_fraction": 1.533,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 10.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 527.7,
+      "depth_total_adc": 59.0,
+      "recovered_fraction": 1.305,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 8.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 528.29,
+      "depth_total_adc": 63.0,
+      "recovered_fraction": 1.175,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 7.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 528.87,
+      "depth_total_adc": 45.0,
+      "recovered_fraction": 1.244,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 7.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 530.91,
+      "depth_total_adc": 59.0,
+      "recovered_fraction": 1.0,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 8.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 531.63,
+      "depth_total_adc": 29.0,
+      "recovered_fraction": 1.0,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 10.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 533.41,
+      "depth_total_adc": 82.0,
+      "recovered_fraction": 0.927,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 11.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 534.09,
+      "depth_total_adc": 49.0,
+      "recovered_fraction": 0.878,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 10.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 535.73,
+      "depth_total_adc": 74.0,
+      "recovered_fraction": 0.986,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 536.29,
+      "depth_total_adc": 59.0,
+      "recovered_fraction": 0.983,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 3.5,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 538.59,
+      "depth_total_adc": 75.0,
+      "recovered_fraction": 1.0,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 3.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 539.13,
+      "depth_total_adc": 37.0,
+      "recovered_fraction": 1.0,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 540.76,
+      "depth_total_adc": 66.0,
+      "recovered_fraction": 0.909,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 6.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 541.45,
+      "depth_total_adc": 63.0,
+      "recovered_fraction": 1.111,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 543.97,
+      "depth_total_adc": 57.0,
+      "recovered_fraction": 1.281,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 3.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 544.51,
+      "depth_total_adc": 29.0,
+      "recovered_fraction": 1.552,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 3.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 546.43,
+      "depth_total_adc": 67.0,
+      "recovered_fraction": 1.075,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 3.5,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 546.95,
+      "depth_total_adc": 38.0,
+      "recovered_fraction": 1.211,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 3.5,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 549.35,
+      "depth_total_adc": 61.0,
+      "recovered_fraction": 0.885,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 3.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 549.95,
+      "depth_total_adc": 44.0,
+      "recovered_fraction": 1.068,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 3.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 552.11,
+      "depth_total_adc": 68.0,
+      "recovered_fraction": 0.897,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 3.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 552.73,
+      "depth_total_adc": 53.0,
+      "recovered_fraction": 1.113,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 3.5,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 554.79,
+      "depth_total_adc": 60.0,
+      "recovered_fraction": 0.867,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 555.31,
+      "depth_total_adc": 53.0,
+      "recovered_fraction": 0.868,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 3.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 555.89,
+      "depth_total_adc": 35.0,
+      "recovered_fraction": 0.971,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 558.43,
+      "depth_total_adc": 70.0,
+      "recovered_fraction": 1.0,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 558.96,
+      "depth_total_adc": 46.0,
+      "recovered_fraction": 0.935,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 6.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 560.91,
+      "depth_total_adc": 60.0,
+      "recovered_fraction": 0.817,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 9.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 561.42,
+      "depth_total_adc": 68.0,
+      "recovered_fraction": 1.206,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 9.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 562.02,
+      "depth_total_adc": 41.0,
+      "recovered_fraction": 1.317,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 8.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 564.12,
+      "depth_total_adc": 75.0,
+      "recovered_fraction": 1.24,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 6.0,
+      "chan_depth_p95": 3.5,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 564.66,
+      "depth_total_adc": 33.0,
+      "recovered_fraction": 1.758,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 3.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 566.8,
+      "depth_total_adc": 55.0,
+      "recovered_fraction": 0.964,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 3.5,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 567.38,
+      "depth_total_adc": 48.0,
+      "recovered_fraction": 1.188,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 3.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 570.04,
+      "depth_total_adc": 68.0,
+      "recovered_fraction": 1.074,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 13.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 570.56,
+      "depth_total_adc": 47.0,
+      "recovered_fraction": 1.17,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 12.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 572.78,
+      "depth_total_adc": 66.0,
+      "recovered_fraction": 1.03,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 6.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 573.3,
+      "depth_total_adc": 51.0,
+      "recovered_fraction": 1.176,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 575.68,
+      "depth_total_adc": 66.0,
+      "recovered_fraction": 1.0,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 3.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 576.2,
+      "depth_total_adc": 50.0,
+      "recovered_fraction": 1.18,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 3.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 578.72,
+      "depth_total_adc": 68.0,
+      "recovered_fraction": 1.088,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 3.5,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 579.34,
+      "depth_total_adc": 35.0,
+      "recovered_fraction": 1.171,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 3.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 581.78,
+      "depth_total_adc": 68.0,
+      "recovered_fraction": 1.088,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 3.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 582.29,
+      "depth_total_adc": 30.0,
+      "recovered_fraction": 1.2,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 584.1,
+      "depth_total_adc": 70.0,
+      "recovered_fraction": 1.043,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 6.0,
+      "chan_depth_p95": 3.5,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 584.67,
+      "depth_total_adc": 47.0,
+      "recovered_fraction": 1.064,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 6.0,
+      "chan_depth_p95": 3.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 586.98,
+      "depth_total_adc": 67.0,
+      "recovered_fraction": 0.94,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 3.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 587.51,
+      "depth_total_adc": 39.0,
+      "recovered_fraction": 0.872,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 589.52,
+      "depth_total_adc": 74.0,
+      "recovered_fraction": 1.027,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 590.05,
+      "depth_total_adc": 52.0,
+      "recovered_fraction": 1.019,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 592.1,
+      "depth_total_adc": 73.0,
+      "recovered_fraction": 1.123,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 3.5,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 592.69,
+      "depth_total_adc": 38.0,
+      "recovered_fraction": 1.237,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 3.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 594.52,
+      "depth_total_adc": 60.0,
+      "recovered_fraction": 1.083,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 3.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 595.03,
+      "depth_total_adc": 52.0,
+      "recovered_fraction": 1.096,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 3.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 597.0,
+      "depth_total_adc": 69.0,
+      "recovered_fraction": 0.957,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 3.5,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 597.51,
+      "depth_total_adc": 42.0,
+      "recovered_fraction": 0.929,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 3.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 599.4,
+      "depth_total_adc": 69.0,
+      "recovered_fraction": 1.058,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 3.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 599.91,
+      "depth_total_adc": 34.0,
+      "recovered_fraction": 1.118,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 3.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 601.66,
+      "depth_total_adc": 68.0,
+      "recovered_fraction": 1.103,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 602.2,
+      "depth_total_adc": 19.0,
+      "recovered_fraction": 1.368,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 3.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 603.98,
+      "depth_total_adc": 64.0,
+      "recovered_fraction": 1.172,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 606.18,
+      "depth_total_adc": 58.0,
+      "recovered_fraction": 1.069,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 3.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 608.28,
+      "depth_total_adc": 66.0,
+      "recovered_fraction": 1.061,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 608.82,
+      "depth_total_adc": 40.0,
+      "recovered_fraction": 1.1,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 610.46,
+      "depth_total_adc": 70.0,
+      "recovered_fraction": 1.1,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 6.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 612.49,
+      "depth_total_adc": 68.0,
+      "recovered_fraction": 1.132,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 3.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 613.02,
+      "depth_total_adc": 37.0,
+      "recovered_fraction": 1.216,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 3.5,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 614.65,
+      "depth_total_adc": 68.0,
+      "recovered_fraction": 0.971,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 6.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 615.17,
+      "depth_total_adc": 31.0,
+      "recovered_fraction": 0.935,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 6.0,
+      "chan_depth_p95": 3.5,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 616.61,
+      "depth_total_adc": 61.0,
+      "recovered_fraction": 1.098,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 617.13,
+      "depth_total_adc": 58.0,
+      "recovered_fraction": 1.121,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 618.91,
+      "depth_total_adc": 68.0,
+      "recovered_fraction": 0.985,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 619.43,
+      "depth_total_adc": 44.0,
+      "recovered_fraction": 0.955,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 3.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 621.31,
+      "depth_total_adc": 73.0,
+      "recovered_fraction": 1.137,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 623.55,
+      "depth_total_adc": 71.0,
+      "recovered_fraction": 1.056,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 3.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 624.07,
+      "depth_total_adc": 34.0,
+      "recovered_fraction": 1.118,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 3.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 625.91,
+      "depth_total_adc": 68.0,
+      "recovered_fraction": 1.103,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 626.43,
+      "depth_total_adc": 38.0,
+      "recovered_fraction": 1.184,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 628.35,
+      "depth_total_adc": 76.0,
+      "recovered_fraction": 1.066,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 628.87,
+      "depth_total_adc": 33.0,
+      "recovered_fraction": 1.152,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 3.5,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 630.34,
+      "depth_total_adc": 58.0,
+      "recovered_fraction": 1.052,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 6.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 630.93,
+      "depth_total_adc": 54.0,
+      "recovered_fraction": 1.148,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 6.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 633.31,
+      "depth_total_adc": 71.0,
+      "recovered_fraction": 1.07,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 633.87,
+      "depth_total_adc": 34.0,
+      "recovered_fraction": 1.147,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 6.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 636.01,
+      "depth_total_adc": 71.0,
+      "recovered_fraction": 1.155,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 6.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 636.53,
+      "depth_total_adc": 33.0,
+      "recovered_fraction": 1.515,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 6.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 638.57,
+      "depth_total_adc": 59.0,
+      "recovered_fraction": 1.119,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 6.0,
+      "chan_depth_p95": 3.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 639.21,
+      "depth_total_adc": 59.0,
+      "recovered_fraction": 1.186,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 6.0,
+      "chan_depth_p95": 3.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 641.97,
+      "depth_total_adc": 67.0,
+      "recovered_fraction": 0.896,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 3.5,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 642.55,
+      "depth_total_adc": 46.0,
+      "recovered_fraction": 1.261,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 645.27,
+      "depth_total_adc": 58.0,
+      "recovered_fraction": 1.241,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 7.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 645.91,
+      "depth_total_adc": 33.0,
+      "recovered_fraction": 1.364,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 6.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 648.13,
+      "depth_total_adc": 69.0,
+      "recovered_fraction": 1.275,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 648.78,
+      "depth_total_adc": 41.0,
+      "recovered_fraction": 1.317,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 3.5,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 651.15,
+      "depth_total_adc": 59.0,
+      "recovered_fraction": 1.424,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 3.5,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 651.66,
+      "depth_total_adc": 24.0,
+      "recovered_fraction": 2.0,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 653.77,
+      "depth_total_adc": 74.0,
+      "recovered_fraction": 1.216,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 3.5,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 654.42,
+      "depth_total_adc": 36.0,
+      "recovered_fraction": 1.444,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 6.0,
+      "chan_depth_p95": 3.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 655.99,
+      "depth_total_adc": 61.0,
+      "recovered_fraction": 1.361,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 6.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 656.64,
+      "depth_total_adc": 58.0,
+      "recovered_fraction": 1.328,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 3.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 659.18,
+      "depth_total_adc": 60.0,
+      "recovered_fraction": 1.183,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 4.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 661.47,
+      "depth_total_adc": 71.0,
+      "recovered_fraction": 1.042,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 6.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 661.98,
+      "depth_total_adc": 45.0,
+      "recovered_fraction": 1.067,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 5.0,
+      "chan_depth_p95": 3.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 663.79,
+      "depth_total_adc": 70.0,
+      "recovered_fraction": 0.914,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 9.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 664.3,
+      "depth_total_adc": 50.0,
+      "recovered_fraction": 0.88,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 7.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 666.15,
+      "depth_total_adc": 78.0,
+      "recovered_fraction": 0.987,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 7.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    },
+    {
+      "t_drop": 666.72,
+      "depth_total_adc": 54.0,
+      "recovered_fraction": 0.981,
+      "duration_s": 0.01,
+      "transient": true,
+      "chan_depth_max": 6.0,
+      "chan_depth_p95": 4.0,
+      "chan_over_deep_100": 0.0,
+      "chan_over_deep_200": 0.0
+    }
+  ],
+  "window_offsets": [
+    {
+      "t_mid": 15.0,
+      "med": 24973.5
+    },
+    {
+      "t_mid": 25.0,
+      "med": 25248.0
+    },
+    {
+      "t_mid": 35.0,
+      "med": 25390.0
+    },
+    {
+      "t_mid": 45.0,
+      "med": 25680.0
+    },
+    {
+      "t_mid": 55.0,
+      "med": 25737.5
+    },
+    {
+      "t_mid": 65.0,
+      "med": 25744.0
+    },
+    {
+      "t_mid": 75.0,
+      "med": 25809.0
+    },
+    {
+      "t_mid": 85.0,
+      "med": 25865.5
+    },
+    {
+      "t_mid": 95.0,
+      "med": 25910.0
+    },
+    {
+      "t_mid": 105.0,
+      "med": 25927.5
+    },
+    {
+      "t_mid": 115.0,
+      "med": 25951.0
+    },
+    {
+      "t_mid": 125.0,
+      "med": 25948.0
+    },
+    {
+      "t_mid": 135.0,
+      "med": 25960.0
+    },
+    {
+      "t_mid": 145.0,
+      "med": 25990.0
+    },
+    {
+      "t_mid": 155.0,
+      "med": 26021.0
+    },
+    {
+      "t_mid": 165.0,
+      "med": 26033.0
+    },
+    {
+      "t_mid": 175.0,
+      "med": 26066.0
+    },
+    {
+      "t_mid": 185.0,
+      "med": 26066.0
+    },
+    {
+      "t_mid": 195.0,
+      "med": 26080.0
+    },
+    {
+      "t_mid": 205.0,
+      "med": 26072.5
+    },
+    {
+      "t_mid": 215.0,
+      "med": 26078.0
+    },
+    {
+      "t_mid": 225.0,
+      "med": 26084.0
+    },
+    {
+      "t_mid": 235.0,
+      "med": 26099.0
+    },
+    {
+      "t_mid": 245.0,
+      "med": 26108.0
+    },
+    {
+      "t_mid": 255.0,
+      "med": 26127.5
+    },
+    {
+      "t_mid": 265.0,
+      "med": 26124.0
+    },
+    {
+      "t_mid": 275.0,
+      "med": 26141.0
+    },
+    {
+      "t_mid": 285.0,
+      "med": 26138.0
+    },
+    {
+      "t_mid": 295.0,
+      "med": 26138.0
+    },
+    {
+      "t_mid": 305.0,
+      "med": 26154.0
+    },
+    {
+      "t_mid": 315.0,
+      "med": 26167.0
+    },
+    {
+      "t_mid": 325.0,
+      "med": 26194.0
+    },
+    {
+      "t_mid": 335.0,
+      "med": 26199.0
+    },
+    {
+      "t_mid": 345.0,
+      "med": 26217.5
+    },
+    {
+      "t_mid": 355.0,
+      "med": 26231.0
+    },
+    {
+      "t_mid": 365.0,
+      "med": 26246.0
+    },
+    {
+      "t_mid": 375.0,
+      "med": 26257.0
+    },
+    {
+      "t_mid": 385.0,
+      "med": 26265.0
+    },
+    {
+      "t_mid": 395.0,
+      "med": 26283.0
+    },
+    {
+      "t_mid": 405.0,
+      "med": 26293.5
+    },
+    {
+      "t_mid": 415.0,
+      "med": 26305.0
+    },
+    {
+      "t_mid": 425.0,
+      "med": 26319.0
+    },
+    {
+      "t_mid": 435.0,
+      "med": 26330.0
+    },
+    {
+      "t_mid": 445.0,
+      "med": 26336.0
+    },
+    {
+      "t_mid": 455.0,
+      "med": 26334.0
+    },
+    {
+      "t_mid": 465.0,
+      "med": 26341.0
+    },
+    {
+      "t_mid": 475.0,
+      "med": 26349.0
+    },
+    {
+      "t_mid": 485.0,
+      "med": 26363.0
+    },
+    {
+      "t_mid": 495.0,
+      "med": 26360.5
+    },
+    {
+      "t_mid": 505.0,
+      "med": 26371.0
+    },
+    {
+      "t_mid": 515.0,
+      "med": 26381.0
+    },
+    {
+      "t_mid": 525.0,
+      "med": 26388.0
+    },
+    {
+      "t_mid": 535.0,
+      "med": 26392.0
+    },
+    {
+      "t_mid": 545.0,
+      "med": 26399.0
+    },
+    {
+      "t_mid": 555.0,
+      "med": 26402.0
+    },
+    {
+      "t_mid": 565.0,
+      "med": 26414.0
+    },
+    {
+      "t_mid": 575.0,
+      "med": 26422.0
+    },
+    {
+      "t_mid": 585.0,
+      "med": 26429.0
+    },
+    {
+      "t_mid": 595.0,
+      "med": 26432.0
+    },
+    {
+      "t_mid": 605.0,
+      "med": 26437.0
+    },
+    {
+      "t_mid": 615.0,
+      "med": 26444.0
+    },
+    {
+      "t_mid": 625.0,
+      "med": 26450.0
+    },
+    {
+      "t_mid": 635.0,
+      "med": 26458.0
+    },
+    {
+      "t_mid": 645.0,
+      "med": 26473.0
+    },
+    {
+      "t_mid": 655.0,
+      "med": 26494.0
+    }
+  ]
+}

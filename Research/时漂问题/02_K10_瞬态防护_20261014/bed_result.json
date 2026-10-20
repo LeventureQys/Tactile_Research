@@ -1,0 +1,14 @@
+{
+  "run_s": 1150.0,
+  "inject_at": 1000.0,
+  "dip_frames": 30,
+  "dip_total_min": -448.0,
+  "clean_shift": -0.71,
+  "dirty_shift": 23.29,
+  "guarded_shift": 17.0,
+  "dirty_vs_clean": 23.99,
+  "guarded_vs_clean": 17.7,
+  "flagged_frames_total": 47,
+  "flagged_frames_at_event": 1,
+  "flagged_per_channel_at_event": 1
+}

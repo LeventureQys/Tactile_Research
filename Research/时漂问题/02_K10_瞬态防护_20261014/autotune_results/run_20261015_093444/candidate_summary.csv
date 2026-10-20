@@ -1,0 +1,2 @@
+﻿candidate,r_slow_max,slope_cap_frac,worst_hold_max_abs_offset_adc,worst_hold_endpoint_abs_drift_adc,minimum_small_event_retention,small_events,platform_checks,minimum_platform_retention,hold_pass,small_load_pass_proxy,platform_pass_proxy,joint_pass_proxy,decision,rank
+1,0.1,0.02,955.3959370377233,973.6327777270781,-inf,0,0,,False,False,False,False,未联合达标,1

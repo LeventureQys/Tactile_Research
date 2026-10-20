@@ -1,0 +1,140 @@
+{
+  "generated_at": "2026-10-15T09:35:17.532516+08:00",
+  "tool_version": "0.1.0",
+  "source": {
+    "data_root": "D:\\workshop\\Github\\Tactile_Research\\Research\\时漂问题\\data\\右拇指指腹",
+    "algorithm": "D:\\workshop\\Github\\Tactile_Research\\Research\\时漂问题\\02_K10_瞬态防护_20261014\\guarded_k9.py",
+    "sessions": [
+      {
+        "session_id": "10g反复增减荷载-2026-10-13_17-07-18",
+        "device_id": "device_001",
+        "kind": "small_load",
+        "frames": 9700,
+        "channels": 57,
+        "duration_s": 96.47500400000717,
+        "event_info": {
+          "threshold_adc": 171.9816,
+          "noise_sigma_adc": 21.4977,
+          "candidate_count": 3
+        }
+      },
+      {
+        "session_id": "测试1-2026-10-13_16-32-15",
+        "device_id": "device_001",
+        "kind": "hold",
+        "frames": 67551,
+        "channels": 57,
+        "duration_s": 672.6174009999959,
+        "event_info": null
+      },
+      {
+        "session_id": "测试2-2026-10-13_16-43-59",
+        "device_id": "device_001",
+        "kind": "hold",
+        "frames": 31417,
+        "channels": 57,
+        "duration_s": 312.83516300003976,
+        "event_info": null
+      },
+      {
+        "session_id": "10g反复增减荷载-2026-10-13_17-05-32",
+        "device_id": "device_001",
+        "kind": "small_load",
+        "frames": 5959,
+        "channels": 57,
+        "duration_s": 59.31499199999962,
+        "event_info": {
+          "threshold_adc": 249.0768,
+          "noise_sigma_adc": 31.1346,
+          "candidate_count": 1
+        }
+      },
+      {
+        "session_id": "测试1-2026-10-13_16-53-24",
+        "device_id": "device_001",
+        "kind": "hold",
+        "frames": 45532,
+        "channels": 57,
+        "duration_s": 453.3039540000027,
+        "event_info": null
+      },
+      {
+        "session_id": "测试2-2026-10-13_17-01-06",
+        "device_id": "device_001",
+        "kind": "hold",
+        "frames": 25293,
+        "channels": 57,
+        "duration_s": 251.78890299994964,
+        "event_info": null
+      }
+    ]
+  },
+  "optimizer": {
+    "strategy": "穷举 r_slow_max × slope_cap_frac；K10 guard 开启；其余参数固定",
+    "candidates": 1,
+    "max_hold_drift_adc": 300.0,
+    "minimum_event_retention": 0.7,
+    "adc_per_newton_rough": 1000.0
+  },
+  "decision": {
+    "status": "no_joint_candidate_in_grid",
+    "recommended": null,
+    "force_mapping_table_available": false,
+    "limits": [
+      "10g事件为总值自动提取，需人工核对操作时间标签。",
+      "平台证据不足的候选不会联合通过。",
+      "未覆盖强扰动、部分卸载、跨荷载量级和真实力值映射表。"
+    ]
+  },
+  "recorded_k9_replay_check": [
+    {
+      "session_id": "10g反复增减荷载-2026-10-13_17-07-18",
+      "max_abs_channel_diff_adc": 1.129871333346614,
+      "max_abs_total_diff_adc": 9.88389413796176
+    },
+    {
+      "session_id": "测试1-2026-10-13_16-32-15",
+      "max_abs_channel_diff_adc": 15.627198782044715,
+      "max_abs_total_diff_adc": 36.61092400000007
+    },
+    {
+      "session_id": "测试2-2026-10-13_16-43-59",
+      "max_abs_channel_diff_adc": 7.203008239574416,
+      "max_abs_total_diff_adc": 25.797165921496344
+    },
+    {
+      "session_id": "10g反复增减荷载-2026-10-13_17-05-32",
+      "max_abs_channel_diff_adc": 0.2958311883806175,
+      "max_abs_total_diff_adc": 0.9969610896368977
+    },
+    {
+      "session_id": "测试1-2026-10-13_16-53-24",
+      "max_abs_channel_diff_adc": 0.8416482437369268,
+      "max_abs_total_diff_adc": 4.2482475151191466
+    },
+    {
+      "session_id": "测试2-2026-10-13_17-01-06",
+      "max_abs_channel_diff_adc": 0.6006997896331541,
+      "max_abs_total_diff_adc": 0.6019399482247536
+    }
+  ],
+  "candidate_summaries": [
+    {
+      "candidate": 1,
+      "r_slow_max": 0.1,
+      "slope_cap_frac": 0.02,
+      "worst_hold_max_abs_offset_adc": 955.3959370377233,
+      "worst_hold_endpoint_abs_drift_adc": 973.6327777270781,
+      "minimum_small_event_retention": -Infinity,
+      "small_events": 0,
+      "platform_checks": 0,
+      "minimum_platform_retention": null,
+      "hold_pass": false,
+      "small_load_pass_proxy": false,
+      "platform_pass_proxy": false,
+      "joint_pass_proxy": false,
+      "decision": "未联合达标",
+      "rank": 1
+    }
+  ]
+}

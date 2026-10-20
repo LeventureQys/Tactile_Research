@@ -1,0 +1,10 @@
+^D:\WORKSHOP\PROCESSING\MULTI-DEVICE-CASCADE-HOST-CPP\TEMP\V4.1FLASH\CPP_V5_CHECK\BUILD\CMAKEFILES\0EAB482EA0F545E45AD1DE472BF50E2B\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SD:/workshop/Processing/multi-device-cascade-host-cpp/temp/v4.1flash/cpp_v5_check -BD:/workshop/Processing/multi-device-cascade-host-cpp/temp/v4.1flash/cpp_v5_check/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/workshop/Processing/multi-device-cascade-host-cpp/temp/v4.1flash/cpp_v5_check/build/v5_cpp_check.slnx
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

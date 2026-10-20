@@ -1,0 +1,111 @@
+{
+  "rise_grid": [
+    0.05,
+    0.5,
+    1.0,
+    2.0,
+    2.5,
+    3.6,
+    5.0
+  ],
+  "results": [
+    {
+      "method": "k9_0p4",
+      "rise_s": 0.05,
+      "hold_adc": 23.0607992213736,
+      "retention": 0.23060799221373598,
+      "withdraw_residual_adc": -2.0971336359507404
+    },
+    {
+      "method": "k9_0p4",
+      "rise_s": 0.5,
+      "hold_adc": 22.946018310300133,
+      "retention": 0.22946018310300131,
+      "withdraw_residual_adc": -2.220014153937882
+    },
+    {
+      "method": "k9_0p4",
+      "rise_s": 1.0,
+      "hold_adc": 22.84452464680726,
+      "retention": 0.22844524646807257,
+      "withdraw_residual_adc": -2.3345156115356076
+    },
+    {
+      "method": "k9_0p4",
+      "rise_s": 2.0,
+      "hold_adc": 22.555662634038526,
+      "retention": 0.22555662634038526,
+      "withdraw_residual_adc": -2.716900946747046
+    },
+    {
+      "method": "k9_0p4",
+      "rise_s": 2.5,
+      "hold_adc": 22.177524574612107,
+      "retention": 0.22177524574612106,
+      "withdraw_residual_adc": -3.159339914787779
+    },
+    {
+      "method": "k9_0p4",
+      "rise_s": 3.6,
+      "hold_adc": 21.738726238294475,
+      "retention": 0.21738726238294476,
+      "withdraw_residual_adc": -3.6715778637117182
+    },
+    {
+      "method": "k9_0p4",
+      "rise_s": 5.0,
+      "hold_adc": 21.710069442890017,
+      "retention": 0.21710069442890018,
+      "withdraw_residual_adc": -3.77697371222348
+    },
+    {
+      "method": "routeb",
+      "rise_s": 0.05,
+      "hold_adc": 66.99246420068084,
+      "retention": 0.6699246420068085,
+      "withdraw_residual_adc": -0.35291681486523885
+    },
+    {
+      "method": "routeb",
+      "rise_s": 0.5,
+      "hold_adc": 50.55991445530344,
+      "retention": 0.5055991445530345,
+      "withdraw_residual_adc": -16.89935229373259
+    },
+    {
+      "method": "routeb",
+      "rise_s": 1.0,
+      "hold_adc": -61.73348400505165,
+      "retention": -0.6173348400505165,
+      "withdraw_residual_adc": -129.2831492419573
+    },
+    {
+      "method": "routeb",
+      "rise_s": 2.0,
+      "hold_adc": -76.78596500160529,
+      "retention": -0.7678596500160529,
+      "withdraw_residual_adc": -144.4243026924796
+    },
+    {
+      "method": "routeb",
+      "rise_s": 2.5,
+      "hold_adc": -76.97179165669331,
+      "retention": -0.7697179165669331,
+      "withdraw_residual_adc": -144.62939291327348
+    },
+    {
+      "method": "routeb",
+      "rise_s": 3.6,
+      "hold_adc": -76.8158699495234,
+      "retention": -0.7681586994952341,
+      "withdraw_residual_adc": -144.4812726189466
+    },
+    {
+      "method": "routeb",
+      "rise_s": 5.0,
+      "hold_adc": -74.80219349835352,
+      "retention": -0.7480219349835352,
+      "withdraw_residual_adc": -142.4978404773301
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "左拇指0.6/测试1": {
+    "fps": 100.5645,
+    "frames": 119881,
+    "duration_s": 1192.1,
+    "load_s": 1.32,
+    "drift_plain": -40493.9,
+    "drift_guarded": -40493.91,
+    "drift_delta": -0.01,
+    "max_60s_median_diff": 0.014,
+    "mean_60s_median_diff": 0.012,
+    "max_instant_diff": 629.62,
+    "fast_release_frames": 16013
+  },
+  "左拇指0.6/测试2": {
+    "error": "missing"
+  },
+  "右拇指0.6/测试1": {
+    "fps": 99.629,
+    "frames": 44420,
+    "duration_s": 445.8,
+    "load_s": 2.2,
+    "drift_plain": -44.69,
+    "drift_guarded": -44.65,
+    "drift_delta": 0.04,
+    "max_60s_median_diff": 0.24,
+    "mean_60s_median_diff": 0.18,
+    "max_instant_diff": 0.25,
+    "fast_release_frames": 44069
+  }
+}

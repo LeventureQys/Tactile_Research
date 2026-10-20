@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\workshop\Processing\multi-device-cascade-host-cpp\temp\v4.1flash\cpp_v5_check\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D:\workshop\Processing\multi-device-cascade-host-cpp\src\domain\drift\drift_compensator.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\workshop\Processing\multi-device-cascade-host-cpp\temp\v4.1flash\cpp_v5_check\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{D240AE9E-2D84-37DD-97A5-5A687D1CD2EF}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

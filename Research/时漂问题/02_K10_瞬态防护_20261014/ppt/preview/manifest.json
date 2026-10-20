@@ -1,0 +1,209 @@
+{
+  "schemaVersion": 1,
+  "backend": "native",
+  "rasterEngine": "libreoffice",
+  "source": "saved",
+  "inputPath": "D:\\workshop\\Github\\Tactile_Research\\Research\\时漂问题\\02_K10_瞬态防护_20261014\\瞬态干扰基线偏移问题说明_甲方汇报.pptx",
+  "sourceSha256": "9ff41f5aaa2501cc0249b3756310a187aabcfd820ced3637d12d2677c6f47ea2",
+  "dpi": 120,
+  "pageCount": 14,
+  "images": [
+    {
+      "index": 1,
+      "page": 1,
+      "path": "D:\\workshop\\Github\\Tactile_Research\\Research\\时漂问题\\02_K10_瞬态防护_20261014\\ppt\\preview\\page-0001.png",
+      "width": 1600,
+      "height": 901,
+      "rectangle": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720.0666666666667
+      },
+      "byteLength": 66898
+    },
+    {
+      "index": 2,
+      "page": 2,
+      "path": "D:\\workshop\\Github\\Tactile_Research\\Research\\时漂问题\\02_K10_瞬态防护_20261014\\ppt\\preview\\page-0002.png",
+      "width": 1600,
+      "height": 901,
+      "rectangle": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720.0666666666667
+      },
+      "byteLength": 158126
+    },
+    {
+      "index": 3,
+      "page": 3,
+      "path": "D:\\workshop\\Github\\Tactile_Research\\Research\\时漂问题\\02_K10_瞬态防护_20261014\\ppt\\preview\\page-0003.png",
+      "width": 1600,
+      "height": 901,
+      "rectangle": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720.0666666666667
+      },
+      "byteLength": 121372
+    },
+    {
+      "index": 4,
+      "page": 4,
+      "path": "D:\\workshop\\Github\\Tactile_Research\\Research\\时漂问题\\02_K10_瞬态防护_20261014\\ppt\\preview\\page-0004.png",
+      "width": 1600,
+      "height": 901,
+      "rectangle": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720.0666666666667
+      },
+      "byteLength": 198898
+    },
+    {
+      "index": 5,
+      "page": 5,
+      "path": "D:\\workshop\\Github\\Tactile_Research\\Research\\时漂问题\\02_K10_瞬态防护_20261014\\ppt\\preview\\page-0005.png",
+      "width": 1600,
+      "height": 901,
+      "rectangle": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720.0666666666667
+      },
+      "byteLength": 200301
+    },
+    {
+      "index": 6,
+      "page": 6,
+      "path": "D:\\workshop\\Github\\Tactile_Research\\Research\\时漂问题\\02_K10_瞬态防护_20261014\\ppt\\preview\\page-0006.png",
+      "width": 1600,
+      "height": 901,
+      "rectangle": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720.0666666666667
+      },
+      "byteLength": 97613
+    },
+    {
+      "index": 7,
+      "page": 7,
+      "path": "D:\\workshop\\Github\\Tactile_Research\\Research\\时漂问题\\02_K10_瞬态防护_20261014\\ppt\\preview\\page-0007.png",
+      "width": 1600,
+      "height": 901,
+      "rectangle": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720.0666666666667
+      },
+      "byteLength": 112456
+    },
+    {
+      "index": 8,
+      "page": 8,
+      "path": "D:\\workshop\\Github\\Tactile_Research\\Research\\时漂问题\\02_K10_瞬态防护_20261014\\ppt\\preview\\page-0008.png",
+      "width": 1600,
+      "height": 901,
+      "rectangle": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720.0666666666667
+      },
+      "byteLength": 136379
+    },
+    {
+      "index": 9,
+      "page": 9,
+      "path": "D:\\workshop\\Github\\Tactile_Research\\Research\\时漂问题\\02_K10_瞬态防护_20261014\\ppt\\preview\\page-0009.png",
+      "width": 1600,
+      "height": 901,
+      "rectangle": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720.0666666666667
+      },
+      "byteLength": 186150
+    },
+    {
+      "index": 10,
+      "page": 10,
+      "path": "D:\\workshop\\Github\\Tactile_Research\\Research\\时漂问题\\02_K10_瞬态防护_20261014\\ppt\\preview\\page-0010.png",
+      "width": 1600,
+      "height": 901,
+      "rectangle": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720.0666666666667
+      },
+      "byteLength": 121136
+    },
+    {
+      "index": 11,
+      "page": 11,
+      "path": "D:\\workshop\\Github\\Tactile_Research\\Research\\时漂问题\\02_K10_瞬态防护_20261014\\ppt\\preview\\page-0011.png",
+      "width": 1600,
+      "height": 901,
+      "rectangle": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720.0666666666667
+      },
+      "byteLength": 152172
+    },
+    {
+      "index": 12,
+      "page": 12,
+      "path": "D:\\workshop\\Github\\Tactile_Research\\Research\\时漂问题\\02_K10_瞬态防护_20261014\\ppt\\preview\\page-0012.png",
+      "width": 1600,
+      "height": 901,
+      "rectangle": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720.0666666666667
+      },
+      "byteLength": 78431
+    },
+    {
+      "index": 13,
+      "page": 13,
+      "path": "D:\\workshop\\Github\\Tactile_Research\\Research\\时漂问题\\02_K10_瞬态防护_20261014\\ppt\\preview\\page-0013.png",
+      "width": 1600,
+      "height": 901,
+      "rectangle": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720.0666666666667
+      },
+      "byteLength": 99467
+    },
+    {
+      "index": 14,
+      "page": 14,
+      "path": "D:\\workshop\\Github\\Tactile_Research\\Research\\时漂问题\\02_K10_瞬态防护_20261014\\ppt\\preview\\page-0014.png",
+      "width": 1600,
+      "height": 901,
+      "rectangle": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 720.0666666666667
+      },
+      "byteLength": 73082
+    }
+  ],
+  "missingFonts": []
+}

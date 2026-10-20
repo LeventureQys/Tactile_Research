@@ -1,0 +1,55 @@
+{
+  "左拇指0.6/测试1": {
+    "fps": 100.5645,
+    "duration_s": 1192.1,
+    "frames": 119881,
+    "drop_threshold_adc": 150.0,
+    "events": 3,
+    "recovered_events": 2,
+    "baseline_shift_after_recovered_events": [
+      -21.5,
+      -73.2
+    ],
+    "median_induced_shift": -47.4,
+    "events_detail": [
+      {
+        "t_drop": 194.5,
+        "drop_adc": 476.0,
+        "drop_relative": 0.0108,
+        "recovery_fraction": 0.91,
+        "pre_change": 76.0,
+        "seg_change": 54.5,
+        "algorithm_induced": -21.5
+      },
+      {
+        "t_drop": 214.88,
+        "drop_adc": 221.0,
+        "drop_relative": 0.005,
+        "recovery_fraction": 0.982,
+        "pre_change": 69.0,
+        "seg_change": -4.2,
+        "algorithm_induced": -73.2
+      },
+      {
+        "t_drop": 1099.34,
+        "drop_adc": 43424.0,
+        "drop_relative": 0.9839,
+        "recovery_fraction": -0.01,
+        "pre_change": -43921.0,
+        "seg_change": -42216.3,
+        "algorithm_induced": 1704.7
+      }
+    ]
+  },
+  "左拇指0.6/测试2": {
+    "fps": 0.0,
+    "duration_s": Infinity,
+    "frames": 96960,
+    "drop_threshold_adc": 150.0,
+    "events": 0,
+    "recovered_events": 0,
+    "baseline_shift_after_recovered_events": [],
+    "median_induced_shift": null,
+    "events_detail": []
+  }
+}

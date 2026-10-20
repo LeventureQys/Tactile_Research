@@ -1,0 +1,185 @@
+{
+  "config": {
+    "window_s": 0.25,
+    "separation_s": 0.5,
+    "confirm_s": 0.25,
+    "hold_s": 2.0,
+    "threshold_adc": 25.0,
+    "noise_multiplier": 4.0,
+    "trend_tau_s": 8.0,
+    "cooldown_s": 1.5,
+    "large_step_adc": 2000.0
+  },
+  "params": {
+    "r_fast": 0.03,
+    "tau_c_fast_s": 2,
+    "tau_r_fast_s": 0.1,
+    "r_slow_max": 0.4,
+    "slope_cap_frac": 0.02,
+    "slow_confirm_s": 3,
+    "soft_unfreeze_s": 2,
+    "tau_r_slow_idle_s": 0.2
+  },
+  "cases": [
+    {
+      "name": "positive_each_channel_500adc_step2s",
+      "kind": "positive_all_channel_calibration",
+      "events": 0,
+      "event_times_s": []
+    },
+    {
+      "name": "positive_100adc_concentrated_step15s",
+      "kind": "positive_concentrated",
+      "events": 1,
+      "event_times_s": [
+        15.31
+      ],
+      "truth_adc": 100.0,
+      "hold_delta_adc": 100.0,
+      "hold_retention": 1.0,
+      "withdrawal_residual_adc": 100.0
+    },
+    {
+      "name": "positive_100adc_dispersed_step15s",
+      "kind": "positive_dispersed",
+      "events": 1,
+      "event_times_s": [
+        15.31
+      ],
+      "truth_adc": 100.0,
+      "hold_delta_adc": 100.0,
+      "hold_retention": 1.0,
+      "withdrawal_residual_adc": 100.0
+    },
+    {
+      "name": "positive_100adc_signed_split_step15s",
+      "kind": "positive_signed_split",
+      "events": 1,
+      "event_times_s": [
+        15.31
+      ],
+      "truth_adc": 100.0,
+      "hold_delta_adc": 100.0,
+      "hold_retention": 1.0,
+      "withdrawal_residual_adc": 100.0
+    },
+    {
+      "name": "positive_repeated_add_remove_three_cycles",
+      "kind": "positive_repeated",
+      "events": 12,
+      "event_times_s": [
+        15.26,
+        20.25,
+        35.26,
+        40.25,
+        55.26,
+        60.25,
+        75.26,
+        80.25,
+        95.26,
+        100.25,
+        110.26,
+        115.25
+      ],
+      "cycle_outputs_adc": [
+        956.0,
+        956.0,
+        956.0,
+        -44.0,
+        -44.0,
+        -44.0
+      ]
+    },
+    {
+      "name": "positive_500adc_ramp_0.2s",
+      "kind": "positive_ramp",
+      "events": 2,
+      "event_times_s": [
+        15.27,
+        17.53
+      ]
+    },
+    {
+      "name": "positive_500adc_ramp_1s",
+      "kind": "positive_ramp",
+      "events": 2,
+      "event_times_s": [
+        15.29,
+        17.55
+      ]
+    },
+    {
+      "name": "positive_500adc_ramp_3s",
+      "kind": "positive_ramp",
+      "events": 2,
+      "event_times_s": [
+        15.31,
+        17.58
+      ]
+    },
+    {
+      "name": "positive_500adc_ramp_5s",
+      "kind": "positive_ramp",
+      "events": 2,
+      "event_times_s": [
+        15.33,
+        17.59
+      ]
+    },
+    {
+      "name": "negative_linear_drift_5p7adc_per_s",
+      "kind": "negative_linear_drift",
+      "events": 0,
+      "event_times_s": [],
+      "negative_event_count": 0
+    },
+    {
+      "name": "negative_linear_drift_20adc_per_s",
+      "kind": "negative_linear_drift",
+      "events": 0,
+      "event_times_s": [],
+      "negative_event_count": 0
+    },
+    {
+      "name": "negative_exponential_creep_1000adc_tau20s",
+      "kind": "negative_exponential_creep",
+      "events": 0,
+      "event_times_s": [],
+      "negative_event_count": 0
+    },
+    {
+      "name": "negative_exponential_creep_1000adc_tau80s",
+      "kind": "negative_exponential_creep",
+      "events": 0,
+      "event_times_s": [],
+      "negative_event_count": 0
+    },
+    {
+      "name": "negative_smooth_drift_changing_rate",
+      "kind": "negative_smooth_drift",
+      "events": 0,
+      "event_times_s": [],
+      "negative_event_count": 0
+    },
+    {
+      "name": "negative_white_noise",
+      "kind": "negative_white_noise",
+      "events": 0,
+      "event_times_s": [],
+      "negative_event_count": 0
+    },
+    {
+      "name": "negative_common_mode_step_57x100adc",
+      "kind": "negative_common_mode_step",
+      "events": 1,
+      "event_times_s": [
+        15.31
+      ],
+      "negative_event_count": 1
+    }
+  ],
+  "notes": [
+    "合成案例有真值；共模100 ADC与分散100 ADC刻意同总量，不能要求算法仅凭单路数据区分二者。",
+    "真实录制10g仍无操作标签，不能由本报告推出真实检出率。"
+  ]
+}

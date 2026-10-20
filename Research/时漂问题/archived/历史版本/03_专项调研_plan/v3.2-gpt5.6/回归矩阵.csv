@@ -1,0 +1,26 @@
+session,src_path,frames,arm,changed_frames,median_abs_delta,worst_abs_delta,metric,value,scope,landed,bench_verified,verdict
+working/零基线-反复增减同一负载/20260919_160854_single_device_7b3977,temp/算法数据&原始数据/working,31306,plan-v3.4 creep-mem,5918,0.0,2124,显示极差(满载段×9,剔除楼梯中段#6),2516→1018,目标工况,是(产品源码),否(仅离线回放),修复本体：卸载-重载后恢复补偿
+working/零基线-反复增减同一负载/20260919_160854_single_device_7b3977,temp/算法数据&原始数据/working,31306,plan-v3.4 creep-mem,5918,0.0,2124,显示 std(满载段×9),约1080→约330,目标工况,是(产品源码),否(仅离线回放),改善约70%
+working/零基线-反复增减同一负载/20260919_160854_single_device_7b3977,temp/算法数据&原始数据/working,31306,plan-v3.4 creep-mem,5918,0.0,2124,满载#5 扣除(t246),-54→+1770,目标工况,是(产品源码),否(仅离线回放),与家族A对齐(15227)
+working/零基线-反复增减同一负载/20260919_160854_single_device_7b3977,temp/算法数据&原始数据/working,31306,plan-v3.4 creep-mem,5918,0.0,2124,家族A(#1~#4)逐段显示,15234/15645/15446/15304 逐位相同,目标工况,是(产品源码),否(仅离线回放),记忆残差=0、零扰动
+working/零基线-反复增减同一负载/20260919_160854_single_device_7b3977,temp/算法数据&原始数据/working,31306,plan-v3.4 creep-mem,5918,0.0,2124,C 限幅越界(帧·通道),0(31306帧),目标工况,是(产品源码),否(仅离线回放),硬不变量保持
+working/零基线-反复增减同一负载/20260919_160854_single_device_7b3977,temp/算法数据&原始数据/working,31306,plan-v3.4 creep-mem,5918,0.0,2124,245.31s 交接后 A/ded,15234/2009(vs 15s族 15188/2265),目标工况,是(产品源码),否(仅离线回放),缺口-11%(约256 ADC)
+working/零基线-反复增减同一负载/20260919_160854_single_device_7b3977,temp/算法数据&原始数据/working,31306,plan-v3.6(seed-gain 1.0 v36_d 400),n/a,n/a,n/a,同一负载前后显示差(E2~E9),-2135→-26,目标工况,否(仅候选 src_v36/),否,核心收益：一致性恢复
+working/零基线-反复增减同一负载/20260919_160854_single_device_7b3977,temp/算法数据&原始数据/working,31306,plan-v3.6(seed-gain 1.0 v36_d 400),n/a,n/a,n/a,同负载组极差(9段),2559→1231,目标工况,否(仅候选 src_v36/),否,-52%
+working/零基线-反复增减同一负载/20260919_160854_single_device_7b3977,temp/算法数据&原始数据/working,31306,plan-v3.6(seed-gain 1.0 v36_d 400),n/a,n/a,n/a,台阶保真 G 中位(9加载沿),1.002→0.946,目标工况,否(仅候选 src_v36/),否,机制性代价(补偿3~5s到位)
+working/零基线-反复增减同一负载/20260919_160854_single_device_7b3977,temp/算法数据&原始数据/working,31306,plan-v3.6(seed-gain 1.0 v36_d 400),n/a,n/a,n/a,G 最差(245.31s 沿),0.937→0.778,目标工况,否(仅候选 src_v36/),否,该沿Δ显示偏小
+working/零基线-反复增减同一负载/20260919_160854_single_device_7b3977,temp/算法数据&原始数据/working,31306,plan-v3.6(seed-gain 1.0 v36_d 400),n/a,n/a,n/a,C 限幅命中(帧·通道),95345→42159,目标工况,否(仅候选 src_v36/),否,近似腰斩、0越界
+working/零基线-反复增减同一负载/20260919_160854_single_device_7b3977,temp/算法数据&原始数据/working,31306,plan-v3.6(seed-gain 1.0 v36_d 400),n/a,n/a,n/a,长保压[70,232]s 显示 pk-pk,2700→2700,目标工况,否(仅候选 src_v36/),否,稳定性未牺牲
+working/零基线-反复增减同一负载/20260919_160854_single_device_7b3977,temp/算法数据&原始数据/working,31306,plan-v3.6(seed-gain 1.0 v36_d 400),n/a,n/a,n/a,E1 首次加载与前240s,逐位相同,目标工况,否(仅候选 src_v36/),否,v36_b=0 ⇒ 冷启动零回归
+working/零基线-反复增减同一负载/20260919_160854_single_device_7b3977,temp/算法数据&原始数据/working,31306,plan-v3.6-B(v36_b=1),n/a,n/a,n/a,同一负载前后显示差,-2135→-353,目标工况,否,否,一致性更激进；代价见下行
+working/零基线-反复增减同一负载/20260919_160854_single_device_7b3977,temp/算法数据&原始数据/working,31306,plan-v3.6-B(v36_b=1),n/a,n/a,n/a,前段行为,n/a(改变 E2~E5),目标工况,否,否,不建议默认开启
+archived/恒定负载(70156帧),temp/算法数据&原始数据/archived,-,plan-v3.4 creep-mem,0,0,0,改变帧数,0,回归集,是,否,逐位不变
+archived/恒定负载下反复加减(大偏置 602c03),temp/算法数据&原始数据/archived,-,plan-v3.4 creep-mem,0,0,0,改变帧数,0,域外(大偏置),是,否,逐位不变：域外工况不受影响
+archived/从零基线开始…反复加减(f9740b),temp/算法数据&原始数据/archived,33908,plan-v3.4 creep-mem,19585,22.5,479,中位/最大|Δ|,22.5/479,回归集,是,否,轻微、方向同修复
+archived/零基线-反复增减(0cb8b6),temp/算法数据&原始数据/archived,34460,plan-v3.4 creep-mem,28240,7.8,3571,中位/最大|Δ|,7.8/3571,回归集,是,否,变化集中在 t290~350（尾段整片卸载-重载后）、恢复补偿
+working/零负载-随机变化负载(6b2e70),temp/算法数据&原始数据/working,6836,plan-v3.4 creep-mem,1613,0.0,722,中位/最大|Δ|,0.0/722,回归集,是,否,中性(瞬时)
+archived/零负载-随机切换工况(31b7f9),temp/算法数据&原始数据/archived,8080,plan-v3.4 creep-mem,5710,230,1983,显示-输入 p50,-258→-1469,域外,是,否,整体下移：记忆把历史蠕变补偿套到重载上
+archived/各种奇怪工况/振荡(f40a1b),temp/算法数据&原始数据/archived,13160,plan-v3.4 creep-mem,4017,0.2,556,中位/最大|Δ|,0.2/556,域外(振荡),是,否,中性
+archived/零负载-随机切换工况(31b7f9),temp/算法数据&原始数据/archived,8080,plan-v3.6(seed-gain 1.0),n/a,n/a,n/a,ded 中位,261→767,域外,否,否,副作用已量化：补偿量被抬高(G 未变0.982)；观感变差可把 gain 降到 0.7/0.5
+archived/零基线-反复增减(0cb8b6),temp/算法数据&原始数据/archived,34460,plan-v3.6-B(v36_b=1),n/a,n/a,n/a,ded 中位 / G,3334→3363 / 0.971→0.892,同族录制,否,否,v36_b=0(默认)时不触达
+全部会话(15/18/19条不等),temp/算法数据&原始数据,267990~42407,plan-v3.4 creep-mem,n/a,n/a,n/a,C 限幅硬不变量越界,0,回归集,是,否,0越界

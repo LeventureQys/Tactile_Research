@@ -1,0 +1,855 @@
+{
+  "method": {
+    "toolbox": "D:\\workshop\\Processing\\multi-device-cascade-host-cpp\\toolbox\\数据解析工具",
+    "algorithm": "dptool plugins.k9_creep_observer._compensate",
+    "window": "加载后15s至尾端5s；净变化=首/尾5s中值差；最大偏移=窗口内5s滚动中值相对首5s中值",
+    "injection": "固定底噪背景上向57通道均匀注入总100 ADC、持续15s；排除首次加载；事件点=加载后30s与尾段前30s",
+    "ten_g_note": "两10g记录没有真值；所有候选波动仅作候选波动，不解释为真实10g事件"
+  },
+  "samples": [
+    {
+      "id": "设备1/测试1-2026-10-13_16-32-15",
+      "kind": "constant_load",
+      "path": "D:\\workshop\\Github\\Tactile_Research\\Research\\时漂问题\\data\\右拇指指腹\\设备1\\测试1-2026-10-13_16-32-15",
+      "observed_fps": 100.43005118454182,
+      "time_axis": "frame_index / observed_fps",
+      "duration_s": 672.6074437209616,
+      "load_start_s": 2.3399370729004585,
+      "active_recording_window": {
+        "start_s": 17.339937072900458,
+        "end_s": 672.6074437209616,
+        "n": 65809,
+        "net_change_adc": 726.6407580375671,
+        "max_abs_offset_adc_5s_median": 728.9448525905609
+      },
+      "replays": {
+        "recorded": {
+          "source": "device_001_seg000.csv",
+          "window": {
+            "start_s": 17.339937072900458,
+            "end_s": 672.6074437209616,
+            "n": 65809,
+            "net_change_adc": 726.6407580375671,
+            "max_abs_offset_adc_5s_median": 728.9448525905609
+          }
+        },
+        "0.1": {
+          "r_slow_max": 0.1,
+          "window": {
+            "start_s": 17.339937072900458,
+            "end_s": 672.6074437209616,
+            "n": 65809,
+            "net_change_adc": 711.1239334404272,
+            "max_abs_offset_adc_5s_median": 714.635173281964
+          },
+          "stats": {
+            "nan_frames": 0
+          }
+        },
+        "0.2": {
+          "r_slow_max": 0.2,
+          "window": {
+            "start_s": 17.339937072900458,
+            "end_s": 672.6074437209616,
+            "n": 65809,
+            "net_change_adc": -64.20539858152915,
+            "max_abs_offset_adc_5s_median": 95.19608243116454
+          },
+          "stats": {
+            "nan_frames": 0
+          }
+        },
+        "0.3": {
+          "r_slow_max": 0.3,
+          "window": {
+            "start_s": 17.339937072900458,
+            "end_s": 672.6074437209616,
+            "n": 65809,
+            "net_change_adc": -105.52483528768062,
+            "max_abs_offset_adc_5s_median": 118.1308232632764
+          },
+          "stats": {
+            "nan_frames": 0
+          }
+        },
+        "0.4": {
+          "r_slow_max": 0.4,
+          "window": {
+            "start_s": 17.339937072900458,
+            "end_s": 672.6074437209616,
+            "n": 65809,
+            "net_change_adc": -111.30355792730188,
+            "max_abs_offset_adc_5s_median": 125.04380032613335
+          },
+          "stats": {
+            "nan_frames": 0
+          }
+        }
+      },
+      "injection_pair_replays": {
+        "load_plus_30s": {
+          "recorded_params": {
+            "event_start_s": 32.33993707290046,
+            "event_duration_s": 15.0,
+            "injected_total_adc": 100.0,
+            "frames": 1507,
+            "retention_during_last5s": 0.38398665646220254,
+            "retention_after_first5s": 0.09878132910054774,
+            "output_delta_during_last5s_adc": 38.39866564622025,
+            "output_delta_after_first5s_adc": 9.878132910054774
+          },
+          "0.1": {
+            "event_start_s": 32.33993707290046,
+            "event_duration_s": 15.0,
+            "injected_total_adc": 100.0,
+            "frames": 1507,
+            "retention_during_last5s": 0.38398665646220254,
+            "retention_after_first5s": 0.09878132910054774,
+            "output_delta_during_last5s_adc": 38.39866564622025,
+            "output_delta_after_first5s_adc": 9.878132910054774
+          },
+          "0.3": {
+            "event_start_s": 32.33993707290046,
+            "event_duration_s": 15.0,
+            "injected_total_adc": 100.0,
+            "frames": 1507,
+            "retention_during_last5s": 0.2391642584633155,
+            "retention_after_first5s": -0.039423662040881026,
+            "output_delta_during_last5s_adc": 23.91642584633155,
+            "output_delta_after_first5s_adc": -3.9423662040881027
+          }
+        },
+        "tail_minus_30s": {
+          "recorded_params": {
+            "event_start_s": 642.6074437209616,
+            "event_duration_s": 15.0,
+            "injected_total_adc": 100.0,
+            "frames": 1506,
+            "retention_during_last5s": 0.4793462613964584,
+            "retention_after_first5s": 0.20448022883047087,
+            "output_delta_during_last5s_adc": 47.93462613964584,
+            "output_delta_after_first5s_adc": 20.448022883047088
+          },
+          "0.1": {
+            "event_start_s": 642.6074437209616,
+            "event_duration_s": 15.0,
+            "injected_total_adc": 100.0,
+            "frames": 1506,
+            "retention_during_last5s": 0.4793462613964584,
+            "retention_after_first5s": 0.20448022883047087,
+            "output_delta_during_last5s_adc": 47.93462613964584,
+            "output_delta_after_first5s_adc": 20.448022883047088
+          },
+          "0.3": {
+            "event_start_s": 642.6074437209616,
+            "event_duration_s": 15.0,
+            "injected_total_adc": 100.0,
+            "frames": 1506,
+            "retention_during_last5s": 0.21489321562155964,
+            "retention_after_first5s": -0.056370050836758306,
+            "output_delta_during_last5s_adc": 21.489321562155965,
+            "output_delta_after_first5s_adc": -5.637005083675831
+          }
+        }
+      }
+    },
+    {
+      "id": "设备1/测试2-2026-10-13_16-43-59",
+      "kind": "constant_load",
+      "path": "D:\\workshop\\Github\\Tactile_Research\\Research\\时漂问题\\data\\右拇指指腹\\设备1\\测试2-2026-10-13_16-43-59",
+      "observed_fps": 100.42669020552529,
+      "time_axis": "frame_index / observed_fps",
+      "duration_s": 312.8252054877693,
+      "load_start_s": 3.6743220277879707,
+      "active_recording_window": {
+        "start_s": 18.67432202778797,
+        "end_s": 312.8252054877693,
+        "n": 29541,
+        "net_change_adc": 555.7124760150909,
+        "max_abs_offset_adc_5s_median": 569.2747311592102
+      },
+      "replays": {
+        "recorded": {
+          "source": "device_001_seg000.csv",
+          "window": {
+            "start_s": 18.67432202778797,
+            "end_s": 312.8252054877693,
+            "n": 29541,
+            "net_change_adc": 555.7124760150909,
+            "max_abs_offset_adc_5s_median": 569.2747311592102
+          }
+        },
+        "0.1": {
+          "r_slow_max": 0.1,
+          "window": {
+            "start_s": 18.67432202778797,
+            "end_s": 312.8252054877693,
+            "n": 29541,
+            "net_change_adc": 547.5650299482804,
+            "max_abs_offset_adc_5s_median": 560.4488918901225
+          },
+          "stats": {
+            "nan_frames": 0
+          }
+        },
+        "0.2": {
+          "r_slow_max": 0.2,
+          "window": {
+            "start_s": 18.67432202778797,
+            "end_s": 312.8252054877693,
+            "n": 29541,
+            "net_change_adc": 99.7422548589384,
+            "max_abs_offset_adc_5s_median": 110.76051667461434
+          },
+          "stats": {
+            "nan_frames": 0
+          }
+        },
+        "0.3": {
+          "r_slow_max": 0.3,
+          "window": {
+            "start_s": 18.67432202778797,
+            "end_s": 312.8252054877693,
+            "n": 29541,
+            "net_change_adc": 36.77537123753791,
+            "max_abs_offset_adc_5s_median": 49.803365374602436
+          },
+          "stats": {
+            "nan_frames": 0
+          }
+        },
+        "0.4": {
+          "r_slow_max": 0.4,
+          "window": {
+            "start_s": 18.67432202778797,
+            "end_s": 312.8252054877693,
+            "n": 29541,
+            "net_change_adc": 15.234111201723863,
+            "max_abs_offset_adc_5s_median": 32.45357327609963
+          },
+          "stats": {
+            "nan_frames": 0
+          }
+        }
+      },
+      "injection_pair_replays": {
+        "load_plus_30s": {
+          "recorded_params": {
+            "event_start_s": 33.67432202778797,
+            "event_duration_s": 15.0,
+            "injected_total_adc": 100.0,
+            "frames": 1507,
+            "retention_during_last5s": 0.36131674156138616,
+            "retention_after_first5s": 0.047115031847843054,
+            "output_delta_during_last5s_adc": 36.131674156138615,
+            "output_delta_after_first5s_adc": 4.711503184784306
+          },
+          "0.1": {
+            "event_start_s": 33.67432202778797,
+            "event_duration_s": 15.0,
+            "injected_total_adc": 100.0,
+            "frames": 1507,
+            "retention_during_last5s": 0.36131674156138616,
+            "retention_after_first5s": 0.047115031847843054,
+            "output_delta_during_last5s_adc": 36.131674156138615,
+            "output_delta_after_first5s_adc": 4.711503184784306
+          },
+          "0.3": {
+            "event_start_s": 33.67432202778797,
+            "event_duration_s": 15.0,
+            "injected_total_adc": 100.0,
+            "frames": 1507,
+            "retention_during_last5s": 0.21771227219245703,
+            "retention_after_first5s": -0.07181645615695743,
+            "output_delta_during_last5s_adc": 21.771227219245702,
+            "output_delta_after_first5s_adc": -7.181645615695743
+          }
+        },
+        "tail_minus_30s": {
+          "recorded_params": {
+            "event_start_s": 282.8252054877693,
+            "event_duration_s": 15.0,
+            "injected_total_adc": 100.0,
+            "frames": 1506,
+            "retention_during_last5s": 0.43045643053232197,
+            "retention_after_first5s": 0.12535821365296215,
+            "output_delta_during_last5s_adc": 43.0456430532322,
+            "output_delta_after_first5s_adc": 12.535821365296215
+          },
+          "0.1": {
+            "event_start_s": 282.8252054877693,
+            "event_duration_s": 15.0,
+            "injected_total_adc": 100.0,
+            "frames": 1506,
+            "retention_during_last5s": 0.43045643053232197,
+            "retention_after_first5s": 0.12535821365296215,
+            "output_delta_during_last5s_adc": 43.0456430532322,
+            "output_delta_after_first5s_adc": 12.535821365296215
+          },
+          "0.3": {
+            "event_start_s": 282.8252054877693,
+            "event_duration_s": 15.0,
+            "injected_total_adc": 100.0,
+            "frames": 1506,
+            "retention_during_last5s": 0.23466539828588792,
+            "retention_after_first5s": -0.053532173708063055,
+            "output_delta_during_last5s_adc": 23.466539828588793,
+            "output_delta_after_first5s_adc": -5.3532173708063056
+          }
+        }
+      }
+    },
+    {
+      "id": "设备1/10g反复增减荷载-2026-10-13_17-07-18",
+      "kind": "10g",
+      "path": "D:\\workshop\\Github\\Tactile_Research\\Research\\时漂问题\\data\\右拇指指腹\\设备1\\10g反复增减荷载-2026-10-13_17-07-18",
+      "observed_fps": 100.5441779493038,
+      "time_axis": "frame_index / observed_fps",
+      "duration_s": 96.4650584232775,
+      "load_start_s": 1.6410696607733568,
+      "active_recording_window": {
+        "start_s": 16.641069660773358,
+        "end_s": 96.4650584232775,
+        "n": 8026,
+        "net_change_adc": 567.0406544208527,
+        "max_abs_offset_adc_5s_median": 568.1602118015289
+      },
+      "replays": {
+        "recorded": {
+          "source": "device_001_seg000.csv",
+          "window": {
+            "start_s": 16.641069660773358,
+            "end_s": 96.4650584232775,
+            "n": 8026,
+            "net_change_adc": 567.0406544208527,
+            "max_abs_offset_adc_5s_median": 568.1602118015289
+          }
+        },
+        "0.1": {
+          "r_slow_max": 0.1,
+          "window": {
+            "start_s": 16.641069660773358,
+            "end_s": 96.4650584232775,
+            "n": 8026,
+            "net_change_adc": 575.0876871518376,
+            "max_abs_offset_adc_5s_median": 579.274384998982
+          },
+          "stats": {
+            "nan_frames": 0
+          }
+        },
+        "0.2": {
+          "r_slow_max": 0.2,
+          "window": {
+            "start_s": 16.641069660773358,
+            "end_s": 96.4650584232775,
+            "n": 8026,
+            "net_change_adc": 139.92775854152933,
+            "max_abs_offset_adc_5s_median": 140.5724910980498
+          },
+          "stats": {
+            "nan_frames": 0
+          }
+        },
+        "0.3": {
+          "r_slow_max": 0.3,
+          "window": {
+            "start_s": 16.641069660773358,
+            "end_s": 96.4650584232775,
+            "n": 8026,
+            "net_change_adc": 103.30818157090835,
+            "max_abs_offset_adc_5s_median": 104.21842604145058
+          },
+          "stats": {
+            "nan_frames": 0
+          }
+        },
+        "0.4": {
+          "r_slow_max": 0.4,
+          "window": {
+            "start_s": 16.641069660773358,
+            "end_s": 96.4650584232775,
+            "n": 8026,
+            "net_change_adc": 84.84442017410402,
+            "max_abs_offset_adc_5s_median": 87.92811013207393
+          },
+          "stats": {
+            "nan_frames": 0
+          }
+        }
+      },
+      "injection_pair_replays": {
+        "load_plus_30s": {
+          "recorded_params": {
+            "event_start_s": 31.641069660773358,
+            "event_duration_s": 15.0,
+            "injected_total_adc": 100.0,
+            "frames": 1508,
+            "retention_during_last5s": 0.4767180354276934,
+            "retention_after_first5s": 0.13417962737115885,
+            "output_delta_during_last5s_adc": 47.67180354276934,
+            "output_delta_after_first5s_adc": 13.417962737115886
+          },
+          "0.1": {
+            "event_start_s": 31.641069660773358,
+            "event_duration_s": 15.0,
+            "injected_total_adc": 100.0,
+            "frames": 1508,
+            "retention_during_last5s": 0.4767180354276934,
+            "retention_after_first5s": 0.13417962737115885,
+            "output_delta_during_last5s_adc": 47.67180354276934,
+            "output_delta_after_first5s_adc": 13.417962737115886
+          },
+          "0.3": {
+            "event_start_s": 31.641069660773358,
+            "event_duration_s": 15.0,
+            "injected_total_adc": 100.0,
+            "frames": 1508,
+            "retention_during_last5s": 0.2212847876708838,
+            "retention_after_first5s": -0.05996900874808489,
+            "output_delta_during_last5s_adc": 22.12847876708838,
+            "output_delta_after_first5s_adc": -5.996900874808489
+          }
+        },
+        "tail_minus_30s": {
+          "recorded_params": {
+            "event_start_s": 66.4650584232775,
+            "event_duration_s": 15.0,
+            "injected_total_adc": 100.0,
+            "frames": 1508,
+            "retention_during_last5s": 0.518075355976016,
+            "retention_after_first5s": 0.17408354603441695,
+            "output_delta_during_last5s_adc": 51.8075355976016,
+            "output_delta_after_first5s_adc": 17.408354603441694
+          },
+          "0.1": {
+            "event_start_s": 66.4650584232775,
+            "event_duration_s": 15.0,
+            "injected_total_adc": 100.0,
+            "frames": 1508,
+            "retention_during_last5s": 0.518075355976016,
+            "retention_after_first5s": 0.17408354603441695,
+            "output_delta_during_last5s_adc": 51.8075355976016,
+            "output_delta_after_first5s_adc": 17.408354603441694
+          },
+          "0.3": {
+            "event_start_s": 66.4650584232775,
+            "event_duration_s": 15.0,
+            "injected_total_adc": 100.0,
+            "frames": 1508,
+            "retention_during_last5s": 0.2604387327904806,
+            "retention_after_first5s": -0.0345780356818068,
+            "output_delta_during_last5s_adc": 26.043873279048057,
+            "output_delta_after_first5s_adc": -3.4578035681806796
+          }
+        }
+      }
+    },
+    {
+      "id": "设备2/测试1-2026-10-13_16-53-24",
+      "kind": "constant_load",
+      "path": "D:\\workshop\\Github\\Tactile_Research\\Research\\时漂问题\\data\\右拇指指腹\\设备2\\测试1-2026-10-13_16-53-24",
+      "observed_fps": 100.44474500725751,
+      "time_axis": "frame_index / observed_fps",
+      "duration_s": 453.29399757757574,
+      "load_start_s": 1.8816315376811803,
+      "active_recording_window": {
+        "start_s": 16.88163153768118,
+        "end_s": 453.29399757757574,
+        "n": 43836,
+        "net_change_adc": 989.0932638645172,
+        "max_abs_offset_adc_5s_median": 989.2729320526123
+      },
+      "replays": {
+        "recorded": {
+          "source": "device_001_seg000.csv",
+          "window": {
+            "start_s": 16.88163153768118,
+            "end_s": 453.29399757757574,
+            "n": 43836,
+            "net_change_adc": 989.0932638645172,
+            "max_abs_offset_adc_5s_median": 989.2729320526123
+          }
+        },
+        "0.1": {
+          "r_slow_max": 0.1,
+          "window": {
+            "start_s": 16.88163153768118,
+            "end_s": 453.29399757757574,
+            "n": 43836,
+            "net_change_adc": 993.333726096469,
+            "max_abs_offset_adc_5s_median": 993.3347036546693
+          },
+          "stats": {
+            "nan_frames": 0
+          }
+        },
+        "0.2": {
+          "r_slow_max": 0.2,
+          "window": {
+            "start_s": 16.88163153768118,
+            "end_s": 453.29399757757574,
+            "n": 43836,
+            "net_change_adc": 476.0456711739753,
+            "max_abs_offset_adc_5s_median": 476.10000743045384
+          },
+          "stats": {
+            "nan_frames": 0
+          }
+        },
+        "0.3": {
+          "r_slow_max": 0.3,
+          "window": {
+            "start_s": 16.88163153768118,
+            "end_s": 453.29399757757574,
+            "n": 43836,
+            "net_change_adc": 347.10252872830097,
+            "max_abs_offset_adc_5s_median": 347.2228033572028
+          },
+          "stats": {
+            "nan_frames": 0
+          }
+        },
+        "0.4": {
+          "r_slow_max": 0.4,
+          "window": {
+            "start_s": 16.88163153768118,
+            "end_s": 453.29399757757574,
+            "n": 43836,
+            "net_change_adc": 277.90053792308754,
+            "max_abs_offset_adc_5s_median": 277.98815953637677
+          },
+          "stats": {
+            "nan_frames": 0
+          }
+        }
+      },
+      "injection_pair_replays": {
+        "load_plus_30s": {
+          "recorded_params": {
+            "event_start_s": 31.88163153768118,
+            "event_duration_s": 15.0,
+            "injected_total_adc": 100.0,
+            "frames": 1507,
+            "retention_during_last5s": 0.36487255112031564,
+            "retention_after_first5s": 0.02215369771585756,
+            "output_delta_during_last5s_adc": 36.48725511203156,
+            "output_delta_after_first5s_adc": 2.215369771585756
+          },
+          "0.1": {
+            "event_start_s": 31.88163153768118,
+            "event_duration_s": 15.0,
+            "injected_total_adc": 100.0,
+            "frames": 1507,
+            "retention_during_last5s": 0.36487255112031564,
+            "retention_after_first5s": 0.02215369771585756,
+            "output_delta_during_last5s_adc": 36.48725511203156,
+            "output_delta_after_first5s_adc": 2.215369771585756
+          },
+          "0.3": {
+            "event_start_s": 31.88163153768118,
+            "event_duration_s": 15.0,
+            "injected_total_adc": 100.0,
+            "frames": 1507,
+            "retention_during_last5s": 0.2629432474727582,
+            "retention_after_first5s": -0.04955587913738782,
+            "output_delta_during_last5s_adc": 26.294324747275823,
+            "output_delta_after_first5s_adc": -4.955587913738782
+          }
+        },
+        "tail_minus_30s": {
+          "recorded_params": {
+            "event_start_s": 423.29399757757574,
+            "event_duration_s": 15.0,
+            "injected_total_adc": 100.0,
+            "frames": 1507,
+            "retention_during_last5s": 0.3601536828265307,
+            "retention_after_first5s": 0.08124637148250258,
+            "output_delta_during_last5s_adc": 36.01536828265307,
+            "output_delta_after_first5s_adc": 8.124637148250258
+          },
+          "0.1": {
+            "event_start_s": 423.29399757757574,
+            "event_duration_s": 15.0,
+            "injected_total_adc": 100.0,
+            "frames": 1507,
+            "retention_during_last5s": 0.3601536828265307,
+            "retention_after_first5s": 0.08124637148250258,
+            "output_delta_during_last5s_adc": 36.01536828265307,
+            "output_delta_after_first5s_adc": 8.124637148250258
+          },
+          "0.3": {
+            "event_start_s": 423.29399757757574,
+            "event_duration_s": 15.0,
+            "injected_total_adc": 100.0,
+            "frames": 1507,
+            "retention_during_last5s": 0.23324618119662774,
+            "retention_after_first5s": -0.034784214792071,
+            "output_delta_during_last5s_adc": 23.324618119662773,
+            "output_delta_after_first5s_adc": -3.4784214792070998
+          }
+        }
+      }
+    },
+    {
+      "id": "设备2/测试2-2026-10-13_17-01-06",
+      "kind": "constant_load",
+      "path": "D:\\workshop\\Github\\Tactile_Research\\Research\\时漂问题\\data\\右拇指指腹\\设备2\\测试2-2026-10-13_17-01-06",
+      "observed_fps": 100.45319562668449,
+      "time_axis": "frame_index / observed_fps",
+      "duration_s": 251.778948815058,
+      "load_start_s": 1.9611123247100435,
+      "active_recording_window": {
+        "start_s": 16.961112324710044,
+        "end_s": 251.778948815058,
+        "n": 23589,
+        "net_change_adc": 96.47085571289062,
+        "max_abs_offset_adc_5s_median": 122.12500357627869
+      },
+      "replays": {
+        "recorded": {
+          "source": "device_001_seg000.csv",
+          "window": {
+            "start_s": 16.961112324710044,
+            "end_s": 251.778948815058,
+            "n": 23589,
+            "net_change_adc": 96.47085571289062,
+            "max_abs_offset_adc_5s_median": 122.12500357627869
+          }
+        },
+        "0.1": {
+          "r_slow_max": 0.1,
+          "window": {
+            "start_s": 16.961112324710044,
+            "end_s": 251.778948815058,
+            "n": 23589,
+            "net_change_adc": 96.20158642041861,
+            "max_abs_offset_adc_5s_median": 120.18017686154053
+          },
+          "stats": {
+            "nan_frames": 0
+          }
+        },
+        "0.2": {
+          "r_slow_max": 0.2,
+          "window": {
+            "start_s": 16.961112324710044,
+            "end_s": 251.778948815058,
+            "n": 23589,
+            "net_change_adc": -74.1876503682106,
+            "max_abs_offset_adc_5s_median": 125.64356437382958
+          },
+          "stats": {
+            "nan_frames": 0
+          }
+        },
+        "0.3": {
+          "r_slow_max": 0.3,
+          "window": {
+            "start_s": 16.961112324710044,
+            "end_s": 251.778948815058,
+            "n": 23589,
+            "net_change_adc": -119.14278366315193,
+            "max_abs_offset_adc_5s_median": 168.83924990262312
+          },
+          "stats": {
+            "nan_frames": 0
+          }
+        },
+        "0.4": {
+          "r_slow_max": 0.4,
+          "window": {
+            "start_s": 16.961112324710044,
+            "end_s": 251.778948815058,
+            "n": 23589,
+            "net_change_adc": -151.82271734607275,
+            "max_abs_offset_adc_5s_median": 174.7630738858934
+          },
+          "stats": {
+            "nan_frames": 0
+          }
+        }
+      },
+      "injection_pair_replays": {
+        "load_plus_30s": {
+          "recorded_params": {
+            "event_start_s": 31.961112324710044,
+            "event_duration_s": 15.0,
+            "injected_total_adc": 100.0,
+            "frames": 1507,
+            "retention_during_last5s": 0.3464155085540369,
+            "retention_after_first5s": 0.056577545028376336,
+            "output_delta_during_last5s_adc": 34.64155085540369,
+            "output_delta_after_first5s_adc": 5.6577545028376335
+          },
+          "0.1": {
+            "event_start_s": 31.961112324710044,
+            "event_duration_s": 15.0,
+            "injected_total_adc": 100.0,
+            "frames": 1507,
+            "retention_during_last5s": 0.3464155085540369,
+            "retention_after_first5s": 0.056577545028376336,
+            "output_delta_during_last5s_adc": 34.64155085540369,
+            "output_delta_after_first5s_adc": 5.6577545028376335
+          },
+          "0.3": {
+            "event_start_s": 31.961112324710044,
+            "event_duration_s": 15.0,
+            "injected_total_adc": 100.0,
+            "frames": 1507,
+            "retention_during_last5s": 0.25330150613301156,
+            "retention_after_first5s": -0.02655065614462728,
+            "output_delta_during_last5s_adc": 25.330150613301157,
+            "output_delta_after_first5s_adc": -2.6550656144627283
+          }
+        },
+        "tail_minus_30s": {
+          "recorded_params": {
+            "event_start_s": 221.778948815058,
+            "event_duration_s": 15.0,
+            "injected_total_adc": 100.0,
+            "frames": 1507,
+            "retention_during_last5s": 0.3050277714374897,
+            "retention_after_first5s": -0.0021708725953249086,
+            "output_delta_during_last5s_adc": 30.502777143748972,
+            "output_delta_after_first5s_adc": -0.21708725953249086
+          },
+          "0.1": {
+            "event_start_s": 221.778948815058,
+            "event_duration_s": 15.0,
+            "injected_total_adc": 100.0,
+            "frames": 1507,
+            "retention_during_last5s": 0.3050277714374897,
+            "retention_after_first5s": -0.0021708725953249086,
+            "output_delta_during_last5s_adc": 30.502777143748972,
+            "output_delta_after_first5s_adc": -0.21708725953249086
+          },
+          "0.3": {
+            "event_start_s": 221.778948815058,
+            "event_duration_s": 15.0,
+            "injected_total_adc": 100.0,
+            "frames": 1507,
+            "retention_during_last5s": 0.204793780649743,
+            "retention_after_first5s": -0.07893666170744837,
+            "output_delta_during_last5s_adc": 20.4793780649743,
+            "output_delta_after_first5s_adc": -7.893666170744837
+          }
+        }
+      }
+    },
+    {
+      "id": "设备2/10g反复增减荷载-2026-10-13_17-05-32",
+      "kind": "10g",
+      "path": "D:\\workshop\\Github\\Tactile_Research\\Research\\时漂问题\\data\\右拇指指腹\\设备2\\10g反复增减荷载-2026-10-13_17-05-32",
+      "observed_fps": 100.46363995126288,
+      "time_axis": "frame_index / observed_fps",
+      "duration_s": 59.30503815002479,
+      "load_start_s": 1.6423852458466082,
+      "active_recording_window": {
+        "start_s": 16.642385245846608,
+        "end_s": 59.30503815002479,
+        "n": 4287,
+        "net_change_adc": 30.774343490600586,
+        "max_abs_offset_adc_5s_median": 39.81746172904968
+      },
+      "replays": {
+        "recorded": {
+          "source": "device_001_seg000.csv",
+          "window": {
+            "start_s": 16.642385245846608,
+            "end_s": 59.30503815002479,
+            "n": 4287,
+            "net_change_adc": 30.774343490600586,
+            "max_abs_offset_adc_5s_median": 39.81746172904968
+          }
+        },
+        "0.1": {
+          "r_slow_max": 0.1,
+          "window": {
+            "start_s": 16.642385245846608,
+            "end_s": 59.30503815002479,
+            "n": 4287,
+            "net_change_adc": 29.29996030928669,
+            "max_abs_offset_adc_5s_median": 39.26906379312277
+          },
+          "stats": {
+            "nan_frames": 0
+          }
+        },
+        "0.2": {
+          "r_slow_max": 0.2,
+          "window": {
+            "start_s": 16.642385245846608,
+            "end_s": 59.30503815002479,
+            "n": 4287,
+            "net_change_adc": -36.36032874747616,
+            "max_abs_offset_adc_5s_median": 37.809930905059446
+          },
+          "stats": {
+            "nan_frames": 0
+          }
+        },
+        "0.3": {
+          "r_slow_max": 0.3,
+          "window": {
+            "start_s": 16.642385245846608,
+            "end_s": 59.30503815002479,
+            "n": 4287,
+            "net_change_adc": -37.75642240828165,
+            "max_abs_offset_adc_5s_median": 39.4163884821246
+          },
+          "stats": {
+            "nan_frames": 0
+          }
+        },
+        "0.4": {
+          "r_slow_max": 0.4,
+          "window": {
+            "start_s": 16.642385245846608,
+            "end_s": 59.30503815002479,
+            "n": 4287,
+            "net_change_adc": -37.75642240828165,
+            "max_abs_offset_adc_5s_median": 39.4163884821246
+          },
+          "stats": {
+            "nan_frames": 0
+          }
+        }
+      },
+      "injection_pair_replays": {
+        "tail_minus_30s": {
+          "recorded_params": {
+            "event_start_s": 29.305038150024792,
+            "event_duration_s": 15.0,
+            "injected_total_adc": 100.0,
+            "frames": 1507,
+            "retention_during_last5s": 0.3598884375802299,
+            "retention_after_first5s": 0.053414498267520684,
+            "output_delta_during_last5s_adc": 35.988843758022995,
+            "output_delta_after_first5s_adc": 5.3414498267520685
+          },
+          "0.1": {
+            "event_start_s": 29.305038150024792,
+            "event_duration_s": 15.0,
+            "injected_total_adc": 100.0,
+            "frames": 1507,
+            "retention_during_last5s": 0.3598884375802299,
+            "retention_after_first5s": 0.053414498267520684,
+            "output_delta_during_last5s_adc": 35.988843758022995,
+            "output_delta_after_first5s_adc": 5.3414498267520685
+          },
+          "0.3": {
+            "event_start_s": 29.305038150024792,
+            "event_duration_s": 15.0,
+            "injected_total_adc": 100.0,
+            "frames": 1507,
+            "retention_during_last5s": 0.2513666554106021,
+            "retention_after_first5s": -0.04596807273277591,
+            "output_delta_during_last5s_adc": 25.13666554106021,
+            "output_delta_after_first5s_adc": -4.596807273277591
+          }
+        }
+      }
+    }
+  ]
+}
