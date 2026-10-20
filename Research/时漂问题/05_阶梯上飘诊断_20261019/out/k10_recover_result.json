@@ -1,0 +1,14 @@
+{
+  "v34_r0": {
+    "max_abs_diff_vs_portable": 0.0
+  },
+  "v34_r30": {
+    "max_abs_diff_vs_portable": 0.0
+  },
+  "k10_r0": {
+    "max_abs_diff_vs_portable": 0.0
+  },
+  "k10_r30": {
+    "max_abs_diff_vs_portable": 0.0
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "window": [
+    1100.0,
+    2850.0
+  ],
+  "cases": {
+    "K9(全程 gate=0)": {
+      "drift": 3497.2,
+      "p2p": 3826.0,
+      "applied_start": 3825.0,
+      "applied_end": 641.8,
+      "applied_min": 599.5,
+      "steps": 30
+    },
+    "GATE(全程 gate=1)": {
+      "drift": -74.4,
+      "p2p": 1041.1,
+      "applied_start": 3962.1,
+      "applied_end": 4350.5,
+      "applied_min": 3931.7,
+      "steps": 3
+    },
+    "UP@1500(gate 0->1)": {
+      "drift": 2353.9,
+      "p2p": 2738.8,
+      "applied_start": 3825.0,
+      "applied_end": 1785.1,
+      "applied_min": 1655.3,
+      "steps": 15
+    },
+    "DOWN@1200(1->0)": {
+      "drift": 3209.8,
+      "p2p": 4123.2,
+      "applied_start": 3962.1,
+      "applied_end": 1066.3,
+      "applied_min": 1052.1,
+      "steps": 31
+    }
+  }
+}

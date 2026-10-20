@@ -1,0 +1,21 @@
+{
+  "prod gate=0 vs portable-1.0 gate=0": {
+    "max_abs_diff": 0.0,
+    "mean_abs_diff": 0.0
+  },
+  "prod gate=0 vs portable-1.1 gate=0": {
+    "max_abs_diff": 0.0,
+    "mean_abs_diff": 0.0
+  },
+  "prod gate=1 vs portable-1.1 gate=1": {
+    "max_abs_diff": 0.0,
+    "mean_abs_diff": 0.0
+  },
+  "prod gate=1+guard vs portable-1.1 gate=1+guard": {
+    "max_abs_diff": 0.0,
+    "mean_abs_diff": 0.0
+  },
+  "drift prod gate=0": 3497.1634268243615,
+  "drift prod gate=1": -74.38493127628317,
+  "drift prod gate=1+guard": -78.28988018086238
+}
